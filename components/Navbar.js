@@ -46,40 +46,40 @@ export default function Navbar({ pageData }) {
   return (
     <>
       <Head>
-        <title>TheClashFruit &bull; {pageData.title}</title>
+        <title>Blurryface &bull; {pageData.title}</title>
 
         <link href="/favicon_black.ico" rel="icon" media="(prefers-color-scheme: light)" />
         <link href="/favicon_white.ico" rel="icon" media="(prefers-color-scheme: dark)" />
 
         {pageData.type === 'page' && (
           <>
-            <meta name="name" content={`TheClashFruit &bull; ${pageData.title}`} />
-            <meta name="description" content="I'm TheClashFruit and I like to program, explore and craft stuff. I also like to play games. I have 3 Linux servers.. So, as you can see, I like to play around with Linux too. I'm currently learning how to write proper blog posts on my blog." />
-            <meta name="keywords" content={`TheClashFruit, tcf, blokkok, the, clash, fruit, ${pageData.title.trim().split(' ').join(', ')}`} />
-            <meta name="theme-color" content="#00796B" />
+            <meta name="name" content={`Blurryface &bull; ${pageData.title}`} />
+            <meta name="description" content="Hi! I'm Blurryface. I mainly do random projects if I'm not developing for Pridecraft. I assume I have found what makes the Discord embed to tick so... Hi there, chat with me on <@786634586452787201>" />
+            <meta name="keywords" content={`Blurryface, blurry, blry, blryface, blrryface, blurryfacee, ${pageData.title.trim().split(' ').join(', ')}`} />
+            <meta name="theme-color" content="#FFF" />
 
             <meta property="og:site_name" content="TheClashFruit" />
             <meta property="og:title" content={pageData.title} />
             <meta property="og:type" content="website" />
             <meta property="og:locale" content={router.locale} />
-            <meta property="og:url" content="https://theclashfruit.me" />
+            <meta property="og:url" content="https://blurryface.xyz/" />
             <meta property="og:image" content="https://www.theclashfruit.me/img/logo.png" />
-            <meta property="og:description" content="I'm TheClashFruit and I like to program, explore and craft stuff. I also like to play games. I have 3 Linux servers.. So, as you can see, I like to play around with Linux too. I'm currently learning how to write proper blog posts on my blog." />
+            <meta property="og:description" content="Hi! I'm Blurryface. I mainly do random projects if I'm not developing for Pridecraft. I assume I have found what makes the Discord embed to tick so... Hi there, chat with me on <@786634586452787201>" />
           </>
         )}
 
         {pageData.type === 'post' && (
           <>
-            <meta name="name" content={`TheClashFruit &bull; ${pageData.title}`} />
+            <meta name="name" content={`Blurryface &bull; ${pageData.title}`} />
             <meta name="description" content={pageData.postData.content.replace(/(<([^>]+)>)/gi, "").trim()} />
-            <meta name="keywords" content={`TheClashFruit, tcf, blokkok, the, clash, fruit, ${pageData.postData.title}`} />
-            <meta name="theme-color" content="#00796B" />
+            <meta name="keywords" content={`Blurryface, blurry, blry, blryface, blrryface, blurryfacee, ${pageData.postData.title}`} />
+            <meta name="theme-color" content="#FFF" />
 
-            <meta property="og:site_name" content="TheClashFruit" />
+            <meta property="og:site_name" content="Blurryface" />
             <meta property="og:title" content={pageData.title} />
             <meta property="og:type" content="article" />
             <meta property="og:locale" content={router.locale} />
-            <meta property="og:url" content="https://theclashfruit.me" />
+            <meta property="og:url" content="https://blurryface.xyz/" />
             <meta property="og:image" content={pageData.postData.image} />
             <meta property="og:description" content={pageData.postData.content.replace(/(<([^>]+)>)/gi, "").trim()} />
 
@@ -87,13 +87,6 @@ export default function Navbar({ pageData }) {
             <meta property="article:modified_time" content={new Date(pageData.postData.updated * 1000).toISOString()} />
             <meta property="article:author" content={pageData.postData.author} />
             <meta property="article:section" content={`Technology`} />
-
-            <meta name="twitter:card" content="summary_large_image" />
-            <meta property="twitter:domain" content="theclashfruit.me" />
-            <meta property="twitter:url" content={`https://theclashfruit.me/post/${pageData.postData.permalink}`} />
-            <meta name="twitter:title" content={pageData.postData.title} />
-            <meta name="twitter:description" content={pageData.postData.content.replace(/(<([^>]+)>)/gi, "").trim()} />
-            <meta name="twitter:image" content={pageData.postData.image} />
           </>
         )}
 
@@ -120,9 +113,6 @@ export default function Navbar({ pageData }) {
             <ul className={`flex max-lg:flex-1 max-lg:p-4 max-lg:w-screen max-lg:h-full max-lg:items-start max-lg:justify-center max-lg:flex-col`}>
               <li className={`p-3`}>
                 <Link href={pageData.active === 'home' ? "#" : "/"} className={`max-lg:text-lg text-black dark:text-white ${pageData.active !== 'home' ? 'text-opacity-60 dark:text-opacity-60' : ''} hover:text-opacity-100 rounded-sm focus:outline outline-teal-700/70 outline-offset-4 outline-2`}>Home</Link>
-              </li>
-              <li className={`p-3`}>
-                <Link href={pageData.active === 'blog' ? "#" : "/blog"} className={`max-lg:text-lg transition text-black ${pageData.active !== 'blog' ? 'text-opacity-60 dark:text-opacity-60' : ''} dark:text-white hover:text-opacity-100 rounded-sm focus:outline outline-teal-700/70 outline-offset-4 outline-2`}>Blog</Link>
               </li>
               <li className={`p-3`}>
                 <Link href={pageData.active === 'projects' ? "#" : "/projects"} className={`max-lg:text-lg transition text-black ${pageData.active !== 'projects' ? 'text-opacity-60 dark:text-opacity-60' : ''} dark:text-white hover:text-opacity-100 rounded-sm focus:outline outline-teal-700/70 outline-offset-4 outline-2`}>Projects</Link>
