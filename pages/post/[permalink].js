@@ -7,7 +7,6 @@ import 'showdown-youtube';
 import footnotes from 'showdown-footnotes';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
-import AdBanner from '@/components/AdBanner';
 
 export default function Post({ postData }) {
   return (
