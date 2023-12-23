@@ -35,7 +35,6 @@ export default function NotFound() {
         <h4>You might be interested in:</h4>
         <ul>
           <li>The <Link href="/">home</Link>page.</li>
-          <li>My <Link href="/blog">blog</Link>.</li>
           <li>My <Link href="/projects">project</Link>s.</li>
         </ul>
         <h4>Just a message for you:</h4>

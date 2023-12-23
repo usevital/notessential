@@ -11,7 +11,7 @@ export default function Gallery() {
       <Hero pageType="page" pageData={{ title: 'Gallery' }} />
 
       <Main>
-        <p>tba</p>
+        <p>*waiting for Clash to make a working one so I can know what I'm supposed to do*</p>
       </Main>
 
       <Footer />

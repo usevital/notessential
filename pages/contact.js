@@ -11,7 +11,7 @@ export default function Contact() {
       <Hero pageType="page" pageData={{ title: 'Contact' }} />
 
       <Main>
-        <p>tba</p>
+        <a href="mailto:blryface@protonmail.com">blryface@protonmail.com</a>
       </Main>
 
       <Footer />
