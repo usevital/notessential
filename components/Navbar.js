@@ -56,7 +56,7 @@ export default function Navbar({ pageData }) {
             <meta name="name" content={`Blurryface &bull; ${pageData.title}`} />
             <meta name="description" content="Hi! I'm Blurryface. I mainly do random projects if I'm not developing for Pridecraft. I assume I have found what makes the Discord embed to tick so... Hi there, chat with me at @blrryfacee" />
             <meta name="keywords" content={`Blurryface, blurry, blry, blryface, blrryface, blurryfacee, ${pageData.title.trim().split(' ').join(', ')}`} />
-            <meta name="theme-color" content="#FFFFF" />
+            <meta name="theme-color" content="#ffffff" />
 
             <meta property="og:site_name" content="TheClashFruit" />
             <meta property="og:title" content={pageData.title} />
@@ -73,7 +73,7 @@ export default function Navbar({ pageData }) {
             <meta name="name" content={`Blurryface &bull; ${pageData.title}`} />
             <meta name="description" content={pageData.postData.content.replace(/(<([^>]+)>)/gi, "").trim()} />
             <meta name="keywords" content={`Blurryface, blurry, blry, blryface, blrryface, blurryfacee, ${pageData.postData.title}`} />
-            <meta name="theme-color" content="#FFFFF" />
+            <meta name="theme-color" content="#ffffff" />
 
             <meta property="og:site_name" content="Blurryface" />
             <meta property="og:title" content={pageData.title} />
