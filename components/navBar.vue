@@ -2,7 +2,7 @@
 
     <div v-if="!isBrowseMenuOpen" class="text-[color:var(--big-text-colour)] select-none font-bold bg-[color:var(--brand-colour)] w-full p-2.5 rounded-3xl flex flex-row gap-12 items-center text-base justify-center pr-5">
 
-        <NuxtLink class="text-lg flex items-center flex-row gap-2" to="https://loopmc.org">
+        <NuxtLink class="text-lg flex items-center flex-row gap-2" to="https://blurryface.xyz">
         
             <img class="h-10 rounded-2xl" src="~/assets/img/icon512.png">
 
@@ -22,7 +22,7 @@
 
         <div class="w-full rounded-3xl flex flex-row gap-12 items-center text-base justify-center pr-2.5">
 
-            <NuxtLink class="text-lg flex items-center flex-row gap-2" to="https://loopmc.org">
+            <NuxtLink class="text-lg flex items-center flex-row gap-2" to="https://blurryface.xyz">
         
                 <img class="h-10 rounded-2xl" src="~/assets/img/icon512.png">
 
