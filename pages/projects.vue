@@ -74,6 +74,24 @@
 
     </projectContainer>
 
+       <projectContainer>
+
+        <ProjectTitleBar>
+
+            <ProjectTitle> CustardMC <ProjectBadge>ORG</ProjectBadge> </ProjectTitle>
+
+            <img class="h-12 bg-white rounded-xl p-1" src="https://github.com/custardmc.png">
+
+        </ProjectTitleBar>
+
+        <ProjectParagraph>
+
+            A bunch of people making a bunch of random mods, such as openCane.
+
+        </ProjectParagraph>
+
+    </projectContainer>
+
     <div class="flex flex-row gap-4 flex-wrap">
 
         <NuxtLink to="https://pridecraft.gay"> <user> Website <LucideAppWindow /> </user> </NuxtLink>
