@@ -102,7 +102,7 @@
 
     <div class="flex flex-row gap-4 flex-wrap">
 
-        <NuxtLink to="https://github.com/custardmc"> <user> Website <LucideAppWindow /> </user> </NuxtLink>
+        <NuxtLink to="https://github.com/custardmc"> <user> Github <LucideGithub /> </user> </NuxtLink>
 
         <NuxtLink to="https://modrinth.com/organization/custardmc"> <user> Modrinth <LucideBox /> </user> </NuxtLink>
 
