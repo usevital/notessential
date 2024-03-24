@@ -108,6 +108,34 @@
 
     </div>
 
+        <projectContainer>
+
+        <ProjectTitleBar>
+
+            <ProjectTitle> nineMinecraft <ProjectBadge>ORG</ProjectBadge> </ProjectTitle>
+
+            <img class="h-12 bg-white rounded-xl p-1" src="https://github.com/nineminecraft.png">
+
+        </ProjectTitleBar>
+
+        <ProjectParagraph>
+
+            A Website to warn people about the dangers of 9Minecraft, and a knossos fork that will futurely™️ have its own backedn for our personal use. <!-- this is the lognest description on this website LMFAO-->
+
+        </ProjectParagraph>
+
+    </projectContainer>
+
+    <div class="flex flex-row gap-4 flex-wrap">
+
+        <NuxtLink to="https://github.com/nineminecraft"> <user> Github <LucideGithub /> </user> </NuxtLink>
+
+        <NuxtLink to="https://nineminecraft.com"> <user> Website <LucideAppWindow /> </user> </NuxtLink>
+
+        <NuxtLink to="https://dev.nineminecraft.com"> <user> Knossos <LucideAppWindow /> </user> </NuxtLink>
+
+    </div>
+
 </template>
 
 <script setup lang="ts">
