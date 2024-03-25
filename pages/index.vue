@@ -8,6 +8,7 @@
     <div class="text-2xl">
 
         Hi! I'm Blurryface. I mainly do random projects if I'm not developing for <NuxtLink class="underline" to="https://pridecraft.gay">Pridecraft</NuxtLink>.
+        Go support me on Github!
 
     </div>
 
@@ -17,6 +18,19 @@
         that WorldWidePixel made for <NuxtLink class="underline" to="https://pridecraft.gay">You</NuxtLink>.
 
     </div>-->
+
+    <span class="text-5xl font-bold"> Give me money </span>
+
+    <div class="flex flex-row gap-4 flex-wrap">
+
+        <NuxtLink to="https://github.com/sponsors/blryface/"> <user> Github Sponsors (blryface) <LucideHeart /> </user> </NuxtLink>
+
+        <NuxtLink to="https://ko-fi.com/pridecraftstudios"> <user> Ko-Fi (Pridecraft Studios) <LucideCoffee /> </user> </NuxtLink>
+
+        <NuxtLink to="https://patreon.com/pridecraftstudios"> <user> Patreon (Pridecraft Studios) <LucideCreditCard /> </user> </NuxtLink>
+
+    </div>
+
 
     <span class="text-5xl font-bold"> Socials </span>
 
