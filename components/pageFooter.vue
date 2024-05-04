@@ -1,5 +1,5 @@
 <template>
 
-    <span class="font-light text-center text-xs text-center"> © 2024 BLURRYFACE, ALL RIGHTS RESERVED &bull; SITE BY WORLDWIDEPIXEL </span>
+    <span class="font-light text-white text-center text-xs text-center"> THANKS FOR READING </span>
 
 </template>

@@ -1,59 +1,30 @@
 <template>
 
-    <span class="text-[4rem]">
-        <span class="font-bold"> Hi! I'm </span>
-        <span class="font-bold brand-gradient"> Blurryface. </span>
-    </span>
+    <projectContainer>
 
-    <div class="text-2xl">
+        <ProjectTitleBar>
 
-        Hi! I'm Blurryface. I mainly do random projects if I'm not developing for <NuxtLink class="underline" to="https://pridecraft.gay">Pridecraft</NuxtLink>.
-        Go support me on Github!
+            <span class="italic text-[4rem]">
+                <span class="font-bold"> NOT </span>
+                <span class="font-bold brand-gradient"> ESSENTIAL. </span>
+            </span>
 
-    </div>
+        </ProjectTitleBar>
 
-    <!--<div class="text-2xl">
+        <ProjectParagraph>
 
-        This is some template text
-        that WorldWidePixel made for <NuxtLink class="underline" to="https://pridecraft.gay">You</NuxtLink>.
+            LA DE DAA
 
-    </div>-->
+        </ProjectParagraph>
 
-    <span class="text-5xl font-bold"> Give me money </span>
-
-    <div class="flex flex-row gap-4 flex-wrap">
-
-        <NuxtLink to="https://github.com/sponsors/blryface/"> <user> Github Sponsors (blryface) <LucideHeart /> </user> </NuxtLink>
-
-        <NuxtLink to="https://ko-fi.com/pridecraftstudios"> <user> Ko-Fi (Pridecraft Studios) <LucideCoffee /> </user> </NuxtLink>
-
-        <NuxtLink to="https://patreon.com/pridecraftstudios"> <user> Patreon (Pridecraft Studios) <LucideCreditCard /> </user> </NuxtLink>
-
-    </div>
-
-
-    <span class="text-5xl font-bold"> Socials </span>
-
-    <div class="flex flex-row gap-4 flex-wrap">
-
-        <NuxtLink to="https://www.youtube.com/@blrryface"> <user> Youtube <LucidePlayCircle /> </user> </NuxtLink>
-
-        <NuxtLink to="https://www.github.com/blryface/"> <user> Github <LucideGithub /> </user> </NuxtLink>
-
-        <NuxtLink to="https://www.twitch.tv/faceblrry"> <user> Twitch <LucideGamepad2 /> </user> </NuxtLink>
-
-        <NuxtLink to="https://tech.lgbt/@blurryface"> <user> Mastodon <LucideText /> </user> </NuxtLink>
-
-        <NuxtLink to="https://www.youtube.com/@crss666"> <user> CRSS Youtube <LucideLeaf /> </user> </NuxtLink>
-
-    </div>
+    </projectContainer>
 
 </template>
 
 <script setup lang="ts">
 useSeoMeta({
-  title: 'home - blurryface',
-  description: "Hi! I'm Blurry. I make some silly projects on the internet and I make Minecraft become gay.",
+  title: 'NOT ESSENTIAL',
+  description: "[PUT SOME DAMN DESC HERE BLRY].",
   ogImage: "~/assets/img/icon512.png",
 })
 </script>

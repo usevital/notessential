@@ -21,14 +21,14 @@
 
 :root {
   font-family: Inter, Helvetica, sans-serif;
-  --brand-colour: #2b2544;
-  --brand-background: #13111e;
-  --text-colour: rgb(214, 214, 214);
-  --big-text-colour: white;
+  --brand-colour: white;
+  --brand-background: rgb(0, 86, 234);
+  --text-colour: rgb(0, 0, 0);
+  --big-text-colour: rgb(0, 0, 0);
 }
 
 .brand-gradient {
-    background: linear-gradient(90deg, rgb(166, 87, 250) 0%, rgb(116, 71, 228) 100%);
+    background: linear-gradient(90deg, rgb(0, 106, 255) 0%, rgb(31, 180, 255) 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
