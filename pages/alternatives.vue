@@ -154,7 +154,7 @@
         </ProjectParagraph>
         <ProjectParagraph>
 
-            It has an interface where you can add, remove, modify, model and texture your own player model, simmilar to how Blender works.
+            It has an interface where you can add, remove, modify, model and texture your own player model, similar to how Blender works.
 
         </ProjectParagraph>
         <ProjectParagraph>
@@ -203,6 +203,97 @@
 
         <NuxtLink to="https://modrinth.com/mod/cosmetica"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
         <NuxtLink to="https://discord.com/invite/6NfdRuE"> <user> Discord <LucideMessageCircleMore /> </user> </NuxtLink>
+
+    </div>
+
+    <span class="text-white italic text-[4rem]">
+        <span class="font-[250] tracking wider"> Misc </span>
+    </span>
+    
+    <ProjectContainer>
+
+        <ProjectTitleBar>
+
+            <ProjectTitle> Screenshot Viewer </ProjectTitle>
+
+            <img class="h-12 bg-white rounded-xl p-1" src="https://cdn.modrinth.com/data/laNoi025/1bbd371a465710708ce253fad6f9f8e7c8e3e56e.png">
+
+        </ProjectTitleBar>
+
+        <ProjectParagraph>
+
+            Essential has a screenshot viewer feature, and you can get something similar using this mod.
+            
+        </ProjectParagraph>
+        <ProjectParagraph>
+
+            Screenshot viewer is a mod that allows you to see the screenshots that you have taken while you were gaming! (including the accidental ones you took when you where trying to press F3).
+
+        </ProjectParagraph>
+
+    </projectContainer>
+
+    <div class="flex flex-row gap-4 flex-wrap">
+
+        <NuxtLink to="https://modrinth.com/mod/screenshot-viewer"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
+
+    </div>
+
+    <ProjectContainer>
+
+        <ProjectTitleBar>
+
+            <ProjectTitle> Capes </ProjectTitle>
+
+            <img class="h-12 bg-black rounded-xl p-1" src="https://cdn.modrinth.com/data/89Wsn8GD/icon.png">
+
+        </ProjectTitleBar>
+
+        <ProjectParagraph>
+
+            This mod gives you the ability to use and see capes from Optifine, LabyMod and the MinecraftCapes mod.
+            
+        </ProjectParagraph>
+        <ProjectParagraph>
+
+            You just install the mod and that's it! If you want to disable capes from certain mods you can do it on the configuration screen.
+
+        </ProjectParagraph>
+
+    </projectContainer>
+
+    <div class="flex flex-row gap-4 flex-wrap">
+
+        <NuxtLink to="https://modrinth.com/mod/capes"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
+
+    </div>
+
+    <ProjectContainer>
+
+        <ProjectTitleBar>
+
+            <ProjectTitle> Auth Me </ProjectTitle>
+
+            <img class="h-12 bg-white rounded-xl p-1" src="https://cdn.modrinth.com/data/yjgIrBjZ/icon.png">
+
+        </ProjectTitleBar>
+
+        <ProjectParagraph>
+
+            Essential has an in-game account switcher feature. You can use this mod to achieve something similar.
+            
+        </ProjectParagraph>
+        <ProjectParagraph>          <!-- V Does it support that?--> 
+
+            Auth Me is able to have many accounts logged in at the same time, and re-authenticate yourself in case your session expires, solving the infamous "Invalid Session" error.
+
+        </ProjectParagraph>
+
+    </projectContainer>
+
+    <div class="flex flex-row gap-4 flex-wrap">
+
+        <NuxtLink to="https://modrinth.com/mod/screenshot-viewer"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
 
     </div>
 
