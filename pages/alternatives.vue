@@ -141,6 +141,45 @@
 
         <ProjectTitleBar>
 
+            <ProjectTitle> Customizable Player Models </ProjectTitle>
+
+            <img class="h-12 bg-white rounded-xl p-1" src="https://cdn.modrinth.com/data/h1E7sQNL/icon.png">
+
+        </ProjectTitleBar>
+
+        <ProjectParagraph>
+
+            Customizable Player Models is a mod that lets you deeply modify your player model.
+            
+        </ProjectParagraph>
+        <ProjectParagraph>
+
+            It has an interface where you can add, remove, modify, model and texture your own player model, simmilar to how Blender works.
+
+        </ProjectParagraph>
+        <ProjectParagraph>
+
+            The models are stored in unused space on your Minecraft Skin, or as a Gist on GitHub.
+
+        </ProjectParagraph>
+        <ProjectParagraph>
+
+            Upload the exported image file as your skin to load the custom model.
+
+        </ProjectParagraph>
+
+    </projectContainer>
+
+    <div class="flex flex-row gap-4 flex-wrap">
+
+        <NuxtLink to="https://modrinth.com/plugin/custom-player-models"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
+
+    </div>
+
+    <ProjectContainer>
+
+        <ProjectTitleBar>
+
             <ProjectTitle> Emotecraft </ProjectTitle>
 
             <img class="h-12 bg-white rounded-xl p-1" src="https://cdn.modrinth.com/data/pZ2wrerK/icon.png">
