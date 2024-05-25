@@ -15,6 +15,7 @@
 
             Essential is not really the best mod for many reasons, such as breaking with a lot of mods, being closed source, and shipping an Installer as the mod download. </ProjectParagraph>
 
+
     </projectContainer>
 
 </template>

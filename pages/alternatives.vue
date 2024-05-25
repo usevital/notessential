@@ -208,3 +208,11 @@
 
 
 </template>
+
+<script setup lang="ts">
+useSeoMeta({
+  title: 'NOT ESSENTIAL - ALTERNATIVES',
+  description: "Essential has many issues. This page provides alternatives.",
+  ogImage: "~/assets/img/icon512.png",
+})
+</script>
