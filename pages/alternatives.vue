@@ -5,6 +5,10 @@
         <span class="text-sm">(to ESSENTIAL)</span>
     </span>
 
+    <span class="text-white italic text-[4rem]">
+        <span class="font-[250] tracking wider"> Multiplayer </span>
+    </span>
+
     <projectContainer>
 
 
@@ -70,5 +74,98 @@
         <NuxtLink to="https://modrinth.com/mod/e4mc"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
 
     </div>
+
+    <span class="text-white italic text-[4rem]">
+        <span class="font-[250] tracking wider"> Cosmetics </span>
+    </span>
+
+    <ProjectContainer>
+
+        <ProjectTitleBar>
+
+            <ProjectTitle> Cosmetica </ProjectTitle>
+
+            <img class="h-12 bg-white rounded-xl p-1" src="https://cdn.modrinth.com/data/s9hF9QGp/e954c4883e72f95d8e799d167171cde74b059b51.gif">
+
+        </ProjectTitleBar>
+
+        <ProjectParagraph>
+
+            For Cosmetics, you may want to use Cosmetica. It's a free and open source cosmetics service, with custom capes and cosmetics support.
+            
+        </ProjectParagraph>
+        <ProjectParagraph>
+
+            "Cosmetica lets you customize your player on a whole new level with cosmetics that rival those of popular PvP clients" (taken from the Modrinth page)
+
+        </ProjectParagraph>
+
+    </projectContainer>
+
+    <div class="flex flex-row gap-4 flex-wrap">
+
+        <NuxtLink to="https://modrinth.com/mod/cosmetica"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
+
+    </div>
+
+    <ProjectContainer>
+
+        <ProjectTitleBar>
+
+            <ProjectTitle> Ears </ProjectTitle>
+
+            <img class="h-12 bg-white rounded-xl p-1" src="https://cdn.modrinth.com/data/mfzaZK3Z/icon.png">
+
+        </ProjectTitleBar>
+
+        <ProjectParagraph>
+
+            Ears is another mod you can use for skin customization. It uses your actual Minecraft Skin to set up how people will see your skin, if they have Ears installed.
+            
+        </ProjectParagraph>
+        <ProjectParagraph>
+
+            It's available to many versions (Beta 1.7.3 - Release 1.20.6), and adds Ears, Snouts/Muzzles, Tails, Wings and More.
+
+        </ProjectParagraph>
+
+    </projectContainer>
+
+    <div class="flex flex-row gap-4 flex-wrap">
+
+        <NuxtLink to="https://modrinth.com/mod/cosmetica"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
+
+    </div>
+
+    <ProjectContainer>
+
+        <ProjectTitleBar>
+
+            <ProjectTitle> Emotecraft </ProjectTitle>
+
+            <img class="h-12 bg-white rounded-xl p-1" src="https://cdn.modrinth.com/data/pZ2wrerK/icon.png">
+
+        </ProjectTitleBar>
+
+        <ProjectParagraph>
+
+            For Emotes, you may want to use Emotecraft. It's a free and open source emotes service, with support for custom emotes.
+            
+        </ProjectParagraph>
+        <ProjectParagraph>
+
+            You can download many emotes, or even make your own! The discord server has a lot of emotes you can download. It's a little bit outdated, though.
+
+        </ProjectParagraph>
+
+    </projectContainer>
+
+    <div class="flex flex-row gap-4 flex-wrap">
+
+        <NuxtLink to="https://modrinth.com/mod/cosmetica"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
+        <NuxtLink to="https://discord.com/invite/6NfdRuE"> <user> Discord <LucideMessageCircleMore /> </user> </NuxtLink>
+
+    </div>
+
 
 </template>
