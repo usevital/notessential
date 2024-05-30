@@ -22,13 +22,13 @@
 
         <ProjectParagraph>
 
-            For  Multiplayer with a friends system, you can use Wolrd Host. It's a free and open source way to broadcast your world to the friends on your freinds list, and everyone you want to share it with.
+            For multiplayer with a friends system, you can use World Host. It's a free and open source way to broadcast your world to those on your friends list, and everyone you want to share it with.
             
         </ProjectParagraph>
 
         <ProjectParagraph>
 
-            It has a friend list system you can use to let your friends join your game right as you Open it to them.
+            It has a friends list system you can use to let your friends join your game right as you open it to them.
 
         </ProjectParagraph>
 
@@ -93,6 +93,10 @@
 
             For Cosmetics, you may want to use Cosmetica. It's a free and open source cosmetics service, with custom capes and cosmetics support.
             
+        </ProjectParagraph>
+        <ProjectParagraph>
+
+            It can even support cosmetics for OptiFine, Lunar Client and more!
         </ProjectParagraph>
         <ProjectParagraph>
 
