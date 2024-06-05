@@ -287,9 +287,9 @@
             Essential has an in-game account switcher feature. You can use this mod to achieve something similar.
             
         </ProjectParagraph>
-        <ProjectParagraph>          <!-- V Does it support that?--> 
+        <ProjectParagraph>
 
-            Auth Me is able to have many accounts logged in at the same time, and re-authenticate yourself in case your session expires, solving the infamous "Invalid Session" error.
+            Auth Me is able to re-authenticate yourself in case your session expires, solving the infamous "Invalid Session" error.
 
         </ProjectParagraph>
 
@@ -301,6 +301,34 @@
 
     </div>
 
+    <ProjectContainer>
+
+        <ProjectTitleBar>
+
+            <ProjectTitle> Simple Discord RPC </ProjectTitle>
+
+            <img class="h-12 bg-white rounded-xl p-1" src="https://cdn.modrinth.com/data/ObXSoyrn/bdcee1893ca0f5fc03c7faec6135f39faaed8705.png">
+
+        </ProjectTitleBar>
+
+        <ProjectParagraph>
+
+            Essential has a Discord RPC feature that displays the version and server you are playing on. This mod can do that AND let you customize it further.
+
+        </ProjectParagraph>
+        <ProjectParagraph>
+
+            This simple RPC plugin allows you to broadcast your Minecraft gaming session to Discord & change the lines that show on your Discord bio when you do so.
+
+        </ProjectParagraph>
+
+    </ProjectContainer>
+
+        <div class="flex flex-row gap-4 flex-wrap">
+
+            <NuxtLink to="https://modrinth.com/mod/simple-discord-rpc"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
+
+        </div>
 
 </template>
 
