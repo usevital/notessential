@@ -205,7 +205,7 @@
 
     <div class="flex flex-row gap-4 flex-wrap">
 
-        <NuxtLink to="https://modrinth.com/mod/cosmetica"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
+        <NuxtLink to="https://modrinth.com/mod/emotecraft"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
         <NuxtLink to="https://discord.com/invite/6NfdRuE"> <user> Discord <LucideMessageCircleMore /> </user> </NuxtLink>
 
     </div>
