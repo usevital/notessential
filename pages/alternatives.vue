@@ -145,6 +145,35 @@
 
         <ProjectTitleBar>
 
+            <ProjectTitle> Capes </ProjectTitle>
+
+            <img class="h-12 bg-black rounded-xl p-1" src="https://cdn.modrinth.com/data/89Wsn8GD/icon.png">
+
+        </ProjectTitleBar>
+
+        <ProjectParagraph>
+
+            This mod gives you the ability to use and see capes from Optifine, LabyMod and the MinecraftCapes mod.
+            
+        </ProjectParagraph>
+        <ProjectParagraph>
+
+            You just install the mod and that's it! If you want to disable capes from certain mods you can do it on the configuration screen.
+
+        </ProjectParagraph>
+
+    </projectContainer>
+
+    <div class="flex flex-row gap-4 flex-wrap">
+
+        <NuxtLink to="https://modrinth.com/mod/capes"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
+
+    </div>
+
+    <ProjectContainer>
+
+        <ProjectTitleBar>
+
             <ProjectTitle> Customizable Player Models </ProjectTitle>
 
             <img class="h-12 bg-white rounded-xl p-1" src="https://cdn.modrinth.com/data/h1E7sQNL/icon.png">
@@ -240,35 +269,6 @@
     <div class="flex flex-row gap-4 flex-wrap">
 
         <NuxtLink to="https://modrinth.com/mod/screenshot-viewer"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
-
-    </div>
-
-    <ProjectContainer>
-
-        <ProjectTitleBar>
-
-            <ProjectTitle> Capes </ProjectTitle>
-
-            <img class="h-12 bg-black rounded-xl p-1" src="https://cdn.modrinth.com/data/89Wsn8GD/icon.png">
-
-        </ProjectTitleBar>
-
-        <ProjectParagraph>
-
-            This mod gives you the ability to use and see capes from Optifine, LabyMod and the MinecraftCapes mod.
-            
-        </ProjectParagraph>
-        <ProjectParagraph>
-
-            You just install the mod and that's it! If you want to disable capes from certain mods you can do it on the configuration screen.
-
-        </ProjectParagraph>
-
-    </projectContainer>
-
-    <div class="flex flex-row gap-4 flex-wrap">
-
-        <NuxtLink to="https://modrinth.com/mod/capes"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
 
     </div>
 
