@@ -284,7 +284,7 @@
 
         <ProjectParagraph>
 
-            Essential has an in-game account switcher feature. You can use this mod to achieve something similar.
+            Essential has an in-game account switcher feature. You can use this mod to achieve one important aspect of it.
             
         </ProjectParagraph>
         <ProjectParagraph>
@@ -294,6 +294,28 @@
         </ProjectParagraph>
 
     </projectContainer>
+
+    <ProjectContainer>
+
+        <ProjectTitleBar>
+
+            <ProjectTitle> In-Game Account Switcher </ProjectTitle>
+
+            <img class="h-12 bg-black rounded-xl p-1" src="https://cdn.modrinth.com/data/cudtvDnd/4f2f65f4b3b9b6c7c3fcc265d651a1814ae80075.png">
+
+        </ProjectTitleBar>
+
+        <ProjectParagraph>
+
+            If you need the other aspect of Essential's account switcher, you can use the aptly-named In-Game Account Switcher mod.
+
+        </ProjectParagraph>
+        <ProjectParagraph>
+
+            In-Game Account Switcher has the ability to, well, switch accounts that are logged in, without needing to restart the game!
+            They also have various optional security measures to increase security when using your accounts with IAS.
+
+        </ProjectParagraph>
 
     <div class="flex flex-row gap-4 flex-wrap">
 
