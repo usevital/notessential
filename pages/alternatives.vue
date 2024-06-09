@@ -313,6 +313,8 @@
         <ProjectParagraph>
 
             In-Game Account Switcher has the ability to, well, switch accounts that are logged in, without needing to restart the game!
+        </ProjectParagraph>
+        <ProjectParagraph>
             They also have various optional security measures to increase security when using your accounts with IAS.
 
         </ProjectParagraph>
