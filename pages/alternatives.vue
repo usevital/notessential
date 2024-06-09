@@ -342,7 +342,7 @@
         </ProjectParagraph>
         <ProjectParagraph>
 
-            This popular RPC plugin allows you to broadcast your Minecraft gaming session to Discord & change the lines that show on your Discord bio when you do so.
+            This popular RPC plugin allows you to broadcast your Minecraft gaming session to Discord and change the lines that show on your Discord bio when you do so.
 
         </ProjectParagraph>
 
