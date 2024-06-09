@@ -305,9 +305,9 @@
 
         <ProjectTitleBar>
 
-            <ProjectTitle> Simple Discord RPC </ProjectTitle>
+            <ProjectTitle> CraftPresence </ProjectTitle>
 
-            <img class="h-12 bg-white rounded-xl p-1" src="https://cdn.modrinth.com/data/ObXSoyrn/bdcee1893ca0f5fc03c7faec6135f39faaed8705.png">
+            <img class="h-12 bg-black rounded-xl p-1" src="https://cdn.modrinth.com/data/DFqQfIBR/icon.png">
 
         </ProjectTitleBar>
 
@@ -318,7 +318,7 @@
         </ProjectParagraph>
         <ProjectParagraph>
 
-            This simple RPC plugin allows you to broadcast your Minecraft gaming session to Discord & change the lines that show on your Discord bio when you do so.
+            This popular RPC plugin allows you to broadcast your Minecraft gaming session to Discord & change the lines that show on your Discord bio when you do so.
 
         </ProjectParagraph>
 
@@ -326,7 +326,7 @@
 
         <div class="flex flex-row gap-4 flex-wrap">
 
-            <NuxtLink to="https://modrinth.com/mod/simple-discord-rpc"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
+            <NuxtLink to="https://modrinth.com/mod/craftpresence"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
 
         </div>
 
