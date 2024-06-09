@@ -295,6 +295,12 @@
 
     </projectContainer>
 
+    <div class="flex flex-row gap-4 flex-wrap">
+
+        <NuxtLink to="https://modrinth.com/mod/auth-me"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
+
+    </div>
+
     <ProjectContainer>
 
         <ProjectTitleBar>
@@ -321,9 +327,11 @@
 
         </ProjectParagraph>
 
+    </ProjectContainer>
+
     <div class="flex flex-row gap-4 flex-wrap">
 
-        <NuxtLink to="https://modrinth.com/mod/screenshot-viewer"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
+        <NuxtLink to="https://modrinth.com/mod/in-game-account-switcher"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
 
     </div>
 
