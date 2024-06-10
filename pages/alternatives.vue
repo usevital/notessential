@@ -145,6 +145,35 @@
 
         <ProjectTitleBar>
 
+            <ProjectTitle> Capes </ProjectTitle>
+
+            <img class="h-12 bg-black rounded-xl p-1" src="https://cdn.modrinth.com/data/89Wsn8GD/icon.png">
+
+        </ProjectTitleBar>
+
+        <ProjectParagraph>
+
+            This mod gives you the ability to use and see capes from Optifine, LabyMod and the MinecraftCapes mod.
+            
+        </ProjectParagraph>
+        <ProjectParagraph>
+
+            You just install the mod and that's it! If you want to disable capes from certain mods you can do it on the configuration screen.
+
+        </ProjectParagraph>
+
+    </projectContainer>
+
+    <div class="flex flex-row gap-4 flex-wrap">
+
+        <NuxtLink to="https://modrinth.com/mod/capes"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
+
+    </div>
+
+    <ProjectContainer>
+
+        <ProjectTitleBar>
+
             <ProjectTitle> Customizable Player Models </ProjectTitle>
 
             <img class="h-12 bg-white rounded-xl p-1" src="https://cdn.modrinth.com/data/h1E7sQNL/icon.png">
@@ -247,35 +276,6 @@
 
         <ProjectTitleBar>
 
-            <ProjectTitle> Capes </ProjectTitle>
-
-            <img class="h-12 bg-black rounded-xl p-1" src="https://cdn.modrinth.com/data/89Wsn8GD/icon.png">
-
-        </ProjectTitleBar>
-
-        <ProjectParagraph>
-
-            This mod gives you the ability to use and see capes from Optifine, LabyMod and the MinecraftCapes mod.
-            
-        </ProjectParagraph>
-        <ProjectParagraph>
-
-            You just install the mod and that's it! If you want to disable capes from certain mods you can do it on the configuration screen.
-
-        </ProjectParagraph>
-
-    </projectContainer>
-
-    <div class="flex flex-row gap-4 flex-wrap">
-
-        <NuxtLink to="https://modrinth.com/mod/capes"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
-
-    </div>
-
-    <ProjectContainer>
-
-        <ProjectTitleBar>
-
             <ProjectTitle> Auth Me </ProjectTitle>
 
             <img class="h-12 bg-white rounded-xl p-1" src="https://cdn.modrinth.com/data/yjgIrBjZ/icon.png">
@@ -284,7 +284,7 @@
 
         <ProjectParagraph>
 
-            Essential has an in-game account switcher feature. You can use this mod to achieve something similar.
+            Essential has an in-game account switcher feature. You can use this mod to achieve one important aspect of it.
             
         </ProjectParagraph>
         <ProjectParagraph>
@@ -297,7 +297,7 @@
 
     <div class="flex flex-row gap-4 flex-wrap">
 
-        <NuxtLink to="https://modrinth.com/mod/screenshot-viewer"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
+        <NuxtLink to="https://modrinth.com/mod/auth-me"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
 
     </div>
 
@@ -305,9 +305,43 @@
 
         <ProjectTitleBar>
 
-            <ProjectTitle> Simple Discord RPC </ProjectTitle>
+            <ProjectTitle> In-Game Account Switcher </ProjectTitle>
 
-            <img class="h-12 bg-white rounded-xl p-1" src="https://cdn.modrinth.com/data/ObXSoyrn/bdcee1893ca0f5fc03c7faec6135f39faaed8705.png">
+            <img class="h-12 bg-black rounded-xl p-1" src="https://cdn.modrinth.com/data/cudtvDnd/4f2f65f4b3b9b6c7c3fcc265d651a1814ae80075.png">
+
+        </ProjectTitleBar>
+
+        <ProjectParagraph>
+
+            If you need the other aspect of Essential's account switcher, you can use the aptly-named In-Game Account Switcher mod.
+
+        </ProjectParagraph>
+        <ProjectParagraph>
+
+            In-Game Account Switcher has the ability to, well, switch accounts that are logged in, without needing to restart the game!
+            
+        </ProjectParagraph>
+        <ProjectParagraph>
+            
+            They also have various optional security measures to increase security when using your accounts with IAS.
+
+        </ProjectParagraph>
+
+    </ProjectContainer>
+
+    <div class="flex flex-row gap-4 flex-wrap">
+
+        <NuxtLink to="https://modrinth.com/mod/in-game-account-switcher"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
+
+    </div>
+
+    <ProjectContainer>
+
+        <ProjectTitleBar>
+
+            <ProjectTitle> CraftPresence </ProjectTitle>
+
+            <img class="h-12 bg-white rounded-xl p-1" src="https://cdn.modrinth.com/data/DFqQfIBR/icon.png">
 
         </ProjectTitleBar>
 
@@ -318,7 +352,7 @@
         </ProjectParagraph>
         <ProjectParagraph>
 
-            This simple RPC plugin allows you to broadcast your Minecraft gaming session to Discord & change the lines that show on your Discord bio when you do so.
+            This popular RPC plugin allows you to broadcast your Minecraft gaming session to Discord and change the lines that show on your Discord bio when you do so.
 
         </ProjectParagraph>
 
@@ -326,7 +360,7 @@
 
         <div class="flex flex-row gap-4 flex-wrap">
 
-            <NuxtLink to="https://modrinth.com/mod/simple-discord-rpc"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
+            <NuxtLink to="https://modrinth.com/mod/craftpresence"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
 
         </div>
 
