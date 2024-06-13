@@ -1,7 +1,7 @@
 <template>
 
-    <span class="text-white italic text-[4rem]">
-        <span class="font-[500] tracking-wider"> ALTERNATIVES </span>
+    <span class="text-[4rem] flex flex-col flex-wrap">
+        <span class="text-[1.5rem] sm:text-[2rem] md:text-[3rem] lg:text-[4rem] internalFont"> ALTERNATIVES </span>
         <span class="text-sm">(to ESSENTIAL)</span>
     </span>
 
@@ -368,8 +368,8 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  title: 'NOT ESSENTIAL - ALTERNATIVES',
+  title: 'Alternatives | Not Essential',
   description: "Essential has many issues. This page provides alternatives.",
-  ogImage: "~/assets/img/icon512.png",
+  ogImage: "/img/icon512.png",
 })
 </script>

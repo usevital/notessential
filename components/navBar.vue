@@ -1,18 +1,14 @@
 <template>
 
-    <div class="text-[color:var(--big-text-colour)] select-none font-bold bg-[color:var(--brand-colour)] w-full p-2.5 rounded-3xl flex flex-row gap-12 items-center text-base justify-center pr-5">
+    <div class="sm:mx-[5%] text-[color:var(--big-text-colour)] select-none font-bold bg-[color:var(--brand-colour)] w-[calc(100%-1.5rem-var(--scrollbar-width))] p-2.5 rounded-3xl flex flex-row items-center text-base justify-between">
 
         <NuxtLink class="font-[500] italic text-lg flex items-center flex-row gap-4 tracking-wider" to="/">
-        
-            <img class="h-10 rounded-xl border-4" src="~/assets/img/icon512.png">
 
-            NOT {{ name }}
+            <img class="h-4" src="/img/logotype.svg">
 
         </NuxtLink>
 
-        &bull;
-
-        <NuxtLink to="/alternatives"> Alternatives </NuxtLink>
+        <NuxtLink class="text-[0.5rem] sm:text-[1rem] internalFont" to="/alternatives"> Alternatives </NuxtLink>
 
     </div>
 

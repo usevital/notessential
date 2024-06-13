@@ -1,6 +1,11 @@
 <template>
 
-    <span class="font-light text-white text-center text-xs text-center"> THANKS FOR READING - WRITTEN BY BLURRYFACE - WEBSITE BY WORLDWIDEPIXEL AND BLURRYFACE </span>
-    <NuxtLink to="https://github.com/blryface/notessential"> <user> Website Source <LucideGithub /> </user> </NuxtLink> <!-- THIS IS VERY TEMPORARY, IM GONNA MAKE PIXEL MAKE IT BETTER SOON™ -->
+    <div class="flex flex-col gap-1">
+        <span class="font-[500] text-white text-xs text-center"> THANKS FOR READING - WRITTEN BY BLURRYFACE - DESIGNED
+            BY WORLDWIDEPIXEL &bull; <a class="underline" href="https://github.com/blryface/notessential"> PAGE SOURCE </a></span>
+        <span class="font-[500] italic text-slate-400 text-xs text-center"> THIS SITE IS IN NO WAY AFFILIATED WITH ESSENTIAL OR
+            SPARK UNIVERSE </span>
+
+    </div>
 
 </template>

@@ -1,30 +1,32 @@
 <template>
 
-    <projectContainer>
+    <projectContainer class="flex gap-8">
 
         <ProjectTitleBar>
 
-            <span class="italic text-[4rem]">
-                <span class="font-bold"> NOT </span>
-                <span class="font-bold brand-gradient"> ESSENTIAL. </span>
+            <span class="text-[1.5rem] sm:text-[2rem] md:text-[3rem] lg:text-[4rem] internalFont flex flex-row flex-wrap gap-3">
+                <span class="font-bold"> THERE ARE BETTER WAYS TO PLAY <span
+                        class="brand-gradient">MINECRAFT</span>.</span>
             </span>
 
         </ProjectTitleBar>
 
         <ProjectParagraph>
+            Don't be forced to use Essential. There are countless open-source alternatives to help you.
+        </ProjectParagraph>
 
-            Essential is not really the best mod for many reasons, such as breaking with a lot of mods, being closed source, and shipping an Installer as the mod download. </ProjectParagraph>
+        <NuxtLink to="/alternatives"> <BigButton> <LucideArrowUpRight /> ALTERNATIVES </BigButton> </NuxtLink>
 
 
     </projectContainer>
 
 </template>
-                                                    <!-- ⬇️ is supposed to -->
+<!-- ⬇️ is supposed to -->
 <script setup lang="ts">
 useSeoMeta({
-  title: 'NOT ESSENTIAL',
-  description: "Essential has many issues. This website tells you what is wrong with it, and provides alternatives.",
-  ogImage: "~/assets/img/icon512.png",
+    title: 'Home | Not Essential',
+    description: "Essential has many issues. This website tells why, and provides alternatives.",
+    ogImage: "/img/icon512.pngng",
 })
 </script>
 
