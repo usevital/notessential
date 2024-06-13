@@ -26,7 +26,7 @@
 useSeoMeta({
     title: 'Home | Not Essential',
     description: "Essential has many issues. This website tells why, and provides alternatives.",
-    ogImage: "/img/icon512.pngng",
+    ogImage: "/img/icon512.png",
 })
 </script>
 
