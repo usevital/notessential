@@ -129,7 +129,7 @@
         </ProjectParagraph>
         <ProjectParagraph>
 
-            It's available to many versions (Beta 1.7.3 - Release 1.20.6), and adds Ears, Snouts/Muzzles, Tails, Wings and More.
+            It's available for many versions (Beta 1.7.3 - Release 1.20.6), and adds Ears, Snouts/Muzzles, Tails, Wings and More.
 
         </ProjectParagraph>
 
@@ -137,7 +137,7 @@
 
     <div class="flex flex-row gap-4 flex-wrap">
 
-        <NuxtLink to="https://modrinth.com/mod/cosmetica"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
+        <NuxtLink to="https://modrinth.com/mod/ears"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
 
     </div>
 
