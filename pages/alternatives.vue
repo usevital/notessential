@@ -341,7 +341,7 @@
 
             <ProjectTitle> CraftPresence </ProjectTitle>
 
-            <img class="h-12 bg-white rounded-xl p-1" src="https://cdn.modrinth.com/data/DFqQfIBR/icon.png">
+            <img class="h-12 bg-black rounded-xl p-1" src="https://cdn.modrinth.com/data/DFqQfIBR/icon.png">
 
         </ProjectTitleBar>
 
