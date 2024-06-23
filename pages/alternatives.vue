@@ -260,7 +260,7 @@
         </ProjectParagraph>
         <ProjectParagraph>
 
-            Screenshot viewer is a mod that allows you to see the screenshots that you have taken while you were gaming! (including the accidental ones you took when you where trying to press F3).
+            Screenshot Viewer is a mod that allows you to see the screenshots that you have taken while you were gaming! (including the accidental ones you took when you where trying to press F3).
 
         </ProjectParagraph>
 
@@ -363,6 +363,36 @@
             <NuxtLink to="https://modrinth.com/mod/craftpresence"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
 
         </div>
+
+    <ProjectContainer>
+
+        <ProjectTitleBar>
+
+            <ProjectTitle> Zume </ProjectTitle>
+            
+            <img class="h-12 bg-white rounded-xl p1" src="https://cdn.modrinth.com/data/o6qsdrrQ/baecae4eaaac86de4ac699f57e5203edb3019f3f.png">
+
+        </ProjectTitleBar>
+
+        <ProjectParagraph>
+
+            Essential has a zoom feature with it. This mod can replace that function, and it supports a LOT of Minecraft versions!
+
+        </ProjectParagraph>
+
+        <ProjectParagraph>
+
+            Not only does it zoom in and out, it also has keybinds for customising the zoom level!
+
+        </ProjectParagraph>
+
+    </ProjectContainer>
+
+    <div class="flex flex-row gap-4 flex-wrap">
+        
+        <NuxtLink to="https://modrinth.com/mod/zume"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
+        
+    </div>
 
 </template>
 
