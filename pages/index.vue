@@ -30,7 +30,10 @@
 
         </ProjectTitleBar>
 
-        <ProjectParagraph> Essential is a closed-source mod. While the loader itself is open-source and available on their GitHub, the actual mod that gets downloaded is still closed-source. This makes it hard to work with for other mod developers.</ProjectParagraph>
+        <ProjectParagraph>
+            Essential is a closed-source mod. While the loader itself is open-source and available on their GitHub, the actual mod that gets downloaded is still closed-source. This makes it hard to work with for other mod developers.
+        </ProjectParagraph>
+
     </ProjectContainer>
 
 </template>
