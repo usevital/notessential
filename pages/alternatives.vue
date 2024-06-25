@@ -241,7 +241,7 @@
 
         <NuxtLink to="https://modrinth.com/mod/figura"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
 
-    <div></div>
+    </div>
 
     <ProjectContainer>
 
