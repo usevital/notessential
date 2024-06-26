@@ -242,6 +242,36 @@
     <span class="text-white italic text-[4rem]">
         <span class="font-[250] tracking wider"> Misc </span>
     </span>
+
+    <ProjectContainer>
+
+        <ProjectTitleBar>
+
+            <ProjectTitle> Screencapper </ProjectTitle>
+
+            <img class="h-12 bg-white rounded-xl p-1" src="https://cdn.modrinth.com/data/yzNFLSqx/d5d842e0b6b8c1babcd2212b923d712d85641af1.png">
+
+        </ProjectTitleBar>
+
+        <ProjectParagraph>
+
+            Essential has a screenshot preview feature, this mod entirely implements a basic equivalent.
+            
+        </ProjectParagraph>
+        <ProjectParagraph>
+
+            A highly advanced screenshot improvement mod.
+
+        </ProjectParagraph>
+
+    </ProjectContainer>
+
+    <div class="flex flex-row gap-4 flex-wrap">
+
+        <NuxtLink to="https://modrinth.com/mod/screencapper"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
+        <NuxtLink to="https://s.deftu.dev/discord"> <user> Discord <LucideMessageCircleMore /> </user> </NuxtLink>
+
+    </div>
     
     <ProjectContainer>
 
