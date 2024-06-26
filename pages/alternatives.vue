@@ -153,7 +153,7 @@
 
         <ProjectParagraph>
 
-            This mod gives you the ability to use and see capes from Optifine, LabyMod and the MinecraftCapes mod.
+            This mod gives you the ability to use and see capes from OptiFine, LabyMod and the MinecraftCapes mod.
             
         </ProjectParagraph>
         <ProjectParagraph>
@@ -206,6 +206,40 @@
     <div class="flex flex-row gap-4 flex-wrap">
 
         <NuxtLink to="https://modrinth.com/plugin/custom-player-models"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
+
+    </div>
+
+    <ProjectContainer>
+
+        <ProjectTitleBar>
+
+            <ProjectTitle> Figura </ProjectTitle>
+
+            <img class="h-12 bg-black rounded-xl p-1" src="https://cdn.modrinth.com/data/s9gIPDom/9e3994b58a6a50d9143c0aa87df1c3b54e4b7919.png">
+
+        </ProjectTitleBar>
+
+        <ProjectParagraph>
+            
+            If you're looking to step it up a notch, Figura allows you to modify your player model much more!
+
+        </ProjectParagraph>
+        <ProjectParagraph>
+
+            Figura focuses less on maintaining compatibility, which means it's able to add much more to your model, such as pets, ears, and more! You can also use Lua scripts to customise even further!
+
+        </ProjectParagraph>
+        <ProjectParagraph>
+
+            Bonus: It also has sort of a built-in anti-cheat for things such as invisible player models!
+
+        </ProjectParagraph>
+
+    </ProjectContainer>
+
+    <div class="flex flex-row gap-4 flex-wrap">
+
+        <NuxtLink to="https://modrinth.com/mod/figura"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
 
     </div>
 
@@ -290,7 +324,7 @@
         </ProjectParagraph>
         <ProjectParagraph>
 
-            Screenshot viewer is a mod that allows you to see the screenshots that you have taken while you were gaming! (including the accidental ones you took when you where trying to press F3).
+            Screenshot Viewer is a mod that allows you to see the screenshots that you have taken while you were gaming! (including the accidental ones you took when you where trying to press F3).
 
         </ProjectParagraph>
 
@@ -394,9 +428,40 @@
 
         </div>
 
+    <ProjectContainer>
+
+        <ProjectTitleBar>
+
+            <ProjectTitle> Zume </ProjectTitle>
+            
+            <img class="h-12 bg-white rounded-xl p1" src="https://cdn.modrinth.com/data/o6qsdrrQ/baecae4eaaac86de4ac699f57e5203edb3019f3f.png">
+
+        </ProjectTitleBar>
+
+        <ProjectParagraph>
+
+            Essential has a zoom feature with it. This mod can replace that function, and it supports a LOT of Minecraft versions!
+
+        </ProjectParagraph>
+
+        <ProjectParagraph>
+
+            Not only does it zoom in and out, it also has keybinds for customising the zoom level!
+
+        </ProjectParagraph>
+
+    </ProjectContainer>
+
+    <div class="flex flex-row gap-4 flex-wrap">
+        
+        <NuxtLink to="https://modrinth.com/mod/zume"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
+        
+    </div>
+
 </template>
 
 <script setup lang="ts">
+import ProjectParagraph from '../components/projectParagraph.vue';
 useSeoMeta({
   title: 'Alternatives | Not Essential',
   description: "Essential has many issues. This page provides alternatives.",
