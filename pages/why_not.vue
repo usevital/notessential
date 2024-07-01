@@ -6,7 +6,7 @@
 
             <span class="text-[1.5rem] sm:text-[2rem] md:text-[3rem] lg:text-[4rem] internalFont flex flex-row flex-wrap gap-3">
                 <span class="font-bold"> WHY SHOULD YOU NOT USE <span
-                        class="brand-gradient">ESSENTIAL?</span>.</span>
+                        class="brand-gradient">ESSENTIAL?</span></span>
             </span>
 
         </ProjectTitleBar>
