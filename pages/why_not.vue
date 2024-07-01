@@ -19,6 +19,46 @@
 
     </projectContainer>
 
+    <projectContainer>
+
+        <projectTitleBar>
+
+        <projectTitle> 1. It's closed-source. </projectTitle>
+
+        </projectTitleBar>
+
+        <projectParagraph>
+
+            A piece of software being closed-source means that the source code is not publicly available anywhere. Usually, the software code is obfuscated as well, meaning that even if we have the piece of software, we still cannot view its code without dedicating more time to decompiling it.
+
+        </projectParagraph>
+
+        <projectParagraph>
+
+            Closed-source software exists everywhere, so you might be wondering - "well, why is that a bad thing if there is a lot of closed-source software that we use?" And while that may be true, Minecraft modding is very different.
+
+        </projectParagraph>
+
+        <projectParagraph>
+
+            Minecraft modding can be very limitless, but this is because of one thing: Minecraft mods have access to (almost) your entire computer. This makes it very risky to run mods, which means that we have to trust the code that we are executing.
+
+        </projectParagraph>
+
+        <projectParagraph>
+            
+            But, the very nature of closed-source and obfuscation hinders that in a very big way. If we cannot see the code that is being ran, how can we trust it won't be looking through our files? This is why mods being open-source is a big deal.
+
+        </projectParagraph>
+
+        <projectParagraph>
+
+            Note: This isn't meant to imply that Essential is accessing our files. In fact, making it closed-source and obfuscated makes it very hard for anyone (besides Essential devs) to verify if that statement is true or not.
+
+        </projectParagraph>
+        
+    </projectContainer>
+
 </template>
 <!-- ⬇️ is supposed to -->
 <script setup lang="ts">
