@@ -33,6 +33,7 @@ section {
 }
 
 h1 {
+  font-family: "Press Start 2P";
   font-size: 3em;
 }
 

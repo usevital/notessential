@@ -52,6 +52,7 @@
 body {
   background: #000;
   color: #fff;
+  font-family: "Inter", sans-serif;
 }
 
 .layout {
@@ -122,6 +123,7 @@ footer {
   background: transparent;
   padding: 1em 2em;
   background: var(--primary);
+  font-family: "Goldman";
   transition: 200ms;
 
   &:hover {

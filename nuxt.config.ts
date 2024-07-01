@@ -18,5 +18,12 @@ export default defineNuxtConfig({
       ],
     },
   },
-  modules: ["nuxt-lucide-icons"],
+  modules: ["@nuxtjs/google-fonts", "nuxt-lucide-icons"],
+  googleFonts: {
+    families: {
+      Inter: true,
+      Goldman: true,
+      "Press Start 2P": true,
+    },
+  },
 })
