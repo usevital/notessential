@@ -25,17 +25,20 @@
             For multiplayer with a friends system, you can use World Host. It's a free and open source way to broadcast your world to those on your friends list, and everyone you want to share it with.
             
         </ProjectParagraph>
-
         <ProjectParagraph>
 
             It has a friends list system you can use to let your friends join your game right as you open it to them.
 
         </ProjectParagraph>
-
         <ProjectParagraph>
 
             You simply hit "Open to Friends" and your friends will be able to join. You can also share the link that appears in chat with the people you want to play with!
 
+        </ProjectParagraph>
+        <ProjectParagraph>
+
+            This mod is recommended for mostly vanilla or lightly/client-side modded instances only. For better experiences with modpacks, use e4mc, which is featured below.
+            
         </ProjectParagraph>
 
     </projectContainer>
@@ -64,6 +67,11 @@
         <ProjectParagraph>
 
             You simply hit "Open to LAN" and share the link that appears in chat with the people you want to play with!
+
+        </ProjectParagraph>
+        <ProjectParagraph>
+
+            e4mc is recommended over World Host for modpacks, as this is a very simple mod which means it shouldn't interfere with potential mods. Just make sure your modlists are identical to avoid de-syncing!
 
         </ProjectParagraph>
 
@@ -153,7 +161,7 @@
 
         <ProjectParagraph>
 
-            This mod gives you the ability to use and see capes from Optifine, LabyMod and the MinecraftCapes mod.
+            This mod gives you the ability to use and see capes from OptiFine, LabyMod and the MinecraftCapes mod.
             
         </ProjectParagraph>
         <ProjectParagraph>
@@ -213,6 +221,40 @@
 
         <ProjectTitleBar>
 
+            <ProjectTitle> Figura </ProjectTitle>
+
+            <img class="h-12 bg-black rounded-xl p-1" src="https://cdn.modrinth.com/data/s9gIPDom/9e3994b58a6a50d9143c0aa87df1c3b54e4b7919.png">
+
+        </ProjectTitleBar>
+
+        <ProjectParagraph>
+            
+            If you're looking to step it up a notch, Figura allows you to modify your player model much more!
+
+        </ProjectParagraph>
+        <ProjectParagraph>
+
+            Figura focuses less on maintaining compatibility, which means it's able to add much more to your model, such as pets, ears, and more! You can also use Lua scripts to customise even further!
+
+        </ProjectParagraph>
+        <ProjectParagraph>
+
+            Bonus: It also has sort of a built-in anti-cheat for things such as invisible player models!
+
+        </ProjectParagraph>
+
+    </ProjectContainer>
+
+    <div class="flex flex-row gap-4 flex-wrap">
+
+        <NuxtLink to="https://modrinth.com/mod/figura"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
+
+    </div>
+
+    <ProjectContainer>
+
+        <ProjectTitleBar>
+
             <ProjectTitle> Emotecraft </ProjectTitle>
 
             <img class="h-12 bg-white rounded-xl p-1" src="https://cdn.modrinth.com/data/pZ2wrerK/icon.png">
@@ -242,6 +284,36 @@
     <span class="text-white italic text-[4rem]">
         <span class="font-[250] tracking wider"> Misc </span>
     </span>
+
+    <ProjectContainer>
+
+        <ProjectTitleBar>
+
+            <ProjectTitle> Screencapper </ProjectTitle>
+
+            <img class="h-12 bg-white rounded-xl p-1" src="https://cdn.modrinth.com/data/yzNFLSqx/d5d842e0b6b8c1babcd2212b923d712d85641af1.png">
+
+        </ProjectTitleBar>
+
+        <ProjectParagraph>
+
+            Essential has a screenshot preview feature, this mod entirely implements a basic equivalent.
+            
+        </ProjectParagraph>
+        <ProjectParagraph>
+
+            A highly advanced screenshot improvement mod.
+
+        </ProjectParagraph>
+
+    </ProjectContainer>
+
+    <div class="flex flex-row gap-4 flex-wrap">
+
+        <NuxtLink to="https://modrinth.com/mod/screencapper"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
+        <NuxtLink to="https://s.deftu.dev/discord"> <user> Discord <LucideMessageCircleMore /> </user> </NuxtLink>
+
+    </div>
     
     <ProjectContainer>
 
@@ -260,7 +332,7 @@
         </ProjectParagraph>
         <ProjectParagraph>
 
-            Screenshot viewer is a mod that allows you to see the screenshots that you have taken while you were gaming! (including the accidental ones you took when you where trying to press F3).
+            Screenshot Viewer is a mod that allows you to see the screenshots that you have taken while you were gaming! (including the accidental ones you took when you where trying to press F3).
 
         </ProjectParagraph>
 
@@ -364,9 +436,40 @@
 
         </div>
 
+    <ProjectContainer>
+
+        <ProjectTitleBar>
+
+            <ProjectTitle> Zume </ProjectTitle>
+            
+            <img class="h-12 bg-white rounded-xl p1" src="https://cdn.modrinth.com/data/o6qsdrrQ/baecae4eaaac86de4ac699f57e5203edb3019f3f.png">
+
+        </ProjectTitleBar>
+
+        <ProjectParagraph>
+
+            Essential has a zoom feature with it. This mod can replace that function, and it supports a LOT of Minecraft versions!
+
+        </ProjectParagraph>
+
+        <ProjectParagraph>
+
+            Not only does it zoom in and out, it also has keybinds for customising the zoom level!
+
+        </ProjectParagraph>
+
+    </ProjectContainer>
+
+    <div class="flex flex-row gap-4 flex-wrap">
+        
+        <NuxtLink to="https://modrinth.com/mod/zume"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
+        
+    </div>
+
 </template>
 
 <script setup lang="ts">
+import ProjectParagraph from '../components/projectParagraph.vue';
 useSeoMeta({
   title: 'Alternatives | Not Essential',
   description: "Essential has many issues. This page provides alternatives.",
