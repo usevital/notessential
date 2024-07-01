@@ -1,69 +1,136 @@
 <template>
-
-  <div class="flex justify-center flex-col p-6 gap-8">
-
-    <navBar />
-
-    <div class="m-[5%] gap-8 flex-col flex">
+  <div class="layout">
+    <nav>
+      <div class="inner">
+        <div class="brand">
+          <NuxtLink to="/">
+            <img
+              src="~/assets/brand/logotype.svg"
+              alt="Not Essential Logo"
+              height="14"
+            />
+          </NuxtLink>
+        </div>
+        <div class="links">
+          <NuxtLink to="/alternatives" class="btn"
+            ><LucideArrowUpRight />Alternatives</NuxtLink
+          >
+        </div>
+      </div>
+    </nav>
+    <main>
       <slot />
-
-    </div>
-
-    <pageFooter />
-
+    </main>
+    <footer>
+      <div class="inner">
+        <span>
+          THANKS FOR READING - WRITTEN BY BLURRYFACE - DESIGNED BY
+          WORLDWIDEPIXEL - REDESIGNED BY NITRRINE -
+          <a href="https://github.com/blryface/notessential" target="_blank"
+            >PAGE SOURCE</a
+          >
+        </span>
+        <span class="not-affilated-warning">
+          THIS SITE IS NOT AFFILIATED WITH ESSENTIAL OR SPARK UNIVERSE
+        </span>
+      </div>
+    </footer>
   </div>
-
 </template>
 
-<style>
-@import url(https://fonts.bunny.net/css?family=inter:100,200,300,400,500,600,700,800,900);
-
-@font-face {
-  font-family: 'Internal';
-  src: url('/font/QuinqueFive.ttf') format('truetype');
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: 'InternalBold';
-  src: url('/font/PublicPixel.ttf') format('truetype');
-  font-weight: 900;
-}
-
-.internalFont {
-  font-family: Internal;
-}
-
-.internalBold {
-  font-family: InternalBold;
-}
-
+<style lang="scss">
 :root {
-  font-family: Inter, Helvetica, sans-serif;
-  --brand-colour: rgb(0, 0, 0);
-  --brand-background: rgb(0, 0, 0);
-  --brand-background-old: rgb(0, 86, 234);
-  --text-colour: rgb(227, 245, 255);
-  --big-text-colour: rgb(227, 245, 255);
-  --brand-scrollbar: rgb(0, 86, 234);
-
-  scrollbar-color: var(--brand-scrollbar) var(--brand-colour);
-
+  --primary: #0056ea;
 }
 
-.brand-gradient {
-  background: linear-gradient(90deg, rgb(0, 106, 255) 0%, rgb(31, 180, 255) 100%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-}
-
-.brand-gradient-bg {
-  background: linear-gradient(90deg, rgb(0, 106, 255) 0%, rgb(31, 180, 255) 100%);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  background-color: var(--brand-background);
-  color: var(--text-colour);
+  background: #000;
+  color: #fff;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 2em;
+
+  .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+  }
+}
+
+main {
+  flex: 1 1 auto;
+  padding: 0 2em;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3em 2em;
+  font-size: 0.9em;
+
+  .inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+
+    a {
+      color: inherit;
+    }
+
+    .not-affilated-warning {
+      font-style: italic;
+      color: #ccc;
+    }
+  }
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  background: transparent;
+  padding: 1em 2em;
+  background: var(--primary);
+  transition: 200ms;
+
+  &:hover {
+    filter: brightness(1.2);
+  }
+
+  svg {
+    width: 1em;
+    height: 1em;
+  }
 }
 </style>
