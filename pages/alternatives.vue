@@ -25,17 +25,20 @@
             For multiplayer with a friends system, you can use World Host. It's a free and open source way to broadcast your world to those on your friends list, and everyone you want to share it with.
             
         </ProjectParagraph>
-
         <ProjectParagraph>
 
             It has a friends list system you can use to let your friends join your game right as you open it to them.
 
         </ProjectParagraph>
-
         <ProjectParagraph>
 
             You simply hit "Open to Friends" and your friends will be able to join. You can also share the link that appears in chat with the people you want to play with!
 
+        </ProjectParagraph>
+        <ProjectParagraph>
+
+            This mod is recommended for mostly vanilla or lightly/client-side modded instances only. For better experiences with modpacks, use e4mc, which is featured below.
+            
         </ProjectParagraph>
 
     </projectContainer>
@@ -64,6 +67,11 @@
         <ProjectParagraph>
 
             You simply hit "Open to LAN" and share the link that appears in chat with the people you want to play with!
+
+        </ProjectParagraph>
+        <ProjectParagraph>
+
+            e4mc is recommended over World Host for modpacks, as this is a very simple mod which means it shouldn't interfere with potential mods. Just make sure your modlists are identical to avoid de-syncing!
 
         </ProjectParagraph>
 
