@@ -20,22 +20,6 @@
 
     </projectContainer>
 
-    <ProjectContainer class="flex gap-8">
-
-        <ProjectTitleBar>
-
-            <span class="test-[1.5rem] sm:text-[2rem] md:text-[3rem] lg:text-[4rem] internalFont flex flex-row flex-wrap gap-3">
-                <span class="font-bold"> Why not Essential? </span>
-            </span>
-
-        </ProjectTitleBar>
-
-        <ProjectParagraph>
-            Essential is a closed-source mod. While the loader itself is open-source and available on their GitHub, the actual mod that gets downloaded is still closed-source. This makes it hard to work with for other mod developers.
-        </ProjectParagraph>
-
-    </ProjectContainer>
-
 </template>
 <!-- ⬇️ is supposed to -->
 <script setup lang="ts">
