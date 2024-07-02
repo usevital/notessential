@@ -33,8 +33,12 @@ section {
 }
 
 h1 {
-  font-family: "Press Start 2P";
-  font-size: 3em;
+  font-family: "QuinqueFive";
+  font-size: 2.5em;
+
+  @media (max-width: 700px) {
+    font-size: 1.5em;
+  }
 }
 
 .brand-gradient {

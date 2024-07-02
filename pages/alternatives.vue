@@ -528,6 +528,10 @@ section {
       .actions {
         display: flex;
         gap: 0.5em;
+
+        @media (max-width: 700px) {
+          flex-direction: column;
+        }
       }
     }
   }

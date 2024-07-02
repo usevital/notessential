@@ -26,4 +26,5 @@ export default defineNuxtConfig({
       "Press Start 2P": true,
     },
   },
+  css: ["~/assets/fonts/fonts.css"],
 })

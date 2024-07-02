@@ -12,7 +12,7 @@
           </NuxtLink>
         </div>
         <div class="links">
-          <NuxtLink to="/alternatives" class="btn"
+          <NuxtLink to="/alternatives"
             ><LucideArrowUpRight />Alternatives</NuxtLink
           >
         </div>
@@ -73,6 +73,19 @@ nav {
     justify-content: space-between;
     max-width: 1000px;
     width: 100%;
+
+    .links a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-decoration: none;
+      transition: 200ms color;
+
+      &:hover {
+        color: var(--primary);
+      }
+    }
   }
 }
 
