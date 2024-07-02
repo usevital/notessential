@@ -498,11 +498,12 @@ section {
   margin-top: 1em;
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: 1.5em;
 
   .category {
     font-style: italic;
     padding-bottom: 1em;
+    border-bottom: 1px rgba($color: #fff, $alpha: 0.1) solid;
   }
 
   .project {

@@ -65,7 +65,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1em 2em;
+  padding: 2em;
 
   .inner {
     display: flex;

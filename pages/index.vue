@@ -30,14 +30,19 @@ section {
   display: flex;
   flex-direction: column;
   gap: 1em;
-}
 
-h1 {
-  font-family: "QuinqueFive";
-  font-size: 2.5em;
+  h1 {
+    font-family: "QuinqueFive";
+    font-size: 2.5em;
+    line-height: 1.5em;
 
-  @media (max-width: 700px) {
-    font-size: 1.5em;
+    @media (max-width: 700px) {
+      font-size: 1.5em;
+    }
+  }
+
+  p {
+    color: rgb(228, 215, 215);
   }
 }
 
