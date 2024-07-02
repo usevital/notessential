@@ -71,7 +71,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1000px;
+    max-width: 1200px;
     width: 100%;
 
     .links a {
@@ -120,7 +120,7 @@ footer {
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 1200px;
   width: 100%;
   margin: auto;
 }
