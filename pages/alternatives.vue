@@ -251,6 +251,47 @@
 
       <div class="project">
         <div class="left">
+          <img
+            src="https://cdn.modrinth.com/data/3s19I5jr/e66d99492c9b25e88a614846cca6b154ec5309f2.png"
+            alt=""
+          />
+        </div>
+        <div class="right">
+          <h1>Skin Shuffle</h1>
+          <div class="description">
+            <p>
+              Essential's skin swapper in-game can be convenient if you want to
+              change your game without having to relaunch Minecraft. This mod
+              can achieve this for you!
+            </p>
+            <p>
+              Skin Shuffle is a mod that can change, store, and customise your
+              skin, all in-game without requiring to relaunch. They are stored
+              in what they call "Skin Presets" which can be created off of URLs,
+              files, Usernames/UUIDs, in-game textures and even your current
+              skin!
+            </p>
+            <p>
+              If the server has Skin Shuffle installed, you can also switch your
+              skin and it will be shown to everyone on the server, even those
+              without the mod, all while not requiring you to disconnect from
+              the server!
+            </p>
+          </div>
+          <div class="actions">
+            <NuxtLink
+              to="https://modrinth.com/mod/skinshuffle"
+              target="_blank"
+              class="btn"
+            >
+              <LucideDownload /> Modrinth
+            </NuxtLink>
+          </div>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="left">
           <img src="https://cdn.modrinth.com/data/pZ2wrerK/icon.png" alt="" />
         </div>
         <div class="right">
