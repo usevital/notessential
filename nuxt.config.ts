@@ -23,7 +23,6 @@ export default defineNuxtConfig({
     families: {
       Inter: true,
       Goldman: true,
-      "Press Start 2P": true,
     },
   },
   css: ["~/assets/fonts/fonts.css"],
