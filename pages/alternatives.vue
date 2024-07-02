@@ -255,6 +255,42 @@
 
         <ProjectTitleBar>
 
+            <ProjectTitle> Skin Shuffle </ProjectTitle>
+
+            <img class="h-12 bg-black rounded-xl p-1" src="https://cdn.modrinth.com/data/3s19I5jr/e66d99492c9b25e88a614846cca6b154ec5309f2.png">
+
+        </ProjectTitleBar>
+        
+        <ProjectParagraph>
+
+            Essential's skin swapper in-game can be convenient if you want to change your game without having to relaunch Minecraft. This mod can achieve this for you!
+
+        </ProjectParagraph>
+
+        <ProjectParagraph>
+
+            Skin Shuffle is a mod that can change, store, and customise your skin, all in-game without requiring to relaunch. They are stored in what they call "Skin Presets" which can be created off of URLs, files, Usernames/UUIDs, in-game textures and even your current skin!
+        
+        </ProjectParagraph>
+
+        <ProjectParagraph>
+
+            If the server has Skin Shuffle installed, you can also switch your skin and it will be shown to everyone on the server, even those without the mod, all while not requiring you to disconnect from the server!
+
+        </ProjectParagraph>
+
+    </ProjectContainer>
+
+    <div class="flex flex-row gap-4 flex-wrap">
+
+        <NuxtLink to="https://modrinth.com/mod/skinshuffle"> <user> Modrinth <LucideDownload /> </user> </NuxtLink>
+
+    </div>
+
+    <ProjectContainer>
+
+        <ProjectTitleBar>
+
             <ProjectTitle> Emotecraft </ProjectTitle>
 
             <img class="h-12 bg-white rounded-xl p-1" src="https://cdn.modrinth.com/data/pZ2wrerK/icon.png">
@@ -469,7 +505,9 @@
 </template>
 
 <script setup lang="ts">
+import ProjectContainer from '../components/projectContainer.vue';
 import ProjectParagraph from '../components/projectParagraph.vue';
+import ProjectTitleBar from '../components/projectTitleBar.vue';
 useSeoMeta({
   title: 'Alternatives | Not Essential',
   description: "Essential has many issues. This page provides alternatives.",
