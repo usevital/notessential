@@ -20,7 +20,7 @@
       <BigButton> <LucideArrowUpRight /> ALTERNATIVES </BigButton>
     </NuxtLink>
 
-    <NuxtLink to="/info">
+    <NuxtLink class="w-fit" to="/info">
       <BigButton> <LucideCircleHelp /> WHY NOT? </BigButton>
     </NuxtLink>
   </projectContainer>
