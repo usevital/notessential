@@ -57,7 +57,7 @@
 
         <projectParagraph>
 
-            Note: This isn't meant to imply that Essential is accessing our files. In fact, making it closed-source and obfuscated makes it very hard for anyone (besides Essential devs) to verify if that statement is true or not.
+            Note: This isn't meant to imply that Essential is accessing our files. In fact, making it closed-source makes it less accessible for anyone (besides Essential devs) to verify if that statement is true or not. Also, Essential itself is not obfuscated, only closed-source.
 
         </projectParagraph>
         
