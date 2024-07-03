@@ -15,7 +15,7 @@
             Why are we recommending not to use Essential? Here, we will list our reasons why you should use alternatives to it.
         </ProjectParagraph>
 
-        <NuxtLink to="/alternatives"> <BigButton> <LucideArrowUpRight /> ALTERNATIVES </BigButton> </NuxtLink>
+        <NuxtLink class="w-fit" to="/alternatives"> <BigButton> <LucideArrowUpRight /> ALTERNATIVES </BigButton> </NuxtLink>
 
         <ProjectParagraph>
             Disclaimer: We are not encouraging you to hate on Essential, nor do we have personal beef with the Essential staff. We simply find that these issues are what makes Essential undesirable in most circumstances when playing modded Minecraft.
