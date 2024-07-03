@@ -12,10 +12,14 @@
         </ProjectTitleBar>
 
         <ProjectParagraph>
-            Why are we recommending not to use Essential? This page will list our reasons why you should use alternatives.
+            Why are we recommending not to use Essential? Here, we will list our reasons why you should use alternatives to it.
         </ProjectParagraph>
 
         <NuxtLink to="/alternatives"> <BigButton> <LucideArrowUpRight /> ALTERNATIVES </BigButton> </NuxtLink>
+
+        <ProjectParagraph>
+            Disclaimer: We are not encouraging you to hate on Essential, nor do we have personal beef with the Essential staff. We simply find that these issues are what makes Essential undesirable in most circumstances when playing modded Minecraft.
+        </ProjectParagraph>
 
     </projectContainer>
 
@@ -47,7 +51,7 @@
 
         <projectParagraph>
             
-            But, the very nature of closed-source and obfuscation hinders that in a very big way. If we cannot see the code that is being ran, how can we trust it won't be looking through our files? This is why mods being open-source is a big deal.
+            But, the very nature of closed-source and obfuscation hinders that in a very big way. If we cannot see the code that is being ran, how can we trust it won't be looking through our files? This is why mods being open-source, as well as being unobfuscated, is a big deal.
 
         </projectParagraph>
 
@@ -62,6 +66,8 @@
 </template>
 <!-- ⬇️ is supposed to -->
 <script setup lang="ts">
+import ProjectParagraph from '../components/projectParagraph.vue';
+
 useSeoMeta({
     title: 'Why? | Not Essential',
     description: "Essential has many issues. This website tells why, and provides alternatives.",

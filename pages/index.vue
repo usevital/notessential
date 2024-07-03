@@ -19,6 +19,10 @@
     <NuxtLink to="/alternatives">
       <BigButton> <LucideArrowUpRight /> ALTERNATIVES </BigButton>
     </NuxtLink>
+
+    <NuxtLink to="/info">
+      <BigButton> <LucideCircleHelp /> WHY NOT? </BigButton>
+    </NuxtLink>
   </projectContainer>
 </template>
 <!-- ⬇️ is supposed to -->
