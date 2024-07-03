@@ -16,7 +16,7 @@
       alternatives to help you.
     </ProjectParagraph>
 
-    <NuxtLink to="/alternatives">
+    <NuxtLink class="w-fit" to="/alternatives">
       <BigButton> <LucideArrowUpRight /> ALTERNATIVES </BigButton>
     </NuxtLink>
   </projectContainer>
