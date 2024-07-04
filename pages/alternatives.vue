@@ -470,6 +470,7 @@
 import ProjectContainer from "../components/projectContainer.vue"
 import ProjectParagraph from "../components/projectParagraph.vue"
 import ProjectTitleBar from "../components/projectTitleBar.vue"
+
 useSeoMeta({
   title: "Alternatives | Not Essential",
   description: "Essential has many issues. This page provides alternatives.",
