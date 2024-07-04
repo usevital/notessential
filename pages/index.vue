@@ -34,3 +34,4 @@ useSeoMeta({
     "Essential has many issues. This website tells why, and provides alternatives.",
   ogImage: "/img/icon512.png",
 })
+</script>
