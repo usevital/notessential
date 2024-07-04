@@ -16,13 +16,6 @@
       Alternatives
     </NuxtLink>
 
-    <NuxtLink
-      class="text-[0.5rem] sm:text-[1rem] internalFont"
-      to="/info"
-    >
-      Why not Essential?
-    </NuxtLink>
-
   </div>
 </template>
 
