@@ -21,7 +21,7 @@
     </NuxtLink>
 
     <NuxtLink class="w-fit" to="/info">
-      <BigButton> <LucideCircleHelp /> WHY NOT? </BigButton>
+      <BigButton> <LucideFileQuestion /> WHY NOT? </BigButton>
     </NuxtLink>
   </projectContainer>
 </template>
