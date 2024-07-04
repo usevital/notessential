@@ -23,6 +23,7 @@
     <NuxtLink class="w-fit" to="/info">
       <BigButton> <LucideFileQuestion /> WHY NOT? </BigButton>
     </NuxtLink>
+    
   </projectContainer>
 </template>
 <!-- ⬇️ is supposed to -->

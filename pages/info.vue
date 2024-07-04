@@ -60,6 +60,22 @@
             Note: This isn't meant to imply that Essential is accessing our files. In fact, making it closed-source makes it less accessible for anyone (besides Essential devs) to verify if that statement is true or not. Also, Essential itself is not obfuscated, only closed-source.
 
         </projectParagraph>
+
+    </projectContainer>
+    
+    <projectContainer>
+
+        <ProjectTitleBar>
+
+            <projectTitle> 2. Microtransactions </projectTitle>
+
+        </ProjectTitleBar>
+
+        <ProjectParagraph>
+
+            In a game primarily played by children, Essential decides to push their microtransactions system, where you can buy Essential Coins and exchange them for cosmetics in-game.
+
+        </ProjectParagraph>
         
     </projectContainer>
 
@@ -67,6 +83,7 @@
 <!-- ⬇️ is supposed to -->
 <script setup lang="ts">
 import ProjectParagraph from '../components/projectParagraph.vue';
+import ProjectTitleBar from '../components/projectTitleBar.vue';
 
 useSeoMeta({
     title: 'Why? | Not Essential',
