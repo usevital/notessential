@@ -29,7 +29,7 @@ import ProjectTitleBar from "../components/projectTitleBar.vue"
 import BigButton from "../components/bigButton.vue"
 
 useSeoMeta({
-  title: "Home | Not Essential",
+  title: "Home",
   description:
     "Essential has many issues. This website tells why, and provides alternatives.",
   ogImage: "/img/icon512.png",
