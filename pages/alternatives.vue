@@ -472,7 +472,7 @@ import ProjectParagraph from "../components/projectParagraph.vue"
 import ProjectTitleBar from "../components/projectTitleBar.vue"
 
 useSeoMeta({
-  title: "Alternatives | Not Essential",
+  title: "Alternatives",
   description: "Essential has many issues. This page provides alternatives.",
   ogImage: "/img/icon512.png",
 })
