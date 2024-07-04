@@ -21,8 +21,13 @@
     </NuxtLink>
   </projectContainer>
 </template>
-<!-- ⬇️ is supposed to -->
+
 <script setup lang="ts">
+import ProjectContainer from "../components/projectContainer.vue"
+import ProjectParagraph from "../components/projectParagraph.vue"
+import ProjectTitleBar from "../components/projectTitleBar.vue"
+import BigButton from "../components/bigButton.vue"
+
 useSeoMeta({
   title: "Home | Not Essential",
   description:
@@ -30,7 +35,3 @@ useSeoMeta({
   ogImage: "/img/icon512.png",
 })
 </script>
-
-<!--
-:3
--->
