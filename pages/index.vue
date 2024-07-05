@@ -16,13 +16,15 @@
       alternatives to help you.
     </ProjectParagraph>
 
-    <NuxtLink class="w-fit" to="/alternatives">
-      <BigButton> <LucideArrowUpRight /> ALTERNATIVES </BigButton>
-    </NuxtLink>
+    <div class = "button-container flex flex-row gap-4">
+      <NuxtLink class="w-fit" to="/alternatives">
+        <BigButton> <LucideArrowUpRight /> ALTERNATIVES </BigButton>
+      </NuxtLink>
 
-    <NuxtLink class="w-fit" to="/info">
-      <BigButton> <LucideFileQuestion /> WHY NOT? </BigButton>
-    </NuxtLink>
+      <NuxtLink class="w-fit" to="/info">
+        <BigButton> <LucideFileQuestion /> WHY NOT? </BigButton>
+      </NuxtLink>
+    </div>
     
   </projectContainer>
 </template>
