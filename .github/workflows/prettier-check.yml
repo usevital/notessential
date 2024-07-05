@@ -2,9 +2,7 @@ name: "Prettier Check"
 
 on:
   push:
-    branches:
-      - main
-  pull_request_target:
+  pull_request:
 
 jobs:
   check-prettier:
