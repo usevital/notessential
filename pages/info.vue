@@ -73,7 +73,24 @@
 
         <ProjectParagraph>
 
-            In a game primarily played by children, Essential decides to push their microtransactions system, where you can buy Essential Coins and exchange them for cosmetics in-game.
+            In a game primarily played by children, Essential decides to push their microtransactions system, where you can buy Essential Coins and exchange them for cosmetics in-game. 
+
+        </ProjectParagraph>
+
+        <ProjectParagraph>
+
+            While this doesn't seem necessarily bad at first, and it is true that this is one of the more reasonable monetisation methods out there, the issue stems from the method to obtain coins.
+        </ProjectParagraph>
+
+        <ProjectParagraph>
+
+            The reason why this is an issue is due to the coins only being bought in bundles, meaning people will most likely have to overpay to get a cosmetic, and then leave a bunch of coins they paid for just sitting around, doing nothing.
+
+        </ProjectParagraph>
+
+        <ProjectParagraph>
+
+            It is understandable that Essential has a monetisation method, as it is a company with employees. However, coins only being obtained in bundles shouldn't be the case.
 
         </ProjectParagraph>
         
