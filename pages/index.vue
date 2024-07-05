@@ -16,7 +16,7 @@
       alternatives to help you.
     </ProjectParagraph>
 
-    <div class="button-container flex flex-row gap-4 sm:flex-col sm:items-center">
+    <div class="button-container flex flex-row gap-4 sm:flex-col">
       <NuxtLink class="w-fit" to="/alternatives">
         <BigButton> <LucideArrowUpRight /> ALTERNATIVES </BigButton>
       </NuxtLink>
