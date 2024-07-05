@@ -4,9 +4,8 @@ about: Select this if you changed the website in a different way.
 title: "change/fix (choose one): [short description of the change]"
 labels: enhancement
 assignees:
-- blryface
-- WorldWidePixel
-
+  - blryface
+  - WorldWidePixel
 ---
 
 ## Are there major changes (ex: signficantly revamping the website visuals) that we NEED to know about?

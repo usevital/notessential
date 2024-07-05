@@ -3,10 +3,9 @@ name: Add an alternative to the list
 about: Suggest the inclusion of a new mod that can replace an Essential function.
 title: "Add [mod] to the alternatives page."
 labels: enhancement
-assignees: 
-- KTrain5169
-- blryface
-
+assignees:
+  - KTrain5169
+  - blryface
 ---
 
 ## What part(s) of Essential does this mod replace?
