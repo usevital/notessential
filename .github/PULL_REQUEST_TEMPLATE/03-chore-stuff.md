@@ -4,7 +4,6 @@ about: Select this if you are modifying something that won't affect what other p
 title: "chore: [short description of changes go here]"
 labels: documentation
 assignees: KTrain5169
-
 ---
 
 ## What have you changed?

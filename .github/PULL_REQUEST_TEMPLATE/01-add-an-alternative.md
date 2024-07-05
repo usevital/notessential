@@ -3,10 +3,9 @@ name: Adding new alternative
 about: Select this if you are adding a new mod to the alternatives page.
 title: "add: [mod name] to alternatives page"
 labels: enhancement
-assignees: 
-- KTrain5169
-- blryface
-
+assignees:
+  - KTrain5169
+  - blryface
 ---
 
 ## What part(s) of Essential does this mod replace?
