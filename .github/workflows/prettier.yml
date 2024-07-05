@@ -1,12 +1,12 @@
-name: "Prettier Check"
+name: "Prettier"
 
 on:
   push:
   pull_request:
 
 jobs:
-  check-prettier:
-    name: Prettier Check
+  prettier-check:
+    name: Check code formatting
     runs-on: ubuntu-latest
     steps:
       - name: Download repo
