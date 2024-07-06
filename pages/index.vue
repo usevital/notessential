@@ -1,5 +1,7 @@
 <template>
-  <projectContainer class="flex gap-8">
+  <div
+    class="flex flex-col gap-2 bg-[color:var(--brand-colour)] p-4 rounded-2xl gap-8"
+  >
     <ProjectTitleBar>
       <span
         class="text-[1.5rem] sm:text-[2rem] md:text-[3rem] lg:text-[4rem] internalFont flex flex-row flex-wrap gap-3"
@@ -11,20 +13,18 @@
       </span>
     </ProjectTitleBar>
 
-    <ProjectParagraph>
+    <p class="text-2xl">
       Don't be forced to use Essential. There are countless open-source
       alternatives to help you.
-    </ProjectParagraph>
+    </p>
 
     <NuxtLink class="w-fit" to="/alternatives">
       <BigButton> <LucideArrowUpRight /> ALTERNATIVES </BigButton>
     </NuxtLink>
-  </projectContainer>
+  </div>
 </template>
 
 <script setup lang="ts">
-import ProjectContainer from "../components/projectContainer.vue"
-import ProjectParagraph from "../components/projectParagraph.vue"
 import ProjectTitleBar from "../components/projectTitleBar.vue"
 import BigButton from "../components/bigButton.vue"
 
