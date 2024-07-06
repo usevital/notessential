@@ -13,7 +13,7 @@
       </span>
     </ProjectTitleBar>
 
-    <p>
+    <p class="text-2xl">
       Don't be forced to use Essential. There are countless open-source
       alternatives to help you.
     </p>
