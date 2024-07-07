@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col gap-1">
-    <span class="font-[500] text-white text-xs text-center">
+    <span class="font-[500] text-[var(--text-colour)] text-xs text-center">
       THANKS FOR READING - WRITTEN BY BLURRYFACE - DESIGNED BY WORLDWIDEPIXEL
       &bull;
       <a class="underline" href="https://github.com/blryface/notessential">

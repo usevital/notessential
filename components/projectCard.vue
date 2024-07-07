@@ -8,7 +8,10 @@
     >
       {{ props.title }}
       <!-- Icon -->
-      <img class="h-12 bg-white rounded-xl p-1" :src="props.icon" />
+      <img
+        class="h-12 bg-[var(--text-colour)] rounded-xl p-[2px]"
+        :src="props.icon"
+      />
     </span>
     <!-- Description -->
     <div
@@ -18,11 +21,11 @@
       {{ description }}
     </div>
     <!-- Buttons -->
-    <div class="flex mt-5">
+    <div class="flex mt-5 gap-3">
       <NuxtLink
         v-for="(link, index) in urls"
         :to="link"
-        class="flex gap-2 px-10 py-3 rounded-xl items-center text-lg border-2 duration-300 hover:bg-white hover:text-black active:scale-95"
+        class="flex gap-2 px-10 py-3 rounded-xl items-center text-lg border-2 border-[var(--text-colour)] duration-300 hover:bg-[var(--text-colour)] hover:text-black active:scale-95"
         ><LucideDownload />{{ index }}</NuxtLink
       >
     </div>
