@@ -21,9 +21,11 @@
     <main class="pb-8 sm:mb-0 sm:m-[5%] gap-8 flex-col flex">
       <slot />
     </main>
+  </div>
 
-    <LogoScroll />
+  <LogoScroll />
 
+  <div class="flex justify-center flex-col p-6 gap-8">
     <footer class="flex flex-col gap-1 pt-8">
       <span class="font-[500] text-[var(--text-colour)] text-xs text-center">
         THANKS FOR READING - WRITTEN BY BLURRYFACE - DESIGNED BY WORLDWIDEPIXEL
