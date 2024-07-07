@@ -5,7 +5,9 @@
     >
       ALTERNATIVES
     </span>
-    <span class="text-sm">(to ESSENTIAL)</span>
+    <span class="text-lg"
+      >Essential has many issues. This page provides alternatives.</span
+    >
   </span>
 
   <!-- Need to add a project? It's now data driven. Scroll down to the JSON to add them! -->
