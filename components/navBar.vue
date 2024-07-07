@@ -6,7 +6,8 @@
       class="font-[500] italic text-lg flex items-center flex-row gap-4 tracking-wider"
       to="/"
     >
-      <img class="h-4" src="/img/logotype.svg" />
+      <!--<img class="h-4" src="/img/logotype.svg" />-->
+      <LogoType />
     </NuxtLink>
 
     <NuxtLink

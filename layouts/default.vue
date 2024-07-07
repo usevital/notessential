@@ -1,11 +1,15 @@
 <template>
-  <div class="flex justify-center flex-col p-6 gap-8">
+  <div class="flex justify-center flex-col p-6 pb-0 gap-8">
     <navBar />
 
-    <div class="sm:m-[5%] gap-8 flex-col flex">
+    <div class="pb-8 sm:pb-0 sm:m-[5%] gap-8 flex-col flex">
       <slot />
     </div>
+  </div>
 
+  <LogoScroll />
+
+  <div class="flex justify-center flex-col p-6 pt-16 gap-8">
     <pageFooter />
   </div>
 </template>
@@ -41,6 +45,15 @@
   --text-colour: rgb(227, 245, 255);
   --big-text-colour: rgb(227, 245, 255);
   --brand-scrollbar: rgb(0, 86, 234);
+
+  --brand-logo: rgb(227, 245, 255);
+  --brand-red: #fa6f5a;
+  --brand-orange: #faa55a;
+  --brand-yellow: #fadd5a;
+  --brand-green: #9dfa5a;
+  --brand-blue: #5a95fa;
+  --brand-purple: #ba5afa;
+  --brand-rose: #fa5a87;
 
   scrollbar-color: var(--brand-scrollbar) var(--brand-colour);
 }
