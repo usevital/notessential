@@ -49,6 +49,19 @@ TEMPLATE:
 */
 
 const alternatives = {
+  Modpack: {
+    "Vital": {
+      description: [
+        "If you want to have everything neatly organized into one modpack, you can use Vital.",
+        "It has most of the mods on this list, including Cosmetica, World Host, and more.",
+        "It also has an organized main menu like Essential with FancyMenu."
+      ],
+      icon: "https://cdn.modrinth.com/data/Fecmmdly/48f79c02d315b13bddad245b7a3acd439586fd2d.png",
+      links: {
+        Modrinth: "https://modrinth.com/modpack/vital",
+      },
+    },
+  },
   Multiplayer: {
     "World Host": {
       description: [
