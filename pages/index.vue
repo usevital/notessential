@@ -8,7 +8,8 @@
       >
         <span class="font-bold">
           THERE ARE BETTER WAYS TO PLAY
-          <span class="brand-gradient">MINECRAFT</span>.</span
+          <span class="brand-gradient">{{ minecraftText }}</span
+          >.</span
         >
       </span>
     </ProjectTitleBar>
@@ -27,6 +28,12 @@
 <script setup lang="ts">
 import ProjectTitleBar from "../components/projectTitleBar.vue"
 import BigButton from "../components/bigButton.vue"
+
+const minecraftText = ref("MINECRAFT")
+
+if (Math.floor(Math.random() * 10000) === 0) {
+  minecraftText.value = "MINCERAFT"
+}
 
 useSeoMeta({
   title: "Home",
