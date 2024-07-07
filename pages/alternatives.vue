@@ -1,7 +1,7 @@
 <template>
   <span class="text-[4rem] flex flex-col flex-wrap">
     <span
-      class="text-[1.5rem] sm:text-[2rem] md:text-[3rem] lg:text-[4rem] internalFont"
+      class="text-[1.5rem] text-pretty sm:text-[2rem] md:text-[3rem] lg:text-[4rem] internalFont"
     >
       ALTERNATIVES
     </span>
@@ -16,6 +16,7 @@
     title="World Host"
     icon="https://cdn.modrinth.com/data/2AIZDfYo/90c8330e827a1162c6e5f4996be4795c8e274991.png"
     download="https://modrinth.com/mod/world-host"
+    service="Modrinth"
   >
     <p>
       For multiplayer with a friends system, you can use World Host. It's a free
@@ -42,6 +43,7 @@
     title="E4MC"
     download="https://modrinth.com/mod/e4mc"
     icon="https://cdn.modrinth.com/data/qANg5Jrr/95dcc112830c1f3ddef30cc8451a1903dec17988.png"
+    service="Modrinth"
   >
     <p>
       For Multiplayer, you can use E4MC. It's a free and open source way to
@@ -66,6 +68,7 @@
     title="Cosmetica"
     download="https://modrinth.com/mod/cosmetica"
     icon="https://cdn.modrinth.com/data/s9hF9QGp/e954c4883e72f95d8e799d167171cde74b059b51.gif"
+    service="Modrinth"
   >
     <p>
       For Cosmetics, you may want to use Cosmetica. It's a free and open source
@@ -83,6 +86,7 @@
     title="Ears"
     download="https://modrinth.com/mod/ears"
     icon="https://cdn.modrinth.com/data/mfzaZK3Z/icon.png"
+    service="Modrinth"
   >
     <p>
       Ears is another mod you can use for skin customization. It uses your
@@ -99,6 +103,7 @@
     title="Capes"
     download="https://modrinth.com/mod/capes"
     icon="https://cdn.modrinth.com/data/89Wsn8GD/icon.png"
+    service="Modrinth"
   >
     <p>
       This mod gives you the ability to use and see capes from OptiFine, LabyMod
@@ -114,6 +119,7 @@
     title="Customizable Player Models"
     download="https://modrinth.com/plugin/custom-player-models"
     icon="https://cdn.modrinth.com/data/h1E7sQNL/icon.png"
+    service="Modrinth"
   >
     <p>
       Customizable Player Models is a mod that lets you deeply modify your
@@ -134,6 +140,7 @@
     title="Figura"
     download="https://modrinth.com/mod/figura"
     icon="https://cdn.modrinth.com/data/s9gIPDom/9e3994b58a6a50d9143c0aa87df1c3b54e4b7919.png"
+    service="Modrinth"
   >
     <p>
       If you're looking to step it up a notch, Figura allows you to modify your
@@ -154,6 +161,7 @@
     title="Skin Shuffle"
     download="https://modrinth.com/mod/skinshuffle"
     icon="https://cdn.modrinth.com/data/3s19I5jr/e66d99492c9b25e88a614846cca6b154ec5309f2.png"
+    service="Modrinth"
   >
     <p>
       Essential's skin swapper in-game can be convenient if you want to change
@@ -177,6 +185,7 @@
     title="Emotecraft"
     download="https://modrinth.com/mod/emotecraft"
     icon="https://cdn.modrinth.com/data/pZ2wrerK/icon.png"
+    service="Modrinth"
   >
     <p>
       For Emotes, you may want to use Emotecraft. It's a free and open source
@@ -196,6 +205,7 @@
     title="Screencapper"
     download="https://modrinth.com/mod/screencapper"
     icon="https://cdn.modrinth.com/data/yzNFLSqx/d5d842e0b6b8c1babcd2212b923d712d85641af1.png"
+    service="Modrinth"
   >
     <p>
       Essential has a screenshot preview feature, this mod entirely implements a
@@ -208,6 +218,7 @@
     title="Screenshot Viewer"
     download="https://modrinth.com/mod/screenshot-viewer"
     icon="https://cdn.modrinth.com/data/laNoi025/1bbd371a465710708ce253fad6f9f8e7c8e3e56e.png"
+    service="Modrinth"
   >
     <p>
       Essential has a screenshot viewer feature, and you can get something
@@ -224,6 +235,7 @@
     title="Auth Me"
     download="https://modrinth.com/mod/auth-me"
     icon="https://cdn.modrinth.com/data/yjgIrBjZ/icon.png"
+    service="Modrinth"
   >
     <p>
       Essential has an in-game account switcher feature. You can use this mod to
@@ -239,6 +251,7 @@
     title="In-Game Account Switcher"
     download="https://modrinth.com/mod/in-game-account-switcher"
     icon="https://cdn.modrinth.com/data/cudtvDnd/4f2f65f4b3b9b6c7c3fcc265d651a1814ae80075.png"
+    service="Modrinth"
   >
     <p>
       If you need the other aspect of Essential's account switcher, you can use
@@ -258,6 +271,7 @@
     title="CraftPresence"
     download="https://modrinth.com/mod/craftpresence"
     icon="https://cdn.modrinth.com/data/DFqQfIBR/icon.png"
+    service="Modrinth"
   >
     <p>
       Essential has a Discord RPC feature that displays the version and server
@@ -274,6 +288,7 @@
     title="Zume"
     download="https://modrinth.com/mod/zume"
     icon="https://cdn.modrinth.com/data/o6qsdrrQ/baecae4eaaac86de4ac699f57e5203edb3019f3f.png"
+    service="Modrinth"
   >
     <p>
       Essential has a zoom feature with it. This mod can replace that function,

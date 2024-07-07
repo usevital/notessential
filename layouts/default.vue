@@ -2,7 +2,7 @@
   <div class="flex justify-center flex-col p-6 gap-8">
     <navBar />
 
-    <div class="m-[5%] gap-8 flex-col flex">
+    <div class="sm:m-[5%] gap-8 flex-col flex">
       <slot />
     </div>
 
