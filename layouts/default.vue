@@ -1,16 +1,41 @@
 <template>
-  <div class="flex justify-center flex-col p-6 pb-0 gap-8">
-    <navBar />
+  <div class="flex justify-center flex-col p-6 gap-8">
+    <nav
+      class="sm:mx-[5%] text-[color:var(--big-text-colour)] select-none font-bold bg-[color:var(--brand-colour)] w-[calc(100%-1.5rem-var(--scrollbar-width))] p-2.5 rounded-3xl flex flex-row items-center text-base justify-between gap-6"
+    >
+      <NuxtLink
+        class="font-[500] italic text-lg flex items-center flex-row gap-4 tracking-wider"
+        to="/"
+      >
+        <LogoType />
+      </NuxtLink>
 
-    <div class="pb-8 sm:pb-0 sm:m-[5%] gap-8 flex-col flex">
+      <NuxtLink
+        class="text-[0.5rem] sm:text-[1rem] internalFont"
+        to="/alternatives"
+      >
+        Alternatives
+      </NuxtLink>
+    </nav>
+
+    <main class="pb-8 sm:mb-0 sm:m-[5%] gap-8 flex-col flex">
       <slot />
-    </div>
-  </div>
+    </main>
 
-  <LogoScroll />
+    <LogoScroll />
 
-  <div class="flex justify-center flex-col p-6 pt-16 gap-8">
-    <pageFooter />
+    <footer class="flex flex-col gap-1 pt-8">
+      <span class="font-[500] text-[var(--text-colour)] text-xs text-center">
+        THANKS FOR READING - WRITTEN BY BLURRYFACE - DESIGNED BY WORLDWIDEPIXEL
+        &bull;
+        <ExternalLink to="https://github.com/blryface/notessential"
+          >PAGE SOURCE</ExternalLink
+        >
+      </span>
+      <span class="font-[500] italic text-slate-400 text-xs text-center">
+        THIS SITE IS IN NO WAY AFFILIATED WITH ESSENTIAL OR SPARK UNIVERSE
+      </span>
+    </footer>
   </div>
 </template>
 
