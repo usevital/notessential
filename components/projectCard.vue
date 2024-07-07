@@ -6,12 +6,12 @@
     <span
       class="gap-4 flex flex-row items-center text-[color:var(--big-text-colour)] text-4xl sm:text-5xl font-bold"
     >
-      {{ props.title }}
       <!-- Icon -->
       <img
         class="h-12 bg-[var(--text-colour)] rounded-xl p-[2px]"
         :src="props.icon"
       />
+      {{ props.title }}
     </span>
     <!-- Description -->
     <div
@@ -21,7 +21,7 @@
       {{ description }}
     </div>
     <!-- Buttons -->
-    <div class="flex mt-5 gap-3">
+    <div class="flex mb-5 gap-3">
       <NuxtLink
         v-for="(link, index) in urls"
         :to="link"
