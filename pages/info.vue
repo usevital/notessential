@@ -167,6 +167,43 @@
             The cosmetics can also hamper the FPS a little bit due to the required animations and this would only get worse if multiple players in the same world/lobby are wearing cosmetics that have unique animations.
 
         </ProjectParagraph>
+
+    </projectContainer>
+
+    <projectContainer class="sm:text-[1rem]">
+
+        <ProjectTitleBar>
+
+            <ProjectTitle> 5. Cluttered UI </ProjectTitle>
+
+        </ProjectTitleBar>
+
+        <ProjectParagraph>
+
+            With the many features Essential has, there has to be an area to put buttons to these. And, if you look at the main title screen, you can see that Essential has... a lot of buttons there. This leads to a cluttered UI.
+
+        </ProjectParagraph>
+
+        <ProjectParagraph>
+
+            The result is that it becomes too intrusive, almost like Essential is the main focus, not Minecraft. Especially on a new instance, the amount of screen space taken up by Essential alone makes it cumbersome to navigate (Not helped by Minecraft's auto-GUI scale).
+
+        </ProjectParagraph>
+
+        <ProjectParagraph>
+
+            Also, some of the buttons there are not necessary. For example, the Host World button is a button that no one ever really clicks, so having the button there hurts more than it helps. Similarly, the Minecraft Folder button is not a button that most people will use, and having it takes up more of the screen which with how it looks already, is not particularly a good thing.
+
+        </ProjectParagraph>
+
+        <ProjectParagraph>
+
+            It is important to note that the split between the necessary and unnecessary buttons on screen can be arguable. For example, the Hide Notifications button can be useful if you want to have a peaceful session without being hit with notifications.
+
+        </ProjectParagraph>
+
+    </projectContainer>
+
 </template>
 <!-- ⬇️ is supposed to -->
 <script setup lang="ts">
