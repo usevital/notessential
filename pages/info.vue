@@ -27,7 +27,7 @@
 
         <projectTitleBar>
 
-        <projectTitle> 1. It's closed-source. </projectTitle>
+            <projectTitle> 1. It's closed-source. </projectTitle>
 
         </projectTitleBar>
 
