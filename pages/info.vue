@@ -96,6 +96,40 @@
         
     </projectContainer>
 
+    <projectContainer class="sm:text-[1rem]">
+        
+        <projectTitleBar>
+
+            <projectTitle class="sm:text-[0.5rem]"> 3. Weird interactions with the game and (mostly) other mods </projectTitle>
+
+        </projectTitleBar>
+
+        <ProjectParagraph>
+
+            As a mod for Minecraft, it really shouldn't be trying to break other mods, and as its name suggests, really shouldn't be doing much with Minecraft itself aside from letting your friends join your singleplayer worlds. Yet, this is untrue.
+
+        </ProjectParagraph>
+
+        <ProjectParagraph>
+
+            For some reason, Essential's code interacts really weirdly, mostly when playing with other mods but also sometimes with Minecraft itself somehow. This has led to countless incompatibilities in one way or another, with many mods.
+
+        </ProjectParagraph>
+
+        <ProjectParagraph>
+
+            Essential's closed-source nature means that it takes time to be able to troubleshoot fixes with Essential without having to brute-force a solution, time that is either not available or could be better spent improving mods.
+
+        </ProjectParagraph>
+
+        <ProjectParagraph>
+            
+            It is important to note that according to Essential they will make their mod source-available at some point, making it easier to fix incompatibilities. However this has been months on end now and it's unclear if they still plan to.
+
+        </ProjectParagraph>
+
+    </projectContainer>
+
 </template>
 <!-- ⬇️ is supposed to -->
 <script setup lang="ts">
