@@ -23,7 +23,7 @@
 
     </projectContainer>
 
-    <projectContainer>
+    <projectContainer class="sm:text-[1rem]">
 
         <projectTitleBar>
 
@@ -63,7 +63,7 @@
 
     </projectContainer>
     
-    <projectContainer>
+    <projectContainer class="sm:text-[1rem]">
 
         <ProjectTitleBar>
 
