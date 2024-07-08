@@ -27,16 +27,6 @@
     </div>
     
   </projectContainer>
-
-  <ProjectContainer>
-
-    <ProjectTitleBar>
-      
-      <ProjecttTitle> But, why not? </ProjecttTitle>
-
-    </ProjectTitleBar>
-
-  </ProjectContainer>
   
 </template>
 <!-- ⬇️ is supposed to -->
