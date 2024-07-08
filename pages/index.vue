@@ -27,9 +27,22 @@
     </div>
     
   </projectContainer>
+
+  <ProjectContainer>
+
+    <ProjectTitleBar>
+      
+      <ProjecttTitle> But, why not? </ProjecttTitle>
+
+    </ProjectTitleBar>
+
+  </ProjectContainer>
+  
 </template>
 <!-- ⬇️ is supposed to -->
 <script setup lang="ts">
+import ProjectTitleBar from '../components/projectTitleBar.vue';
+
 useSeoMeta({
   title: "Home | Not Essential",
   description:
