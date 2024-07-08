@@ -61,6 +61,12 @@
 
         </projectParagraph>
 
+        <ProjectParagraph>
+
+            2nd note: Essential itself is closed-source. Its libraries that other mods can use (so Vigilance, Elementa, and others) are open-source and available on GitHub.
+
+        </ProjectParagraph>
+
     </projectContainer>
     
     <projectContainer class="sm:text-[1rem]">
@@ -130,6 +136,37 @@
 
     </projectContainer>
 
+    <projectContainer class="sm:text-[1rem]">
+
+        <ProjectTitleBar>
+
+            <projectTitle> 4. Too bloated for being "essential" </projectTitle>
+
+        </ProjectTitleBar>
+
+        <ProjectParagraph>
+
+            For a mod described as the "essential tools for Minecraft", it packs in a bunch of not very necessary things that just make the mod feel more like bloat and less like being a necessary toolkit to enjoy Minecraft at its fullest.
+
+        </ProjectParagraph>
+
+        <ProjectParagraph>
+
+            Sure, it's very useful to have a world host function, a friends list function, a chat peek function and a zoom function. These are all well and good and in fact these have been so nice to have they've been recreated into separate mods.
+
+        </ProjectParagraph>
+
+        <ProjectParagraph>
+
+            However, we can't say the same for the cosmetics, emotes, and the account switcher (which yes doesn't fit for most people). Mostly the cosmetics, since you can disable cosmetics only for yourself and players wearing armor (which isn't always the case).
+
+        </ProjectParagraph>
+
+        <ProjectParagraph>
+
+            The cosmetics can also hamper the FPS a little bit due to the required animations and this would only get worse if multiple players in the same world/lobby are wearing cosmetics that have unique animations.
+
+        </ProjectParagraph>
 </template>
 <!-- ⬇️ is supposed to -->
 <script setup lang="ts">
