@@ -25,13 +25,13 @@ useSeoMeta({
   title: "Alternatives",
   description: "Essential has many issues. This page provides alternatives.",
   ogImage: "/img/icon512.png",
-});
+})
 
-const showAlternatives = ref(false);
+const showAlternatives = ref(false)
 if (process.client) {
   onMounted(() => {
-    showAlternatives.value = true;
-  });
+    showAlternatives.value = true
+  })
 }
 
 /*
@@ -227,5 +227,5 @@ const alternatives = {
       },
     },
   },
-};
+}
 </script>
