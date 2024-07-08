@@ -15,8 +15,6 @@
             Why are we recommending not to use Essential? Here, we will list our reasons why you should use alternatives to it.
         </ProjectParagraph>
 
-        <NuxtLink class="w-fit" to="/alternatives"> <BigButton> <LucideArrowUpRight /> ALTERNATIVES </BigButton> </NuxtLink>
-
         <ProjectParagraph>
             Disclaimer: We are not encouraging you to hate on Essential, nor do we have personal beef with the Essential staff. We simply find that these issues are what makes Essential undesirable in most circumstances when playing modded Minecraft.
         </ProjectParagraph>
@@ -203,6 +201,36 @@
         </ProjectParagraph>
 
     </projectContainer>
+
+    <projectContainer>
+
+        <ProjectTitleBar>
+
+            <projectTitle> So, what now? </projectTitle>
+
+        </ProjectTitleBar>
+
+        <ProjectParagraph>
+
+            I'm sure that you may find some of Essential's features handy. We think so too, which is why we compiled a list of Essential alternatives so that you can enjoy the features you want without needing to have unnecessary features included.
+
+        </ProjectParagraph>
+
+        <ProjectParagraph>
+
+            Feel free to explore the Alternatives page using the button below and check out mods we think are suitable replacements for Essential's features.
+
+        </ProjectParagraph>
+
+        <ProjectParagraph>
+
+            If you'd like to correct anything, click the VIEW SOURCE words at the bottom of this page and open either an Issue or Pull Request with your desired changes!
+            
+        </ProjectParagraph>
+
+    </projectContainer>
+
+    <NuxtLink class="w-fit" to="/alternatives"> <BigButton> <LucideArrowUpRight /> ALTERNATIVES </BigButton> </NuxtLink>
 
 </template>
 <!-- ⬇️ is supposed to -->
