@@ -4,9 +4,9 @@ about: Report bugs to the site here!
 title: "Bug report: (insert bug details here)"
 labels: bug
 assignees:
-- WorldWidePixel
-- blryface
-
+  - WorldWidePixel
+  - blryface
+  - Nitrrine
 ---
 
 ## Describe the bug here
