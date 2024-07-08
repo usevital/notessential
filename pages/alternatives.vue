@@ -25,13 +25,13 @@ useSeoMeta({
   title: "Alternatives",
   description: "Essential has many issues. This page provides alternatives.",
   ogImage: "/img/icon512.png",
-})
+});
 
-const showAlternatives = ref(false)
+const showAlternatives = ref(false);
 if (process.client) {
   onMounted(() => {
-    showAlternatives.value = true
-  })
+    showAlternatives.value = true;
+  });
 }
 
 /*
@@ -49,8 +49,8 @@ TEMPLATE:
 */
 
 const alternatives = {
-  Modpack: {
-    "Vital": {
+  Modpacks: {
+    Vital: {
       description: [
         "If you want to have everything neatly organized into one modpack, you can use Vital.",
         "It has most of the mods on this list, including Cosmetica, World Host, and more.",
@@ -227,5 +227,5 @@ const alternatives = {
       },
     },
   },
-}
+};
 </script>
