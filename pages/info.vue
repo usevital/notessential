@@ -104,7 +104,7 @@
         
         <projectTitleBar>
 
-            <projectTitle class="sm:text-[0.5rem]"> 3. Weird interactions with the game and (mostly) other mods </projectTitle>
+            <projectTitle> 3. Weird interactions with the game and (mostly) other mods </projectTitle>
 
         </projectTitleBar>
 
