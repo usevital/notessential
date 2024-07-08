@@ -67,7 +67,7 @@
 
         <ProjectTitleBar>
 
-            <projectTitle> 2. Microtransactions </projectTitle>
+            <projectTitle> 2. Coin bundles </projectTitle>
 
         </ProjectTitleBar>
 
