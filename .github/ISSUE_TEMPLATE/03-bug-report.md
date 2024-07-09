@@ -1,7 +1,7 @@
 ---
 name: Report a bug
 about: Report bugs to the site here!
-title: "Bug report: (insert bug details here)"
+title: "(insert bug details here)"
 labels: bug
 assignees:
   - WorldWidePixel
