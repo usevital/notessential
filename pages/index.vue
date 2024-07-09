@@ -28,8 +28,6 @@
         <BigButton> <LucideFileQuestion /> WHY NOT? </BigButton>
       </NuxtLink>
     </div>
-    
-  </projectContainer>
   
 </template>
 
