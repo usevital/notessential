@@ -1,4 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
 export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
@@ -18,5 +19,19 @@ export default defineNuxtConfig({
       ],
     },
   },
-  modules: ["@nuxtjs/tailwindcss", "nuxt-lucide-icons"],
+  modules: ["@nuxtjs/tailwindcss", "nuxt-lucide-icons", "@nuxtjs/i18n"],
+  i18n: {
+    defaultLocale: "en",
+    locales: [
+      {
+        code: "en",
+        name: "English (US)",
+      },
+    ],
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: "NE_i18nCookie",
+    },
+    vueI18n: "./i18n/i18n.config",
+  },
 })

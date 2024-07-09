@@ -14,7 +14,7 @@
         class="text-[0.5rem] sm:text-[1rem] internalFont"
         to="/alternatives"
       >
-        Alternatives
+        {{ $t("layout.alternatives") }}
       </NuxtLink>
     </nav>
 
@@ -28,14 +28,14 @@
   <div class="flex justify-center flex-col p-6 gap-8">
     <footer class="flex flex-col gap-1 pt-8">
       <span class="font-[500] text-[var(--text-colour)] text-xs text-center">
-        THANKS FOR READING - WRITTEN BY BLURRYFACE - DESIGNED BY WORLDWIDEPIXEL
-        &bull;
-        <ExternalLink to="https://github.com/blryface/notessential"
-          >PAGE SOURCE</ExternalLink
-        >
+        {{ $t("layout.thank_you") }} &bull; ORIGINALLY CREATED BY BLURRYFACE
+        &bull; DESIGNED BY WORLDWIDEPIXEL &bull;
+        <ExternalLink to="https://github.com/blryface/notessential">{{
+          $t("layout.page_source")
+        }}</ExternalLink>
       </span>
       <span class="font-[500] italic text-slate-400 text-xs text-center">
-        THIS SITE IS IN NO WAY AFFILIATED WITH ESSENTIAL OR SPARK UNIVERSE
+        {{ $t("layout.disclaimer") }}
       </span>
     </footer>
   </div>

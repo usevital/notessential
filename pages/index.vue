@@ -7,20 +7,22 @@
         class="text-[1.5rem] sm:text-[2rem] md:text-[3rem] lg:text-[4rem] internalFont flex flex-row flex-wrap gap-3"
       >
         <span class="font-bold">
-          THERE ARE BETTER WAYS TO PLAY
+          {{ $t("landing.hero") }}
           <span class="brand-gradient">{{ minecraftText }}</span
           >.</span
         >
       </span>
+      <!-- THE WORD 'MINECRAFT' AND THE 'NOTESSENTIAL' NAME SHOULD NOT BE LOCALISED. -->
     </ProjectTitleBar>
 
     <p class="text-2xl">
-      Don't be forced to use Essential. There are countless open-source
-      alternatives to help you.
+      {{ $t("landing.reason") }}
     </p>
 
     <NuxtLink class="w-fit" to="/alternatives">
-      <BigButton> <LucideArrowUpRight /> ALTERNATIVES </BigButton>
+      <BigButton>
+        <LucideArrowUpRight /> {{ $t("landing.buttons.alternatives") }}
+      </BigButton>
     </NuxtLink>
   </div>
 </template>
