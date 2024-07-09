@@ -226,9 +226,8 @@
     </ProjectParagraph>
 
     <ProjectParagraph>
-      If you'd like to correct anything, click VIEW SOURCE at the
-      bottom of this page and open either an Issue or Pull Request with your
-      desired changes!
+      If you'd like to correct anything, click VIEW SOURCE at the bottom of this
+      page and open either an Issue or Pull Request with your desired changes!
     </ProjectParagraph>
   </projectContainer>
 
