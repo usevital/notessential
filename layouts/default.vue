@@ -94,6 +94,9 @@
       <span class="font-[500] italic text-slate-400 text-xs text-center">
         {{ $t("layout.footer.disclaimer") }}
       </span>
+      <span class="font-[500] italic text-slate-400 text-xs text-center">
+        {{ $t("layout.footer.disclaimer_2") }}
+      </span>
     </footer>
   </div>
 </template>
