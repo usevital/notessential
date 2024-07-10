@@ -14,7 +14,7 @@
         class="text-[0.5rem] sm:text-[1rem] internalFont"
         to="/alternatives"
       >
-        {{ $t("layout.alternatives") }}
+        {{ $t("layout.nav.alternatives") }}
       </NuxtLink>
     </nav>
 
@@ -26,10 +26,11 @@
   <LogoScroll />
 
   <div class="flex justify-center flex-col gap-8 mt-8">
-    <footer
-      class="flex flex-col sm:flex-row pb-8 items-center sm:items-start sm:justify-center py-6 gap-8"
-    >
-      <!--  <span class="font-[500] text-[var(--text-colour)] text-xs text-center">
+    <footer class="flex flex-col gap-0 items-center pb-8">
+      <div
+        class="flex flex-col sm:flex-row items-center sm:items-start sm:justify-center py-6 gap-8"
+      >
+        <!--  <span class="font-[500] text-[var(--text-colour)] text-xs text-center">
         {{ $t("layout.thank_you") }} &bull; ORIGINALLY CREATED BY BLURRYFACE
         &bull; DESIGNED BY WORLDWIDEPIXEL &bull;
         <ExternalLink to="https://github.com/blryface/notessential">{{
@@ -39,51 +40,60 @@
       <span class="font-[500] italic text-slate-400 text-xs text-center">
         {{ $t("layout.disclaimer") }}
       </span>-->
-      <div class="flex flex-col gap-4 pt-2">
-        <ClientOnly>
-          <ColourableLogo :color="easterEggColour" />
-        </ClientOnly>
-        <div
-          class="flex flex-col gap-1 font-[500] text-[var(--text-colour)] text-sm"
-        >
-          <span>
-            This page is
-            <ExternalLink to="https://github.com/blryface/notessential"
-              >open source</ExternalLink
-            >.</span
+        <div class="flex flex-col gap-4 pt-2">
+          <ClientOnly>
+            <ColourableLogo :color="easterEggColour" />
+          </ClientOnly>
+          <div
+            class="flex flex-col gap-1 font-[500] text-[var(--text-colour)] text-sm"
           >
+            <span>
+              {{ $t("layout.footer.open_source_1") }}
+              <ExternalLink to="https://github.com/blryface/notessential">{{
+                $t("layout.footer.open_source_2")
+              }}</ExternalLink
+              >.</span
+            >
+          </div>
+        </div>
+        <div class="flex flex-row gap-6 sm:gap-8">
+          <div
+            class="flex flex-col gap-2 font-[500] text-[var(--text-colour)] text-sm"
+          >
+            <span class="font-bold text-base">{{
+              $t("layout.footer.about")
+            }}</span>
+            <span
+              >{{ $t("layout.footer.credit_creator") }}
+              <ExternalLink to="https://blurryface.xyz"
+                >Blurryface</ExternalLink
+              ></span
+            >
+            <span
+              >{{ $t("layout.footer.credit_designed") }}
+              <ExternalLink to="https://worldwidepixel.ca"
+                >WorldWidePixel</ExternalLink
+              ></span
+            >
+          </div>
+          <div
+            class="flex flex-col gap-2 font-[500] text-[var(--text-colour)] text-sm"
+          >
+            <span class="font-bold text-base">{{
+              $t("layout.footer.interact")
+            }}</span>
+            <ExternalLink to="https://crowdin.com/project/notessential"
+              >Crowdin <LucideGlobe class="h-5"
+            /></ExternalLink>
+            <ExternalLink to="https://discord.gg/wncdz7e8jy"
+              >Discord <LucideMessageCircle class="h-5"
+            /></ExternalLink>
+          </div>
         </div>
       </div>
-      <div class="flex flex-row gap-6 sm:gap-8">
-        <div
-          class="flex flex-col gap-2 font-[500] text-[var(--text-colour)] text-sm"
-        >
-          <span class="font-bold text-base">About</span>
-          <span
-            >Originally created by
-            <ExternalLink to="https://blurryface.xyz"
-              >Blurryface</ExternalLink
-            ></span
-          >
-          <span
-            >Designed by
-            <ExternalLink to="https://worldwidepixel.ca"
-              >WorldWidePixel</ExternalLink
-            ></span
-          >
-        </div>
-        <div
-          class="flex flex-col gap-2 font-[500] text-[var(--text-colour)] text-sm"
-        >
-          <span class="font-bold text-base">Interact</span>
-          <ExternalLink to="https://crowdin.com/project/notessential"
-            >Crowdin <LucideGlobe class="h-5"
-          /></ExternalLink>
-          <ExternalLink to="https://discord.gg/wncdz7e8jy"
-            >Discord <LucideMessageCircle class="h-5"
-          /></ExternalLink>
-        </div>
-      </div>
+      <span class="font-[500] italic text-slate-400 text-xs text-center">
+        {{ $t("layout.footer.disclaimer") }}
+      </span>
     </footer>
   </div>
 </template>
