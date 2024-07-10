@@ -19,7 +19,7 @@
       {{ description }}
     </div>
     <!-- Buttons -->
-    <div class="flex flex-row flex-wrap gap-3">
+    <div class="flex flex-row flex-wrap gap-3 mb-5">
       <NuxtLink
         v-for="(link, index) in urls"
         :to="link"
