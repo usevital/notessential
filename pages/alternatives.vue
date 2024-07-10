@@ -8,7 +8,7 @@
     <span class="text-lg">{{ $t("alternatives.reason") }}</span>
   </span>
 
-  <!-- Need to add a project? It's now data driven. Scroll down to the JSON to add them! -->
+  <!-- Need to add a project? It's now data driven (and localised!). Go to the English lang file (~/i18n/lang/en-US.json) -->
 
   <ProjectSection
     v-if="showAlternatives"
@@ -31,20 +31,6 @@ if (process.client) {
     showAlternatives.value = true
   })
 }
-
-/*
-
-TEMPLATE:
-
-    Name: {
-      description: ["Para1", "Para2", "Para3", "Para4"],
-      icon: "iconUrl",
-      links: {
-        Modrinth: "ModrinthURL",
-      },
-    },
-
-*/
 
 const locale = useI18n().locale.value
 const altMessages = JSON.parse(

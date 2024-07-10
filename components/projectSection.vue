@@ -1,6 +1,8 @@
 <template>
-  <div class="flex flex-col flex-wrap gap-8">
-    <span class="text-white italic text-[4rem]">
+  <div class="flex flex-col flex-wrap gap-6 pb-8">
+    <span
+      class="text-[var(--big-text-color)] italic font-['Geist Mono'] text-[4rem]"
+    >
       <span class="font-[250] tracking wider">{{ title }}</span>
     </span>
     <ProjectCard

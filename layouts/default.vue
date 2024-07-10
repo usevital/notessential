@@ -1,7 +1,7 @@
 <template>
-  <div class="flex justify-center flex-col p-6 gap-8">
+  <div class="flex flex-col gap-8 sm:gap-16 bg-[color:var(--brand-colour)]">
     <nav
-      class="sm:mx-[5%] text-[color:var(--big-text-colour)] select-none font-bold bg-[color:var(--brand-colour)] w-[calc(100%-1.5rem-var(--scrollbar-width))] p-2.5 flex flex-row items-center text-base justify-between gap-6 max-w-full"
+      class="sm:px-[calc(5%+2rem)] text-[color:var(--big-text-colour)] select-none font-bold p-8 flex flex-col sm:flex-row items-center text-base justify-between gap-6 max-w-full border-b border-b-slate-800"
     >
       <NuxtLink
         class="font-[500] italic text-lg flex items-center flex-row gap-4 tracking-wider"
@@ -17,20 +17,22 @@
         {{ $t("layout.nav.alternatives") }}
       </NuxtLink>
     </nav>
-
-    <main class="pb-8 sm:mb-0 sm:m-[5%] gap-8 flex-col flex">
+    <main
+      class="flex justify-center flex-col mx-[5%] sm:mx-[calc(5%+2rem)] max-w-full"
+    >
       <slot />
     </main>
-  </div>
 
-  <LogoScroll />
+    <LogoScroll />
 
-  <div class="flex justify-center flex-col gap-8 mt-8">
-    <footer class="flex flex-col gap-0 items-center pb-8">
-      <div
-        class="flex flex-col sm:flex-row items-center sm:items-start sm:justify-center py-6 gap-8"
+    <div class="flex justify-center flex-col gap-8">
+      <footer
+        class="flex flex-col gap-0 items-center pb-8 border-t border-t-slate-800 bg-gradient-to-b from-blue-950 to-black"
       >
-        <!--  <span class="font-[500] text-[var(--text-colour)] text-xs text-center">
+        <div
+          class="flex flex-col sm:flex-row items-center sm:items-start sm:justify-center py-6 gap-8"
+        >
+          <!--  <span class="font-[500] text-[var(--text-colour)] text-xs text-center">
         {{ $t("layout.thank_you") }} &bull; ORIGINALLY CREATED BY BLURRYFACE
         &bull; DESIGNED BY WORLDWIDEPIXEL &bull;
         <ExternalLink to="https://github.com/blryface/notessential">{{
@@ -40,69 +42,72 @@
       <span class="font-[500] italic text-slate-400 text-xs text-center">
         {{ $t("layout.disclaimer") }}
       </span>-->
-        <div class="flex flex-col gap-4 pt-2">
-          <ClientOnly>
-            <ColourableLogo :color="easterEggColour" />
-          </ClientOnly>
-          <div
-            class="flex flex-col gap-1 font-[500] text-[var(--text-colour)] text-sm"
-          >
-            <span>
-              {{ $t("layout.footer.open_source_1") }}
-              <ExternalLink to="https://github.com/blryface/notessential">{{
-                $t("layout.footer.open_source_2")
-              }}</ExternalLink
-              >.</span
+          <div class="flex flex-col items-center sm:items-start gap-4 pt-2">
+            <ClientOnly>
+              <ColourableLogo :color="easterEggColour" />
+            </ClientOnly>
+            <div
+              class="flex flex-col gap-1 font-[500] text-[var(--text-colour)] text-sm"
             >
+              <span>
+                {{ $t("layout.footer.open_source_1") }}
+                <ExternalLink to="https://github.com/blryface/notessential">{{
+                  $t("layout.footer.open_source_2")
+                }}</ExternalLink
+                >.</span
+              >
+            </div>
+          </div>
+          <div class="flex flex-row gap-6 sm:gap-8">
+            <div
+              class="flex flex-col gap-2 font-[500] text-[var(--text-colour)] text-sm"
+            >
+              <span class="font-bold text-base">{{
+                $t("layout.footer.about")
+              }}</span>
+              <span
+                >{{ $t("layout.footer.credit_creator") }}
+                <ExternalLink to="https://blurryface.xyz"
+                  >Blurryface</ExternalLink
+                ></span
+              >
+              <span
+                >{{ $t("layout.footer.credit_designed") }}
+                <ExternalLink to="https://worldwidepixel.ca"
+                  >WorldWidePixel</ExternalLink
+                ></span
+              >
+            </div>
+            <div
+              class="flex flex-col gap-2 font-[500] text-[var(--text-colour)] text-sm"
+            >
+              <span class="font-bold text-base">{{
+                $t("layout.footer.interact")
+              }}</span>
+              <ExternalLink to="https://crowdin.com/project/notessential"
+                >Crowdin <LucideGlobe class="h-5"
+              /></ExternalLink>
+              <ExternalLink to="https://discord.gg/wncdz7e8jy"
+                >Discord <LucideMessageCircle class="h-5"
+              /></ExternalLink>
+            </div>
           </div>
         </div>
-        <div class="flex flex-row gap-6 sm:gap-8">
-          <div
-            class="flex flex-col gap-2 font-[500] text-[var(--text-colour)] text-sm"
-          >
-            <span class="font-bold text-base">{{
-              $t("layout.footer.about")
-            }}</span>
-            <span
-              >{{ $t("layout.footer.credit_creator") }}
-              <ExternalLink to="https://blurryface.xyz"
-                >Blurryface</ExternalLink
-              ></span
-            >
-            <span
-              >{{ $t("layout.footer.credit_designed") }}
-              <ExternalLink to="https://worldwidepixel.ca"
-                >WorldWidePixel</ExternalLink
-              ></span
-            >
-          </div>
-          <div
-            class="flex flex-col gap-2 font-[500] text-[var(--text-colour)] text-sm"
-          >
-            <span class="font-bold text-base">{{
-              $t("layout.footer.interact")
-            }}</span>
-            <ExternalLink to="https://crowdin.com/project/notessential"
-              >Crowdin <LucideGlobe class="h-5"
-            /></ExternalLink>
-            <ExternalLink to="https://discord.gg/wncdz7e8jy"
-              >Discord <LucideMessageCircle class="h-5"
-            /></ExternalLink>
-          </div>
-        </div>
-      </div>
-      <span class="font-[500] italic text-slate-400 text-xs text-center">
-        {{ $t("layout.footer.disclaimer") }}
-      </span>
-      <span class="font-[500] italic text-slate-400 text-xs text-center">
-        {{ $t("layout.footer.disclaimer_2") }}
-      </span>
-    </footer>
+        <span class="font-[500] text-slate-400 text-xs text-center">
+          {{ $t("layout.footer.disclaimer") }}
+        </span>
+        <span class="font-[500] text-slate-400 text-xs text-center">
+          {{ $t("layout.footer.disclaimer_2") }}
+        </span>
+      </footer>
+    </div>
   </div>
 </template>
 
 <style>
 @import url(https://fonts.bunny.net/css?family=inter:100,200,300,400,500,600,700,800,900);
+@import url("https://cdn.jsdelivr.net/npm/@intergrav/fonts@1/serve/geist.min.css");
+@import url("https://cdn.jsdelivr.net/npm/@intergrav/fonts@1/serve/geist-mono.min.css");
 
 @font-face {
   font-family: "Internal";
@@ -125,7 +130,7 @@
 }
 
 :root {
-  font-family: Inter, Helvetica, sans-serif;
+  font-family: Geist, Inter, Helvetica, sans-serif;
   --brand-colour: rgb(0, 0, 0);
   --brand-background: rgb(0, 0, 0);
   --brand-background-old: rgb(0, 86, 234);

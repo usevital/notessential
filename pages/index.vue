@@ -1,19 +1,15 @@
 <template>
-  <div
-    class="flex flex-col gap-2 bg-[color:var(--brand-colour)] p-4 rounded-2xl gap-8"
-  >
-    <ProjectTitleBar>
-      <span
-        class="text-[1.5rem] sm:text-[2rem] md:text-[3rem] lg:text-[4rem] internalFont flex flex-row flex-wrap gap-3"
+  <div class="flex flex-col gap-8">
+    <span
+      class="text-[1.5rem] sm:text-[2rem] md:text-[3rem] lg:text-[4rem] internalFont flex flex-row flex-wrap gap-3"
+    >
+      <span class="font-bold">
+        {{ $t("landing.hero") }}
+        <span class="brand-gradient">{{ minecraftText }}</span
+        >.</span
       >
-        <span class="font-bold">
-          {{ $t("landing.hero") }}
-          <span class="brand-gradient">{{ minecraftText }}</span
-          >.</span
-        >
-      </span>
-      <!-- THE WORD 'MINECRAFT' AND THE 'NOTESSENTIAL' NAME SHOULD NOT BE LOCALISED. -->
-    </ProjectTitleBar>
+    </span>
+    <!-- THE WORD 'MINECRAFT' AND THE 'NOTESSENTIAL' NAME SHOULD NOT BE LOCALISED. -->
 
     <p class="text-2xl">
       {{ $t("landing.reason") }}

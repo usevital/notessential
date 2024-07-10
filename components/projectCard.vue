@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="flex flex-col gap-4 bg-[color:var(--brand-colour)] rounded-2xl max-w-full"
-  >
+  <div class="flex flex-col gap-4 max-w-full">
     <!-- Title -->
     <span
       class="gap-4 flex flex-row items-center text-[color:var(--big-text-colour)] text-4xl sm:text-5xl font-bold"
@@ -21,7 +19,7 @@
       {{ description }}
     </div>
     <!-- Buttons -->
-    <div class="flex mb-5 gap-3">
+    <div class="flex flex-row flex-wrap gap-3">
       <NuxtLink
         v-for="(link, index) in urls"
         :to="link"
