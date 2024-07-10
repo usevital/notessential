@@ -51,7 +51,7 @@ const altMessages = JSON.parse(
   JSON.stringify(useI18n().messages.value[locale].alternatives),
 )
 const texts = altMessages.texts
-console.log(texts)
+//console.log(texts)
 
 const alternatives = {
   Modpacks: {
