@@ -71,11 +71,11 @@
                 $t("layout.footer.interact")
               }}</span>
               <ExternalLink to="https://crowdin.com/project/notessential"
-                >Crowdin <LucideGlobe class="h-5"
-              /></ExternalLink>
+                ><LucideGlobe class="h-5" />Crowdin
+              </ExternalLink>
               <ExternalLink to="https://discord.gg/wncdz7e8jy"
-                >Discord <LucideMessageCircle class="h-5"
-              /></ExternalLink>
+                ><LucideMessageCircle class="h-5" />Discord
+              </ExternalLink>
             </div>
           </div>
         </div>
