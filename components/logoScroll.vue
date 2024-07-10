@@ -69,7 +69,8 @@
 </template>
 
 <style>
-.logotype svg {
+.logotype {
+  width: fit-content;
   height: 1.5rem;
 }
 
