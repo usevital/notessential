@@ -7,7 +7,7 @@
         class="font-[500] italic text-lg flex items-center flex-row gap-4 tracking-wider"
         to="/"
       >
-        <LogoType class="w-min" />
+        <LogoType />
       </NuxtLink>
 
       <NuxtLink
