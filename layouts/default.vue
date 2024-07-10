@@ -37,10 +37,10 @@
             <div
               class="flex flex-col gap-1 font-[500] text-[var(--text-colour)] text-sm"
             >
-              <NuxtLink
+              <ExternalLink
                 class="font-bold text-[var(--brand-blue)]"
                 to="https://github.com/blryface/notessential"
-                >{{ $t("layout.footer.open_source") }}</NuxtLink
+                >{{ $t("layout.footer.open_source") }}</ExternalLink
               >
             </div>
           </div>
