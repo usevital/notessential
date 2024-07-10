@@ -27,7 +27,7 @@
 
     <div class="flex justify-center flex-col gap-8">
       <footer
-        class="flex flex-col gap-0 items-center pb-8 border-t border-t-slate-800 bg-[#212121]"
+        class="flex flex-col gap-0 items-center pb-8 border-t border-t-slate-800 bg-[#0f0f0f]"
       >
         <div
           class="flex flex-col sm:flex-row items-center sm:items-start sm:justify-center py-6 gap-8 mx-[calc(5%+2rem)] sm:mx-0"
@@ -38,7 +38,7 @@
               class="flex flex-col gap-1 font-[500] text-[var(--text-colour)] text-sm"
             >
               <ExternalLink
-                class="font-bold text-[var(--brand-blue)]"
+                class="font-medium text-white hover:underline"
                 to="https://github.com/blryface/notessential"
                 >{{ $t("layout.footer.open_source") }}</ExternalLink
               >
@@ -84,11 +84,6 @@
             class="font-[500] text-slate-400 text-xs text-center mx-[calc(5%+2rem)] sm:mx-0"
           >
             {{ $t("layout.footer.disclaimer") }}
-          </span>
-          <span
-            class="font-[500] text-slate-400 text-xs text-center mx-[calc(5%+2rem)] sm:mx-0"
-          >
-            {{ $t("layout.footer.disclaimer_2") }}
           </span>
         </span>
       </footer>
