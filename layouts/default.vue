@@ -33,9 +33,7 @@
           class="flex flex-col sm:flex-row items-center sm:items-start sm:justify-center py-6 gap-8 mx-[calc(5%+2rem)] sm:mx-0"
         >
           <div class="flex flex-col items-center sm:items-start gap-4 pt-2">
-            <ClientOnly>
-              <ColourableLogo :color="easterEggColour" />
-            </ClientOnly>
+            <ColourableLogo color="var(--brand-blue)" />
             <div
               class="flex flex-col gap-1 font-[500] text-[var(--text-colour)] text-sm"
             >
@@ -168,46 +166,3 @@ body {
   color: var(--text-colour);
 }
 </style>
-
-<script setup>
-const easterEggColour = ref("var(--brand-logo)")
-const easterEggNumber = Math.floor(Math.random() * 8)
-//const easterEggLoaded = ref(false)
-
-switch (easterEggNumber) {
-  case 0: {
-    easterEggColour.value = "var(--brand-red)"
-    break
-  }
-  case 1: {
-    easterEggColour.value = "var(--brand-orange)"
-    break
-  }
-  case 2: {
-    easterEggColour.value = "var(--brand-yellow)"
-    break
-  }
-  case 3: {
-    easterEggColour.value = "var(--brand-green)"
-    break
-  }
-  case 4: {
-    easterEggColour.value = "var(--brand-blue)"
-    break
-  }
-  case 5: {
-    easterEggColour.value = "var(--brand-purple)"
-    break
-  }
-  case 6: {
-    easterEggColour.value = "var(--brand-rose)"
-    break
-  }
-  case 7: {
-    easterEggColour.value = "var(--brand-logo)"
-    break
-  }
-}
-//easterEggLoaded.value = true
-//console.log(easterEggColour.value, easterEggNumber)
-</script>
