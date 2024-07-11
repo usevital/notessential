@@ -1,0 +1,13 @@
+name: Greetings
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: "Hello! We've detected that this is your first issue here! If so, thank you! Please make sure everything in your template is correct!"
+        pr-message: "Hello! We've detected that this is your first PR here! If so, thank you! Please make sure everything in your template is correct and that you've reviewed our contributing guidelines, found here: https://notessential.blurryface.xyz/contributing"
