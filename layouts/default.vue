@@ -1,5 +1,7 @@
 <template>
   <div class="flex flex-col gap-8 sm:gap-16 bg-[color:var(--brand-colour)]">
+    <!-- NAVBAR -->
+
     <nav
       class="sm:px-[calc(5%+2rem)] text-[color:var(--big-text-colour)] select-none font-bold p-8 flex flex-col sm:flex-row items-center text-base justify-between gap-6 max-w-full border-b border-b-slate-800"
     >
@@ -17,11 +19,16 @@
         {{ $t("layout.nav.alternatives") }}
       </NuxtLink>
     </nav>
+
+    <!-- MAIN CONTENT -->
+
     <main
       class="flex justify-center flex-col mx-[5%] sm:mx-[calc(5%+2rem)] max-w-full"
     >
       <slot />
     </main>
+
+    <!-- FOOTER -->
 
     <LogoScroll />
 
@@ -68,13 +75,20 @@
               class="flex flex-col gap-2 font-[500] text-[var(--text-colour)] text-sm"
             >
               <span class="font-bold text-base">{{
-                $t("layout.footer.interact")
+                $t("layout.footer.resources")
               }}</span>
               <InternalLink to="/contributing"
                 ><LucidePenBox class="h-5" />{{
                   $t("layout.footer.contributing")
                 }}
               </InternalLink>
+            </div>
+            <div
+              class="flex flex-col gap-2 font-[500] text-[var(--text-colour)] text-sm"
+            >
+              <span class="font-bold text-base">{{
+                $t("layout.footer.interact")
+              }}</span>
               <ExternalLink to="https://crowdin.com/project/notessential"
                 ><LucideGlobe class="h-5" />Crowdin
               </ExternalLink>
