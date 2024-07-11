@@ -1,0 +1,117 @@
+{
+  "layout": {
+    "nav": {
+      "alternatives": "ALTERNATIVAS"
+    },
+    "footer": {
+      "disclaimer": "ESTE SITE NÃO É RELACIONADO OU AFILIADO AO ESSENTIAL, OU À SPARK UNIVERSE",
+      "disclaimer_2": "NÃO É UM PRODUTO OFICIAL DO MINCRAFT. NÃO FOI APROVADO POR OU É ASSOCIADO COM A MOJANG OU MICROSOFT.",
+      "disclaimer_translation_instructions": "a",
+      "open_source_1": "This page is",
+      "open_source_2": "open source",
+      "about": "About",
+      "credit_creator": "Originally created by",
+      "credit_designed": "Designed by",
+      "interact": "Interact"
+    }
+  },
+  "landing": {
+    "hero": "HÁ MANEIRAS MELHORES DE JOGAR",
+    "reason": "Não seja forçado a usar o Essential. Há diversas alternativas de código aberto para te ajudar.",
+    "buttons": {
+      "alternatives": "ALTERNATIVAS"
+    }
+  },
+  "alternatives": {
+    "hero": "ALTERNATIVAS",
+    "reason": "O Essential tem vários problemas. Esta página fornece alternativas.",
+    "texts": {
+      "modpacks": {
+        "section_name": "Modpacks",
+        "vital": [
+          "Se você quiser tudo bem organizado em forma de um modpack, você pode usar o Vital.",
+          "Ele tem a maioria dos mods nessa lista, incluindo Cosmetica, World Host, e muito mais.",
+          "Também tem um menu organizado de forma semelhante ao Essential usando o FancyMenu."
+        ]
+      },
+      "multiplayer": {
+        "section_name": "Multijogador",
+        "world_host": [
+          "Para um sistema de multijogador com sistema de amigos, você pode usar o World Host. É uma maneira de código aberto de compartilhar seu mundo com as pessoas da sua lista de amigos, e qualquer outra pessoa que você quiser compartilhar.",
+          "Ele tem um sistema de lista de amigos que você pode usar para permitir que seus amigos entrem no seu mundo assim que você o abrir para eles.",
+          "Você simplesmente clica em \"Open Externally\" e seus amigos poderão entrar. Você também pode compartilhar o link que aparece no chat com outras pessoas que você quiser jogar!",
+          "Este mod é recomendado para instalações vanilla ou com poucos mods/mods client-side. Para uma experiência melhor com modpacks, use o e4mc, que está logo abaixo."
+        ],
+        "e4mc": [
+          "Para multijogador, você pode usar o E4MC. É uma maneira grátis e de código aberto para transmitir seu mundo LAN com todos que quiser.",
+          "Você simplesmente clica em \"Abrir para LAN\" e compartilha olink que aparece no chat com as pessoas que você quiser jogar!",
+          "E4MC é recomendado ao invés do World Host para modpacks, já que é um mod simples e que provavelmente não interfere com outros mods. Só tenha certeza que suas listas de mods sejam idênticas para evitar problemas de sincronização!"
+        ]
+      },
+      "cosmetics": {
+        "section_name": "Cosméticos",
+        "cosmetica": [
+          "Para cosméticos, você pode querer usar o Cosmetica. É um serviço grátis e de código aberto de cosméticos, com suporte à capas e cosméticos personalizados.",
+          "Ele até suporta cosméticos do OptiFine, Lunar Client e muito mais!",
+          "\"Cosmetica permite que você personalize seu jogador em um nível totalmente novo com cosméticos que rivalizam os dos clientes PvP populares\" (trecho da página no Modrinth)"
+        ],
+        "ears": [
+          "Ears é outro mod que possibilita customização de skins. Ele usa a sua skin real do Minecraft para configurar como outras pessoas que tenham o Ears instalado irão vê-la.",
+          "Ele está disponível para várias versões (Beta 1.7.3 - Final 1.21), e adiciona orelhas, focinhos, caudas, asas e muito mais."
+        ],
+        "capes": [
+          "Este mod te dá a habilidade de usar e ver capas dos mods OptiFine, LabyMod e MinecraftCapes.",
+          "Você simplesmente instala o mod e pronto! Se você quiser desabilitar capas de certos mods, você pode fazer isso na tela de configuração."
+        ],
+        "customizable_player_models": [
+          "Customizable Player Models é um mod que te permite modificar seu modelo de jogador profundamente.",
+          "Ele tem uma interface onde você pode adicionar, remover, modificar, modelar e texturizar seu próprio modelo de jogador, semelhante à maneira como o Blender funciona.",
+          "Os modelos são armazenados em espaços não-utilizados na sua skin do Minecraft, ou como um Gist no GitHub.",
+          "Envie o arquivo de imagem como sua skin para carregar o modelo."
+        ],
+        "figura": [
+          "Se você estiver tentando subir de patamar, o Figura te deixa modificar seu modelo de jogador ainda mais profundamente!",
+          "O Figura foca menos em manter compatibilidade, o que significa que ele pode adicionar muito mais ao seu modelo, como pets, orelhas e mais! Você também pode usar scripts em Lua para cusomizá-lo ainda mias!",
+          "Bônus: Ele também tem um tipo de anti-cheat incluso para coisas como modelos de jogador invisíveis!"
+        ],
+        "skin_shuffle": [
+          "O trocador de skins do Essential pode ser conveniente se você quiser mudar sua skin sem precisar reiniciar o Minecraft. Esse mod pode ajudar você com isso!",
+          "O Skin Shuffle é um mod que pode mudar, armazenar e customizar sua skin, tudo no jogo, sem necessidade de reiniciá-lo. Elas são armazenadas no que chamam de \"Presets de Skins\" que podem ser criadas através de URLs, arquivos, Nicknames/UUIDs, texturas do jogo e até mesmo sua skin atual!",
+          "Se o servidor tiver o Skin Shuffle instalado, você também pode mudar sua skin e ela será mostrada a todos no servidor, mesmo aqueles sem o mod, sem precisar se reconectar ao servidor!"
+        ],
+        "emotecraft": [
+          "Para emotes, você pode usar o Emotecraft. É um serviço de emotes grátis e de código aberto, com suporte para emotes personalizados.",
+          "Você pode adicionar vários emotes, ou até fazer os seus próprios emotes! O servidor do discord tem vários emotes prontos que você pode baixar. Um porém é que o mod está um pouco desatualizado."
+        ]
+      },
+      "misc": {
+        "section_name": "Diversos",
+        "screencapper": [
+          "O Essential tem uma função de visualização de capturas de tela, este mod implementa um equivalente básico.",
+          "Um mod altamente avançado de melhorias para capturas de tela."
+        ],
+        "screenshot_viewer": [
+          "O Essential tem uma função de visualização de capturas de tela, e você pode ter algo semelhante usando esse mod.",
+          "Screenshot Viewer é um mod que te permite ver as capturas de tela que você tirou durante sua jogatina! (Incluindo aquelas que você tirou sem querer quando tentava apertar o F3)."
+        ],
+        "auth_me": [
+          "Essential has an in-game account switcher feature. You can use this mod to achieve one important aspect of it.",
+          "Auth Me is able to re-authenticate yourself in case your session expires, solving the infamous \"Invalid Session\" error."
+        ],
+        "in_game_account_switcher": [
+          "If you need the other aspect of Essential's account switcher, you can use the aptly-named In-Game Account Switcher mod.",
+          "In-Game Account Switcher has the ability to, well, switch accounts that are logged in, without needing to restart the game!",
+          "They also have various optional security measures to increase security when using your accounts with IAS."
+        ],
+        "craftpresence": [
+          "Essential has a Discord RPC feature that displays the version and server you are playing on. This mod can do that AND let you customize it further.",
+          "This popular RPC mod allows you to broadcast your Minecraft gaming session to Discord and change the lines that show on your Discord bio when you do so."
+        ],
+        "zume": [
+          "Essential has a zoom feature with it. This mod can replace that function, and it supports a LOT of Minecraft versions!",
+          "Not only does it zoom in and out, it also has keybinds for customising the zoom level!"
+        ]
+      }
+    }
+  }
+}

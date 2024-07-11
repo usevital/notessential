@@ -1,0 +1,117 @@
+{
+  "layout": {
+    "nav": {
+      "alternatives": "ALTERNATIVAS"
+    },
+    "footer": {
+      "disclaimer": "ESTE SITIO NO ESTÁ AFILIADO DE FORMA ALGUNA A ESSENTIAL NI A SPARK UNIVERSE",
+      "disclaimer_2": "ESTE NO ES UN PRODUCTO OFICIAL DE MINECRAFT. NO ESTÁ APROBADO NI ASOCIADO CON MOJANG O MICROSOFT.",
+      "disclaimer_translation_instructions": "No traduzcas 'ESSENTIAL', 'SPARK UNIVERSE', 'MOJANG', 'MINECRAFT' o 'MICROSOFT'",
+      "open_source_1": "Esta página es de",
+      "open_source_2": "código abierto",
+      "about": "Sobre nosotros",
+      "credit_creator": "Creado originalmente por",
+      "credit_designed": "Diseñado por",
+      "interact": "Interactúe con nosotros"
+    }
+  },
+  "landing": {
+    "hero": "HAY MEJORES MANERAS DE JUGAR",
+    "reason": "No te veas obligado a utilizar Essential. Hay innumerables alternativas de código abierto para ayudarte.",
+    "buttons": {
+      "alternatives": "ALTERNATIVAS"
+    }
+  },
+  "alternatives": {
+    "hero": "ALTERNATIVAS",
+    "reason": "Essential tiene muchos problemas. Esta página ofrece alternativas.",
+    "texts": {
+      "modpacks": {
+        "section_name": "Modpacks",
+        "vital": [
+          "Si quieres tenerlo todo bien organizado en un modpack, puedes usar Vital.",
+          "Tiene la mayoría de los mods de esta lista, incluyendo Cosmetica, World Host, y más.",
+          "También tiene un menú principal organizado como Essential con FancyMenu."
+        ]
+      },
+      "multiplayer": {
+        "section_name": "Multijugador",
+        "world_host": [
+          "Para multijugador con un sistema de amigos, puedes usar World Host. Es una forma gratuita y de código abierto de transmitir tu mundo a los de tu lista de amigos, y a todos aquellos con los que quieras compartirlo.",
+          "Tiene un sistema de listas de amigos que puedes usar para permitir que tus amigos se unan a tu mundo justo cuando lo abras.",
+          "Solo tienes que pulsar \"Abrir a amigos\" y tus amigos podrán unirse. ¡También puedes compartir el enlace que aparece en el chat con las personas con las que quieras jugar!",
+          "Este mod se recomienda solo para instancias vanilla o ligeramente moduladas. Para obtener mejores experiencias con modpacks, utilice e4mc, que se presenta a continuación."
+        ],
+        "e4mc": [
+          "Para Multijugador, puedes usar E4MC. Es una forma gratuita y de código abierto de retransmitir tu servidor LAN a todas las personas con las que quieras compartirlo.",
+          "¡Solo tienes que pulsar \"Abrir en LAN\" y compartir el enlace que aparece en el chat con las personas con las que quieras jugar!",
+          "se recomienda e4mc en lugar de World Host para modpacks, ya que se trata de un mod muy sencillo que no debería interferir con mods potenciales. ¡Asegúrate de que tus listas de mods son idénticas para evitar la desincronización!"
+        ]
+      },
+      "cosmetics": {
+        "section_name": "Cosméticos",
+        "cosmetica": [
+          "Para los cosméticos, es posible que desee utilizar Cosmetica. Es un servicio de cosméticos gratuito y de código abierto, con capas personalizadas y soporte para cosméticos.",
+          "¡Incluso admite cosméticos de OptiFine, Lunar Client y más!",
+          "\"Cosmetica te permite personalizar tu personaje a un nivel completamente nuevo con cosméticos que rivalizan con los de los clientes de PvP más populares\" (tomado de la página de Modrinth)"
+        ],
+        "ears": [
+          "Ears es otro mod que puede utilizar para la personalización de tu personaje. Utiliza tu skin de Minecraft real para configurar cómo la gente va a ver tu skin, si tienen Ears instalado.",
+          "Está disponible para muchas versiones (1.7.3 beta - 1.20.6), y añade Orejas, Hocicos, Colas, Alas y Más."
+        ],
+        "capes": [
+          "Este mod te permite usar y ver capas de OptiFine, LabyMod y MinecraftCapes.",
+          "Solo tienes que instalar el mod y ¡ya está! Si quieres desactivar las capas de ciertos mods puedes hacerlo en la pantalla de configuración."
+        ],
+        "customizable_player_models": [
+          "Customizable Player Models es un mod que te permite modificar en profundidad el modelo de tu personaje.",
+          "Tiene una interfaz en la que puedes añadir, eliminar, modificar, modelar y texturizar tu propio modelo de jugador, de forma similar a como funciona Blender.",
+          "Los modelos se almacenan en el espacio no utilizado de tu Skin de Minecraft, o como un Gist en GitHub.",
+          "Cargue el archivo de imagen exportado como tu skin para cargar el modelo personalizado."
+        ],
+        "figura": [
+          "¡Si quieres ir un paso más allá, Figura te permite modificar mucho más el modelo de tu personaje!",
+          "Figura se centra menos en mantener la compatibilidad, lo que significa que es capaz de añadir mucho más a tu modelo, ¡como mascotas, orejas y mucho más! ¡También puedes utilizar scripts de Lua para personalizarlo aún más!",
+          "Bonus: ¡también tiene una especie de antitrampas incorporado para cosas como modelos de jugadores invisibles!"
+        ],
+        "skin_shuffle": [
+          "El intercambiador de skins dentro del juego de Essential puede ser conveniente si quieres cambiar tu skin sin tener que relanzar Minecraft. ¡Este mod puede conseguirlo por ti!",
+          "Skin Shuffle es un mod que puede cambiar, almacenar y personalizar tu skin, todo dentro del juego sin necesidad de relanzarlo. ¡Se almacenan en lo que ellos llaman \"Skin Presets\", que pueden crearse a partir de una URL, archivos, nombres de usuario/UUIDs, texturas del juego e incluso tu skin actual!",
+          "Si el servidor tiene instalado Skin Shuffle, también podrás cambiar de skin y se mostrará a todos los jugadores del servidor, incluso a los que no tengan el mod, ¡sin necesidad de desconectarte del servidor!"
+        ],
+        "emotecraft": [
+          "Para Emotes, es posible que desee utilizar Emotecraft. Es un servicio de emotes gratuito y de código abierto, con soporte para emotes personalizados.",
+          "Puedes descargar muchos emotes, ¡o incluso crear los tuyos propios! En el servidor de discord tiene un montón de emotes que puedes descargar. Sin embargo, está un poco anticuado."
+        ]
+      },
+      "misc": {
+        "section_name": "Extras",
+        "screencapper": [
+          "Essential tiene una función de previsualización de capturas de pantalla, este mod implementa por completo un equivalente básico.",
+          "Un mod muy avanzado para mejorar las capturas de pantalla."
+        ],
+        "screenshot_viewer": [
+          "Essential tiene una función de visualización de capturas de pantalla, y puedes conseguir algo similar usando este mod.",
+          "Screenshot Viewer es un mod que te permite ver las capturas de pantalla que has hecho mientras jugabas. (incluyendo las que accidentalmente tomaste cuando intentabas pulsar F3)."
+        ],
+        "auth_me": [
+          "Essential tiene una función de cambio de cuenta en el juego. Puede utilizar este mod para lograr un aspecto importante de la misma.",
+          "Auth Me es capaz de volver a autenticarte en caso de que tu sesión caduque, solucionando el infame error \"Sesión no válida\"."
+        ],
+        "in_game_account_switcher": [
+          "Si necesitas el otro aspecto del intercambiador de cuentas de Essential, puedes usar el mod In-Game Account Switcher.",
+          "¡In-Game Account Switcher permite cambiar entre las cuentas conectadas sin necesidad de reiniciar el juego!",
+          "También disponen de varias medidas de seguridad opcionales para aumentar la seguridad al utilizar sus cuentas con In-Game Account Switcher."
+        ],
+        "craftpresence": [
+          "Essential tiene una función Discord RPC que muestra la versión y el servidor en el que estás jugando. Este mod puede hacer eso Y te permite personalizarlo aún más.",
+          "Este popular mod de RPC para discord te permite retransmitir tu sesión de juego de Minecraft a Discord y cambiar las líneas que aparecen por debajo de tu biografía de Discord cuando lo haces."
+        ],
+        "zume": [
+          "Essential contiene una función de zoom. ¡Este mod puede reemplazar esa función, y es compatible con un MONTÓN de versiones de Minecraft!",
+          "¡No solo permite acercar y alejar el zoom, sino que también dispone de combinaciones de teclas para personalizar el nivel de zoom!"
+        ]
+      }
+    }
+  }
+}

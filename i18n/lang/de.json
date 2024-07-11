@@ -1,0 +1,117 @@
+{
+  "layout": {
+    "nav": {
+      "alternatives": "ALTERNATIVEN"
+    },
+    "footer": {
+      "disclaimer": "DIESE SEITE IST IN KEINER WEISE VON ESSENTIAL ODER SPARK UNIVERSE UNTERSTÜTZT",
+      "disclaimer_2": "KEIN OFFIZIELLES MINECRAFT PRODUKT. NICHT VON MOJANG ODER MICROSOFT GENEHMIGT ODER UNTERSTÜTZT.",
+      "disclaimer_translation_instructions": "Do not translate 'ESSENTIAL', 'SPARK UNIVERSE', 'MOJANG', 'MINECRAFT' or 'MICROSOFT'",
+      "open_source_1": "Diese Seite ist",
+      "open_source_2": "Quelloffen",
+      "about": "Über",
+      "credit_creator": "Ursprünglich erstellt von",
+      "credit_designed": "Entworfen von",
+      "interact": "Mitmachen"
+    }
+  },
+  "landing": {
+    "hero": "ES GIBT BESSERE WEGE ZU SPIELEN",
+    "reason": "Zwing dich nicht dazu Essential zu verwenden. Es gibt unzählige Quelloffene Alternativen welche dir helfen.",
+    "buttons": {
+      "alternatives": "ALTERNATIVEN"
+    }
+  },
+  "alternatives": {
+    "hero": "ALTERNATIVEN",
+    "reason": "Essential hat viele Probleme. Diese Seite bietet Alternativen.",
+    "texts": {
+      "modpacks": {
+        "section_name": "Modpakete",
+        "vital": [
+          "Solltest du alles in einem einzigen Modpaket haben wollen, kannst du Vital verwenden.",
+          "Es hat den grossteil der Mods auf dieser Liste, inklusive Cosmetica, World Host und weitere.",
+          "Durch FancyMenu hat es auch ein organisiertes Hauptmenü wie Essential."
+        ]
+      },
+      "multiplayer": {
+        "section_name": "Mehrspieler",
+        "world_host": [
+          "Für Mehrspieler mit einem Freundesystem kannst du World Host verwenden. Es ist eine gratis, quelloffene Möglichkeit, deine Spielewelt mit Spielern auf deiner Freundesliste, und jenen mit welchen du es teieln willst zu teilen.",
+          "Es hat ein Freundeslisten System welches du verwenden kannst, um deine Freunde in deine Welt einzuladen, sobald du diese freigibst.",
+          "Du klickst einfach \"Open to Friends\" und deine Freunde werden in der Lage sein, beizutreten. Du kannst auch den Link, welcher im Chat erscheint mit anderen Teilen, um diese einzuladen!",
+          "Dieser Mod ist hauptsächlich für Vanilla oder leicht/Client-seitig gemoddete Instanzen empfohlen. Für eine bessere Erfahrung mit Modpaketen, verwende e4mc, welches unten aufgelistet ist."
+        ],
+        "e4mc": [
+          "Für Mehrspieler kannst du E4MC verwenden. Es ist eine kostenlose, quelloffene möglichkeit, deinen LAN-Server mit jedem zu teilen, den du willst.",
+          "Du klickst einfach \"Im LAN öffnen\" und teilst den im Chat angezeigten Link mit den Leuten, mit welchen du Spielen willst!",
+          "e4mc wird über World Host für Modpakete empfohlen, da es eine recht simple Mod ist, was bedeutet, das es eher weniger mit anderen Mods in konflikt geraten sollte. Stelle einfach sicher, das eure Modpakete gleich sind um Desyncs zu verhindern!"
+        ]
+      },
+      "cosmetics": {
+        "section_name": "Kosmetika",
+        "cosmetica": [
+          "Für Kosmetika solltest du Cosmetic verwenden. Es ist ein kostenloser und quelloffener Kosmetikdienst, mit benutzerdefinierten Umhängen und Kosmetik-Unterstützung.",
+          "Es kann sogar Kosmetika von OptiFine, Lunar Client und weiteren unterstützen!",
+          "\"Cosmetica erlaubt es dir, deinen Spieler auf eine ganz neue Art mit Kosmetika anzupassen, welche bekannten PvP-Clients entgegenstehen.\" (Übersetzt aus dem Englischen Text von der Modrinth Seite)"
+        ],
+        "ears": [
+          "Ears ist eine andere Mod, welche für Skin-modifikationen verwendet werden kann. Es verwendet deinen eigentlichen Minecraft Skin, um festzulegen, wie andere Spieler deinen Skin sehen, sollten sie auch Ears installiert haben.",
+          "Es ist für verschiedenste Versionen verfügbar (Beta 1.7.3 - Vollversion 1.20.6) und fügt Ohren, Schnauzen, Tierschwänze, Flügel und mehr hinzu."
+        ],
+        "capes": [
+          "Diese Mod gibt dir die möglichkeit, Umhänge von OptiFine, LabyMod und dem MinecraftCapes Mod zu sehen.",
+          "Du installierst einfach den Mod und das war's! Wenn du Umhänge von bestimmten Mods deaktivieren willst, kannst du dies in den Einstellungen tun."
+        ],
+        "customizable_player_models": [
+          "Customizable Player Models ist eine Mod, welche es dir erlaubt, dein Spielermodell bis in kleinste details zu bearbeiten.",
+          "Es hat ein Interface, wo du Modelle hinzufügen, entfernen und bearbeiten kannst, und dein eigenes Spielermodel texturieren kannst, ähnlich wie in Blender.",
+          "Die Modelle werden in den unbenutzten Bereichen deiner Minecraft Skin Datei, oder als Gist auf GitHub gespeichert.",
+          "Lade dein exportiertes Bild als dein Skin hoch, um das benutzerdefinierte Modell zu laden."
+        ],
+        "figura": [
+          "Wenn du auch der suche bist, dein Spielermodell einen schritt weiter zu bringen, kann Figura dir eine möglichkeit bieten, dein Spielermodell noch weiter zu bearbeiten!",
+          "Figura fokusiert sich weniger auf die Aufrechterhaltung von Kompatibilität mit älteren Versionen, was bedeutet, dass es in der Lage ist, deinem Modell viel mehr hinzuzufügen, wie z.B. Tiere, Ohren und vieles mehr! Du kannst auch Lua Skripte verwenden um weitere änderungen zu ermöglichen!",
+          "Bonus: Es hat auch eine Art von integriertem Anti-Cheat für dinge wie unsichtbare Spielermodelle!"
+        ],
+        "skin_shuffle": [
+          "Essential's Skinwechsler im Spiel kann bequem sein, wenn du deinen Skin ändern möchtest, ohne Minecraft neustarten zu müssen. Diese Mod kann dies für dich tun!",
+          "Skin Shuffle ist eine Mod, welche deinen Skin ändern, speichern und bearbeiten kann, und das alles im Spiel, ohne das ein neustart erforderlich ist. Diese werden als sogenannte \"Skin Presets\" gespeichert, welche von URLs, Dateien, Benutzernamen/UUIDs, Texturen im Spiel und sogar deinem aktuellen Skin erstellt werden!",
+          "Sollte der Server Skin Shuffle installiert haben, kannst du deinen Skin ändern und es wird allen Spielern auf dem Server gezeigt, sogar denen, welche die Mod nicht installiert haben, und das alles ohne einen Disconnect vom Server!"
+        ],
+        "emotecraft": [
+          "Für Emotes solltest du Emotecraft verwenden. Es ist ein kostenloses, quelloffenes Emote Dienst, mit support für benutzerdefinierte Emotes.",
+          "Du kannst viele Emotes herunterladen, oder einfach deine eigenen erstellen! Der Discord Server hat eine menge Emotes welche du runterladen kannst. Es ist jedoch ein wenig veraltet."
+        ]
+      },
+      "misc": {
+        "section_name": "Verschiedenes",
+        "screencapper": [
+          "Essential hat eine Screenshot-Vorschau Funktion, diese Mod implementiert so ziemlich ein Äquivalent.",
+          "Eine hochentwickelte Screenshot-Verbesserungs-Mod."
+        ],
+        "screenshot_viewer": [
+          "Essential hat eine Screenshot-Viewer Funktion, und du kannst etwas ähnliches in diese Mod erhalten.",
+          "Screenshot Viewer ist eine Mod, welche es dir erlaubt, die Screenshots, welche du gemacht hast, anzusehen, während du Spielst! (Inklusive derer, welche du ausversehen geschossen hast, als du F3 drücken wolltest)."
+        ],
+        "auth_me": [
+          "Essential hat ein integriertes Konto-Switcher System. Du kannst diese Mod verwenden, um einen wichtigen Aspekt davon zu verwenden.",
+          "Auth Me ist in der lage, dich zu Re-Authentifizieren, sollte deine Sitzung ablaufen, welches den berüchtigten \"Ungültige Sitzung\" Fehler behebt."
+        ],
+        "in_game_account_switcher": [
+          "Solltest du die anderen Aspekte von Essential's Konto-Switcher benötigen, kannst du die passend benannte In-Game Account Switcher Mod verwenden.",
+          "In-Game Account Switcher hat die möglichkeit deine Konten, mit welchen du angemeldet bist, zu wechseln, ohne das Spiel neu starten zu müssen!",
+          "Es hat auch viele optionale Sicherheitsmaßnahmen, um die sicherheit zu erhöhen, wenn du IAS verwnedest."
+        ],
+        "craftpresence": [
+          "Essential hat eine Discord RPC-Funktion, welches die Version und den Server auf dem du Spielst anzeigt. Diese Mod kann dies UND lässt es dich noch weiter bearbeiten.",
+          "Diese populäre RPC-Mod erlaubt es dir, deine Minecraft Spielsitzung auf Discord anzuzeigen und lässt dich die Zeilen, welche auf deiner Discord-Bio angezeigt werden verändern."
+        ],
+        "zume": [
+          "Essential hat eine Zoom-Funktion. Diese Mod kann diese Funktion ersetzen und ünterstützt eine weitaus grössere Menge an Minecraft Versionen!",
+          "Nicht nur zoomt es rein und raus, es hat auch Tastenkombinationen zum anpassen der Zoomlevel!"
+        ]
+      }
+    }
+  }
+}

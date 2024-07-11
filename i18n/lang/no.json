@@ -1,0 +1,117 @@
+{
+  "layout": {
+    "nav": {
+      "alternatives": "ALTERNATIVER"
+    },
+    "footer": {
+      "disclaimer": "DENNE NETTSIDEN ER PÅ INGEN MÅTE TILKNYTTET ESSENTIAL ELLER SPARK UNIVERSE",
+      "disclaimer_2": "IKKE ET OFFISIELT MINECRAFT-PRODUKT. IKKE GODKJENT AV ELLER ASSOSIERT MED MOJANG ELLER MICROSOFT.",
+      "disclaimer_translation_instructions": "Ikke oversett 'ESSENTIAL', 'SPARK UNIVERSE', 'MOJANG', 'MINECRAFT' eller 'MICROSOFT'",
+      "open_source_1": "Denne nettsiden har",
+      "open_source_2": "åpen kildekode",
+      "about": "Om",
+      "credit_creator": "Opprinnelig laget av",
+      "credit_designed": "Designet av",
+      "interact": "Samhandle"
+    }
+  },
+  "landing": {
+    "hero": "DET FINNES BEDRE MÅTER Å SPILLE PÅ",
+    "reason": "Ikke bli tvunget til å bruke Essential. Det er utallige åpen kildekode alternativer for å hjelpe deg.",
+    "buttons": {
+      "alternatives": "ALTERNATIVER"
+    }
+  },
+  "alternatives": {
+    "hero": "ALTERNATIVER",
+    "reason": "Essential har mange problemer. Denne siden gir alternativer.",
+    "texts": {
+      "modpacks": {
+        "section_name": "Moddpakker",
+        "vital": [
+          "Hvis du ønsker å ha alt pent organisert inn i én moddpakke, kan du bruke Vital.",
+          "Den har de fleste moddene på denne listen, blant annet Cosmetica, World Host, med mer.",
+          "Den har også en organisert hovedmeny som Essential med FancyMenu."
+        ]
+      },
+      "multiplayer": {
+        "section_name": "Flerspiller",
+        "world_host": [
+          "For flerspiller med et venne-system, kan du bruke World Host. Det er en gratis, har åpen kilde kode, og er en måte å vise verdenen din med alle på vennelisten din, samt alle andre du vil dele den med.",
+          "Den har et venneliste system du kan bruke til å la vennene dine bli med akkurat som du åpner det for dem.",
+          "Du trykker ganske enkelt bare på \"Open to Friends\" og vennene dine kan bli med. Du kan også dele linken som vises i chatten med de du vil spille med!",
+          "Denne modden anbefales generelt bare for de enkleste/letteste moddpakkene. For bedre erfaring anbefales det å bruke e4mc, som er omtalt nedenfor."
+        ],
+        "e4mc": [
+          "For flerspiller, kan du bruke E4MC. Det er en gratis måte basert på åpen kildekode, for å sende LAN-serveren din til alle du vil dele den med.",
+          "Du trykker ganske enkelt bare på \"Åpne til LAN\", og deler linken som kommer i chatten med de du vil spille med!",
+          "e4mc er anbefalt over World Host for moddpakker, ettersom dette er en veldig enkel mod, som betyr at det ikke bør forstyrre potensielle andre modder. Bare sørg for at modlistene deres er identiske for å unngå missynkronisering!"
+        ]
+      },
+      "cosmetics": {
+        "section_name": "Kosmetikk",
+        "cosmetica": [
+          "For kosmetikk kan du velge å bruke Cosmetica. Det er en gratis kosmetikk-tjeneste med åpen kildekode, med støtte for tilpassing av kapper og annen kosmetikk.",
+          "Den kan til og med støtte kosmetikk fra OptiFine, Lunar og andre!",
+          "\"Cosmetica lar deg tilpasse spilleren din på et helt nytt nivå, med kosmetikk som konkurrerer med populære PvP-klienter\" (hentet fra Modrinth siden)"
+        ],
+        "ears": [
+          "Ears er en annen mod du kan bruke for tilpasning av spilleren din. Det bruker den aktuelle Minecraft spillermodellen din for å sette opp hvordan folk ser spilleren din, hvis de har Ears installert.",
+          "Den er tilgjengelig for mange versjoner (Beta 1.7.3 - Version 1.20.6), og legger til ører, snuter, haler, vinger, med mer."
+        ],
+        "capes": [
+          "Denne modden gir deg muligheten til å bruke og se kapper fra OptiFine, LabyMod og MinecraftCapes modden.",
+          "Du installerer bare modden og det er det! Hvis du ønsker å deaktivere kapper fra visse modder kan du gjøre det på konfigurasjonsskjermen."
+        ],
+        "customizable_player_models": [
+          "Customizable Player Models er en mod som lar deg endre spillermodellen din mye.",
+          "Den har et grensesnitt der du kan legge til, fjerne, endre, modellere, og teksturere din egen spillermodell, lignende slik som Blender fungerer.",
+          "Modellene lagres i ubrukt plass på Minecraft spillermodellen, eller som en GitHub Gist.",
+          "Last opp den eksporterte bildefilen som spillermodellen din for å laste opp den egendefinerte modellen."
+        ],
+        "figura": [
+          "Hvis du ønsker å trappe opp enda ett hakk, lar Figura deg endre spillermodellen din enda mer!",
+          "Figura fokuserer mindre på å opprettholde kompatibilitet, noe som betyr at den kan legge mye mer til i modellen din, for eksempel kjæledyr, ører, og mer! Du kan også bruke Lua skript til å tilpasse enda ytterligere!",
+          "Bonus: Den har også en innebygd anti-juks for problemer som for eksempel usynlige spillmodeller!"
+        ],
+        "skin_shuffle": [
+          "Essential sin spillermodell-endrer i spillet kan være praktisk dersom du vil endre spillermodellen uten å måtte restarte Minecraft. Denne modden kan oppnå dette for deg!",
+          "Skin Shuffle er en mod som kan endre, lagre og tilpasse spillerskallet, uten å kreve restart av Minecraft. De er lagret i det de kaller \"Spillermodell Forhåndsinnstillinger\", som kan opprettes av nettadresser, filer, brukernavn/UUIDer, spillteksturer, og til og med ditt nåværende spillermodell!",
+          "Dersom serveren har Skin Shuffle installert, kan du også endre spillermodellen og den vil bli vist til alle på serveren, også de uten modden, helt uten at du trenger å koble fra serveren!"
+        ],
+        "emotecraft": [
+          "For følelser kan du bruke Emotecraft. Det er en gratis følelse-tjeneste, med åpen kildekode og støtte for egendefinerte følelser.",
+          "Du kan laste ned mange følelser, eller til og med lage dine egne! Discord serveren deres har mange følelser du kan laste ned. Den er litt utdatert."
+        ]
+      },
+      "misc": {
+        "section_name": "Diverse",
+        "screencapper": [
+          "Essential har en forhåndsvisningsfunksjon for skjermdumper, denne modden implementerer en enkel erstating.",
+          "En svært avansert skjermdumpforbedringsmod."
+        ],
+        "screenshot_viewer": [
+          "Essential har en skjermdump-viser funksjon, og du kan få noe lignende med denne modden.",
+          "Screenshot Viewer er en mod som lar deg se skjermdumper som du har tatt mens du spiller! (inkludert de uhellene når du prøvde å trykke F3)."
+        ],
+        "auth_me": [
+          "Essential har en funksjon for å bytte Minecraft kontoer. Du kan bruke denne modden for å oppnå ett viktig aspekt av den.",
+          "Auth Me kan gjenautentisere deg selv i tilfelle økten din utløper og løse den kjente \"Ugyldig økt\" feilen."
+        ],
+        "in_game_account_switcher": [
+          "Hvis du trenger det andre aspektet av Essentials kontoswitcher, kan du bruke In-Game Account Switcher modden.",
+          "In-Game Account Switcher har muligheten til å bytte kontoer som er innlogget, uten å måtte starte spillet på nytt!",
+          "De har også ulike valgfrie sikkerhetstiltak for å øke sikkerheten ved bruk av kontoene ditt med IAS."
+        ],
+        "craftpresence": [
+          "Essensielt har en Discord RPC funksjon som viser den versjonen og serveren du spiller på. Denne modden kan gjøre det og lar deg i tillegg tilpasse det videre.",
+          "Denne populære RPC moden lar deg sende din Minecraft-spilløkt til Discord og endre linjene som viser på din Discord bio når du gjør det."
+        ],
+        "zume": [
+          "Essential inkluderer en zoom-funksjon. Denne modden kan erstatte den funksjonen, og den støtter de fleste Minecraft-versjonene!",
+          "Ikke bare kan den zoome inn og ut, men den har også taster for å tilpasse zoom-nivået!"
+        ]
+      }
+    }
+  }
+}
