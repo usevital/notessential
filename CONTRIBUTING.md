@@ -14,10 +14,10 @@ If your language is not listed, join our Discord server and request your languag
 
 General guidelines for translations:
 
-* Unless they have an official name in your language, do NOT translate a mod's name into that language.
-* Similarly, do NOT translate 'Essential'(the mod), 'Spark Universe', 'Mojang', or 'Microsoft' if there isn't an official name in that language.
-* If there is an issue, please make a comment on the side panel and tick the `Issues` box. Then, select the related flag.
-* When an area is in ALL CAPS, also write in ALL CAPS if you can with your language.
+- Unless they have an official name in your language, do NOT translate a mod's name into that language.
+- Similarly, do NOT translate 'Essential'(the mod), 'Spark Universe', 'Mojang', or 'Microsoft' if there isn't an official name in that language.
+- If there is an issue, please make a comment on the side panel and tick the `Issues` box. Then, select the related flag.
+- When an area is in ALL CAPS, also write in ALL CAPS if you can with your language.
 
 If you have any more questions, please join our Discord and ask there.
 
@@ -28,10 +28,10 @@ Then, checkout your branch locally and start coding.
 
 General guidelines for developing:
 
-* Make sure you look at the Pull Requests page to see if your idea has already been listed. If so, we recommend opening pull requests to the head branch/repository (the head branch is the branch merging to the repository).
-* Make your commit names helpful so we can understand what you have changed.
-* Install Prettier. You can run `pnpm add prettier` or install Prettier as a VS Code extension (this should have been recommended to you automatically!). If you use the extension, ensure `Format on Save` is set in VS Code settings.
-* Make sure you use one of our pull request templates when making a pull request.
+- Make sure you look at the Pull Requests page to see if your idea has already been listed. If so, we recommend opening pull requests to the head branch/repository (the head branch is the branch merging to the repository).
+- Make your commit names helpful so we can understand what you have changed.
+- Install Prettier. You can run `pnpm add prettier` or install Prettier as a VS Code extension (this should have been recommended to you automatically!). If you use the extension, ensure `Format on Save` is set in VS Code settings.
+- Make sure you use one of our pull request templates when making a pull request.
 
 If you need help or have identified an issue that you cannot solve by yourself, open an issue in the Issues tab.
 
