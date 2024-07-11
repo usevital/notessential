@@ -1,7 +1,7 @@
 <template>
-  <PageHero
-    :title="$t('alternatives.hero')"
-    :sub-title="$t('alternatives.reason')"
+  <ReactiveHero
+    :hero="$t('alternatives.hero')"
+    :subtext="$t('alternatives.reason')"
   />
 
   <!-- Need to add a project? It's now data driven (and localised!). Go to the English lang file (~/i18n/lang/en-US.json) -->

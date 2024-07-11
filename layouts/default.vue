@@ -70,6 +70,11 @@
               <span class="font-bold text-base">{{
                 $t("layout.footer.interact")
               }}</span>
+              <InternalLink to="/contributing"
+                ><LucidePenBox class="h-5" />{{
+                  $t("layout.footer.contributing")
+                }}
+              </InternalLink>
               <ExternalLink to="https://crowdin.com/project/notessential"
                 ><LucideGlobe class="h-5" />Crowdin
               </ExternalLink>
