@@ -1,10 +1,5 @@
----
-name: Other stuff that won't affect what people see
-about: Select this if you are modifying something that won't affect what other people see on the site.
-title: "chore: [short description of changes go here]"
-labels: documentation
-assignees: KTrain5169
----
+# Chore/documentation template
+<!-- if you didn't change anything about the website, use this template. DO NOT DELETE THE ABOVE LINE-->
 
 ## What have you changed?
 
