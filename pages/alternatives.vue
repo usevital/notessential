@@ -1,12 +1,8 @@
 <template>
-  <span class="text-[4rem] flex flex-col flex-wrap">
-    <span
-      class="text-[1.5rem] text-pretty sm:text-[2rem] md:text-[3rem] lg:text-[4rem] internalFont"
-    >
-      {{ $t("alternatives.hero") }}
-    </span>
-    <span class="text-lg">{{ $t("alternatives.reason") }}</span>
-  </span>
+  <ReactiveHero
+    :hero="$t('alternatives.hero')"
+    :subtext="$t('alternatives.reason')"
+  />
 
   <!-- Need to add a project? It's now data driven (and localised!). Go to the English lang file (~/i18n/lang/en-US.json) -->
 
