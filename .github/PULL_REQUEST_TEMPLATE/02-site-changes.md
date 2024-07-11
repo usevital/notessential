@@ -1,4 +1,5 @@
 # Site changes template
+
 <!-- Use this template if changing the site. DO NOT DELETE ABOVE-->
 
 ## Are there major changes (ex: signficantly revamping the website visuals) that we NEED to know about?
