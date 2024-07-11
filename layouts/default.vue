@@ -1,5 +1,7 @@
 <template>
-  <div class="flex flex-col gap-8 sm:gap-16 bg-[color:var(--brand-colour)]">
+  <div
+    class="flex flex-col gap-8 sm:gap-16 bg-[color:var(--brand-colour)] h-dvh"
+  >
     <!-- NAVBAR -->
 
     <nav
@@ -23,7 +25,7 @@
     <!-- MAIN CONTENT -->
 
     <main
-      class="flex justify-center flex-col mx-[5%] sm:mx-[calc(5%+2rem)] max-w-full"
+      class="flex flex-auto justify-center flex-col mx-[5%] sm:mx-[calc(5%+2rem)] max-w-full"
     >
       <slot />
     </main>

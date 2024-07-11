@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full inline-flex flex-nowrap overflow-hidden">
+  <div class="w-full inline-flex flex-nowrap overflow-x-clip">
     <div
       class="flex items-center justify-center md:justify-start animate-infinite-scroll"
     >
