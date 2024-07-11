@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-col gap-8">
-    <ReactiveHero
-      :hero="$t('contributing.hero')"
-      :subtext="$t('contributing.subhero')"
+    <PageHero
+      :title="$t('contributing.hero')"
+      :sub-title="$t('contributing.subhero')"
     />
     <span class="text-4xl">{{ $t("contributing.welcome") }}</span>
     <ContributingSection
