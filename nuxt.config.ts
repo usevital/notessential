@@ -29,6 +29,14 @@ export default defineNuxtConfig({
         name: "English (US)",
       },
       {
+        code: "en-LOL",
+        name: "LOLCAT (Kingdom of Cats)",
+      },
+      {
+        code: "en-UD",
+        name: "English (Upside-down)",
+      },
+      {
         code: "ru",
         name: "русский (Russia)",
       },
