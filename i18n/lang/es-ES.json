@@ -4,15 +4,14 @@
       "alternatives": "ALTERNATIVAS"
     },
     "footer": {
-      "disclaimer": "ESTE SITIO NO ESTÁ AFILIADO DE FORMA ALGUNA A ESSENTIAL NI A SPARK UNIVERSE",
-      "disclaimer_2": "ESTE NO ES UN PRODUCTO OFICIAL DE MINECRAFT. NO ESTÁ APROBADO NI ASOCIADO CON MOJANG O MICROSOFT.",
-      "disclaimer_translation_instructions": "No traduzcas 'ESSENTIAL', 'SPARK UNIVERSE', 'MOJANG', 'MINECRAFT' o 'MICROSOFT'",
-      "open_source_1": "Esta página es de",
-      "open_source_2": "código abierto",
+      "disclaimer": "NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG, MICROSOFT OR SPARK UNIVERSE.",
+      "open_source": "This page is open source.",
       "about": "Sobre nosotros",
       "credit_creator": "Creado originalmente por",
       "credit_designed": "Diseñado por",
-      "interact": "Interactúe con nosotros"
+      "interact": "Interactúe con nosotros",
+      "resources": "Resources",
+      "contributing": "Contributing"
     }
   },
   "landing": {
@@ -20,6 +19,43 @@
     "reason": "No te veas obligado a utilizar Essential. Hay innumerables alternativas de código abierto para ayudarte.",
     "buttons": {
       "alternatives": "ALTERNATIVAS"
+    }
+  },
+  "contributing": {
+    "hero": "CONTRIBUTING",
+    "subhero": "To the NotEssential website",
+    "welcome": "Want to contribute to NotEssential? Here are some guidelines.",
+    "end": "If you have any more questions, please join our Discord and ask there.",
+    "titles": {
+      "translating": "Translating",
+      "coding": "Developing",
+      "alternatives": "Submitting Alternatives"
+    },
+    "subtitles": {
+      "translating": "To help translate NotEssential, please visit our Crowdin page. If your language is not listed, join our Discord server and request your language to be added in the #ne-general chat.",
+      "coding": "To assist in developing NotEssential, fork this repository and create a new branch to start off with. Then, checkout your branch locally and start coding.",
+      "alternatives": "Similar to above, fork this repository and create a new branch based off `main`. Then, checkout your branch locally and start coding."
+    },
+    "guidelines": {
+      "translating": [
+        "Unless they have an official name in your language, do NOT translate a mod's name into that language.",
+        "Similarly, do NOT translate 'Essential' (the mod), 'Spark Universe', 'Mojang', or 'Microsoft' if there isn't an official name in that language.",
+        "If there is an issue, please make a comment on the side panel and tick the 'Issues' box. Then, select the related flag.",
+        "When an area is in ALL CAPS, also write in ALL CAPS if you can with your language."
+      ],
+      "coding": [
+        "Make sure you look at the Pull Requests page to see if your idea has already been listed. If so, we recommend opening pull requests to the head branch/repository (the head branch is the branch merging to the repository).",
+        "Make your commit names helpful so we can understand what you have changed.",
+        "Install Prettier. You can run 'pnpm add prettier' or install Prettier as a VS Code extension (this should have been recommended to you automatically!). If you use the extension, ensure 'Format on Save' is set in VS Code settings.",
+        "Make sure you use one of our pull request templates when making a pull request."
+      ],
+      "alternatives": [
+        "Make sure your project replaces a feature of Essential.",
+        "Please detail why your project should be added to the page.",
+        "Also submit a short description of your project, though this is optional.",
+        "This should be obvious, but please don't submit a Trojan or other form of malware.",
+        "Please don't just use this site as 'free advertising' for your project."
+      ]
     }
   },
   "alternatives": {

@@ -4,15 +4,14 @@
       "alternatives": "ALTERNATIVER"
     },
     "footer": {
-      "disclaimer": "DENNE NETTSIDEN ER PÅ INGEN MÅTE TILKNYTTET ESSENTIAL ELLER SPARK UNIVERSE",
-      "disclaimer_2": "IKKE ET OFFISIELT MINECRAFT-PRODUKT. IKKE GODKJENT AV ELLER ASSOSIERT MED MOJANG ELLER MICROSOFT.",
-      "disclaimer_translation_instructions": "Ikke oversett 'ESSENTIAL', 'SPARK UNIVERSE', 'MOJANG', 'MINECRAFT' eller 'MICROSOFT'",
-      "open_source_1": "Denne nettsiden har",
-      "open_source_2": "åpen kildekode",
+      "disclaimer": "IKKE ET OFFISIELT MINECRAFT-PRODUKT. IKKE GODKJENT AV ELLER ASSOSIERT MED MOJANG, MICROSOFT ELLER SPARK UNIVERSE.",
+      "open_source": "Denne siden har åpen kildekode.",
       "about": "Om",
       "credit_creator": "Opprinnelig laget av",
       "credit_designed": "Designet av",
-      "interact": "Samhandle"
+      "interact": "Samhandle",
+      "resources": "Resources",
+      "contributing": "Bidra"
     }
   },
   "landing": {
@@ -20,6 +19,43 @@
     "reason": "Ikke bli tvunget til å bruke Essential. Det er utallige åpen kildekode alternativer for å hjelpe deg.",
     "buttons": {
       "alternatives": "ALTERNATIVER"
+    }
+  },
+  "contributing": {
+    "hero": "BIDRA",
+    "subhero": "Til NotEssential nettsiden",
+    "welcome": "Vil du bidra til NotEssential? Her er noen retningslinjer.",
+    "end": "Hvis du har flere spørsmål, vennligst bli med i vår Discord og spør der.",
+    "titles": {
+      "translating": "Oversetting",
+      "coding": "Utvikling",
+      "alternatives": "Sende inn alternativer"
+    },
+    "subtitles": {
+      "translating": "For å oversette NotEssential, vennligst besøk vår Crowdin-side. Hvis språket ditt ikke vises på listen, bli med i vår Discord server og be om at språket ditt blir lagt til i #ne-general chatten.",
+      "coding": "For å hjelpe til med utviklingen av NotEssential, fork dette repoet og opprett en ny gren for å jobbe på. Velg deretter grenen din lokalt og start kodingen.",
+      "alternatives": "Som med ovenfor, fork dette repoet og opprett en ny gren av `main`. Deretter, velg grenen lokalt og start koding."
+    },
+    "guidelines": {
+      "translating": [
+        "Med mindre de har et offisielt navn på språket ditt, skal du IKKE oversette modder sine navn til det språket.",
+        "På samme måte skal du IKKE oversette 'Essential' (modden), 'Spark Universe', 'Mojang' eller 'Microsoft' hvis det ikke er noe offisielt navn på språket.",
+        "Hvis det er et problem, vennligst legg til en kommentar i sidepanelet og kryss av i boksen \"Problemer\" sammen med den relaterte kategorien.",
+        "Når et område er i FULL CAPS, skriver du også i FULL CAPS dersom du kan gjøre det med språket ditt."
+      ],
+      "coding": [
+        "Pass på at du ser på pull requests siden for å se om ideen din allerede er oppført. I så fall anbefaler vi å åpne pull request til dens gren/repo (dens gren brukes for fletting til hoved repoet).",
+        "Velg commit navnene dine med omhu, slik at vi kan forstå hva du har endret.",
+        "Installer Prettier. Du kan kjøre 'pnpm add prettier' eller installere Prettier som en VS Code utvidelse (dette skal ha blitt anbefalt for deg automatisk!). Hvis du bruker utvidelsen, sørg for at 'Format på Save' er slått på i VS Code sine instillinger.",
+        "Sørg for at du bruker en av våre pull request maler når du foretar en pull request."
+      ],
+      "alternatives": [
+        "Sørg for at prosjektet ditt erstatter en funksjon av Essential.",
+        "Vennligst detaljer om hvorfor prosjektet skal legges til på nettsiden.",
+        "Legg også inn en kort beskrivelse av prosjektet ditt, selv om dette er valgfritt.",
+        "Dette burde være åpenbart, men vennligst ikke send inn en trojan eller en annen form for ødeleggende programvare.",
+        "Ikke bare bruk denne nettsiden som 'gratis reklame' for prosjektet ditt."
+      ]
     }
   },
   "alternatives": {
