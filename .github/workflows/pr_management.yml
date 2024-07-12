@@ -8,19 +8,20 @@ jobs:
   add_labels_reviewers_assignees:
     name: Add labels, then reviewers & assignees
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Label PR based on content
-        uses: actions/github-script@v6
         id: label-pr
+        uses: actions/github-script@v7
         with:
           script: |
             const labels = {
-              'Alternative addition template': 'add mod',
-              'Site changes template': 'enhancement',
-              'Chore/documentation template': 'documentation'
+              'alternative addition template': 'add mod',
+              'site changes template': 'enhancement',
+              'chore/documentation template': 'documentation'
             };
 
             const body = context.payload.pull_request.body.toLowerCase();
@@ -38,11 +39,11 @@ jobs:
               });
             }
 
-            return foundLabels;
+            return { labels: foundLabels };
 
       - name: Set Reviewers and Assignees
-        if: steps.label-pr.outputs.result
-        uses: actions/github-script@v6
+        if: steps.label-pr.outputs.labels != '[]'
+        uses: actions/github-script@v7
         with:
           script: |
             const labelToReviewers = {
@@ -51,7 +52,7 @@ jobs:
               'documentation': ['blryface', 'KTrain5169', 'WorldWidePixel']
             };
 
-            const labels = ${{ steps.label-pr.outputs.result }};
+            const labels = JSON.parse('${{ steps.label-pr.outputs.labels }}').labels;
             const reviewers = new Set();
 
             labels.forEach(label => {
@@ -73,6 +74,7 @@ jobs:
               issue_number: context.payload.pull_request.number,
               assignees: [context.payload.pull_request.user.login]
             });
+
       - name: Comment on PRs
         uses: dannyskoog/pull-request-comment@v1
         with:
