@@ -113,7 +113,7 @@
 </template>
 
 <style>
-@import url(https://fonts.bunny.net/css?family=inter:100,200,300,400,500,600,700,800,900);
+@import url("https://cdn.jsdelivr.net/npm/@intergrav/fonts@1/serve/inter.min.css");
 @import url("https://cdn.jsdelivr.net/npm/@intergrav/fonts@1/serve/geist.min.css");
 @import url("https://cdn.jsdelivr.net/npm/@intergrav/fonts@1/serve/geist-mono.min.css");
 
@@ -130,11 +130,11 @@
 }
 
 .internalFont {
-  font-family: Internal;
+  font-family: Internal, InternalBold, Geist, Inter;
 }
 
 .internalBold {
-  font-family: InternalBold;
+  font-family: InternalBold, Internal, Geist, Inter;
 }
 
 :root {
