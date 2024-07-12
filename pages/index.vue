@@ -24,8 +24,7 @@
 </template>
 
 <script setup lang="ts">
-import ProjectTitleBar from "../components/projectTitleBar.vue"
-import BigButton from "../components/bigButton.vue"
+import BigButton from "../components/BigButton.vue"
 
 const minecraftText = ref("MINECRAFT")
 
