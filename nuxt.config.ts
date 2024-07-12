@@ -21,17 +21,39 @@ export default defineNuxtConfig({
   },
   modules: ["@nuxtjs/tailwindcss", "nuxt-lucide-icons", "@nuxtjs/i18n"],
   i18n: {
+    strategy: "no_prefix",
     defaultLocale: "en",
     locales: [
       {
         code: "en",
         name: "English (US)",
       },
+      {
+        code: "ru",
+        name: "русский (Russia)",
+      },
+      {
+        code: "de",
+        name: "Deutsch (Germany)",
+      },
+      {
+        code: "es-ES",
+        name: "Español (Spain)",
+      },
+      {
+        code: "no-NO",
+        name: "norsk (Norway)",
+      },
+      {
+        code: "pt-BR",
+        name: "Português (Brazil)",
+      },
     ],
-    detectBrowserLanguage: {
+    /*detectBrowserLanguage: {
       useCookie: true,
       cookieKey: "NE_i18nCookie",
-    },
+    }, RE-ENABLE THIS WHEN WE ACTUALLY DO RELEASE FULL i18n */
+    detectBrowserLanguage: false,
     vueI18n: "./i18n/i18n.config",
   },
 })

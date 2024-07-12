@@ -1,4 +1,9 @@
 import enUS from "./lang/en-US.json"
+import ruRU from "./lang/ru.json"
+import deDE from "./lang/de.json"
+import esES from "./lang/es-ES.json"
+import noNO from "./lang/no.json"
+import ptBR from "./lang/pt-BR.json"
 
 export default defineI18nConfig(() => ({
   legacy: false,
@@ -6,6 +11,10 @@ export default defineI18nConfig(() => ({
   locale: "en",
   messages: {
     en: enUS,
+    ru: ruRU,
+    de: deDE,
+    "es-ES": esES,
+    "no-NO": noNO,
+    "pt-BR": ptBR,
   },
-  strategy: "no_prefix",
 }))
