@@ -1,0 +1,81 @@
+name: Auto Label PRs, then add assignees and reviewers automatically.
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize]
+
+jobs:
+  add_labels_reviewers_assignees:
+    name: Add labels, then reviewers & assignees
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Label PR based on content
+        id: label-pr
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const labels = {
+              'alternative addition template': 'add mod',
+              'site changes template': 'enhancement',
+              'chore/documentation template': 'documentation'
+            };
+
+            const body = context.payload.pull_request.body.toLowerCase();
+
+            const foundLabels = Object.entries(labels)
+              .filter(([keyword]) => body.includes(keyword))
+              .map(([, label]) => label);
+
+            if (foundLabels.length > 0) {
+              await github.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.pull_request.number,
+                labels: foundLabels
+              });
+            }
+
+            return { labels: foundLabels };
+
+      - name: Set Reviewers and Assignees
+        if: steps.label-pr.outputs.labels != '[]'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const labelToReviewers = {
+              'add mod': ['KTrain5169', 'blryface'],
+              'enhancement': ['WorldWidePixel', 'Nitrrine'],
+              'documentation': ['blryface', 'KTrain5169', 'WorldWidePixel']
+            };
+
+            const labels = JSON.parse('${{ steps.label-pr.outputs.labels }}').labels;
+            const reviewers = new Set();
+
+            labels.forEach(label => {
+              (labelToReviewers[label] || []).forEach(reviewer => reviewers.add(reviewer));
+            });
+
+            if (reviewers.size > 0) {
+              await github.pulls.requestReviewers({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.payload.pull_request.number,
+                reviewers: Array.from(reviewers)
+              });
+            }
+
+            await github.issues.addAssignees({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.pull_request.number,
+              assignees: [context.payload.pull_request.user.login]
+            });
+
+      - name: Comment on PRs
+        uses: dannyskoog/pull-request-comment@v1
+        with:
+          message: I've labeled your PR, assigned you and requested reviews from the relevant people automatically. If you think I did it wrong, please comment below so one of our maintainers can double-check. Thanks!

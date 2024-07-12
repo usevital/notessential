@@ -1,12 +1,6 @@
----
-name: Adding new alternative
-about: Select this if you are adding a new mod to the alternatives page.
-title: "add: [mod name] to alternatives page"
-labels: enhancement
-assignees:
-  - KTrain5169
-  - blryface
----
+# Alternative addition template
+
+<!-- Use this template if you are adding an alternative to Essential. DO NOT DELETE ABOVE -->
 
 ## What part(s) of Essential does this mod replace?
 

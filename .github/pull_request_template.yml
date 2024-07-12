@@ -1,0 +1,4 @@
+pull_request_templates:
+  - .github/PULL_REQUEST_TEMPLATE/01-add-an-alternative.md
+  - .github/PULL_REQUEST_TEMPLATE/02-site-changes.md
+  - .github/PULL_REQUEST_TEMPLATE/03-chore-stuff.md
