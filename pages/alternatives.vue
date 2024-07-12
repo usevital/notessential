@@ -112,7 +112,7 @@ const alternatives = {
       },
     },
   },
-  Miscellaneous: {
+  Misc: {
     Screencapper: {
       description: texts.misc.screencapper,
       icon: "https://cdn.modrinth.com/data/yzNFLSqx/d5d842e0b6b8c1babcd2212b923d712d85641af1.png",
