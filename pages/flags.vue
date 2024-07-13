@@ -23,7 +23,7 @@
           <option
             v-for="locale in availableLocales"
             :value="locale.code"
-            @click="setLocale(locale.code)"
+            @click.prevent.stop="setLocale(locale.code)"
           >
             {{ locale.name }}
           </option>
