@@ -22,7 +22,7 @@
 <style>
 .logo-scroll {
   /* Width will be overitten by JS */
-  width: 720px;
+  width: 100%;
   min-height: 4em;
   overflow: hidden;
   animation: 5s scroller-load;
