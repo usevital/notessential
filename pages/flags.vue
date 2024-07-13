@@ -19,10 +19,9 @@
 
         <p>Available langagues:</p>
 
-        <Select>
+        <Select v-on:change="handleLanguageChange">
           <option
             v-for="locale in availableLocales"
-            :key="locale.code"
             :value="locale.code"
             @click="setLocale(locale.code)"
           >
@@ -44,4 +43,8 @@ const { locale, locales, setLocale } = useI18n()
 const availableLocales = computed(() => {
   return locales.value.filter((i) => i.code !== locale.value)
 })
+
+function handleLanguageChange(event) {
+  setLocale(event.target.value)
+}
 </script>
