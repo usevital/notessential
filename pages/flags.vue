@@ -20,6 +20,7 @@
         <p>Available langagues:</p>
 
         <Select>
+          <option value="en">Default (English)</option>
           <option
             v-for="locale in availableLocales"
             :value="locale.code"
