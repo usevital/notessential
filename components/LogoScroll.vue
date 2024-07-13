@@ -25,6 +25,7 @@
   width: 720px;
   min-height: 4em;
   overflow: hidden;
+  animation: 5s scroller-load;
 }
 
 .logo-scroll_inner {
@@ -39,6 +40,12 @@
 .logo-scroll_inner > * {
   min-width: calc(375px + 0.2em);
   min-height: calc(25px + 0.2em);
+}
+
+@keyframes scroller-load {
+  from {
+    opacity: 0;
+  }
 }
 
 @keyframes scroll {
