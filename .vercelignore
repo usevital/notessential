@@ -1,1 +1,9 @@
-.github
+.github/*
+.vercelignore
+.gitignore
+.gitattributes
+README.md
+CONTRIBUTING.md
+.prettierrc
+.prettierignore
+.vscode/*
