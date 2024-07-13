@@ -21,6 +21,10 @@
       "alternatives": "ALTERNATIVES"
     }
   },
+  "experiments": {
+    "hero": "EXPERIMENTAL FEATURES",
+    "subtitle": "Configure experimental flags for development purposes!"
+  },
   "contributing": {
     "hero": "CONTRIBUTING",
     "subhero": "To the NotEssential website",
