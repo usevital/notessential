@@ -35,24 +35,27 @@ Resolves #x
 <!-- For adding mods to the alternatives page -->
 
 - [ ] I have put clear & concise details about the mod onto the page.
-- [ ] The link I have put in is a valid link.
-- [ ] This mod is not a RAT.
-- [ ] I have searched for duplicate pull requests and have not found any.
+- [ ] Links I have put in are all valid.
+- [ ] Mods added are not RATs.
 
 <!-- For site changes -->
 
 - [ ] I have clearly stated why I want this to be changed.
 - [ ] For major changes, I have clearly stated what they are and why I've done them.
-- [ ] I have searched for duplicate pull requests and have not found any.
+- [ ] Any new resources put in are safe and not malicious.
 
 <!-- For chore/doc updates -->
 
 - [ ] I have clearly explained why I have done this.
-- [ ] I have searched for duplicate pull requests and have not found any.
+- [ ] I have proofread the documentation changed and have ensured tehre are no spelling or grammatical errors.
+- [ ] (Workflow updates only) I have tested the workflow to ensure its functionality.
 
 <!-- For all -->
 
-- [ ] I did not read this section.
+- [ ] I have searched for duplicate PRs and have not found any.
+- [x] I did not read this section.
 
-Vercel will begin deploying to the Preview environment shortly after submitting this pull request (unless your only modified directories are listed in `.vercelignore`). You may click on the "Visit Preview" link below to see a preview of what your changes look like.
-You may also use the StackBlitz Codeflow button to view the PR in the browser and make changes at the same time if necessary.
+Vercel will begin deploying to the Preview environment shortly after submitting this pull request. You may click on the "Visit Preview" link below to see a preview of what your changes look like.
+If you updated only part of the repository such that it would not modify the website at all, you do not need to see the Vercel deployment.
+
+You may also use the StackBlitz Codeflow button to quickview the PR in the browser and make changes at the same time if necessary.
