@@ -20,12 +20,9 @@
     </div>
     <!-- Buttons -->
     <div class="flex flex-row flex-wrap gap-3 mb-5">
-      <ExternalLink
-        v-for="(link, index) in urls"
-        :to="link"
-        class="flex gap-2 px-10 py-3 rounded-xl items-center text-lg border-2 border-[var(--text-colour)] duration-300 hover:bg-[var(--text-colour)] hover:text-black active:scale-95 text-inherit font-normal"
-        ><LucideDownload />{{ index }}</ExternalLink
-      >
+      <Button v-for="(link, index) in urls" :to="link" secondary external>
+        <LucideDownload />{{ index }}
+      </Button>
     </div>
   </div>
 </template>

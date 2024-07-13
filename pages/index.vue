@@ -15,17 +15,13 @@
       {{ $t("landing.reason") }}
     </p>
 
-    <NuxtLink class="w-fit" to="/alternatives">
-      <BigButton>
-        <LucideArrowUpRight /> {{ $t("landing.buttons.alternatives") }}
-      </BigButton>
-    </NuxtLink>
+    <Button class="w-fit sm:px-20 px-15 py-8" to="/alternatives">
+      <LucideArrowUpRight /> {{ $t("landing.buttons.alternatives") }}
+    </Button>
   </div>
 </template>
 
 <script setup lang="ts">
-import BigButton from "../components/BigButton.vue"
-
 const minecraftText = ref("MINECRAFT")
 
 if (Math.floor(Math.random() * 10000) === 0) {
