@@ -1,5 +1,7 @@
 name: Auto Label PRs, then add assignees and reviewers automatically.
 
+run-name: PR management
+
 on:
   pull_request_target:
     types: [opened, reopened, edited, synchronize]
