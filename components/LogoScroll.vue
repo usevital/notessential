@@ -1,88 +1,55 @@
 <template>
-  <div class="w-full inline-flex flex-nowrap overflow-x-clip">
-    <div
-      class="flex items-center justify-center md:justify-start animate-infinite-scroll"
-    >
-      <ColourableLogo
-        color="var(--brand-red)"
-        class="max-w-none mx-8 logotype"
-      />
-      <ColourableLogo
-        color="var(--brand-orange)"
-        class="max-w-none mx-8 logotype"
-      />
-      <ColourableLogo
-        color="var(--brand-yellow)"
-        class="max-w-none mx-8 logotype"
-      />
-      <ColourableLogo
-        color="var(--brand-green)"
-        class="max-w-none mx-8 logotype"
-      />
-      <ColourableLogo
-        color="var(--brand-blue)"
-        class="max-w-none mx-8 logotype"
-      />
-      <ColourableLogo
-        color="var(--brand-purple)"
-        class="max-w-none mx-8 logotype"
-      />
-      <ColourableLogo
-        color="var(--brand-rose)"
-        class="max-w-none mx-8 logotype"
-      />
-    </div>
-    <div
-      class="flex items-center justify-center md:justify-start animate-infinite-scroll"
-      aria-hidden="true"
-    >
-      <ColourableLogo
-        color="var(--brand-red)"
-        class="max-w-none mx-8 logotype"
-      />
-      <ColourableLogo
-        color="var(--brand-orange)"
-        class="max-w-none mx-8 logotype"
-      />
-      <ColourableLogo
-        color="var(--brand-yellow)"
-        class="max-w-none mx-8 logotype"
-      />
-      <ColourableLogo
-        color="var(--brand-green)"
-        class="max-w-none mx-8 logotype"
-      />
-      <ColourableLogo
-        color="var(--brand-blue)"
-        class="max-w-none mx-8 logotype"
-      />
-      <ColourableLogo
-        color="var(--brand-purple)"
-        class="max-w-none mx-8 logotype"
-      />
-      <ColourableLogo
-        color="var(--brand-rose)"
-        class="max-w-none mx-8 logotype"
-      />
+  <div class="logo-scroll">
+    <div class="logo-scroll_inner">
+      <ColourableLogo color="var(--brand-red)" />
+      <ColourableLogo color="var(--brand-orange)" />
+      <ColourableLogo color="var(--brand-yellow)" />
+      <ColourableLogo color="var(--brand-green)" />
+      <ColourableLogo color="var(--brand-blue)" />
+      <ColourableLogo color="var(--brand-purple)" />
+      <ColourableLogo color="var(--brand-rose)" />
+      <ColourableLogo color="var(--brand-red)" />
+      <ColourableLogo color="var(--brand-orange)" />
+      <ColourableLogo color="var(--brand-yellow)" />
+      <ColourableLogo color="var(--brand-green)" />
+      <ColourableLogo color="var(--brand-blue)" />
+      <ColourableLogo color="var(--brand-purple)" />
+      <ColourableLogo color="var(--brand-rose)" />
     </div>
   </div>
 </template>
 
 <style>
-.logotype {
-  width: fit-content;
-  height: 1.5rem;
+.logo-scroll {
+  /* Width will be overitten by JS */
+  width: 720px;
+  min-height: 4em;
+  overflow: hidden;
 }
 
-@keyframes infinite-scroll {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-100%);
-  }
+.logo-scroll_inner {
+  display: flex;
+  align-items: center;
+  min-width: fit-content;
+  min-height: 100%;
+  gap: 5em;
+  animation: 100s scroll linear infinite;
 }
-.animate-infinite-scroll {
-  animation: infinite-scroll 25s linear infinite;
+
+.logo-scroll_inner > * {
+  min-width: calc(375px + 0.2em);
+  min-height: calc(25px + 0.2em);
+}
+
+@keyframes scroll {
+  to {
+    transform: translateX(calc(-50% - 2.5em));
+  }
 }
 </style>
+
+<script setup>
+onMounted(() => {
+  document.querySelector(".logo-scroll").style.width = `${window.innerWidth}px`
+})
+</script>

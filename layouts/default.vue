@@ -42,7 +42,7 @@
           class="flex flex-col sm:flex-row items-center sm:items-start sm:justify-center py-6 gap-8 mx-[calc(5%+2rem)] sm:mx-0"
         >
           <div class="flex flex-col items-center sm:items-start gap-4 pt-2">
-            <ColourableLogo color="var(--brand-blue)" />
+            <ColourableLogo color="var(--brand-blue)" class="h-4 w-full" />
             <div
               class="flex flex-col gap-1 font-[500] text-[var(--text-colour)] text-sm"
             >
