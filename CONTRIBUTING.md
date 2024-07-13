@@ -9,7 +9,8 @@ To request the inclusion of a mod, report a bug or request a change in documenta
 
 ## Translate NotEssential
 
-To help translate NotEssential, please visit [our Crowdin page](https://crowdin.com/project/notessential)
+To help translate NotEssential, please visit [our Crowdin page](https://crowdin.com/project/notessential).
+
 If your language is not listed, join our Discord server and request your language to be added in the #ne-general chat.
 
 General guidelines for translations:
@@ -31,9 +32,10 @@ General guidelines for developing:
 - Make sure you look at the Pull Requests page to see if your idea has already been listed. If so, we recommend opening pull requests to the head branch/repository (the head branch is the branch merging to the repository).
 - Make your commit names helpful so we can understand what you have changed.
 - Install Prettier. You can run `pnpm add prettier` or install Prettier as a VS Code extension (this should have been recommended to you automatically!). If you use the extension, ensure `Format on Save` is set in VS Code settings.
-- Make sure you use one of our pull request templates when making a pull request.
+- Make sure you use our pull request template when making a pull request.
+- ONLY TICK THE BOXES YOU NEED TO TICK, this will help us a lot.
 
-If you need help or have identified an issue that you cannot solve by yourself, open an issue in the Issues tab.
+If you need help or have identified an issue that you cannot solve by yourself, open an issue in the Issues tab and link to your pull request in there.
 
 ## Adding a mod to the alternatives page
 
