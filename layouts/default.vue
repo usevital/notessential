@@ -113,22 +113,6 @@
 </template>
 
 <style>
-@import url("https://cdn.jsdelivr.net/npm/@intergrav/fonts@1/serve/inter.min.css");
-@import url("https://cdn.jsdelivr.net/npm/@intergrav/fonts@1/serve/geist.min.css");
-@import url("https://cdn.jsdelivr.net/npm/@intergrav/fonts@1/serve/geist-mono.min.css");
-
-@font-face {
-  font-family: "Internal";
-  src: url("/font/QuinqueFive.ttf") format("truetype");
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "InternalBold";
-  src: url("/font/PublicPixel.ttf") format("truetype");
-  font-weight: 900;
-}
-
 .internalFont {
   font-family: Internal, InternalBold, Geist, Inter;
 }
@@ -137,8 +121,12 @@
   font-family: InternalBold, Internal, Geist, Inter;
 }
 
+.monocraftFont {
+  font-family: Monocraft;
+}
+
 :root {
-  font-family: Geist, Inter, Helvetica, sans-serif;
+  font-family: Geist, Inter, Helvetica;
   --brand-colour: rgb(0, 0, 0);
   --brand-background: rgb(0, 0, 0);
   --brand-background-old: rgb(0, 86, 234);
