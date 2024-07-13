@@ -1,81 +1,65 @@
 name: Auto Label PRs, then add assignees and reviewers automatically.
 
 on:
-  pull_request:
-    types: [opened, edited, synchronize]
+  pull_request_target:
+    types: [opened, reopened, edited, synchronize]
 
 jobs:
   add_labels_reviewers_assignees:
     name: Add labels, then reviewers & assignees
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - name: Auto-assign PR author as assignee
+        if: github.event.action == 'opened'
+        id: author-assignee
+        uses: itsOliverBott/assign-pr-author-as-assignee@release
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Label PR based on content
         id: label-pr
-        uses: actions/github-script@v7
+        uses: prulloac/configurable-pr-labeler@v1.1.2
         with:
-          script: |
-            const labels = {
-              'alternative addition template': 'add mod',
-              'site changes template': 'enhancement',
-              'chore/documentation template': 'documentation'
-            };
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-            const body = context.payload.pull_request.body.toLowerCase();
-
-            const foundLabels = Object.entries(labels)
-              .filter(([keyword]) => body.includes(keyword))
-              .map(([, label]) => label);
-
-            if (foundLabels.length > 0) {
-              await github.issues.addLabels({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: context.payload.pull_request.number,
-                labels: foundLabels
-              });
-            }
-
-            return { labels: foundLabels };
-
-      - name: Set Reviewers and Assignees
-        if: steps.label-pr.outputs.labels != '[]'
-        uses: actions/github-script@v7
+      - name: Assign/unassign reviewers
+        id: assign-reviewers
+        uses: totallymoney/assign-reviewers-by-labels-action@v1.2.0
         with:
-          script: |
-            const labelToReviewers = {
-              'add mod': ['KTrain5169', 'blryface'],
-              'enhancement': ['WorldWidePixel', 'Nitrrine'],
-              'documentation': ['blryface', 'KTrain5169', 'WorldWidePixel']
-            };
-
-            const labels = JSON.parse('${{ steps.label-pr.outputs.labels }}').labels;
-            const reviewers = new Set();
-
-            labels.forEach(label => {
-              (labelToReviewers[label] || []).forEach(reviewer => reviewers.add(reviewer));
-            });
-
-            if (reviewers.size > 0) {
-              await github.pulls.requestReviewers({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                pull_number: context.payload.pull_request.number,
-                reviewers: Array.from(reviewers)
-              });
-            }
-
-            await github.issues.addAssignees({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.payload.pull_request.number,
-              assignees: [context.payload.pull_request.user.login]
-            });
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          unassign-if-label-removed: true
 
       - name: Comment on PRs
         uses: dannyskoog/pull-request-comment@v1
+        if: steps.assign-reviewers.outputs.assigned_status == 'success' && steps.assign_reviewers.outputs.unassigned_status == 'success'
         with:
-          message: I've labeled your PR, assigned you and requested reviews from the relevant people automatically. If you think I did it wrong, please comment below so one of our maintainers can double-check. Thanks!
+          message: I've labeled your PR, assigned you and requested/un-requested reviews from the relevant people automatically. If you think I did it wrong, please comment below so one of our maintainers can double-check. Thanks!
+
+      - name: Assigned/unassigned reviewers success debug log
+        if: steps.assign-reviewers.outputs.assigned_status == 'success' && steps.assign_reviewers.outputs.unassigned_status == 'success'
+        run: |
+          echo "Successfully assigned/unassigned reviewers! Printing more info below..."
+          echo "If values return null, that means I didn't do anything.\n"
+
+          echo "PR I assigned reviewers to: ${{ steps.assign_reviewers.outputs.assigned_url }}"
+          echo "Commit SHA: ${{ github.sha }}"
+          echo "I assigned: ${{ steps.reviewer.outputs.assigned_reviewers }}"
+          echo "Additional info: ${{ steps.assign_reviewers.outputs.assigned_message }}"
+
+          echo "PR I unassigned reviewers to: ${{ steps.assign_reviewers.outputs.unassigned_url }}"
+          echo "Commit SHA: ${{ github.sha }}"
+          echo "I unassigned: ${{ steps.reviewer.outputs.unassigned_reviewers }}"
+          echo "Additional info: ${{ steps.assign_reviewers.outputs.unassigned_message }}"
+
+      - name: Assigned/unassigned reviewers failure(?) debug log
+        if: steps.assign-reviewers.outputs.assigned_status == 'info' && steps.assign_reviewers.outputs.unassigned_status == 'info'
+        run: |
+          echo "Uh-oh! I ran into an issue when assigning/unassigning reviewers! Here's some info: \n"
+
+          echo "PR I attempted to assign reviewers to: ${{ steps.assign_reviewers.outputs.assigned_url }}"
+          echo "Commit SHA: ${{ github.sha }}"
+          echo "Info: ${{ steps.assign_reviewers.outputs.assigned_message }}"
+
+          echo "PR I unassigned reviewers to: ${{ steps.assign_reviewers.outputs.unassigned_url }}"
+          echo "Commit SHA: ${{ github.sha }}"
+          echo "Info: ${{ steps.assign_reviewers.outputs.unassigned_message }}"
