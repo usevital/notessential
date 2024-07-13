@@ -2,6 +2,7 @@
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
+
   app: {
     head: {
       title: "Not Essential",
@@ -19,7 +20,9 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   modules: ["@nuxtjs/tailwindcss", "nuxt-lucide-icons", "@nuxtjs/i18n"],
+
   i18n: {
     strategy: "no_prefix",
     defaultLocale: "en",
@@ -64,4 +67,6 @@ export default defineNuxtConfig({
     detectBrowserLanguage: false,
     vueI18n: "./i18n/i18n.config",
   },
+
+  compatibilityDate: "2024-07-13",
 })

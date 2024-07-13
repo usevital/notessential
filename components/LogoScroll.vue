@@ -21,7 +21,6 @@
 
 <style>
 .logo-scroll {
-  /* Width will be overitten by JS */
   width: 100%;
   min-height: 4em;
   overflow: hidden;
@@ -54,9 +53,3 @@
   }
 }
 </style>
-
-<script setup>
-onMounted(() => {
-  document.querySelector(".logo-scroll").style.width = `${window.innerWidth}px`
-})
-</script>
