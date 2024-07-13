@@ -20,9 +20,9 @@
     </div>
     <!-- Buttons -->
     <div class="flex flex-row flex-wrap gap-3 mb-5">
-      <Button v-for="(link, index) in urls" :to="link" secondary external>
+      <NEButton v-for="(link, index) in urls" :to="link" secondary external>
         <LucideDownload />{{ index }}
-      </Button>
+      </NEButton>
     </div>
   </div>
 </template>

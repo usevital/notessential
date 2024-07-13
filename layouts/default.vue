@@ -46,10 +46,11 @@
             <div
               class="flex flex-col gap-1 font-[500] text-[var(--text-colour)] text-sm"
             >
-              <ExternalLink
+              <NELink
                 class="font-medium text-white hover:underline"
                 to="https://github.com/blryface/notessential"
-                >{{ $t("layout.footer.open_source") }}</ExternalLink
+                external
+                >{{ $t("layout.footer.open_source") }}</NELink
               >
             </div>
           </div>
@@ -62,14 +63,14 @@
               }}</span>
               <span
                 >{{ $t("layout.footer.credit_creator") }}
-                <ExternalLink to="https://blurryface.xyz"
-                  >Blurryface</ExternalLink
+                <NELink to="https://blurryface.xyz" external
+                  >Blurryface</NELink
                 ></span
               >
               <span
                 >{{ $t("layout.footer.credit_designed") }}
-                <ExternalLink to="https://worldwidepixel.ca"
-                  >WorldWidePixel</ExternalLink
+                <NELink to="https://worldwidepixel.ca" external
+                  >WorldWidePixel</NELink
                 ></span
               >
             </div>
@@ -79,11 +80,11 @@
               <span class="font-bold text-base">{{
                 $t("layout.footer.resources")
               }}</span>
-              <InternalLink to="/contributing"
+              <NELink to="/contributing"
                 ><LucidePenBox class="h-5" />{{
                   $t("layout.footer.contributing")
                 }}
-              </InternalLink>
+              </NELink>
             </div>
             <div
               class="flex flex-col gap-2 font-[500] text-[var(--text-colour)] text-sm"
@@ -91,12 +92,12 @@
               <span class="font-bold text-base">{{
                 $t("layout.footer.interact")
               }}</span>
-              <ExternalLink to="https://crowdin.com/project/notessential"
+              <NELink to="https://crowdin.com/project/notessential" external
                 ><LucideGlobe class="h-5" />Crowdin
-              </ExternalLink>
-              <ExternalLink to="https://discord.gg/wncdz7e8jy"
+              </NELink>
+              <NELink to="https://discord.gg/wncdz7e8jy" external
                 ><LucideMessageCircle class="h-5" />Discord
-              </ExternalLink>
+              </NELink>
             </div>
           </div>
         </div>

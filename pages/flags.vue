@@ -19,7 +19,7 @@
 
         <p>Available langagues:</p>
 
-        <Select v-on:change="handleLanguageChange">
+        <NESelect v-on:change="handleLanguageChange">
           <option
             v-for="locale in availableLocales"
             :value="locale.code"
@@ -27,7 +27,7 @@
           >
             {{ locale.name }}
           </option>
-        </Select>
+        </NESelect>
       </div>
     </div>
   </div>
