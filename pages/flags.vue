@@ -1,37 +1,43 @@
 <template>
   <div class="flex flex-col gap-8">
     <PageHero
-      :title="'Experimental Features'"
-      :sub-title="'For development purposes'"
+      title="Experimental Features"
+      sub-title="Configure experimental flags for development purposes!"
     />
 
-    <div class="flex flex-col gap-2">
-      <span class="font-bold text-lg">
-        Language switcher (for testing purposes)
-      </span>
-
-      Current Locale:
-
-      {{ locale }}
-
-      <br /><br />
-
-      Available alternative langagues:
-
-      <a
-        class="indent-4"
-        href="#"
-        v-for="locale in availableLocales"
-        :key="locale.code"
-        @click.prevent.stop="setLocale(locale.code)"
+    <div class="flex flex-col gap-3">
+      <div
+        class="flex flex-col gap-2 border-2 rounded-xl p-5 border-[var(--text-colour)]"
       >
-        <span>- {{ locale.name }}</span>
-      </a>
+        <span class="flex items-center gap-2 font-bold text-lg">
+          <LucideLanguages /> Language Switcher
+        </span>
+
+        <p>
+          Selected locale: <span class="font-bold">{{ locale }}</span>
+        </p>
+
+        <p>Available langagues:</p>
+
+        <Select>
+          <option
+            v-for="locale in availableLocales"
+            :value="locale.code"
+            @click="setLocale(locale.code)"
+          >
+            {{ locale.name }}
+          </option>
+        </Select>
+      </div>
     </div>
   </div>
 </template>
 
 <script setup>
+useSeoMeta({
+  title: "Experiments",
+})
+
 const { locale, locales, setLocale } = useI18n()
 
 const availableLocales = computed(() => {
