@@ -1,30 +1,32 @@
 name: Auto Label PRs, then add assignees and reviewers automatically.
 
-run-name: PR management
+run-name: PR management stuff
 
 on:
   pull_request_target:
-    types: [opened, reopened, edited, synchronize]
+    types: [opened, reopened, edited, synchronize, labeled]
 
 jobs:
   add_labels_reviewers_assignees:
-    name: Add labels, then reviewers & assignees
+    name: Add labels, reviewers & assignees
     runs-on: ubuntu-latest
     steps:
       - name: Auto-assign PR author as assignee
-        if: github.event.action == 'opened'
+        if: github.event.action == 'opened' || github.event.action == 'reopened'
         id: author-assignee
         uses: itsOliverBott/assign-pr-author-as-assignee@release
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Label PR based on content
+        if: github.event.action != 'labeled'
         id: label-pr
         uses: prulloac/configurable-pr-labeler@v1.1.2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Assign/unassign reviewers
+        if: github.event.action == 'ready_for_review'
         id: assign-reviewers
         uses: totallymoney/assign-reviewers-by-labels-action@v1.2.0
         with:
@@ -56,7 +58,7 @@ jobs:
       - name: Assigned/unassigned reviewers failure(?) debug log
         if: steps.assign-reviewers.outputs.assigned_status == 'info' && steps.assign_reviewers.outputs.unassigned_status == 'info'
         run: |
-          echo "Uh-oh! I ran into an issue when assigning/unassigning reviewers! Here's some info: \n"
+          echo "Uh-oh! I probably ran into an issue when assigning/unassigning reviewers! Here's some info: \n"
 
           echo "PR I attempted to assign reviewers to: ${{ steps.assign_reviewers.outputs.assigned_url }}"
           echo "Commit SHA: ${{ github.sha }}"

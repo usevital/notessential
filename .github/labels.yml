@@ -13,4 +13,4 @@ labels:
       - body: "- [x] Tick this box if you made changes that may or may not break site functionality."
   - name: "Merge conflict identified"
     conditions:
-      - mergable: false
+      - mergeable: false
