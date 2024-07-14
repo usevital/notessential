@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-col gap-8">
     <PageHero
-      title="Experimental Features"
-      sub-title="Configure experimental flags for development purposes!"
+      :title="$t('experiments.hero')"
+      :sub-title="$t('experiments.subtitle')"
     />
 
     <div class="flex flex-col gap-3">
@@ -19,15 +19,15 @@
 
         <p>Available langagues:</p>
 
-        <Select v-on:change="handleLanguageChange">
+        <NESelect v-on:change="handleLanguageChange">
           <option
-            v-for="locale in availableLocales"
+            v-for="locale in allLocales"
             :value="locale.code"
             @click="setLocale(locale.code)"
           >
             {{ locale.name }}
           </option>
-        </Select>
+        </NESelect>
       </div>
     </div>
   </div>
@@ -43,6 +43,8 @@ const { locale, locales, setLocale } = useI18n()
 const availableLocales = computed(() => {
   return locales.value.filter((i) => i.code !== locale.value)
 })
+
+const allLocales = locales.value
 
 function handleLanguageChange(event) {
   setLocale(event.target.value)

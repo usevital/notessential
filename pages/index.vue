@@ -11,13 +11,15 @@
     </span>
     <!-- THE WORD 'MINECRAFT' AND THE 'NOTESSENTIAL' NAME SHOULD NOT BE LOCALISED. -->
 
+    <Link to="/" show-icon>test.com</Link>
+
     <p class="text-2xl">
       {{ $t("landing.reason") }}
     </p>
 
-    <Button class="w-fit sm:px-20 px-15 py-8" to="/alternatives">
+    <NEButton class="w-fit sm:px-20 px-15 py-8" to="/alternatives">
       <LucideArrowUpRight /> {{ $t("landing.buttons.alternatives") }}
-    </Button>
+    </NEButton>
   </div>
 </template>
 
