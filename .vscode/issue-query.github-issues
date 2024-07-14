@@ -1,0 +1,27 @@
+[
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "GitHub Issues doesn't have an extension that just straight-up shows you issues like the GitHub Pull Requests extension. So instead, we will use Issue Notebooks for querying.\r\nThis requires the [GitHub Issue Notebooks extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-github-issue-notebooks) to be installed."
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:blryface/notessential is:open label:bug "
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:blryface/notessential is:open label:bug/confirmed "
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:blryface/notessential is:open label:add mod"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:blryface/notessential is:open label:enhancement"
+  }
+]
