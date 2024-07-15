@@ -35,35 +35,56 @@ jobs:
 
       - name: Comment on PRs
         uses: dannyskoog/pull-request-comment@v1
-        if: steps.assign-reviewers.outputs.assigned_status == 'success' && steps.assign_reviewers.outputs.unassigned_status == 'success'
+        if: steps.assign-reviewers.outputs.assigned_status == 'success' && steps.assign-reviewers.outputs.unassigned_status == 'success'
         with:
           message: I've labeled your PR, assigned you and requested/un-requested reviews from the relevant people automatically. If you think I did it wrong, please comment below so one of our maintainers can double-check. Thanks!
 
       - name: Assigned/unassigned reviewers success debug log
-        if: steps.assign-reviewers.outputs.assigned_status == 'success' && steps.assign_reviewers.outputs.unassigned_status == 'success'
+        if: steps.assign-reviewers.outputs.assigned_status == 'success' && steps.assign-reviewers.outputs.unassigned_status == 'success'
+        id: success-log
         run: |
           echo "Successfully assigned/unassigned reviewers! Printing more info below..."
           echo "If values return null, that means I didn't do anything.\n"
-
-          echo "PR I assigned reviewers to: ${{ steps.assign_reviewers.outputs.assigned_url }}"
+          echo "PR I assigned reviewers to: ${{ steps.assign-reviewers.outputs.assigned_url }}"
           echo "Commit SHA: ${{ github.sha }}"
-          echo "I assigned: ${{ steps.reviewer.outputs.assigned_reviewers }}"
-          echo "Additional info: ${{ steps.assign_reviewers.outputs.assigned_message }}"
+          echo "I assigned: ${{ steps.assign-reviewers.outputs.assigned_reviewers }}"
+          echo "Additional info: ${{ steps.assign-reviewers.outputs.assigned_message }} \n"
 
-          echo "PR I unassigned reviewers to: ${{ steps.assign_reviewers.outputs.unassigned_url }}"
+          echo "PR I unassigned reviewers to: ${{ steps.assign-reviewers.outputs.unassigned_url }}"
           echo "Commit SHA: ${{ github.sha }}"
-          echo "I unassigned: ${{ steps.reviewer.outputs.unassigned_reviewers }}"
-          echo "Additional info: ${{ steps.assign_reviewers.outputs.unassigned_message }}"
+          echo "I unassigned: ${{ steps.assign-reviewers.outputs.unassigned_reviewers }}"
+          echo "Additional info: ${{ steps.assign-reviewers.outputs.unassigned_message }}"
 
       - name: Assigned/unassigned reviewers failure(?) debug log
-        if: steps.assign-reviewers.outputs.assigned_status == 'info' && steps.assign_reviewers.outputs.unassigned_status == 'info'
+        if: steps.assign-reviewers.outputs.assigned_status == 'info' && steps.assign-reviewers.outputs.unassigned_status == 'info'
+        id: info-debug
         run: |
-          echo "Uh-oh! I probably ran into an issue when assigning/unassigning reviewers! Here's some info: \n"
+          echo "Uh-oh! I (probably) ran into an issue when assigning/unassigning reviewers! Here's some info: \n"
 
-          echo "PR I attempted to assign reviewers to: ${{ steps.assign_reviewers.outputs.assigned_url }}"
+          echo "PR I attempted to assign reviewers to: ${{ steps.assign-reviewers.outputs.assigned_url }}"
           echo "Commit SHA: ${{ github.sha }}"
-          echo "Info: ${{ steps.assign_reviewers.outputs.assigned_message }}"
+          echo "Info: ${{ steps.assign-reviewers.outputs.assigned_message }} \n"
 
-          echo "PR I unassigned reviewers to: ${{ steps.assign_reviewers.outputs.unassigned_url }}"
+          echo "PR I unassigned reviewers to: ${{ steps.assign-reviewers.outputs.unassigned_url }}"
           echo "Commit SHA: ${{ github.sha }}"
-          echo "Info: ${{ steps.assign_reviewers.outputs.unassigned_message }}"
+          echo "Info: ${{ steps.assign-reviewers.outputs.unassigned_message }}"
+
+      - name: Debug log if literally anything else fails
+        if: steps.author-assignee.outcome == 'failure' || steps.label-pr.outcome == 'failure' || steps.assign-reviewers.outcome == 'failure'
+        id: log-on-fail
+        run: |
+          echo "Failed to execute workflow correctly! Details are as follows:\n"
+
+          echo "Run attempt #${{ github.run_attempt }}"
+          echo "Triggered by ${{ github.triggering_actor }}"
+          echo "Merging ${{ github.base_ref }} <- ${{ github.head_ref }}"
+          echo "Triggering event: ${{ github.event }}\n"
+
+          echo "Check previous step logs, as well as the debug logs if necessary, for more info."
+
+      - name: Warn if this workflow fails
+        if: steps.author-assignee.outcome == 'failure' || steps.label-pr.outcome == 'failure' || steps.assign-reviewers.outcome == 'failure'
+        id: warn-on-fail
+        uses: dannyskoog/pull-request-comment@v1
+        with:
+          message: Something went wrong when managing this PR! Maintainers, please check the Actions log for more details and potential fixes.
