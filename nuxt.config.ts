@@ -75,7 +75,6 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       dev: process.env.NODE_ENV === "production" ? false : true,
-      reasonsFlag: false,
     },
   },
 })

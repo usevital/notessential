@@ -35,6 +35,15 @@
         <span class="flex items-center gap-2 font-bold text-lg">
           <LucideShieldQuestion /> Why not Essential?
         </span>
+        <p>
+          Current Selection: <span class="font-bold">{{ whyNot }}</span>
+        </p>
+        <NEButton
+          class="w-fit cursor-pointer"
+          @click="whyNot = !whyNot"
+          secondary
+          >Set to {{ !whyNot }}</NEButton
+        >
       </div>
     </div>
   </div>
@@ -44,6 +53,8 @@
 useSeoMeta({
   title: "Experiments",
 })
+
+const whyNot = useCookie("whyNotEssential", { default: false })
 
 const { locale, locales, setLocale } = useI18n()
 

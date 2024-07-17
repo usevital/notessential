@@ -20,22 +20,22 @@
     </NEButton>
 
     <PageHero
-      v-if="runtimeConfig.public.dev === true"
+      v-if="whyNot === true"
       title="WHY?"
       subTitle="Many people wonder why not to use Essential. We hope to make the reasons
       clear."
     />
 
-    <NumberedList v-if="runtimeConfig.public.dev === true" :data="reasonsWhy" />
+    <NumberedList v-if="whyNot === true" :data="reasonsWhy" />
 
-    <span v-if="runtimeConfig.public.dev === true">
+    <span v-if="whyNot === true">
       In case it wasn't clear, don't harrass any people affiliated with
       Essential. We simply find that the flaws with Essential make it
       undesirable in most modded Minecraft circumstances. We do not have any
       conflicts with anybody at Essential.
     </span>
 
-    <span v-if="runtimeConfig.public.dev === true" class="flex flex-row gap-2"
+    <span v-if="whyNot === true" class="flex flex-row gap-2"
       >with<LucideHeart class="stroke-[var(--brand-blue)]" /> from all at the
       NotEssential team
     </span>
@@ -49,7 +49,7 @@ if (Math.floor(Math.random() * 10000) === 0) {
   minecraftText.value = "MINCERAFT"
 }
 
-const runtimeConfig = useRuntimeConfig()
+const whyNot = useCookie("whyNotEssential", { default: false })
 
 const reasonsWhy = [
   {
