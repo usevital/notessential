@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@crowdin/cli": "^4.0.0",
     "@nuxtjs/i18n": "^8.3.1",
     "vue": "^3.4.19",
     "vue-router": "^4.2.5"

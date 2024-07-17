@@ -71,4 +71,11 @@ export default defineNuxtConfig({
   css: ["~/assets/css/fonts.css"],
 
   compatibilityDate: "2024-07-13",
+
+  runtimeConfig: {
+    public: {
+      dev: process.env.NODE_ENV === "production" ? false : true,
+      reasonsFlag: false,
+    },
+  },
 })

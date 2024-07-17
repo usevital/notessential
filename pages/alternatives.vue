@@ -39,7 +39,7 @@ const alternatives = {
   Modpacks: {
     Vital: {
       description: texts.modpacks.vital,
-      icon: "https://cdn.modrinth.com/data/Fecmmdly/48f79c02d315b13bddad245b7a3acd439586fd2d.png",
+      icon: "https://cdn.modrinth.com/data/Fecmmdly/1a31487f238f354268d34d5f51ced1c1900d0106.png",
       links: {
         Modrinth: "https://modrinth.com/modpack/vital",
       },

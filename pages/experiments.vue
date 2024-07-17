@@ -29,6 +29,13 @@
           </option>
         </NESelect>
       </div>
+      <div
+        class="flex flex-col gap-2 border-2 rounded-xl p-5 border-[var(--text-colour)]"
+      >
+        <span class="flex items-center gap-2 font-bold text-lg">
+          <LucideShieldQuestion /> Why not Essential?
+        </span>
+      </div>
     </div>
   </div>
 </template>
