@@ -1,13 +1,13 @@
 labels:
   - name: "add mod"
     conditions:
-      - body: '^- \[x\] Add mod to alternatives page$'
+      - body: '\b- \[x\] Add mod to alternatives page\b'
   - name: "enhancement"
     conditions:
-      - body: '^- \[x\] Site changes$'
+      - body: '\b- \[x\] Site changes\b'
   - name: "documentation"
     conditions:
-      - body: '^- \[x\] Chore/documentation updates$'
+      - body: '\b- \[x\] Chore/documentation updates\b'
   - name: "BREAKING CHANGE"
     conditions:
       - body: '^- \[x\] Tick this box if you made changes that may or may not break site functionality.$'
