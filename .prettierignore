@@ -1,4 +1,7 @@
+package.json
 pnpm-lock.yaml
 .vscode/issue-query.github-issues
 README.md
 crowdin.yml
+/i18n/**
+

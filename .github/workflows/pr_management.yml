@@ -6,6 +6,9 @@ on:
   pull_request_target:
     types: [opened, reopened, edited, synchronize, labeled]
 
+permissions:
+  pull-requests: write
+
 jobs:
   add_labels_reviewers_assignees:
     name: Add labels, reviewers & assignees
