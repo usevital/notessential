@@ -24,9 +24,10 @@ jobs:
       - name: Label PR based on content
         if: github.event.action != 'labeled'
         id: label-pr
-        uses: prulloac/configurable-pr-labeler@v1.1.2
+        uses: fuxingloh/multi-labeler@v4.0.0
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          config-path: .github/labeler.yml
 
       - name: Assign/unassign reviewers
         if: github.event.action == 'ready_for_review'

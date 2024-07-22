@@ -1,0 +1,16 @@
+labels:
+  - label: "add mod"
+    matcher:
+      - body: "(\\n|.)*- \\[x\\] Add mod to alternatives page\\n*"
+  - label: "enhancement"
+    conditions:
+      - body: "(\\n|.)*- \\[x\\] Site changes\\n*"
+  - label: "documentation"
+    conditions:
+      - body: "(\\n|.)*- \\[x\\] Chore/documentation updates\\n*"
+  - label: "BREAKING CHANGE"
+    conditions:
+      - body: "(\\n|.)*- \\[x\\] Tick this box if you made changes that may or may not break site functionality(\\n|.)*"
+  - label: "Merge conflict identified"
+    conditions:
+      - mergeable: false
