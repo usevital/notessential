@@ -4,7 +4,7 @@ run-name: PR management stuff
 
 on:
   pull_request_target:
-    types: [opened, reopened, edited, synchronize, labeled]
+    types: [opened, reopened, ready_for_review, edited, synchronize, labeled]
 
 permissions:
   pull-requests: write

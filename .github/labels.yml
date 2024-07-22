@@ -1,16 +1,16 @@
 labels:
   - name: "add mod"
     conditions:
-      - body: "^-\s\[x\] Add mod to alternatives page$"
+      - body: '^- \[x\] Add mod to alternatives page$'
   - name: "enhancement"
     conditions:
-      - body: "^-\s\[x\] Site changes$"
+      - body: '^- \[x\] Site changes$'
   - name: "documentation"
     conditions:
-      - body: "^-\s\[x\] Chore/documentation updates$"
+      - body: '^- \[x\] Chore/documentation updates$'
   - name: "BREAKING CHANGE"
     conditions:
-      - body: "^-\s\[x\] Tick this box if you made changes that may or may not break site functionality\.$"
+      - body: '^- \[x\] Tick this box if you made changes that may or may not break site functionality.$'
   - name: "Merge conflict identified"
     conditions:
       - mergeable: false
