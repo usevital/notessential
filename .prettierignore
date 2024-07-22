@@ -2,3 +2,4 @@ package.json
 pnpm-lock.yaml
 .vscode/issue-query.github-issues
 /i18n/**
+.github/labels.yml
