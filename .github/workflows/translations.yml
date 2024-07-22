@@ -43,7 +43,7 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-        
+
       - name: Grab strings from Crowdin
         uses: crowdin/github-action@v2.0.0
         with:
