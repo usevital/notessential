@@ -30,6 +30,10 @@ Resolves #x
 
 <!-- add more above if necessary -->
 
+## Any extra notes?
+
+<!-- add notes above if necessary -->
+
 ## Checklist
 
 <!-- For adding mods to the alternatives page -->
@@ -47,7 +51,7 @@ Resolves #x
 <!-- For chore/doc updates -->
 
 - [ ] I have clearly explained why I have done this.
-- [ ] I have proofread the documentation changed and have ensured tehre are no spelling or grammatical errors.
+- [ ] I have proofread the documentation changed and have ensured there are no spelling or grammatical errors.
 - [ ] (Workflow updates only) I have tested the workflow to ensure its functionality.
 
 <!-- For all -->

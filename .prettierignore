@@ -4,4 +4,4 @@ pnpm-lock.yaml
 README.md
 crowdin.yml
 /i18n/**
-
+.github/labels.yml
