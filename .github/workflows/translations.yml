@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 permissions:
-    contents: write
+  contents: write
 
 jobs:
   crowdin-translations-progress:
@@ -33,7 +33,7 @@ jobs:
         with:
           author-name: Actionsbot
           author-email: actions@github.com
-          commit-message: 'Update Crowdin translation progress badge'
+          commit-message: "Update Crowdin translation progress badge"
           remote: origin
 
   update-from-crowdin:
@@ -43,20 +43,20 @@ jobs:
       - name: Grab strings from Crowdin
         uses: crowdin/github-action@v2.0.0
         with:
-            config: crowdin.yml
-            upload_sources: true
-            upload_translations: false
-            upload_language: us
-            download_sources: true
-            download_translations: true
-            skip_untranslated_files: true
-            skip_untranslated_strings: true
-            export_only_approved: true
-            localization_branch_name: i18n-crowdin-translations
-            create_pull_request: true
-            pull_request_title: (Crowdin Action) New translation strings
-            pull_request_body: New translated strings are now available!
-            pull_request_labels: crowdin
+          config: crowdin.yml
+          upload_sources: true
+          upload_translations: false
+          upload_language: us
+          download_sources: true
+          download_translations: true
+          skip_untranslated_files: true
+          skip_untranslated_strings: true
+          export_only_approved: true
+          localization_branch_name: i18n-crowdin-translations
+          create_pull_request: true
+          pull_request_title: (Crowdin Action) New translation strings
+          pull_request_body: New translated strings are now available!
+          pull_request_labels: crowdin
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
