@@ -28,6 +28,12 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           config-path: .github/labeler.yml
+      - name: Label PR if it cannot be merged
+        if: github.event.action == 'opened' || github.event.action == 'synchronise'
+        id: merge-conflict-check
+        uses: prulloac/configurable-pr-labeler@v1.1.2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Assign/unassign reviewers
         if: github.event.action == 'ready_for_review'
