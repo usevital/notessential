@@ -12,7 +12,7 @@ export default defineI18nConfig(() => ({
   fallbackLocale: "en-US",
   locale: "en-US",
   messages: {
-    "en-US": enUS,
+    en: enUS,
     "en-UD": enUD,
     "en-LOL": enLOL,
     "ru-RU": ruRU,
