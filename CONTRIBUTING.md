@@ -16,7 +16,7 @@ If your language is not listed, join our Discord server and request your languag
 General guidelines for translations:
 
 - Unless they have an official name in your language, do NOT translate a mod's name into that language.
-- Similarly, do NOT translate 'Essential'(the mod), 'Spark Universe', 'Mojang', or 'Microsoft' if there isn't an official name in that language.
+- Similarly, do NOT translate 'Essential'(the mod), 'Spark Universe', 'Mojang', 'Microsoft' or any mod names if there isn't an official name in that language.
 - If there is an issue, please make a comment on the side panel and tick the `Issues` box. Then, select the related flag.
 - When an area is in ALL CAPS, also write in ALL CAPS if you can with your language.
 
