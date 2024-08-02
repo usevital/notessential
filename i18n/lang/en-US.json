@@ -65,6 +65,7 @@
   "alternatives": {
     "hero": "ALTERNATIVES",
     "reason": "Essential has many issues. This page provides alternatives.",
+    "nudge_for_contributing": "Willing to contribute? Click here for contributing guidelines.",
     "texts": {
       "modpacks": {
         "section_name": "Modpacks",

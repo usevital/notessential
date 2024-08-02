@@ -12,6 +12,14 @@
     :data="section"
     :title="title"
   />
+
+  <!-- Div is here so NuxtLink will act as inline element -->
+
+  <div>
+    <NuxtLink to="/contributing" class="text-lg brightness-75 hover:underline">
+      {{ $t("alternatives.nudge_for_contributing") }}
+    </NuxtLink>
+  </div>
 </template>
 
 <script setup lang="ts">
