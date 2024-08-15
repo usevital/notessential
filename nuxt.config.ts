@@ -61,8 +61,8 @@ export default defineNuxtConfig({
       },
       {
         code: "vi-VN",
-        name: "Vietnamese"
-      }
+        name: "Vietnamese",
+      },
     ],
     /*detectBrowserLanguage: {
       useCookie: true,
