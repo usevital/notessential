@@ -48,7 +48,7 @@
         "When an area is in ALL CAPS, also write in ALL CAPS if you can with your language."
       ],
       "coding": [
-        "Make sure you look at the Pull Requests page to see if your idea has already been listed. If so, we recommend opening pull requests to the head branch/repository (the head branch is the branch merging to the repository).",
+        "Make sure you look at the Pull Requests page to see if your idea has already been listed. If there isn't one, we recommend opening pull requests to the head branch/repository (the head branch is the branch merging to the repository).",
         "Make your commit names helpful so we can understand what you have changed.",
         "Install Prettier. You can run 'pnpm add prettier' or install Prettier as a VS Code extension (this should have been recommended to you automatically!). If you use the extension, ensure 'Format on Save' is set in VS Code settings.",
         "Make sure you utilise our pull request template when making a pull request."
