@@ -9,10 +9,10 @@ import ptBR from "./lang/pt-BR.json"
 
 export default defineI18nConfig(() => ({
   legacy: false,
-  fallbackLocale: "en",
-  locale: "en",
+  fallbackLocale: "en-US",
+  locale: "en-US",
   messages: {
-    en: enUS,
+    "en-US": enUS,
     "en-UD": enUD,
     "en-LOL": enLOL,
     "ru-RU": ruRU,
