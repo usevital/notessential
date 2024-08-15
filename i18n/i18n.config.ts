@@ -6,6 +6,7 @@ import deDE from "./lang/de.json"
 import esES from "./lang/es-ES.json"
 import noNO from "./lang/no.json"
 import ptBR from "./lang/pt-BR.json"
+import viVN from "./lang/vi-VN.json"
 
 export default defineI18nConfig(() => ({
   legacy: false,
@@ -20,5 +21,6 @@ export default defineI18nConfig(() => ({
     "es-ES": esES,
     "no-NO": noNO,
     "pt-BR": ptBR,
+    "vi-VN": viVN
   },
 }))
