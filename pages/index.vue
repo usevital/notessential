@@ -97,8 +97,8 @@ const reasonsWhy = [
       'Lastly, for a mod that advertises itself as the "essential tool for Minecraft", it has too many things included.',
       "The concept of an all-in-one mod isn't bad, but as a mod that should easily fit with other mods, having too many features causes too many potential conflicts.",
       "The problems mentioned previously regarding compatibility with other mods certainly doesn't help Essential's case either.",
-    ]
-  }
+    ],
+  },
 ]
 
 useSeoMeta({
