@@ -23,6 +23,8 @@ export default defineI18nConfig(() => ({
     "es-ES": esES,
     "no-NO": noNO,
     "pt-BR": ptBR,
+    "uk-UA": ukUA,
     "vi-VN": viVN,
+    "zh-CN": zhCN
   },
 }))

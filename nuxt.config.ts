@@ -60,8 +60,16 @@ export default defineNuxtConfig({
         name: "Português (Brazil)",
       },
       {
+        code: "uk-UA",
+        name: "українець (Ukraine)",
+      },
+      {
         code: "vi-VN",
         name: "Vietnamese",
+      },
+      {
+        code: "zh-CN",
+        name: "中文简体 (Simplified Chinese)",
       },
     ],
     /*detectBrowserLanguage: {
