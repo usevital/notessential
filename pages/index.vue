@@ -94,19 +94,20 @@ const reasonsWhy = [
     ],
   },
   {
-    title: "Cluttered Interface",
+    title: "Too much bloat",
     body: [
-      "Essential's interface has many options and buttons. These tend to lead to severe clutter in certain parts of the game.",
-      "Staying on the default configuration, the amount of screen space taken up by Essential makes the game cumbersome to navigate.",
-      "Additionally, some of the buttons on the main menu aren't necessary or can be placed better. It's not a lot, but on the default screen size the space it takes up can be significant.",
+      'For a mod that advertises itself as the "essential tool for Minecraft", it has too many things included.',
+      "The concept of an all-in-one mod isn't bad, but as a mod that should easily fit with other mods, having too many features causes too many potential conflicts.",
+      "The problems mentioned previously regarding compatibility with other mods certainly doesn't help Essential's case either.",
     ],
   },
   {
-    title: "Too much bloat",
+    title: "Cluttered Interface",
     body: [
-      'Lastly, for a mod that advertises itself as the "essential tool for Minecraft", it has too many things included.',
-      "The concept of an all-in-one mod isn't bad, but as a mod that should easily fit with other mods, having too many features causes too many potential conflicts.",
-      "The problems mentioned previously regarding compatibility with other mods certainly doesn't help Essential's case either.",
+      "This one comes more down to opinion but it's one we believe many players can share. You may disagree with this heavily, and that's okay.",
+      "Essential's interface has many options and buttons. These tend to lead to severe clutter in certain parts of the game.",
+      "Staying on the default configuration, the amount of screen space taken up by Essential makes the game cumbersome to navigate.",
+      "Additionally, some of the buttons on the main menu aren't necessary or can be placed better. It's not a lot, but on the default screen size the space it takes up can be significant.",
     ],
   },
 ]
