@@ -135,6 +135,13 @@ const alternatives = {
         Modrinth: "https://modrinth.com/mod/screenshot-viewer",
       },
     },
+    Snapper: {
+      description: texts.misc.snapper,
+      icon: "https://cdn.modrinth.com/data/MZQyESDC/9badee3a30ccea4818c3408a390e8137590b808a.png",
+      links: {
+        Modrinth: "https://modrinth.com/mod/snapper",
+      },
+    },
     "Auth Me": {
       description: texts.misc.auth_me,
       icon: "https://cdn.modrinth.com/data/yjgIrBjZ/icon.png",

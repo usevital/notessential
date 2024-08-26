@@ -136,6 +136,10 @@
           "Essential has a screenshot viewer feature, and you can get something similar using this mod.",
           "Screenshot Viewer is a mod that allows you to see the screenshots that you have taken while you were gaming! (including the accidental ones you took when you where trying to press F3)."
         ],
+        "snapper": [
+          "Essential's screenshot functionality involves functionality both when taking a screenshot and viewing one.",
+          "Snapper aims to provide the most and highest-quality possible improvements to Minecraft's screenshot experience."
+        ],
         "auth_me": [
           "Essential has an in-game account switcher feature. You can use this mod to achieve one important aspect of it.",
           "Auth Me is able to re-authenticate yourself in case your session expires, solving the infamous \"Invalid Session\" error."
