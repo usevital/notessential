@@ -41,7 +41,7 @@ export default defineNuxtConfig({
       },
       {
         code: "ru-RU",
-        name: "русский (Russia)",
+        name: "Русский (Russia)",
       },
       {
         code: "de-DE",
@@ -61,7 +61,7 @@ export default defineNuxtConfig({
       },
       {
         code: "uk-UA",
-        name: "українець (Ukraine)",
+        name: "Українська (Ukraine)",
       },
       {
         code: "vi-VN",
