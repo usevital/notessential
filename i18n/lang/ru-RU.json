@@ -4,7 +4,7 @@
       "alternatives": "АЛЬТЕРНАТИВЫ"
     },
     "footer": {
-      "disclaimer": "НЕ ОФИЦИАЛЬНЫЙ ПРОДУКТ MINECRAFT. НЕ УТВЕРЖДЕН ИЛИ СВЯЗАН С MOJANG, MICROSOFT ИЛИ SPARK UNIVERSE.",
+      "disclaimer": "НЕ ОФИЦИАЛЬНЫЙ ПРОДУКТ MINECRAFT. НЕ УТВЕРЖДЕНО И НЕ СВЯЗАНО С КОМПАНИЕЙ MOJANG, MICROSOFT ИЛИ SPARK UNIVERSE.",
       "open_source": "Эта страница с открытым исходным кодом.",
       "about": "О нас",
       "credit_creator": "Изначально создано",
@@ -25,7 +25,7 @@
     "hero": "ВКЛАД",
     "subhero": "К веб-сайту NotEssential",
     "welcome": "Хотите внести свой вклад в NotEssential? Вот некоторые рекомендации.",
-    "end": "Если у вас есть еще вопросы, присоединяйтесь к нашему Discord и задавайте их там.",
+    "end": "Если у вас остались вопросы, присоединяйтесь к нашему Discord и задавайте их там.",
     "titles": {
       "translating": "Перевод",
       "coding": "Разработка",

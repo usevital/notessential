@@ -25,10 +25,10 @@ export default defineNuxtConfig({
 
   i18n: {
     strategy: "no_prefix",
-    defaultLocale: "en",
+    defaultLocale: "en-US",
     locales: [
       {
-        code: "en",
+        code: "en-US",
         name: "English (US)",
       },
       {
@@ -40,11 +40,11 @@ export default defineNuxtConfig({
         name: "English (Upside-down)",
       },
       {
-        code: "ru",
+        code: "ru-RU",
         name: "русский (Russia)",
       },
       {
-        code: "de",
+        code: "de-DE",
         name: "Deutsch (Germany)",
       },
       {
