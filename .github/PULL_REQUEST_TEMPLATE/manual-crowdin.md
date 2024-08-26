@@ -4,10 +4,9 @@
 
 ## Languages changed
 
-*
+-
 
 <!-- lang-country codes go here -->
-<!-- + means addition, - means removal, = means modification -->
 
 ## Issues solved
 
