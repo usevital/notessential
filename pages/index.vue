@@ -26,7 +26,10 @@
       clear."
     />
 
-    <NumberedList v-if="whyNot === true && showReasons === true" :data="reasonsWhy" />
+    <NumberedList
+      v-if="whyNot === true && showReasons === true"
+      :data="reasonsWhy"
+    />
 
     <span v-if="whyNot === true">
       In case it wasn't clear, don't harrass any people affiliated with
