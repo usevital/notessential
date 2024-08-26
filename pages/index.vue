@@ -18,15 +18,15 @@
     <NEButton class="w-fit sm:px-20 px-15 py-8" to="/alternatives">
       <LucideArrowUpRight /> {{ $t("landing.buttons.alternatives") }}
     </NEButton>
-    <!--
+
     <PageHero
-      v-if="whyNot === true"
+      v-if="whyNot === true && showReasons === true"
       title="WHY?"
       subTitle="Many people wonder why not to use Essential. We hope to make the reasons
       clear."
     />
 
-    <NumberedList v-if="whyNot === true" :data="reasonsWhy" />
+    <NumberedList v-if="whyNot === true && showReasons === true" :data="reasonsWhy" />
 
     <span v-if="whyNot === true">
       In case it wasn't clear, don't harrass any people affiliated with
@@ -38,7 +38,7 @@
     <span v-if="whyNot === true" class="flex flex-row gap-2"
       >with<LucideHeart class="stroke-[var(--brand-blue)]" /> from all at the
       NotEssential team
-    </span>-->
+    </span>
   </div>
 </template>
 
@@ -49,7 +49,14 @@ if (Math.floor(Math.random() * 10000) === 0) {
   minecraftText.value = "MINCERAFT"
 }
 
-//const whyNot = useCookie("whyNotEssential", { default: false })
+const whyNot = useCookie("whyNotEssential", { default: () => false })
+
+const showReasons = ref(false)
+if (process.client) {
+  onMounted(() => {
+    showReasons.value = true
+  })
+}
 
 const reasonsWhy = [
   {

@@ -29,7 +29,6 @@
           </option>
         </NESelect>
       </div>
-      <!-- COMMENTED OUT TEMPORARILY
       <div
         class="flex flex-col gap-2 border-2 rounded-xl p-5 border-[var(--text-colour)]"
       >
@@ -45,7 +44,7 @@
           secondary
           >Set to {{ !whyNot }}</NEButton
         >
-      </div>-->
+      </div>
     </div>
   </div>
 </template>
@@ -55,7 +54,7 @@ useSeoMeta({
   title: "Experiments",
 })
 
-//const whyNot = useCookie("whyNotEssential", { default: false })
+const whyNot = useCookie("whyNotEssential", { default: () => false })
 
 const { locale, locales, setLocale } = useI18n()
 

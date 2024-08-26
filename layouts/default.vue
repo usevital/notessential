@@ -85,6 +85,11 @@
                   $t("layout.footer.contributing")
                 }}
               </NELink>
+              <NELink to="/experiments"
+                ><LucideWrench class="h-5" />{{
+                  $t("layout.footer.experiments")
+                }}
+              </NELink>
             </div>
             <div
               class="flex flex-col gap-2 font-[500] text-[var(--text-colour)] text-sm"
