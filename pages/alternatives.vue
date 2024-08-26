@@ -61,7 +61,7 @@ const alternatives = {
         Modrinth: "https://modrinth.com/mod/world-host",
       },
     },
-    E4MC: {
+    e4mc: {
       description: texts.multiplayer.e4mc,
       icon: "https://cdn.modrinth.com/data/qANg5Jrr/95dcc112830c1f3ddef30cc8451a1903dec17988.png",
       links: {
