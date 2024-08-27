@@ -25,10 +25,10 @@ export default defineNuxtConfig({
 
   i18n: {
     strategy: "no_prefix",
-    defaultLocale: "en",
+    defaultLocale: "en-US",
     locales: [
       {
-        code: "en",
+        code: "en-US",
         name: "English (US)",
       },
       {
@@ -40,11 +40,11 @@ export default defineNuxtConfig({
         name: "English (Upside-down)",
       },
       {
-        code: "ru",
-        name: "русский (Russia)",
+        code: "ru-RU",
+        name: "Русский (Russia)",
       },
       {
-        code: "de",
+        code: "de-DE",
         name: "Deutsch (Germany)",
       },
       {
@@ -60,8 +60,16 @@ export default defineNuxtConfig({
         name: "Português (Brazil)",
       },
       {
+        code: "uk-UA",
+        name: "Українська (Ukraine)",
+      },
+      {
         code: "vi-VN",
         name: "Tiếng Việt (Vietnam)",
+      },
+      {
+        code: "zh-CN",
+        name: "中文简体 (Simplified Chinese)",
       },
     ],
     /*detectBrowserLanguage: {

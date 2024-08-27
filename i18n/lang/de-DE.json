@@ -4,14 +4,14 @@
       "alternatives": "ALTERNATIVEN"
     },
     "footer": {
-      "disclaimer": "NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG, MICROSOFT OR SPARK UNIVERSE.",
-      "open_source": "This page is open source.",
+      "disclaimer": "KEIN OFFIZIELLES MINECRAFT PRODUKT. NICHT UNTERSTÜTZT VON ODER ASSOZIIERT MIT MOJANG, MICROSOFT ODER SPARK UNIVERSE.",
+      "open_source": "Diese Seite ist quelloffen.",
       "about": "Über",
       "credit_creator": "Ursprünglich erstellt von",
       "credit_designed": "Entworfen von",
       "interact": "Mitmachen",
-      "resources": "Resources",
-      "contributing": "Contributing"
+      "resources": "Ressourcen",
+      "contributing": "Mitmachen"
     }
   },
   "landing": {
@@ -22,39 +22,39 @@
     }
   },
   "contributing": {
-    "hero": "CONTRIBUTING",
-    "subhero": "To the NotEssential website",
-    "welcome": "Want to contribute to NotEssential? Here are some guidelines.",
-    "end": "If you have any more questions, please join our Discord and ask there.",
+    "hero": "MITMACHEN",
+    "subhero": "Bei der NotEssential website",
+    "welcome": "Möchtest du bei NotEssential mithelfen? Hier hat es einige Richtlinien.",
+    "end": "Solltest du weitere fragen haben, tritt unserem Discord bei und stelle sie da.",
     "titles": {
-      "translating": "Translating",
-      "coding": "Developing",
-      "alternatives": "Submitting Alternatives"
+      "translating": "Übersetzen",
+      "coding": "Entwickeln",
+      "alternatives": "Alternativen einreichen"
     },
     "subtitles": {
-      "translating": "To help translate NotEssential, please visit our Crowdin page. If your language is not listed, join our Discord server and request your language to be added in the #ne-general chat.",
-      "coding": "To assist in developing NotEssential, fork this repository and create a new branch to start off with. Then, checkout your branch locally and start coding.",
-      "alternatives": "Similar to above, fork this repository and create a new branch based off `main`. Then, checkout your branch locally and start coding."
+      "translating": "Um NotEssential zu übersetzten, besuche bitte unsere Crowdin Seite. Sollte deine Sprache nicht aufgelistet sein, tritt unserem Discord Server bei und bitte im #ne-general Chat darum, sie hinzuzufügen.",
+      "coding": "Um bei der Entwicklung von NotEssential zu helfen, forke diese Repository und erstelle einen neuen Branch um zu starten. Danach checkout deinen Branch lokal und fang an zu programmieren.",
+      "alternatives": "Ähnlich wie oben, forke das Repository und erstelle einen neuen Branch basierend auf 'main'. Danach checkout deinen Branch lokal und fang an zu programmieren."
     },
     "guidelines": {
       "translating": [
-        "Unless they have an official name in your language, do NOT translate a mod's name into that language.",
-        "Similarly, do NOT translate 'Essential' (the mod), 'Spark Universe', 'Mojang', or 'Microsoft' if there isn't an official name in that language.",
-        "If there is an issue, please make a comment on the side panel and tick the 'Issues' box. Then, select the related flag.",
-        "When an area is in ALL CAPS, also write in ALL CAPS if you can with your language."
+        "Sofern es keine offiziellen Namen in deiner Sprache hat, übersetze NICHT die Namen eines Mods in deine Sprache.",
+        "Übersetze ebenfalls NICHT 'Essential' (Die Mod), 'Spark Universe', 'Mojang' oder 'Microsoft' sofern es keinen offiziellen namen in deiner Sprache hat.",
+        "Sollte es ein Problem geben, erstelle bitte einenen Kommentar im Seitenfenster und klicke die 'Issues' Box an. Danach wähle die passende markierung aus.",
+        "Wenn ein Bereich KOMPLETT IN CAPS ist, schreibe es ebenfalls KOMPLETT IN CAPS, sofern du dies in deiner Sprache tun kannst."
       ],
       "coding": [
-        "Make sure you look at the Pull Requests page to see if your idea has already been listed. If so, we recommend opening pull requests to the head branch/repository (the head branch is the branch merging to the repository).",
-        "Make your commit names helpful so we can understand what you have changed.",
-        "Install Prettier. You can run 'pnpm add prettier' or install Prettier as a VS Code extension (this should have been recommended to you automatically!). If you use the extension, ensure 'Format on Save' is set in VS Code settings.",
-        "Make sure you use one of our pull request templates when making a pull request."
+        "Stell sicher, dass du dir die Pull requests seite für deine Idee angesehen hast, und ob diese bereits gelistet ist. Sollte dies nicht der fall sein, öffne einen Pull request für den Hauptbranch/die Hauptrepository.",
+        "Mach hilfreiche Commitnachrichten, so das wir verstehen, was du geändert hast.",
+        "Installiere Prettier. Du kannst es mit 'pnpm add prettier' oder als eine VS Code Erweiterung (Dies sollte dir automatisch empfohlen werden!) tun. Sofern du die Erweiterung verwendest, stelle siche 'Format on Save' ist in den VS Code Einstellungen aktiviert.",
+        "Stell sicher, dass du eines unserer Pull request Vorlagen verwendest, wenn du einen Pull request erstellst."
       ],
       "alternatives": [
-        "Make sure your project replaces a feature of Essential.",
-        "Please detail why your project should be added to the page.",
-        "Also submit a short description of your project, though this is optional.",
-        "This should be obvious, but please don't submit a Trojan or other form of malware.",
-        "Please don't just use this site as 'free advertising' for your project."
+        "Stell sicher, das dein Projekt eine Funktion von Essential ersetzt.",
+        "Bitte erkläre detailiert, warum dein Projekt zur seite hinzugefügt werden soll.",
+        "Du kannst auch eine kleine Beschreibung deines Projektes geben, dies ist aber Optional.",
+        "Dies sollte offensichtlich sein, aber bitte reiche keine Trojaner oder andere Formen von Schadsoftware ein.",
+        "Bitte verwende diese Seite nicht einfach als eine Form von 'Gratiswerbung' für dein Projekt."
       ]
     }
   },
