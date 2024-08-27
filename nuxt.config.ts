@@ -41,7 +41,7 @@ export default defineNuxtConfig({
       },
       {
         code: "ru-RU",
-        name: "русский (Russia)",
+        name: "Русский (Russia)",
       },
       {
         code: "de-DE",
@@ -58,6 +58,18 @@ export default defineNuxtConfig({
       {
         code: "pt-BR",
         name: "Português (Brazil)",
+      },
+      {
+        code: "uk-UA",
+        name: "Українська (Ukraine)",
+      },
+      {
+        code: "vi-VN",
+        name: "Tiếng Việt (Vietnam)",
+      },
+      {
+        code: "zh-CN",
+        name: "中文简体 (Simplified Chinese)",
       },
     ],
     /*detectBrowserLanguage: {

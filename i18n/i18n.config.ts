@@ -6,6 +6,9 @@ import deDE from "./lang/de-DE.json"
 import esES from "./lang/es-ES.json"
 import noNO from "./lang/no-NO.json"
 import ptBR from "./lang/pt-BR.json"
+import viVN from "./lang/vi-VN.json"
+import zhCN from "./lang/zh-CN.json"
+import ukUA from "./lang/uk-UA.json"
 
 export default defineI18nConfig(() => ({
   legacy: false,
@@ -20,5 +23,8 @@ export default defineI18nConfig(() => ({
     "es-ES": esES,
     "no-NO": noNO,
     "pt-BR": ptBR,
+    "uk-UA": ukUA,
+    "vi-VN": viVN,
+    "zh-CN": zhCN
   },
 }))

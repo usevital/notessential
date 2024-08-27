@@ -11,7 +11,8 @@
       "credit_designed": "Designed by",
       "interact": "Interact",
       "resources": "Resources",
-      "contributing": "Contributing"
+      "contributing": "Contributing",
+      "experiments": "Experiments"
     }
   },
   "landing": {
@@ -43,12 +44,12 @@
     "guidelines": {
       "translating": [
         "Unless they have an official name in your language, do NOT translate a mod's name into that language.",
-        "Similarly, do NOT translate 'Essential' (the mod), 'Spark Universe', 'Mojang', or 'Microsoft' if there isn't an official name in that language.",
+        "Similarly, do NOT translate 'Essential' (the mod), 'Spark Universe', 'Mojang', 'Microsoft', as well as any mod names if there isn't an official name in that language.",
         "If there is an issue, please make a comment on the side panel and tick the 'Issues' box. Then, select the related flag.",
         "When an area is in ALL CAPS, also write in ALL CAPS if you can with your language."
       ],
       "coding": [
-        "Make sure you look at the Pull Requests page to see if your idea has already been listed. If so, we recommend opening pull requests to the head branch/repository (the head branch is the branch merging to the repository).",
+        "Make sure you look at the Pull Requests page to see if your idea has already been listed. If there isn't one, we recommend opening pull requests to the head branch/repository (the head branch is the branch merging to the repository).",
         "Make your commit names helpful so we can understand what you have changed.",
         "Install Prettier. You can run 'pnpm add prettier' or install Prettier as a VS Code extension (this should have been recommended to you automatically!). If you use the extension, ensure 'Format on Save' is set in VS Code settings.",
         "Make sure you utilise our pull request template when making a pull request."
@@ -65,6 +66,7 @@
   "alternatives": {
     "hero": "ALTERNATIVES",
     "reason": "Essential has many issues. This page provides alternatives.",
+    "nudge_for_contributing": "Willing to contribute? Click here for contributing guidelines.",
     "texts": {
       "modpacks": {
         "section_name": "Modpacks",
@@ -115,13 +117,13 @@
           "Bonus: It also has sort of a built-in anti-cheat for things such as invisible player models!"
         ],
         "skin_shuffle": [
-          "Essential's skin swapper in-game can be convenient if you want to change your game without having to relaunch Minecraft. This mod can achieve this for you!",
+          "Essential's skin swapper in-game can be convenient if you want to change your skin without having to relaunch Minecraft. This mod can achieve this for you!",
           "Skin Shuffle is a mod that can change, store, and customise your skin, all in-game without requiring to relaunch. They are stored in what they call \"Skin Presets\" which can be created off of URLs, files, Usernames/UUIDs, in-game textures and even your current skin!",
           "If the server has Skin Shuffle installed, you can also switch your skin and it will be shown to everyone on the server, even those without the mod, all while not requiring you to disconnect from the server!"
         ],
         "emotecraft": [
           "For Emotes, you may want to use Emotecraft. It's a free and open source emotes service, with support for custom emotes.",
-          "You can download many emotes, or even make your own! The discord server has a lot of emotes you can download. It's a little bit outdated, though."
+          "You can download many emotes, or even make your own! The discord server has a lot of emotes you can download, though it's a little bit outdated."
         ]
       },
       "misc": {
@@ -133,6 +135,10 @@
         "screenshot_viewer": [
           "Essential has a screenshot viewer feature, and you can get something similar using this mod.",
           "Screenshot Viewer is a mod that allows you to see the screenshots that you have taken while you were gaming! (including the accidental ones you took when you where trying to press F3)."
+        ],
+        "snapper": [
+          "Essential's screenshot functionality involves functionality both when taking a screenshot and viewing one.",
+          "Snapper aims to provide the most and highest-quality possible improvements to Minecraft's screenshot experience."
         ],
         "auth_me": [
           "Essential has an in-game account switcher feature. You can use this mod to achieve one important aspect of it.",

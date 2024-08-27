@@ -5,29 +5,35 @@
     <!-- NAVBAR -->
 
     <nav
-      class="sm:px-[calc(5%+2rem)] text-[color:var(--big-text-colour)] select-none font-bold p-8 flex flex-col sm:flex-row items-center text-base justify-between gap-6 max-w-full border-b border-b-slate-800"
+      class="sm:px-[calc(5%+2rem)] text-[color:var(--big-text-colour)] flex flex-col items-center select-none font-bold p-8 border-b border-b-slate-800"
     >
-      <NuxtLink
-        class="font-[500] italic text-lg flex items-center flex-row gap-4 tracking-wider"
-        to="/"
+      <div
+        class="flex flex-col sm:flex-row items-center text-base justify-between gap-6 max-w-[80rem] w-full"
       >
-        <LogoType />
-      </NuxtLink>
+        <NuxtLink
+          class="font-[500] italic text-lg flex items-center flex-row gap-4 tracking-wider"
+          to="/"
+        >
+          <LogoType />
+        </NuxtLink>
 
-      <NuxtLink
-        class="text-[0.5rem] sm:text-[1rem] internalFont"
-        to="/alternatives"
-      >
-        {{ $t("layout.nav.alternatives") }}
-      </NuxtLink>
+        <NuxtLink
+          class="text-[0.5rem] sm:text-[1rem] internalFont"
+          to="/alternatives"
+        >
+          {{ $t("layout.nav.alternatives") }}
+        </NuxtLink>
+      </div>
     </nav>
 
     <!-- MAIN CONTENT -->
 
     <main
-      class="flex flex-auto justify-center flex-col mx-[5%] sm:mx-[calc(5%+2rem)] max-w-full"
+      class="flex flex-col flex-auto items-center mx-[5%] sm:mx-[calc(5%+2rem)] max-w-full"
     >
-      <slot />
+      <div class="flex justify-center flex-col max-w-[80rem]">
+        <slot />
+      </div>
     </main>
 
     <!-- FOOTER -->
@@ -39,7 +45,7 @@
         class="flex flex-col gap-0 items-center pb-8 border-t border-t-slate-800 bg-[#0f0f0f]"
       >
         <div
-          class="flex flex-col sm:flex-row items-center sm:items-start sm:justify-center py-6 gap-8 mx-[calc(5%+2rem)] sm:mx-0"
+          class="flex flex-col md:flex-row items-center max-w-[80rem] md:items-start md:justify-center py-6 gap-8 mx-[calc(5%+2rem)] sm:mx-0"
         >
           <div class="flex flex-col items-center sm:items-start gap-4 pt-2">
             <ColourableLogo color="var(--brand-blue)" class="h-4 w-full" />
@@ -83,6 +89,11 @@
               <NELink to="/contributing"
                 ><LucidePenBox class="h-5" />{{
                   $t("layout.footer.contributing")
+                }}
+              </NELink>
+              <NELink to="/experiments"
+                ><LucideWrench class="h-5" />{{
+                  $t("layout.footer.experiments")
                 }}
               </NELink>
             </div>

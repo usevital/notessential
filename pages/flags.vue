@@ -12,6 +12,8 @@
 
   <p class="text-2xl">
     You landed on the page we used to use for experiments.
-    <a href="/experiments">Click here to go to the new page!</a>
+    <a href="/experiments" class="underline"
+      >Click here to go to the new page!</a
+    >
   </p>
 </template>

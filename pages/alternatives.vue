@@ -12,6 +12,14 @@
     :data="section"
     :title="title"
   />
+
+  <!-- Div is here so NuxtLink will act as inline element -->
+
+  <div>
+    <NuxtLink to="/contributing" class="text-lg brightness-75 hover:underline">
+      {{ $t("alternatives.nudge_for_contributing") }}
+    </NuxtLink>
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -53,7 +61,7 @@ const alternatives = {
         Modrinth: "https://modrinth.com/mod/world-host",
       },
     },
-    E4MC: {
+    e4mc: {
       description: texts.multiplayer.e4mc,
       icon: "https://cdn.modrinth.com/data/qANg5Jrr/95dcc112830c1f3ddef30cc8451a1903dec17988.png",
       links: {
@@ -125,6 +133,13 @@ const alternatives = {
       icon: "https://cdn.modrinth.com/data/laNoi025/1bbd371a465710708ce253fad6f9f8e7c8e3e56e.png",
       links: {
         Modrinth: "https://modrinth.com/mod/screenshot-viewer",
+      },
+    },
+    Snapper: {
+      description: texts.misc.snapper,
+      icon: "https://cdn.modrinth.com/data/MZQyESDC/9badee3a30ccea4818c3408a390e8137590b808a.png",
+      links: {
+        Modrinth: "https://modrinth.com/mod/snapper",
       },
     },
     "Auth Me": {

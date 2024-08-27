@@ -24,9 +24,18 @@ jobs:
       - name: Label PR based on content
         if: github.event.action != 'labeled'
         id: label-pr
-        uses: prulloac/configurable-pr-labeler@v1.1.2
+        uses: fuxingloh/multi-labeler@v4.0.0
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          config-path: .github/labeler.yml
+
+      - name: Label & comment if PR has conflict
+        uses: eps1lon/actions-label-merge-conflict@v3.0.2
+        with:
+          dirtyLabel: "Merge conflict identified"
+          repoToken: "${{ secrets.GITHUB_TOKEN }}"
+          commentOnDirty: "This pull request has conflicts with the base branch, which is ${{ github.base_ref }}. Please resolve them."
+          commentOnClean: "Resolved conflicts!"
 
       - name: Assign/unassign reviewers
         if: github.event.action == 'ready_for_review'
