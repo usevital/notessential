@@ -1,6 +1,6 @@
-name: Auto Label PRs, then add assignees and reviewers automatically.
+name: Automatic PR management
 
-run-name: PR management stuff
+run-name: PR management
 
 on:
   pull_request_target:
@@ -30,6 +30,7 @@ jobs:
           config-path: .github/labeler.yml
 
       - name: Label & comment if PR has conflict
+        id: conflict-checker
         uses: eps1lon/actions-label-merge-conflict@v3.0.2
         with:
           dirtyLabel: "Merge conflict identified"
@@ -95,7 +96,7 @@ jobs:
           echo "Check previous step logs, as well as the debug logs if necessary, for more info."
 
       - name: Warn if this workflow fails
-        if: steps.author-assignee.outcome == 'failure' || steps.label-pr.outcome == 'failure' || steps.assign-reviewers.outcome == 'failure'
+        if: failure()
         id: warn-on-fail
         uses: dannyskoog/pull-request-comment@v1
         with:
