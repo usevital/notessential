@@ -91,7 +91,7 @@ const reasonsWhy = [
       "Essential requires that you accept the ToS in order to use the mod. This can come across as a red flag to some, as generally this is only present as a confirmation that you don't mind your data being harvested.",
       "While Essential's Privacy Policy states the data they collect (and it's not very significant to most people), most people will not be reading the policy, especially with the required legalese to cover their bases.",
       "Additionally, this is a game played by kids, the cohort that are most likely clueless on what a Terms of Service or Privacy Policy is, and don't understand the data they are giving out by agreeing and especially don't understand the language being used, even if kids are legally not allowed to agree to contracts in some areas.",
-      "For full clarity, this is what Essential says (verbatim) they collect on their Privacy Policy (updated 27/8/2024): Minecraft UUID, Minecraft & modloader versions, Mod Checksums using MD5, User interfaces the player enters during their session, Cosmetics that players choose to preview, Essential config values (with random A/B testing), Servers you join (if you choose to enable it in privacy settings), and computer specs."
+      "For full clarity, this is what Essential says (verbatim) they collect on their Privacy Policy (updated 27/8/2024): Minecraft UUID, Minecraft & modloader versions, Mod Checksums using MD5, User interfaces the player enters during their session, Cosmetics that players choose to preview, Essential config values (with random A/B testing), Servers you join (if you choose to enable it in privacy settings), and computer specs.",
     ],
   },
   {
