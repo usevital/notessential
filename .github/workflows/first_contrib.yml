@@ -18,4 +18,4 @@ jobs:
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: "Hello! We've detected that this is your first issue here! If so, thank you! Please make sure everything in your template is correct!"
-          pr-message: "Hello! We've detected that this is your first PR here! If so, thank you! Please make sure everything in your template is correct and that you've reviewed our contributing guidelines, found here: https://notessential.blurryface.xyz/contributing"
+          pr-message: "Hello! We've detected that this is your first PR here! If so, thank you! Please make sure everything in your template is correct and that you've reviewed our contributing guidelines, found here: https://notessential.blurry.gay/contributing"

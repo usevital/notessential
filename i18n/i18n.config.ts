@@ -13,7 +13,7 @@ import ukUA from "./lang/uk-UA.json"
 export default defineI18nConfig(() => ({
   legacy: false,
   fallbackLocale: "en-US",
-  locale: "en",
+  locale: "en-US",
   messages: {
     "en-US": enUS,
     "en-UD": enUD,
