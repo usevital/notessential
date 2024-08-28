@@ -182,3 +182,16 @@ body {
   color: var(--text-colour);
 }
 </style>
+
+<script setup>
+if (process.client) {
+  const whyNot = useCookie("whyNotEssential", { default: () => false })
+  const route = useRoute()
+  const selectedExperiment = route.query.experiment || ""
+  switch (selectedExperiment) {
+    case "why":
+      whyNot.value = true
+      console.log("'Why not Essential?' experiment enabled")
+  }
+}
+</script>
