@@ -11,8 +11,7 @@
       "credit_designed": "Designet av",
       "interact": "Samhandle",
       "resources": "Ressurser",
-      "contributing": "Bidra",
-      "experiments": ""
+      "contributing": "Bidra"
     }
   },
   "landing": {
@@ -21,10 +20,6 @@
     "buttons": {
       "alternatives": "ALTERNATIVER"
     }
-  },
-  "experiments": {
-    "hero": "",
-    "subtitle": ""
   },
   "contributing": {
     "hero": "BIDRA",
@@ -37,22 +32,22 @@
       "alternatives": "Sende inn alternativer"
     },
     "subtitles": {
-      "translating": "",
-      "coding": "",
-      "alternatives": ""
+      "translating": "For å oversette NotEssential, vennligst besøk vår Crowdin-side. Hvis språket ditt ikke vises på listen, bli med i vår Discord server og be om at språket ditt blir lagt til i #ne-general chatten.",
+      "coding": "For å hjelpe til med utviklingen av NotEssential, fork dette repoet og opprett en ny gren for å jobbe på. Velg deretter grenen din lokalt og start kodingen.",
+      "alternatives": "Som med ovenfor, fork dette repoet og opprett en ny gren av `main`. Deretter, velg grenen lokalt og start koding."
     },
     "guidelines": {
       "translating": [
         "Med mindre de har et offisielt navn på språket ditt, skal du IKKE oversette modder sine navn til det språket.",
-        "",
+        "På samme måte skal du IKKE oversette 'Essential' (modden), 'Spark Universe', 'Mojang' eller 'Microsoft' hvis det ikke er noe offisielt navn på språket.",
         "Hvis det er et problem, vennligst legg til en kommentar i sidepanelet og kryss av i boksen \"Problemer\" sammen med den relaterte kategorien.",
         "Når et område er i FULL CAPS, skriver du også i FULL CAPS dersom du kan gjøre det med språket ditt."
       ],
       "coding": [
-        "",
+        "Pass på at du ser på pull requests siden for å se om ideen din allerede er oppført. I så fall anbefaler vi å åpne pull request til dens gren/repo (dens gren brukes for fletting til hoved repoet).",
         "Velg commit navnene dine med omhu, slik at vi kan forstå hva du har endret.",
         "Installer Prettier. Du kan kjøre 'pnpm add prettier' eller installere Prettier som en VS Code utvidelse (dette skal ha blitt anbefalt for deg automatisk!). Hvis du bruker utvidelsen, sørg for at 'Format på Save' er slått på i VS Code sine instillinger.",
-        ""
+        "Sørg for at du bruker en av våre pull request maler når du foretar en pull request."
       ],
       "alternatives": [
         "Sørg for at prosjektet ditt erstatter en funksjon av Essential.",
@@ -66,7 +61,6 @@
   "alternatives": {
     "hero": "ALTERNATIVER",
     "reason": "Essential har mange problemer. Denne siden gir alternativer.",
-    "nudge_for_contributing": "",
     "texts": {
       "modpacks": {
         "section_name": "Moddpakker",
@@ -117,17 +111,17 @@
           "Bonus: Den har også en innebygd anti-juks for problemer som for eksempel usynlige spillmodeller!"
         ],
         "skin_shuffle": [
-          "",
+          "Essential sin spillermodell-endrer i spillet kan være praktisk dersom du vil endre spillermodellen uten å måtte restarte Minecraft. Denne modden kan oppnå dette for deg!",
           "Skin Shuffle er en mod som kan endre, lagre og tilpasse spillerskallet, uten å kreve restart av Minecraft. De er lagret i det de kaller \"Spillermodell Forhåndsinnstillinger\", som kan opprettes av nettadresser, filer, brukernavn/UUIDer, spillteksturer, og til og med ditt nåværende spillermodell!",
           "Dersom serveren har Skin Shuffle installert, kan du også endre spillermodellen og den vil bli vist til alle på serveren, også de uten modden, helt uten at du trenger å koble fra serveren!"
         ],
         "emotecraft": [
           "For følelser kan du bruke Emotecraft. Det er en gratis følelse-tjeneste, med åpen kildekode og støtte for egendefinerte følelser.",
-          ""
+          "Du kan laste ned mange følelser, eller til og med lage dine egne! Discord serveren deres har mange følelser du kan laste ned. Den er litt utdatert."
         ]
       },
       "misc": {
-        "section_name": "",
+        "section_name": "Diverse",
         "screencapper": [
           "Essential har en forhåndsvisningsfunksjon for skjermdumper, denne modden implementerer en enkel erstating.",
           "En svært avansert skjermdumpforbedringsmod."
@@ -135,10 +129,6 @@
         "screenshot_viewer": [
           "Essential har en skjermdump-viser funksjon, og du kan få noe lignende med denne modden.",
           "Screenshot Viewer er en mod som lar deg se skjermdumper som du har tatt mens du spiller! (inkludert de uhellene når du prøvde å trykke F3)."
-        ],
-        "snapper": [
-          "",
-          ""
         ],
         "auth_me": [
           "Essential har en funksjon for å bytte Minecraft kontoer. Du kan bruke denne modden for å oppnå ett viktig aspekt av den.",

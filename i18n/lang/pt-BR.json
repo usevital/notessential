@@ -4,15 +4,14 @@
       "alternatives": "ALTERNATIVAS"
     },
     "footer": {
-      "disclaimer": "",
-      "open_source": "",
-      "about": "",
-      "credit_creator": "",
-      "credit_designed": "",
-      "interact": "",
-      "resources": "",
-      "contributing": "",
-      "experiments": ""
+      "disclaimer": "NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG, MICROSOFT OR SPARK UNIVERSE.",
+      "open_source": "This page is open source.",
+      "about": "About",
+      "credit_creator": "Originally created by",
+      "credit_designed": "Designed by",
+      "interact": "Interact",
+      "resources": "Resources",
+      "contributing": "Contributing"
     }
   },
   "landing": {
@@ -22,51 +21,46 @@
       "alternatives": "ALTERNATIVAS"
     }
   },
-  "experiments": {
-    "hero": "",
-    "subtitle": ""
-  },
   "contributing": {
-    "hero": "",
-    "subhero": "",
-    "welcome": "",
-    "end": "",
+    "hero": "CONTRIBUTING",
+    "subhero": "To the NotEssential website",
+    "welcome": "Want to contribute to NotEssential? Here are some guidelines.",
+    "end": "If you have any more questions, please join our Discord and ask there.",
     "titles": {
-      "translating": "",
-      "coding": "",
-      "alternatives": ""
+      "translating": "Translating",
+      "coding": "Developing",
+      "alternatives": "Submitting Alternatives"
     },
     "subtitles": {
-      "translating": "",
-      "coding": "",
-      "alternatives": ""
+      "translating": "To help translate NotEssential, please visit our Crowdin page. If your language is not listed, join our Discord server and request your language to be added in the #ne-general chat.",
+      "coding": "To assist in developing NotEssential, fork this repository and create a new branch to start off with. Then, checkout your branch locally and start coding.",
+      "alternatives": "Similar to above, fork this repository and create a new branch based off `main`. Then, checkout your branch locally and start coding."
     },
     "guidelines": {
       "translating": [
-        "",
-        "",
-        "",
-        ""
+        "Unless they have an official name in your language, do NOT translate a mod's name into that language.",
+        "Similarly, do NOT translate 'Essential' (the mod), 'Spark Universe', 'Mojang', or 'Microsoft' if there isn't an official name in that language.",
+        "If there is an issue, please make a comment on the side panel and tick the 'Issues' box. Then, select the related flag.",
+        "When an area is in ALL CAPS, also write in ALL CAPS if you can with your language."
       ],
       "coding": [
-        "",
-        "",
-        "",
-        ""
+        "Make sure you look at the Pull Requests page to see if your idea has already been listed. If so, we recommend opening pull requests to the head branch/repository (the head branch is the branch merging to the repository).",
+        "Make your commit names helpful so we can understand what you have changed.",
+        "Install Prettier. You can run 'pnpm add prettier' or install Prettier as a VS Code extension (this should have been recommended to you automatically!). If you use the extension, ensure 'Format on Save' is set in VS Code settings.",
+        "Make sure you use one of our pull request templates when making a pull request."
       ],
       "alternatives": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Make sure your project replaces a feature of Essential.",
+        "Please detail why your project should be added to the page.",
+        "Also submit a short description of your project, though this is optional.",
+        "This should be obvious, but please don't submit a Trojan or other form of malware.",
+        "Please don't just use this site as 'free advertising' for your project."
       ]
     }
   },
   "alternatives": {
     "hero": "ALTERNATIVAS",
     "reason": "O Essential tem vários problemas. Esta página fornece alternativas.",
-    "nudge_for_contributing": "",
     "texts": {
       "modpacks": {
         "section_name": "Modpacks",
@@ -117,17 +111,17 @@
           "Bônus: Ele também tem um tipo de anti-cheat incluso para coisas como modelos de jogador invisíveis!"
         ],
         "skin_shuffle": [
-          "",
+          "O trocador de skins do Essential pode ser conveniente se você quiser mudar sua skin sem precisar reiniciar o Minecraft. Esse mod pode ajudar você com isso!",
           "O Skin Shuffle é um mod que pode mudar, armazenar e customizar sua skin, tudo no jogo, sem necessidade de reiniciá-lo. Elas são armazenadas no que chamam de \"Presets de Skins\" que podem ser criadas através de URLs, arquivos, Nicknames/UUIDs, texturas do jogo e até mesmo sua skin atual!",
           "Se o servidor tiver o Skin Shuffle instalado, você também pode mudar sua skin e ela será mostrada a todos no servidor, mesmo aqueles sem o mod, sem precisar se reconectar ao servidor!"
         ],
         "emotecraft": [
           "Para emotes, você pode usar o Emotecraft. É um serviço de emotes grátis e de código aberto, com suporte para emotes personalizados.",
-          ""
+          "Você pode adicionar vários emotes, ou até fazer os seus próprios emotes! O servidor do discord tem vários emotes prontos que você pode baixar. Um porém é que o mod está um pouco desatualizado."
         ]
       },
       "misc": {
-        "section_name": "",
+        "section_name": "Diversos",
         "screencapper": [
           "O Essential tem uma função de visualização de capturas de tela, este mod implementa um equivalente básico.",
           "Um mod altamente avançado de melhorias para capturas de tela."
@@ -136,26 +130,22 @@
           "O Essential tem uma função de visualização de capturas de tela, e você pode ter algo semelhante usando esse mod.",
           "Screenshot Viewer é um mod que te permite ver as capturas de tela que você tirou durante sua jogatina! (Incluindo aquelas que você tirou sem querer quando tentava apertar o F3)."
         ],
-        "snapper": [
-          "",
-          ""
-        ],
         "auth_me": [
-          "",
-          ""
+          "Essential has an in-game account switcher feature. You can use this mod to achieve one important aspect of it.",
+          "Auth Me is able to re-authenticate yourself in case your session expires, solving the infamous \"Invalid Session\" error."
         ],
         "in_game_account_switcher": [
-          "",
-          "",
-          ""
+          "If you need the other aspect of Essential's account switcher, you can use the aptly-named In-Game Account Switcher mod.",
+          "In-Game Account Switcher has the ability to, well, switch accounts that are logged in, without needing to restart the game!",
+          "They also have various optional security measures to increase security when using your accounts with IAS."
         ],
         "craftpresence": [
-          "",
-          ""
+          "Essential has a Discord RPC feature that displays the version and server you are playing on. This mod can do that AND let you customize it further.",
+          "This popular RPC mod allows you to broadcast your Minecraft gaming session to Discord and change the lines that show on your Discord bio when you do so."
         ],
         "zume": [
-          "",
-          ""
+          "Essential has a zoom feature with it. This mod can replace that function, and it supports a LOT of Minecraft versions!",
+          "Not only does it zoom in and out, it also has keybinds for customising the zoom level!"
         ]
       }
     }
