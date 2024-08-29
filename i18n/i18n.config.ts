@@ -1,5 +1,5 @@
 import enUS from "./lang/en-US.json"
-import enLOL from "./lang/en-LOL.json"
+import lolUS from "./lang/lol-US.json"
 import enUD from "./lang/en-UD.json"
 import ruRU from "./lang/ru-RU.json"
 import deDE from "./lang/de-DE.json"
@@ -17,7 +17,7 @@ export default defineI18nConfig(() => ({
   messages: {
     "en-US": enUS,
     "en-UD": enUD,
-    "en-LOL": enLOL,
+    "en-LOL": lolUS,
     "ru-RU": ruRU,
     "de-DE": deDE,
     "es-ES": esES,
