@@ -1,161 +1,161 @@
 {
   "layout": {
     "nav": {
-      "alternatives": ""
+      "alternatives": "ALTERNATIVES"
     },
     "footer": {
-      "disclaimer": "",
-      "open_source": "",
-      "about": "",
-      "credit_creator": "",
-      "credit_designed": "",
-      "interact": "",
-      "resources": "",
-      "contributing": "",
-      "experiments": ""
+      "disclaimer": "NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG, MICROSOFT OR SPARK UNIVERSE.",
+      "open_source": "本頁面是開源的。",
+      "about": "關於",
+      "credit_creator": "Originally created by",
+      "credit_designed": "Designed by",
+      "interact": "Interact",
+      "resources": "資源",
+      "contributing": "貢獻",
+      "experiments": "Experiments"
     }
   },
   "landing": {
-    "hero": "",
-    "reason": "",
+    "hero": "有更好的方式來玩",
+    "reason": "Don't be forced to use Essential. There are countless open-source alternatives to help you.",
     "buttons": {
-      "alternatives": ""
+      "alternatives": "ALTERNATIVES"
     }
   },
   "experiments": {
-    "hero": "",
-    "subtitle": ""
+    "hero": "EXPERIMENTAL FEATURES",
+    "subtitle": "Configure experimental flags for development purposes!"
   },
   "contributing": {
-    "hero": "",
-    "subhero": "",
-    "welcome": "",
-    "end": "",
+    "hero": "CONTRIBUTING",
+    "subhero": "To the NotEssential website",
+    "welcome": "Want to contribute to NotEssential? Here are some guidelines.",
+    "end": "If you have any more questions, please join our Discord and ask there.",
     "titles": {
-      "translating": "",
-      "coding": "",
-      "alternatives": ""
+      "translating": "翻譯",
+      "coding": "開發",
+      "alternatives": "Submitting Alternatives"
     },
     "subtitles": {
-      "translating": "",
-      "coding": "",
-      "alternatives": ""
+      "translating": "To help translate NotEssential, please visit our Crowdin page, listed below. If your language is not listed, join our Discord server and request your language to be added in the #ne-general chat.",
+      "coding": "To assist in developing NotEssential, fork the source repository and create a new branch to start off with. Then, checkout your branch locally and start coding.",
+      "alternatives": "Similar to above, fork the source repository and create a new branch based off `main`. Then, checkout your branch locally and start coding."
     },
     "guidelines": {
       "translating": [
-        "",
-        "",
-        "",
-        ""
+        "Unless they have an official name in your language, do NOT translate a mod's name into that language.",
+        "Similarly, do NOT translate 'Essential' (the mod), 'Spark Universe', 'Mojang', 'Microsoft', as well as any mod names if there isn't an official name in that language.",
+        "If there is an issue, please make a comment on the side panel and tick the 'Issues' box. Then, select the related flag.",
+        "When an area is in ALL CAPS, also write in ALL CAPS if you can with your language."
       ],
       "coding": [
-        "",
-        "",
-        "",
-        ""
+        "Make sure you look at the Pull Requests page to see if your idea has already been listed. If there isn't one, we recommend opening pull requests to the head branch/repository (the head branch is the branch merging to the repository).",
+        "Make your commit names helpful so we can understand what you have changed.",
+        "Install Prettier. You can run 'pnpm add prettier' or install Prettier as a VS Code extension (this should have been recommended to you automatically!). If you use the extension, ensure 'Format on Save' is set in VS Code settings.",
+        "Make sure you utilise our pull request template when making a pull request."
       ],
       "alternatives": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Make sure your project replaces a feature of Essential.",
+        "Please detail why your project should be added to the page.",
+        "Also submit a short description of your project, though this is optional.",
+        "This should be obvious, but please don't submit a Trojan or other form of malware.",
+        "Please don't just use this site as 'free advertising' for your project."
       ]
     }
   },
   "alternatives": {
-    "hero": "",
-    "reason": "",
-    "nudge_for_contributing": "",
+    "hero": "ALTERNATIVES",
+    "reason": "Essential has many issues. This page provides alternatives.",
+    "nudge_for_contributing": "Willing to contribute? Click here for contributing guidelines.",
     "texts": {
       "modpacks": {
-        "section_name": "",
+        "section_name": "模組包",
         "vital": [
-          "",
-          "",
-          ""
+          "If you want to have everything neatly organized into one modpack, you can use Vital.",
+          "It has most of the mods on this list, including Cosmetica, World Host, and more.",
+          "It also has an organized main menu like Essential with FancyMenu."
         ]
       },
       "multiplayer": {
-        "section_name": "",
+        "section_name": "多人遊戲",
         "world_host": [
-          "",
-          "",
-          "",
-          ""
+          "For multiplayer with a friends system, you can use World Host. It's a free and open source way to broadcast your world to those on your friends list, and everyone you want to share it with.",
+          "It has a friends list system you can use to let your friends join your game right as you open it to them.",
+          "You simply hit \"Open to Friends\" and your friends will be able to join. You can also share the link that appears in chat with the people you want to play with!",
+          "This mod is recommended for mostly vanilla or lightly/client-side modded instances only. For better experiences with modpacks, use e4mc, which is featured below."
         ],
         "e4mc": [
-          "",
-          "",
-          ""
+          "For Multiplayer, you can use E4MC. It's a free and open source way to broadcast your LAN server to everyone you want to share it with.",
+          "You simply hit \"Open to LAN\" and share the link that appears in chat with the people you want to play with!",
+          "e4mc is recommended over World Host for modpacks, as this is a very simple mod which means it shouldn't interfere with potential mods. Just make sure your modlists are identical to avoid de-syncing!"
         ]
       },
       "cosmetics": {
-        "section_name": "",
+        "section_name": "Cosmetics",
         "cosmetica": [
-          "",
-          "",
-          ""
+          "For Cosmetics, you may want to use Cosmetica. It's a free and open source cosmetics service, with custom capes and cosmetics support.",
+          "It can even support cosmetics for OptiFine, Lunar Client and more!",
+          "\"Cosmetica lets you customize your player on a whole new level with cosmetics that rival those of popular PvP clients\" (taken from the Modrinth page)"
         ],
         "ears": [
-          "",
-          ""
+          "Ears is another mod you can use for skin customization. It uses your actual Minecraft Skin to set up how people will see your skin, if they have Ears installed.",
+          "It's available for many versions (Beta 1.7.3 - Release 1.20.6), and adds Ears, Snouts/Muzzles, Tails, Wings and More."
         ],
         "capes": [
-          "",
-          ""
+          "This mod gives you the ability to use and see capes from OptiFine, LabyMod and the MinecraftCapes mod.",
+          "You just install the mod and that's it! If you want to disable capes from certain mods you can do it on the configuration screen."
         ],
         "customizable_player_models": [
-          "",
-          "",
-          "",
-          ""
+          "Customizable Player Models is a mod that lets you deeply modify your player model.",
+          "It has an interface where you can add, remove, modify, model and texture your own player model, similar to how Blender works.",
+          "The models are stored in unused space on your Minecraft Skin, or as a Gist on GitHub.",
+          "Upload the exported image file as your skin to load the custom model."
         ],
         "figura": [
-          "",
-          "",
-          ""
+          "If you're looking to step it up a notch, Figura allows you to modify your player model much more!",
+          "Figura focuses less on maintaining compatibility, which means it's able to add much more to your model, such as pets, ears, and more! You can also use Lua scripts to customise even further!",
+          "Bonus: It also has sort of a built-in anti-cheat for things such as invisible player models!"
         ],
         "skin_shuffle": [
-          "",
-          "",
-          ""
+          "Essential's skin swapper in-game can be convenient if you want to change your skin without having to relaunch Minecraft. This mod can achieve this for you!",
+          "Skin Shuffle is a mod that can change, store, and customise your skin, all in-game without requiring to relaunch. They are stored in what they call \"Skin Presets\" which can be created off of URLs, files, Usernames/UUIDs, in-game textures and even your current skin!",
+          "If the server has Skin Shuffle installed, you can also switch your skin and it will be shown to everyone on the server, even those without the mod, all while not requiring you to disconnect from the server!"
         ],
         "emotecraft": [
-          "",
-          ""
+          "For Emotes, you may want to use Emotecraft. It's a free and open source emotes service, with support for custom emotes.",
+          "You can download many emotes, or even make your own! The discord server has a lot of emotes you can download, though it's a little bit outdated."
         ]
       },
       "misc": {
-        "section_name": "",
+        "section_name": "Misc",
         "screencapper": [
-          "",
-          ""
+          "Essential has a screenshot preview feature, this mod entirely implements a basic equivalent.",
+          "A highly advanced screenshot improvement mod."
         ],
         "screenshot_viewer": [
-          "",
-          ""
+          "Essential has a screenshot viewer feature, and you can get something similar using this mod.",
+          "Screenshot Viewer is a mod that allows you to see the screenshots that you have taken while you were gaming! (including the accidental ones you took when you where trying to press F3)."
         ],
         "snapper": [
-          "",
-          ""
+          "Essential's screenshot functionality involves functionality both when taking a screenshot and viewing one.",
+          "Snapper aims to provide the most and highest-quality possible improvements to Minecraft's screenshot experience."
         ],
         "auth_me": [
-          "",
-          ""
+          "Essential has an in-game account switcher feature. You can use this mod to achieve one important aspect of it.",
+          "Auth Me is able to re-authenticate yourself in case your session expires, solving the infamous \"Invalid Session\" error."
         ],
         "in_game_account_switcher": [
-          "",
-          "",
-          ""
+          "If you need the other aspect of Essential's account switcher, you can use the aptly-named In-Game Account Switcher mod.",
+          "In-Game Account Switcher has the ability to, well, switch accounts that are logged in, without needing to restart the game!",
+          "They also have various optional security measures to increase security when using your accounts with IAS."
         ],
         "craftpresence": [
-          "",
-          ""
+          "Essential has a Discord RPC feature that displays the version and server you are playing on. This mod can do that AND let you customize it further.",
+          "This popular RPC mod allows you to broadcast your Minecraft gaming session to Discord and change the lines that show on your Discord bio when you do so."
         ],
         "zume": [
-          "",
-          ""
+          "Essential has a zoom feature with it. This mod can replace that function, and it supports a LOT of Minecraft versions!",
+          "Not only does it zoom in and out, it also has keybinds for customising the zoom level!"
         ]
       }
     }
