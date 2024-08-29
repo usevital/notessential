@@ -37,9 +37,9 @@
       "alternatives": "Подання Альтернатив"
     },
     "subtitles": {
-      "translating": "To help translate NotEssential, please visit our Crowdin page, listed below. If your language is not listed, join our Discord server and request your language to be added in the #ne-general chat.",
-      "coding": "To assist in developing NotEssential, fork the source repository and create a new branch to start off with. Then, checkout your branch locally and start coding.",
-      "alternatives": "Similar to above, fork the source repository and create a new branch based off `main`. Then, checkout your branch locally and start coding."
+      "translating": "Щоб допомогти з перекладом NotEssential, будь ласка, відвідайте нашу сторінку на Crowdin, наведену нижче. Якщо вашої мови немає в списку, приєднуйтесь до нашого сервера Discord і запросіть додавання вашої мови в чаті #ne-general.",
+      "coding": "Щоб допомогти в розробці NotEssential, створіть вилку вихідного репозиторію і створіть нову гілку для початку роботи. Потім перемкніться на вашу локальну гілку і почніть програмувати.",
+      "alternatives": "Аналогічно вищевказаному, створіть вилку вихідного репозиторію і створіть нову гілку на основі `main`. Потім перемкніться на вашу локальну гілку і почніть програмувати."
     },
     "guidelines": {
       "translating": [
