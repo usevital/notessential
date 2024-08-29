@@ -45,18 +45,17 @@ jobs:
     name: Update strings from Crowdin
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          ref: "main"
+
       - name: Check last author
         id: check-author
         run: |
           LAST_COMMIT_AUTHOR=$(git log -1 --pretty=format:'%ae')
           echo "Last commit author: $LAST_COMMIT_AUTHOR"
           echo "::set-output name=author::$LAST_COMMIT_AUTHOR"
-
-      - name: Checkout repo
-        if: steps.check-author.outputs.author != 'support+bot@crowdin.com' && steps.check-author.outputs.author != 'actions@github.com'
-        uses: actions/checkout@v4
-        with:
-          ref: "main"
 
       - name: Grab strings from Crowdin
         if: steps.check-author.outputs.author != 'support+bot@crowdin.com' && steps.check-author.outputs.author != 'actions@github.com'
