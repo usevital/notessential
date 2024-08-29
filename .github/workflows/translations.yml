@@ -1,4 +1,4 @@
-name: Crowdin translations stuff
+name: Update Crowdin strings bi-directionally
 
 run-name: Update from Crowdin
 
@@ -47,11 +47,11 @@ jobs:
       - name: Grab strings from Crowdin
         uses: crowdin/github-action@v2.0.0
         with: # This part can be a little fragile, be careful!
-          config: crowdin.yml
+          config: ../.github/crowdin.yml
           upload_sources: true
           upload_translations: false
-          upload_language: us
-          download_sources: true
+          upload_language: en
+          download_sources: false
           download_translations: true
           skip_untranslated_files: true
           skip_untranslated_strings: true
@@ -61,6 +61,8 @@ jobs:
           pull_request_title: (Crowdin Action) New translation strings
           pull_request_body: New translated strings are now available!
           pull_request_labels: crowdin
+          github_user_name: Crowdin Bot (Actions)
+          github_user_email: support+bot@crowdin.com
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
