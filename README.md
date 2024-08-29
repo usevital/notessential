@@ -20,6 +20,4 @@ Website code is licensed under the GPL v3 license. You may find it on our reposi
 Only useful to maintainers and translators.
 <!-- CROWDIN-TRANSLATIONS-PROGRESS-ACTION-START -->
 
-
-
 <!-- CROWDIN-TRANSLATIONS-PROGRESS-ACTION-END -->
