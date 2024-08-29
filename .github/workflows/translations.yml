@@ -62,7 +62,8 @@ jobs:
         uses: crowdin/github-action@v2.1.1
         with: # This part can be a little fragile, be careful!
           upload_sources: true
-          upload_translations: true
+          upload_translations: false
+          upload_language: en
           download_sources: false
           download_translations: true
           skip_untranslated_strings: false
