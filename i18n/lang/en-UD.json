@@ -12,7 +12,7 @@
       "interact": "ʇɔɐɹǝʇuI",
       "resources": "sǝɔɹnosǝꓤ",
       "contributing": "ɓuᴉʇnqᴉɹʇuoꓛ",
-      "experiments": "Experiments"
+      "experiments": "sʇuǝɯᴉɹǝdxƎ"
     }
   },
   "landing": {
@@ -23,8 +23,8 @@
     }
   },
   "experiments": {
-    "hero": "EXPERIMENTAL FEATURES",
-    "subtitle": "Configure experimental flags for development purposes!"
+    "hero": "SƎꓤꓵꓕⱯƎꓞ ꓶⱯꓕNƎWIꓤƎꓒXƎ",
+    "subtitle": "¡sǝsodɹnd ʇuǝɯdolǝʌǝp ɹoɟ sɓɐʅɟ lɐʇuǝɯᴉɹǝdxǝ ǝɹnɓᴉɟuoꓛ"
   },
   "contributing": {
     "hero": "ꓨNIꓕꓵꓭIꓤꓕNOꓛ",
@@ -37,9 +37,9 @@
       "alternatives": "sǝʌᴉʇɐuɹǝʇlⱯ ɓuᴉʇʇᴉɯqnS"
     },
     "subtitles": {
-      "translating": "To help translate NotEssential, please visit our Crowdin page, listed below. If your language is not listed, join our Discord server and request your language to be added in the #ne-general chat.",
-      "coding": "To assist in developing NotEssential, fork the source repository and create a new branch to start off with. Then, checkout your branch locally and start coding.",
-      "alternatives": "Similar to above, fork the source repository and create a new branch based off `main`. Then, checkout your branch locally and start coding."
+      "translating": "·ʇɐɥɔ lɐɹǝuǝɓ-ǝu# ǝɥʇ uᴉ pǝppɐ ǝq oʇ ǝɓɐnɓuɐl ɹnoʎ ʇsǝnbǝɹ puɐ ɹǝʌɹǝs pɹoɔsᴉꓷ ɹno uᴉoꓩ ʻpǝʇsᴉl ʇou sᴉ ǝɓɐnɓuɐl ɹnoʎ ɟI ·ʍolǝq pǝʇsᴉl ʻǝɓɐd uᴉpʍoɹꓛ ɹno ʇᴉsᴉʌ ǝsɐǝld ʻlɐᴉʇuǝssƎʇoN ǝʇɐlsuɐɹʇ dlǝɥ oꓕ",
+      "coding": "·ɓuᴉpoɔ ʇɹɐʇs puɐ ʎllɐɔol ɥɔuɐɹq ɹnoʎ ʇnoʞɔǝɥɔ ʻuǝɥꓕ ·ɥʇᴉʍ ɟɟo ʇɹɐʇs oʇ ɥɔuɐɹq ʍǝu ɐ ǝʇɐǝɹɔ puɐ ʎɹoʇᴉsodǝɹ ǝɔɹnos ǝɥʇ ʞɹoɟ ʻlɐᴉʇuǝssƎʇoN ɓuᴉdolǝʌǝp uᴉ ʇsᴉssɐ oꓕ",
+      "alternatives": "·ɓuᴉpoɔ ʇɹɐʇs puɐ ʎllɐɔol ɥɔuɐɹq ɹnoʎ ʇnoʞɔǝɥɔ ʻuǝɥꓕ ·`uᴉɐɯ` ɟɟo pǝsɐq ɥɔuɐɹq ʍǝu ɐ ǝʇɐǝɹɔ puɐ ʎɹoʇᴉsodǝɹ ǝɔɹnos ǝɥʇ ʞɹoɟ ʻǝʌoqɐ oʇ ɹɐlᴉɯᴉS"
     },
     "guidelines": {
       "translating": [
