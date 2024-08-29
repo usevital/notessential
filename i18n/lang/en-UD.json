@@ -10,8 +10,9 @@
       "credit_creator": "ʎq pǝʇɐǝɹɔ ʎllɐuᴉɓᴉɹO",
       "credit_designed": "ʎq pǝuɓᴉsǝꓷ",
       "interact": "ʇɔɐɹǝʇuI",
-      "resources": "sǝɔɹnosǝꓤ",
-      "contributing": "ɓuᴉʇnqᴉɹʇuoꓛ"
+      "resources": "",
+      "contributing": "ɓuᴉʇnqᴉɹʇuoꓛ",
+      "experiments": ""
     }
   },
   "landing": {
@@ -20,6 +21,10 @@
     "buttons": {
       "alternatives": "SƎꓥIꓕⱯNꓤƎꓕꓶⱯ"
     }
+  },
+  "experiments": {
+    "hero": "",
+    "subtitle": ""
   },
   "contributing": {
     "hero": "ꓨNIꓕꓵꓭIꓤꓕNOꓛ",
@@ -32,22 +37,22 @@
       "alternatives": "sǝʌᴉʇɐuɹǝʇlⱯ ɓuᴉʇʇᴉɯqnS"
     },
     "subtitles": {
-      "translating": "·ʇɐɥɔ lɐɹǝuǝɓ-ǝu# ǝɥʇ uᴉ pǝppɐ ǝq oʇ ǝɓɐnɓuɐl ɹnoʎ ʇsǝnbǝɹ puɐ ɹǝʌɹǝs pɹoɔsᴉꓷ ɹno uᴉoꓩ ʻpǝʇsᴉl ʇou sᴉ ǝɓɐnɓuɐl ɹnoʎ ɟI ·ǝɓɐd uᴉpʍoɹꓛ ɹno ʇᴉsᴉʌ ǝsɐǝld ʻlɐᴉʇuǝssƎʇoN ǝʇɐlsuɐɹʇ dlǝɥ oꓕ",
-      "coding": "·ɓuᴉpoɔ ʇɹɐʇs puɐ ʎllɐɔol ɥɔuɐɹq ɹnoʎ ʇnoʞɔǝɥɔ ʻuǝɥꓕ ·ɥʇᴉʍ ɟɟo ʇɹɐʇs oʇ ɥɔuɐɹq ʍǝu ɐ ǝʇɐǝɹɔ puɐ ʎɹoʇᴉsodǝɹ sᴉɥʇ ʞɹoɟ ʻlɐᴉʇuǝssƎʇoN ɓuᴉdolǝʌǝp uᴉ ʇsᴉssɐ oꓕ",
-      "alternatives": "·ɓuᴉpoɔ ʇɹɐʇs puɐ ʎllɐɔol ɥɔuɐɹq ɹnoʎ ʇnoʞɔǝɥɔ ʻuǝɥꓕ ·`uᴉɐɯ` ɟɟo pǝsɐq ɥɔuɐɹq ʍǝu ɐ ǝʇɐǝɹɔ puɐ ʎɹoʇᴉsodǝɹ sᴉɥʇ ʞɹoɟ ʻǝʌoqɐ oʇ ɹɐlᴉɯᴉS"
+      "translating": "",
+      "coding": "",
+      "alternatives": ""
     },
     "guidelines": {
       "translating": [
         "·ǝɓɐnɓuɐl ʇɐɥʇ oʇuᴉ ǝɯɐu sˌpoɯ ɐ ǝʇɐlsuɐɹʇ ꓕON op ʻǝɓɐnɓuɐl ɹnoʎ uᴉ ǝɯɐu lɐᴉɔᴉɟɟo uɐ ǝʌɐɥ ʎǝɥʇ ssǝluꓵ",
-        "·ǝɓɐnɓuɐl ʇɐɥʇ uᴉ ǝɯɐu lɐᴉɔᴉɟɟo uɐ ʇˌusᴉ ǝɹǝɥʇ ɟᴉ ˌʇɟosoɹɔᴉWˌ ɹo ʻˌɓuɐꓩoWˌ ʻˌǝsɹǝʌᴉuꓵ ʞɹɐdSˌ ʻ(poɯ ǝɥʇ) ˌlɐᴉʇuǝssƎˌ ǝʇɐlsuɐɹʇ ꓕON op ʻʎlɹɐlᴉɯᴉS",
+        "",
         "·ɓɐʅɟ pǝʇɐlǝɹ ǝɥʇ ʇɔǝlǝs ʻuǝɥꓕ ·xoq ˌsǝnssIˌ ǝɥʇ ʞɔᴉʇ puɐ lǝuɐd ǝpᴉs ǝɥʇ uo ʇuǝɯɯoɔ ɐ ǝʞɐɯ ǝsɐǝld ʻǝnssᴉ uɐ sᴉ ǝɹǝɥʇ ɟI",
         "·ǝɓɐnɓuɐl ɹnoʎ ɥʇᴉʍ uɐɔ noʎ ɟᴉ SꓒⱯꓛ ꓶꓶⱯ uᴉ ǝʇᴉɹʍ oslɐ ʻSꓒⱯꓛ ꓶꓶⱯ uᴉ sᴉ ɐǝɹɐ uɐ uǝɥM"
       ],
       "coding": [
-        "·(ʎɹoʇᴉsodǝɹ ǝɥʇ oʇ ɓuᴉɓɹǝɯ ɥɔuɐɹq ǝɥʇ sᴉ ɥɔuɐɹq pɐǝɥ ǝɥʇ) ʎɹoʇᴉsodǝɹ/ɥɔuɐɹq pɐǝɥ ǝɥʇ oʇ sʇsǝnbǝɹ llnd ɓuᴉuǝdo puǝɯɯoɔǝɹ ǝʍ ʻos ɟI ·pǝʇsᴉl uǝǝq ʎpɐǝɹlɐ sɐɥ ɐǝpᴉ ɹnoʎ ɟᴉ ǝǝs oʇ ǝɓɐd sʇsǝnbǝꓤ llnꓒ ǝɥʇ ʇɐ ʞool noʎ ǝɹns ǝʞɐW",
+        "",
         "·pǝɓuɐɥɔ ǝʌɐɥ noʎ ʇɐɥʍ puɐʇsɹǝpun uɐɔ ǝʍ os lnɟdlǝɥ sǝɯɐu ʇᴉɯɯoɔ ɹnoʎ ǝʞɐW",
         "·sɓuᴉʇʇǝs ǝpoꓛ Sꓥ uᴉ ʇǝs sᴉ ˌǝʌɐS uo ʇɐɯɹoꓞˌ ǝɹnsuǝ ʻuoᴉsuǝʇxǝ ǝɥʇ ǝsn noʎ ɟI ·(¡ʎllɐɔᴉʇɐɯoʇnɐ noʎ oʇ pǝpuǝɯɯoɔǝɹ uǝǝq ǝʌɐɥ plnoɥs sᴉɥʇ) uoᴉsuǝʇxǝ ǝpoꓛ Sꓥ ɐ sɐ ɹǝᴉʇʇǝɹꓒ llɐʇsuᴉ ɹo ˌɹǝᴉʇʇǝɹd ppɐ ɯdudˌ unɹ uɐɔ no⅄ ·ɹǝᴉʇʇǝɹꓒ llɐʇsuI",
-        "·ʇsǝnbǝɹ llnd ɐ ɓuᴉʞɐɯ uǝɥʍ sǝʇɐldɯǝʇ ʇsǝnbǝɹ llnd ɹno ɟo ǝuo ǝsn noʎ ǝɹns ǝʞɐW"
+        ""
       ],
       "alternatives": [
         "·lɐᴉʇuǝssƎ ɟo ǝɹnʇɐǝɟ ɐ sǝɔɐldǝɹ ʇɔǝꓩoɹd ɹnoʎ ǝɹns ǝʞɐW",
@@ -61,6 +66,7 @@
   "alternatives": {
     "hero": "SƎꓥIꓕⱯNꓤƎꓕꓶⱯ",
     "reason": "·sǝʌᴉʇɐuɹǝʇʅɐ sǝpᴉʌoɹd ǝɓɐd sᴉɥꓕ ·sǝnssᴉ ʎuɐɯ sɐɥ lɐᴉʇuǝssƎ",
+    "nudge_for_contributing": "",
     "texts": {
       "modpacks": {
         "section_name": "sʞɔɐdpoW",
@@ -111,17 +117,17 @@
           "¡slǝpoɯ ɹǝʎɐld ǝlqᴉsᴉʌuᴉ sɐ ɥɔns sɓuᴉɥʇ ɹoɟ ʇɐǝɥɔ-ᴉʇuɐ uᴉ-ʇlᴉnq ɐ ɟo ʇɹos sɐɥ oslɐ ʇI :snuoꓭ"
         ],
         "skin_shuffle": [
-          "¡noʎ ɹoɟ sᴉɥʇ ǝʌǝᴉɥɔɐ uɐɔ poɯ sᴉɥꓕ ·ʇɟɐɹɔǝuᴉW ɥɔunɐlǝɹ oʇ ɓuᴉʌɐɥ ʇnoɥʇᴉʍ uᴉʞs ɹnoʎ ǝɓuɐɥɔ oʇ ʇuɐʍ noʎ ɟᴉ ʇuǝᴉuǝʌuoɔ ǝq uɐɔ ǝɯɐɓ-uᴉ ɹǝddɐʍs uᴉʞs sˌlɐᴉʇuǝssƎ",
+          "",
           "¡uᴉʞs ʇuǝɹɹnɔ ɹnoʎ uǝʌǝ puɐ sǝɹnʇxǝʇ ǝɯɐɓ-uᴉ ʻsꓷIꓵꓵ/sǝɯɐuɹǝsꓵ ʻsǝlᴉɟ ʻsꓶꓤꓵ ɟo ɟɟo pǝʇɐǝɹɔ ǝq uɐɔ ɥɔᴉɥʍ ˌˌsʇǝsǝɹꓒ uᴉʞSˌˌ llɐɔ ʎǝɥʇ ʇɐɥʍ uᴉ pǝɹoʇs ǝɹɐ ʎǝɥꓕ ·ɥɔunɐlǝɹ oʇ ɓuᴉɹᴉnbǝɹ ʇnoɥʇᴉʍ ǝɯɐɓ-uᴉ llɐ ʻuᴉʞs ɹnoʎ ǝsᴉɯoʇsnɔ puɐ ʻǝɹoʇs ʻǝɓuɐɥɔ uɐɔ ʇɐɥʇ poɯ ɐ sᴉ ǝlɟɟnɥS uᴉʞS",
           "¡ɹǝʌɹǝs ǝɥʇ ɯoɹɟ ʇɔǝuuoɔsᴉp oʇ noʎ ɓuᴉɹᴉnbǝɹ ʇou ǝlᴉɥʍ llɐ ʻpoɯ ǝɥʇ ʇnoɥʇᴉʍ ǝsoɥʇ uǝʌǝ ʻɹǝʌɹǝs ǝɥʇ uo ǝuoʎɹǝʌǝ oʇ uʍoɥs ǝq llᴉʍ ʇᴉ puɐ uᴉʞs ɹnoʎ ɥɔʇᴉʍs oslɐ uɐɔ noʎ ʻpǝllɐʇsuᴉ ǝlɟɟnɥS uᴉʞS sɐɥ ɹǝʌɹǝs ǝɥʇ ɟI"
         ],
         "emotecraft": [
           ".ƨɘɈomɘ moɈƨυɔ яoʇ Ɉяoqqυƨ ʜɈiw ˎɘɔivяɘƨ ƨɘɈomɘ ɘɔяυoƨ nɘqo bnɒ ɘɘяʇ ɒ ƨ'ɈI .ɈʇɒяɔɘɈomƎ ɘƨυ oɈ Ɉnɒw ჸɒm υoჸ ˎƨɘɈomƎ яoᖷ",
-          "·ɥɓnoɥʇ ʻpǝʇɐpʇno ʇᴉq ǝʅʇʇᴉl ɐ sˌʇI ·pɐoluʍop uɐɔ noʎ sǝʇoɯǝ ɟo ʇol ɐ sɐɥ ɹǝʌɹǝs pɹoɔsᴉp ǝɥꓕ ¡uʍo ɹnoʎ ǝʞɐɯ uǝʌǝ ɹo ʻsǝʇoɯǝ ʎuɐɯ pɐoluʍop uɐɔ no⅄"
+          ""
         ]
       },
       "misc": {
-        "section_name": "snoǝuɐllǝɔsᴉW",
+        "section_name": "",
         "screencapper": [
           "·ʇuǝlɐʌᴉnbǝ ɔᴉsɐq ɐ sʇuǝɯǝldɯᴉ ʎlǝɹᴉʇuǝ poɯ sᴉɥʇ ʻǝɹnʇɐǝɟ ʍǝᴉʌǝɹd ʇoɥsuǝǝɹɔs ɐ sɐɥ lɐᴉʇuǝssƎ",
           "·poɯ ʇuǝɯǝʌoɹdɯᴉ ʇoɥsuǝǝɹɔs pǝɔuɐʌpɐ ʎlɥɓᴉɥ Ɐ"
@@ -129,6 +135,10 @@
         "screenshot_viewer": [
           "·poɯ sᴉɥʇ ɓuᴉsn ɹɐlᴉɯᴉs ɓuᴉɥʇǝɯos ʇǝɓ uɐɔ noʎ puɐ ʻǝɹnʇɐǝɟ ɹǝʍǝᴉʌ ʇoɥsuǝǝɹɔs ɐ sɐɥ lɐᴉʇuǝssƎ",
           "·(Ɛꓞ ssǝɹd oʇ ɓuᴉʎɹʇ ǝɹǝɥʍ noʎ uǝɥʍ ʞooʇ noʎ sǝuo lɐʇuǝpᴉɔɔɐ ǝɥʇ ɓuᴉpnlɔuᴉ) ¡ɓuᴉɯɐɓ ǝɹǝʍ noʎ ǝlᴉɥʍ uǝʞɐʇ ǝʌɐɥ noʎ ʇɐɥʇ sʇoɥsuǝǝɹɔs ǝɥʇ ǝǝs oʇ noʎ sʍollɐ ʇɐɥʇ poɯ ɐ sᴉ ɹǝʍǝᴉꓥ ʇoɥsuǝǝɹɔS"
+        ],
+        "snapper": [
+          "",
+          ""
         ],
         "auth_me": [
           "·ʇᴉ ɟo ʇɔǝdsɐ ʇuɐʇɹodɯᴉ ǝuo ǝʌǝᴉɥɔɐ oʇ poɯ sᴉɥʇ ǝsn uɐɔ no⅄ ·ǝɹnʇɐǝɟ ɹǝɥɔʇᴉʍs ʇunoɔɔɐ ǝɯɐɓ-uᴉ uɐ sɐɥ lɐᴉʇuǝssƎ",

@@ -4,14 +4,15 @@
       "alternatives": "ALTERNATIVEN"
     },
     "footer": {
-      "disclaimer": "KEIN OFFIZIELLES MINECRAFT PRODUKT. NICHT UNTERSTÜTZT VON ODER ASSOZIIERT MIT MOJANG, MICROSOFT ODER SPARK UNIVERSE.",
-      "open_source": "Diese Seite ist quelloffen.",
+      "disclaimer": "",
+      "open_source": "",
       "about": "Über",
       "credit_creator": "Ursprünglich erstellt von",
       "credit_designed": "Entworfen von",
       "interact": "Mitmachen",
-      "resources": "Ressourcen",
-      "contributing": "Mitmachen"
+      "resources": "",
+      "contributing": "",
+      "experiments": ""
     }
   },
   "landing": {
@@ -21,46 +22,51 @@
       "alternatives": "ALTERNATIVEN"
     }
   },
+  "experiments": {
+    "hero": "",
+    "subtitle": ""
+  },
   "contributing": {
-    "hero": "MITMACHEN",
-    "subhero": "Bei der NotEssential website",
-    "welcome": "Möchtest du bei NotEssential mithelfen? Hier hat es einige Richtlinien.",
-    "end": "Solltest du weitere fragen haben, tritt unserem Discord bei und stelle sie da.",
+    "hero": "",
+    "subhero": "",
+    "welcome": "",
+    "end": "",
     "titles": {
-      "translating": "Übersetzen",
-      "coding": "Entwickeln",
-      "alternatives": "Alternativen einreichen"
+      "translating": "",
+      "coding": "",
+      "alternatives": ""
     },
     "subtitles": {
-      "translating": "Um NotEssential zu übersetzten, besuche bitte unsere Crowdin Seite. Sollte deine Sprache nicht aufgelistet sein, tritt unserem Discord Server bei und bitte im #ne-general Chat darum, sie hinzuzufügen.",
-      "coding": "Um bei der Entwicklung von NotEssential zu helfen, forke diese Repository und erstelle einen neuen Branch um zu starten. Danach checkout deinen Branch lokal und fang an zu programmieren.",
-      "alternatives": "Ähnlich wie oben, forke das Repository und erstelle einen neuen Branch basierend auf 'main'. Danach checkout deinen Branch lokal und fang an zu programmieren."
+      "translating": "",
+      "coding": "",
+      "alternatives": ""
     },
     "guidelines": {
       "translating": [
-        "Sofern es keine offiziellen Namen in deiner Sprache hat, übersetze NICHT die Namen eines Mods in deine Sprache.",
-        "Übersetze ebenfalls NICHT 'Essential' (Die Mod), 'Spark Universe', 'Mojang' oder 'Microsoft' sofern es keinen offiziellen namen in deiner Sprache hat.",
-        "Sollte es ein Problem geben, erstelle bitte einenen Kommentar im Seitenfenster und klicke die 'Issues' Box an. Danach wähle die passende markierung aus.",
-        "Wenn ein Bereich KOMPLETT IN CAPS ist, schreibe es ebenfalls KOMPLETT IN CAPS, sofern du dies in deiner Sprache tun kannst."
+        "",
+        "",
+        "",
+        ""
       ],
       "coding": [
-        "Stell sicher, dass du dir die Pull requests seite für deine Idee angesehen hast, und ob diese bereits gelistet ist. Sollte dies nicht der fall sein, öffne einen Pull request für den Hauptbranch/die Hauptrepository.",
-        "Mach hilfreiche Commitnachrichten, so das wir verstehen, was du geändert hast.",
-        "Installiere Prettier. Du kannst es mit 'pnpm add prettier' oder als eine VS Code Erweiterung (Dies sollte dir automatisch empfohlen werden!) tun. Sofern du die Erweiterung verwendest, stelle siche 'Format on Save' ist in den VS Code Einstellungen aktiviert.",
-        "Stell sicher, dass du eines unserer Pull request Vorlagen verwendest, wenn du einen Pull request erstellst."
+        "",
+        "",
+        "",
+        ""
       ],
       "alternatives": [
-        "Stell sicher, das dein Projekt eine Funktion von Essential ersetzt.",
-        "Bitte erkläre detailiert, warum dein Projekt zur seite hinzugefügt werden soll.",
-        "Du kannst auch eine kleine Beschreibung deines Projektes geben, dies ist aber Optional.",
-        "Dies sollte offensichtlich sein, aber bitte reiche keine Trojaner oder andere Formen von Schadsoftware ein.",
-        "Bitte verwende diese Seite nicht einfach als eine Form von 'Gratiswerbung' für dein Projekt."
+        "",
+        "",
+        "",
+        "",
+        ""
       ]
     }
   },
   "alternatives": {
     "hero": "ALTERNATIVEN",
     "reason": "Essential hat viele Probleme. Diese Seite bietet Alternativen.",
+    "nudge_for_contributing": "",
     "texts": {
       "modpacks": {
         "section_name": "Modpakete",
@@ -111,17 +117,17 @@
           "Bonus: Es hat auch eine Art von integriertem Anti-Cheat für dinge wie unsichtbare Spielermodelle!"
         ],
         "skin_shuffle": [
-          "Essential's Skinwechsler im Spiel kann bequem sein, wenn du deinen Skin ändern möchtest, ohne Minecraft neustarten zu müssen. Diese Mod kann dies für dich tun!",
+          "",
           "Skin Shuffle ist eine Mod, welche deinen Skin ändern, speichern und bearbeiten kann, und das alles im Spiel, ohne das ein neustart erforderlich ist. Diese werden als sogenannte \"Skin Presets\" gespeichert, welche von URLs, Dateien, Benutzernamen/UUIDs, Texturen im Spiel und sogar deinem aktuellen Skin erstellt werden!",
           "Sollte der Server Skin Shuffle installiert haben, kannst du deinen Skin ändern und es wird allen Spielern auf dem Server gezeigt, sogar denen, welche die Mod nicht installiert haben, und das alles ohne einen Disconnect vom Server!"
         ],
         "emotecraft": [
           "Für Emotes solltest du Emotecraft verwenden. Es ist ein kostenloses, quelloffenes Emote Dienst, mit support für benutzerdefinierte Emotes.",
-          "Du kannst viele Emotes herunterladen, oder einfach deine eigenen erstellen! Der Discord Server hat eine menge Emotes welche du runterladen kannst. Es ist jedoch ein wenig veraltet."
+          ""
         ]
       },
       "misc": {
-        "section_name": "Verschiedenes",
+        "section_name": "",
         "screencapper": [
           "Essential hat eine Screenshot-Vorschau Funktion, diese Mod implementiert so ziemlich ein Äquivalent.",
           "Eine hochentwickelte Screenshot-Verbesserungs-Mod."
@@ -129,6 +135,10 @@
         "screenshot_viewer": [
           "Essential hat eine Screenshot-Viewer Funktion, und du kannst etwas ähnliches in diese Mod erhalten.",
           "Screenshot Viewer ist eine Mod, welche es dir erlaubt, die Screenshots, welche du gemacht hast, anzusehen, während du Spielst! (Inklusive derer, welche du ausversehen geschossen hast, als du F3 drücken wolltest)."
+        ],
+        "snapper": [
+          "",
+          ""
         ],
         "auth_me": [
           "Essential hat ein integriertes Konto-Switcher System. Du kannst diese Mod verwenden, um einen wichtigen Aspekt davon zu verwenden.",

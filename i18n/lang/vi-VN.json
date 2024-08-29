@@ -1,151 +1,161 @@
 {
   "layout": {
     "nav": {
-      "alternatives": "MOD THAY THẾ"
+      "alternatives": ""
     },
     "footer": {
-      "disclaimer": "KHÔNG PHẢI MỘT SẢN PHẨM MINECRAFT CHÍNH HÃNG. KHÔNG ĐƯỢC CHẤP THUẬN BỞI HOẶC CÓ LIÊN KẾT VỚI MOẠNG, MICROSOFT HOẶC SPARK UNIVERSE.",
-      "open_source": "Trang này có nguồn mở.",
-      "about": "Về chúng tôi",
-      "credit_creator": "Tạo gia bởi",
-      "credit_designed": "Thiết kế bởi",
-      "interact": "Tương tác",
-      "resources": "Tài liệu",
-      "contributing": "Đóng góp"
+      "disclaimer": "",
+      "open_source": "",
+      "about": "",
+      "credit_creator": "",
+      "credit_designed": "",
+      "interact": "",
+      "resources": "",
+      "contributing": "",
+      "experiments": ""
     }
   },
   "landing": {
-    "hero": "CÓ CÁCH TỐT HƠN ĐỂ CHƠI",
-    "reason": "Đừng cảm thấy cần thiết dùng Essential. Chúng ta đã có nhiều mod nguồn mở để giúp bạn thay.",
+    "hero": "",
+    "reason": "",
     "buttons": {
-      "alternatives": "MOD THAY THẾ"
+      "alternatives": ""
     }
   },
+  "experiments": {
+    "hero": "",
+    "subtitle": ""
+  },
   "contributing": {
-    "hero": "ĐÓNG GÓP",
-    "subhero": "Cho trang web NotEssential",
-    "welcome": "Bạn có muốn đóng góp cho NotEssential? Nếu có, hãy theo hướng dẫn sau.",
-    "end": "Nếu bạn có thêm câu hỏi, hãy vào Discord của chúng tôi và hỏi ở đấy.",
+    "hero": "",
+    "subhero": "",
+    "welcome": "",
+    "end": "",
     "titles": {
-      "translating": "Dịch",
-      "coding": "Lập trình",
-      "alternatives": "Thêm giải pháp thay thế"
+      "translating": "",
+      "coding": "",
+      "alternatives": ""
     },
     "subtitles": {
-      "translating": "Để giúp trang NotEssential, hãy vào trang Crowdin của chúng tôi. Nếu ngôn ngữ của bạn không có, vào trang Dícord của chúng ta và yêu cầu trong #ne-general để thêm ngôn ngữ của bạn được thêm vào.",
-      "coding": "Để giúp lập trình NotEssential, hãy tạo ra một phân nhánh của kho này và tạo ra một cành để bắt đầu với. Sau đó, tải xuống cành đấy vào máy của bạn và bắt đầu lập trình.",
-      "alternatives": "Giống như ở trên, hãy tạo ra một phân nhánh và tạo một cành từ `main`. Sau đó, tải xuống cái nhánh và hãy bắt đầu lập trình."
+      "translating": "",
+      "coding": "",
+      "alternatives": ""
     },
     "guidelines": {
       "translating": [
-        "Chừ khi họ có một tên chính thức trong ngôn ngữ của bạn, vui lòng ĐỪNG dịch sang tên của mod vào trong ngôn ngữ của bạn.",
-        "Như vậy, hãy ĐỪNG dịch 'Essential' (tên của mod), 'Spark Universe', 'Mojang', hoặc 'Microsoft' nếu không có tên chính thức.",
-        "Nếu có vấn đề, hãy bình luận trên bảng bên phải và đánh đấu nút 'Issues'. Sau đó, chọn vấn đề liên quan.",
-        "Nếu có một chỗ ghi HOÀN TOÀN CHỮ HOA, hãy viết chỗ đấy HOÀN TOÀN CHỮ HOA nếu có thể với ngôn ngữ của bạn."
+        "",
+        "",
+        "",
+        ""
       ],
       "coding": [
-        "Hãy nhìn trong trang Pull Requests đề xem ỹ tưởng của bạn đã có chưa. Nếu chưa có, hãy mở một pull request bằng cành mới của bạn (cành mới là cành bạn đã dùng để lập trình).",
-        "Hãy đặt tên cho các commit của bạn một cách để chúng tôi có thể hiểu được bạn đã thay đổi gì.",
-        "Cài Prettier trên máy của bạn. Bạn có thể chạy `pnpm add prettier` hoặc cài chương trình bổ sung \"Prettier\" trong VS Code (nếu thế thì bạn đã được gợi ý cài này rồi!). Nếu bạn dùng chương trình bổ sung, hãy kiểm tra cài đặt 'định dạng khi lưu' đã bật trong VS Code.",
-        "Hãy làm chắc chắn rằng bạn dùng một trong những bản mẫu giải thích pull request của bạn."
+        "",
+        "",
+        "",
+        ""
       ],
       "alternatives": [
-        "Hãy kiểm tra rằng mod mới bạn đã thêm vào có thể thay thế được một tính năng của Essential.",
-        "Vui lòng giải thích lý do vì sao mod này nên được thêm vào trang.",
-        "Bạn cũng nên cho thêm một mô tả cho mod bạn đang thêm vào, nhưng đây không bắt buộc.",
-        "Đây đã phải đương nhiên rồi, nhưng hãy đừng cho vào một tệp Trojan hoặc phần mềm độc hại khác.",
-        "Hãy đừng dùng trang này để quảng cáo project của bạn."
+        "",
+        "",
+        "",
+        "",
+        ""
       ]
     }
   },
   "alternatives": {
-    "hero": "MOD THAY THẾ",
-    "reason": "Essential có nhiều vấn đề. Trang này ghi các mod thay thế.",
+    "hero": "",
+    "reason": "",
+    "nudge_for_contributing": "",
     "texts": {
       "modpacks": {
-        "section_name": "Gói có mod",
+        "section_name": "",
         "vital": [
-          "Nếu bạn muốn có tất cả mọi thứ sắp sếp ngắn gọn trong một gói, bạn có thể dùng Vital.",
-          "Nó có phần lớn các mod trên trang này, bao gồm Cosmetica, World Host, và thêm nữa.",
-          "Nó cũng có một màn hình chính gọn gàng như Essential khi dùng với FancyMenu."
+          "",
+          "",
+          ""
         ]
       },
       "multiplayer": {
-        "section_name": "Chơi với nhiều người",
+        "section_name": "",
         "world_host": [
-          "Để chơi với người khác với một hệ thống bạn bè, bạn có thể dùng World Host. Nó là một cách miễn phí và nguồn mở để chơi thế giới của bạn với người trên danh sách bạn bè, và tất cả những người bạn muốn chơi với.",
-          "Nó có một hệ thống cho danh sách bạn bè bạn có thể dùng để cho các bạn tham gia thế giới của bạn ngay khi bạn mở thể giới cho các bạn.",
-          "Bạn chỉ cần ấn nút \"Open to Friends\" và bạn của bạn có thể tham gia. Bạn cũng có thể chia sẻ đường link ở trong ô nói chuyện với những người khác bạn muốn chơi với!",
-          "Mod này nên dùng với các mod nhẹ hoặc không dùng với mod. Nếu bạn muốn dùng gói mod, bạn nên dùng e4mc, ở dưới."
+          "",
+          "",
+          "",
+          ""
         ],
         "e4mc": [
-          "Để chơi với người khác, bạn có thể dùng e4mc. Đó là một cách miễn phí và nguồn mở để chạy thế giới của bạn qua LAN, nhưng có thể chơi kể cả có gần bạn hay không.",
-          "Bạn chỉ cần ấn nút \"Mở rộng cho LAN\" và chia sẻ đường link ở trong ô nói chuyện với những người bạn muốn chơi với!",
-          "e4mc nên dùng qua World Host với những gói mod lớn, vì đây là một mod đơn giản nên nó sẽ không can thiệp nhiều với mod khác. Bạn chỉ nên kiểm tra rằng ranh sách mod của mọi người giống nhau để không bị mất đồng bộ!"
+          "",
+          "",
+          ""
         ]
       },
       "cosmetics": {
-        "section_name": "Trang trí",
+        "section_name": "",
         "cosmetica": [
-          "Để trang trí người chơi của bạn, bạn có thể muốn dùng Cosmetica. Nó là một dịch vụ miễn phí và nguồn mở, với hỗ trợ cho trang trí rất nhiều.",
-          "Nó cũng hỗ trợ trang trí từ OptiFine, Lunar Client, và thêm nữa!",
-          "\"Cosmetica cho phép bạn tùy chỉnh người chơi của bạn trên một mức cao với trang trí mà đối thủ được trang trí của các client cho PvP phổ biến\" (Lấy từ trang Modrinth và đã được dịch sang)"
+          "",
+          "",
+          ""
         ],
         "ears": [
-          "Ears là một mod khác bạn có thể dùng để chỉnh da của bạn. Mod này dùng da Minecraft của bạn để đặt cách mà mọi người sẽ thấy bạn, nếu họ đã cài Ears.",
-          "Nó đã có phiên bản cho nhiều phiên bản Minecraft (Beta 1.7.3-phiên bản mới nhất), và cho thêm tai, mỏ, đuôi, cánh và thêm nữa."
+          "",
+          ""
         ],
         "capes": [
-          "Mod này cho phép bạn nhìn thấy áo tơ choàng từ OptiFine, LabyMod và MinecraftCapes.",
-          "Bạn chỉ cần cài mod thôi! Nếu bạn muốn không nhìn thấy áo tơ choàng từ một số mod, bạn có thể làm được trên trang cấu hình."
+          "",
+          ""
         ],
         "customizable_player_models": [
-          "Customizable Player Models là một mod cho bạn biến đổi người chơi.",
-          "Nó có một màn hình tương tác để bạn thêm, xóa, đổi, mô hình hóa và kết cấu người chơi của bạn, như các Blender chạy.",
-          "Các mô hình sẽ được dự trữ trên chỗ trống trên mô hình Minecraft thường của bạn, hoặc là một Gist trên GitHub.",
-          "Đăng lên cái ảnh bạn đã xuất ra như mô hình bình thường để tải mô hình mới của bạn."
+          "",
+          "",
+          "",
+          ""
         ],
         "figura": [
-          "Nếu bạn muốn lên một bước nữa, Figura cho phép bạn thay đổi mô hình người chơi của bạn nhiều hơn!",
-          "Figura tập trung ít hơn về việc duy chì tương thích, nên nó có thể thêm được nhiều thứ hơn nữa vào mô hình của bạn, như con thú, tai, và thêm nữa! Bạn cũng có thể dùng ngôn ngữ Lua để tùy chỉnh thêm nữa!",
-          "Thêm nữa: Nó cũng có một cái thứ giống như chống gian lận với những thứ như mô hình người vô hình!"
+          "",
+          "",
+          ""
         ],
         "skin_shuffle": [
-          "Tính năng thay đổi mô hình trong chò có thể rất tiện nếu bạn muốn thay mô hình nhưng không muốn khởi động lại Minecraft. Mod này có chức năng này cho bạn!",
-          "Skin Shuffle là tên của một mod có thể thay đổi, lưu và tùy chỉnh mô hình người chơi của bạn, tất cả ở trong chò và không cần bạn khởi động lại. Nó được dữ ở trong các thứ họ gọi là \"mô hình có sẵn\" và có thể dùng từ URL, tệp, tên/ID trong chò, mô hình có trong chò và cả mô hình hiện tại của bạn!",
-          "Nếu máy chủ có Skin Shuffle cài đặt, bạn cũng có thể thay đổi mô hình và nó sẽ hiện cho tất cả mọi người trên máy chủ, kể cả những người không có mod, và cũng không cần phải kết nối lại!"
+          "",
+          "",
+          ""
         ],
         "emotecraft": [
-          "Cho biểu cảm, bạn có thể muốn dùng Emotecraft. Nó là một dịch vụ miễn phí và nguồn mở, với hỗ trợ cho biểu cảm phong tục.",
-          "Bạn có thể tải xuống rất nhiều biểu cảm trên mạng, hoặc tạo ra cái riêng của bạn! Discord của họ có rất nhiều biểu cảm bạn có thể tải, nhưng nó bị lỗi thời một chút."
+          "",
+          ""
         ]
       },
       "misc": {
-        "section_name": "Các thứ khác",
+        "section_name": "",
         "screencapper": [
-          "Essential có tính năng để xem ảnh chụp màn hình, mod này tạo ra một tính năng tương đương cơ bản.",
-          "Một mod nâng cao việc chụp ảnh màn hình."
+          "",
+          ""
         ],
         "screenshot_viewer": [
-          "Essential có tính năng để xem ảnh chụp màn hình, và bạn có thể có một tính năng tương đương với mod này.",
-          "Screenshot Viewer là một mod mà cho bạn xem ảnh màn hình bạn đã chụp! (Kể cả những ảnh bạn vô tình chụp khi bạn ấn nút F3)."
+          "",
+          ""
+        ],
+        "snapper": [
+          "",
+          ""
         ],
         "auth_me": [
-          "Essential có một tính năng thay tài khoản trong trò. Bạn có thể dùng mod này để đạt được một sử dụng quan trọng của nó.",
-          "Auth Me có thể xác nhận bạn một lần nữa nếu phiên của bạn đã hết hạn, việc này sẽ giải quyết vấn đề \"Invalid Session\" khó chịu."
+          "",
+          ""
         ],
         "in_game_account_switcher": [
-          "Nếu bạn cần dùng phần kia của tính năng thay đổi tài khoản của Essential, bạn có thể dùng mod đặt tên là In-Game Account Switcher.",
-          "In-Game Account Switcher có tính năng để thay đổi tài khoản đang được đăng nhập vào, mà không cần khởi động lại trò chơi!",
-          "Nó cũng có một số tính năng thêm nữa đễ nâng cao bảo mật khi đang dùng tài khoàn với In-Game Account Switcher."
+          "",
+          "",
+          ""
         ],
         "craftpresence": [
-          "Essential có một tính năng áp dụng Discord RPC để chia sẻ phiên bản Minecraft và máy chủ bạn đang chơi. Mod này có thể làm thế VÀ cho phép bạn thay đổi nó nhiều hơn.",
-          "Mod phổ biến này có thể phát tin trên Discord về những thứ bạn đang làm trên Minecraft, và cũng có thể thay đổi những thứ gì hiện lên trên Discord của bạn."
+          "",
+          ""
         ],
         "zume": [
-          "Essential có một tính năng phóng tầm nhìn. Mod này có thể thay chức năng đó, và nó có thể dùng được trên rất NHIỀU phiên bản Minecraft!",
-          "Nó không chỉ phóng tầm nhìn lên hoặc xuống, nó cũng có phím tắt để thay đổi độ phóng!"
+          "",
+          ""
         ]
       }
     }
