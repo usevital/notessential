@@ -1,151 +1,161 @@
 {
   "layout": {
     "nav": {
-      "alternatives": "备选方案"
+      "alternatives": ""
     },
     "footer": {
-      "disclaimer": "非官方Minecraft产品。无关联且未经Mojang、Microsoft或Speak Universe核准。",
-      "open_source": "此页面是开源的。",
-      "about": "关于",
-      "credit_creator": "最初创建者为",
-      "credit_designed": "设计者为",
-      "interact": "交互",
-      "resources": "资源",
-      "contributing": "贡献"
+      "disclaimer": "",
+      "open_source": "",
+      "about": "",
+      "credit_creator": "",
+      "credit_designed": "",
+      "interact": "",
+      "resources": "",
+      "contributing": "",
+      "experiments": ""
     }
   },
   "landing": {
-    "hero": "有更好的方式来玩",
-    "reason": "不要强迫自己使用Essential。有无数的备选方案供你选择。",
+    "hero": "",
+    "reason": "",
     "buttons": {
-      "alternatives": "备选方案"
+      "alternatives": ""
     }
   },
+  "experiments": {
+    "hero": "",
+    "subtitle": ""
+  },
   "contributing": {
-    "hero": "贡献",
-    "subhero": "前往NotEssential网站",
-    "welcome": "希望给NotEssential做贡献吗？这里是一些指南。",
-    "end": "如果你有任何其他问题，请加入我们的Discord并在那提问。",
+    "hero": "",
+    "subhero": "",
+    "welcome": "",
+    "end": "",
     "titles": {
-      "translating": "翻译",
-      "coding": "开发",
-      "alternatives": "提交备选方案"
+      "translating": "",
+      "coding": "",
+      "alternatives": ""
     },
     "subtitles": {
-      "translating": "要帮助翻译 NotEssential，请前往我们的 Crowdin 项目。如果您的语言没有被列出，请加入我们的 Discord 服务器并在 #ne-general 聊天频道申请。",
-      "coding": "要协助开发 NotEssential, 分叉（fork）这个仓库并创建新分支。之后，在本地查看你的分支并开始编码。",
-      "alternatives": "与上文相同，分叉这个仓库并复制 `main` 分支。之后，在本地查看你的分支并开始编码。"
+      "translating": "",
+      "coding": "",
+      "alternatives": ""
     },
     "guidelines": {
       "translating": [
-        "除非他们在你的语言里有官方的名称，不要翻译模组的名称。",
-        "同样，如果没有官方名称便不要翻译“Essential”（模组）、“Spark Universe”、“Mojang”和“Microsoft”。",
-        "如果有问题，请在右侧的评论栏评论并勾选“Issues”，之后选择合适的类型。",
-        "如果一个区域内的字幕为全大写，如果可以请在您的语言中也这么做。"
+        "",
+        "",
+        "",
+        ""
       ],
       "coding": [
-        "Make sure you look at the Pull Requests page to see if your idea has already been listed. If so, we recommend opening pull requests to the head branch/repository (the head branch is the branch merging to the repository).",
-        "确保你的提交名称有用，这样我们可以理解你改变了什么。",
-        "安装Prettier。你可以运行“pnpm add prettier”或安装Prettier作为VS 代码扩展（这应该会自动推荐你！）。如果你使用此扩展，请确保在已在VS Code设置中设置“带格式保存”。",
-        "请确保你在提出拉取请求时使用我们的模板。"
+        "",
+        "",
+        "",
+        ""
       ],
       "alternatives": [
-        "请确保你的项目替代了Essential的某功能。",
-        "请详细说明为什么要将你的项目添加到页面中。",
-        "同时提交你项目的简短描述，虽然这是可选的。",
-        "这是显而易见的，但是请不要提交木马病毒或其他形式的恶意软件。",
-        "请不要仅仅将此站点用作你项目的“免费广告”。"
+        "",
+        "",
+        "",
+        "",
+        ""
       ]
     }
   },
   "alternatives": {
-    "hero": "备选方案",
-    "reason": "Essential有许多问题，这个页面提供了备选方案。",
+    "hero": "",
+    "reason": "",
+    "nudge_for_contributing": "",
     "texts": {
       "modpacks": {
-        "section_name": "整合包",
+        "section_name": "",
         "vital": [
-          "如果你想要一个干净整洁的现成的整合包，请使用Vital。",
-          "它几乎包含这个页面上的所有模组，包括Cosmetica、World Host等等。",
-          "它也用FancyMenu将主菜单设计为了Essential的样式。"
+          "",
+          "",
+          ""
         ]
       },
       "multiplayer": {
-        "section_name": "联机",
+        "section_name": "",
         "world_host": [
-          "对于联机系统，你可以使用World Host。免费开源，将你的世界分享给好友列表里的人，或者你想分享给的任何人。",
-          "它有一个好友列表系统，当你打开你的游戏后，好友就可以立即加入。",
-          "你只需点击“对好友开放”，他们就可以加入。 你也可以使用聊天中出现的链接，这样就可以和任何你想的人一起玩了！",
-          "只推荐这个模组于原版或轻量/仅修改客户端的游戏。为了更好地体验整合包，请使用e4mc，见下方。"
+          "",
+          "",
+          "",
+          ""
         ],
         "e4mc": [
-          "对于联机系统，你可以使用E4MC。免费开源，将你的局域网世界分享给你想分享给的任何人。",
-          "你只需点击“对局域网开放”，使用聊天中出现的链接，这样就可以和任何你想的人一起玩了！",
-          "游玩整合包时推荐E4MC而非World Host ，因为这是一个简单的模组，不会干扰潜在的模组。 只需确保你们的模组列表一致！"
+          "",
+          "",
+          ""
         ]
       },
       "cosmetics": {
-        "section_name": "装饰品",
+        "section_name": "",
         "cosmetica": [
-          "对于装饰品，你可能会使用Cosmetica。这是一项免费且开源的装饰品服务，具有自定义披风和装饰品支持。",
-          "它甚至支持OptiFine、Lunar Client和更多的化妆品！",
-          "“Cosmetica使你能够在一个全新的水平上自定义你的玩家，可以匹敌那些流行的PvP客户端”（取自Modrinth 页面）"
+          "",
+          "",
+          ""
         ],
         "ears": [
-          "Ears是另一个你可以用来自定义皮肤的模组。它用你实际的Minecraft皮肤来设置人们如何看到你的皮肤（如果他们安装了Ears的话）。",
-          "它有在很多版本上可用（Beta 1.7.3 - 正式版1.20.6），增加了耳朵、口鼻、尾巴、翅膀等等。"
+          "",
+          ""
         ],
         "capes": [
-          "这个模组让你可以使用和看到来自OptiFine，LabyMod和MinecraftCapes mod的披风。",
-          "你刚刚装上了模组！你可以在配置屏幕上禁用这些模组的披风。"
+          "",
+          ""
         ],
         "customizable_player_models": [
-          "Customizable Player Models是一个让你可以深入修改你的玩家模型的模组。",
-          "它有一个接口，你可以添加、移除、修改、模型和纹理你自己的玩家模型，类似于Blender。",
-          "模型存储在你Minecraft Skin的未使用的空间中，或在GitHub上的Gist存储。",
-          "上传导出的图片文件作为你皮肤，以加载自定义模型。"
+          "",
+          "",
+          "",
+          ""
         ],
         "figura": [
-          "如果你想要提升它的细节，Figura允许你更深入地修改你的玩家模型！",
-          "Figura不那么坚持维护兼容性（？，这意味着可以给你的模型添加很多东西，例如宠物、耳朵等！你还可以使用 Lua 脚本来更进一步定制！",
-          "另及：它有一系列的内置防作弊，比如检测隐形玩家模型！"
+          "",
+          "",
+          ""
         ],
         "skin_shuffle": [
-          "如果你想在不重启Minecraft的情况下改变你的游戏（？，Essential游戏内皮肤切换器固然方便。这个模组可以为你实现这一点！",
-          "Skin Shuffle是一个可以更改、存储和自定义你的皮肤的模组，完全不需要重启游戏。他们被储存在所谓的\"Ski Presents\"，可以通过URL、文件、玩家名/UUID、游戏内纹理，甚至你当前的皮肤创建！",
-          "如果服务器安装了Skin Shuffle，你可以在游戏内即使更改你的皮肤，即使是没有安装模组的人也能看到。"
+          "",
+          "",
+          ""
         ],
         "emotecraft": [
-          "对于表情，你可能会使用Emotecraft。这是一项免费且开源的表情服务，具有表情支持。",
-          "你可以下载很多表情，甚至自己制作！Discord服务器上有很多表情可以下载。虽然说起来有点过时。"
+          "",
+          ""
         ]
       },
       "misc": {
-        "section_name": "杂项",
+        "section_name": "",
         "screencapper": [
-          "Essential有一个截图预览功能，这个模组能够作为基本的替代品。",
-          "一个高级的屏幕截图改进模组。"
+          "",
+          ""
         ],
         "screenshot_viewer": [
-          "Essential有一个截图查看器功能，此模组有相似的功能。",
-          "截图查看器允许你在游戏中看到的刚刚的屏幕截图！（包括你试图按 F3 时发生的意外）"
+          "",
+          ""
+        ],
+        "snapper": [
+          "",
+          ""
         ],
         "auth_me": [
-          "Essential有一个游戏内账号切换的功能，你可以用此模组实现其的大部分内容。",
-          "Auth Me能够在你的会话过期时重新验证，解决著名的“无效的会话”问题。"
+          "",
+          ""
         ],
         "in_game_account_switcher": [
-          "如果你需要Essential账户切换器的替代模组，你可以正如其名的In-Game Account Switcher。",
-          "In-Game Account Switcher能够，好耶，在游戏内切换已登录的账号，而无需重新启动游戏！",
-          "它们还有各种可选的安全措施，以便提高你在IAS上保存账号的安全性。"
+          "",
+          "",
+          ""
         ],
         "craftpresence": [
-          "Essential的Discord RPC功能能显示你正在游玩的服务器换和版本。这个模组可以做到这一点，并允许你进一步自定义。",
-          "这个热门的RPC模组允许您广播你的Minecraft游戏会话到Discord并更改你在Discord上显示的状态。"
+          "",
+          ""
         ],
         "zume": [
-          "Essential功能具有缩放功能。此模组可以替代此功能，同时支持超级多版本的Minecraft！",
-          "不仅仅是放大和缩小，而且还有自定义缩放级别的按键绑定！"
+          "",
+          ""
         ]
       }
     }
