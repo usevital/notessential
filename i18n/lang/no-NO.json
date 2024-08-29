@@ -94,7 +94,7 @@
         "section_name": "Kosmetikk",
         "cosmetica": [
           "For kosmetikk kan du velge å bruke Cosmetica. Det er en gratis kosmetikk-tjeneste med åpen kildekode, med støtte for tilpassing av kapper og annen kosmetikk.",
-          "Den kan til og med støtte kosmetikk fra OptiFine, Lunar og andre!",
+          "It can even support cosmetics from OptiFine, Lunar Client and others!",
           "\"Cosmetica lar deg tilpasse spilleren din på et helt nytt nivå, med kosmetikk som konkurrerer med populære PvP-klienter\" (hentet fra Modrinth siden)"
         ],
         "ears": [
