@@ -19,6 +19,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: "main"
 
       - name: Generate Crowdin translations progress markdown
         uses: benjaminjonard/crowdin-translations-progress-action@1.0.7
@@ -37,6 +39,7 @@ jobs:
           author-email: actions@github.com
           commit-message: "Update Crowdin translation progress badge"
           remote: origin
+          remote-ref: main
 
   update-from-crowdin:
     name: Update strings from Crowdin
@@ -44,6 +47,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          ref: "main"
 
       - name: Grab strings from Crowdin
         uses: crowdin/github-action@v2.1.1
