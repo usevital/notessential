@@ -44,15 +44,15 @@
     "guidelines": {
       "translating": [
         "Якщо у мода немає офіційної назви вашою мовою, НЕ перекладайте назву мода на цю мову.",
-        "Similarly, do NOT translate 'Essential' (the mod), 'Spark Universe', 'Mojang', 'Microsoft', as well as any mod names if there isn't an official name in that language.",
+        "Аналогічно, НЕ перекладайте ‘Essential’ (мод), ‘Spark Universe’, ‘Mojang’, ‘Microsoft’, а також будь-які назви модів, якщо немає офіційної назви цією мовою.",
         "Якщо виникає проблема, будь ласка, залиште коментар на бічній панелі та відмітьте поле 'Issues'. Потім виберіть відповідний прапорець.",
         "Коли область написана ВСІМИ ВЕЛИКИМИ ЛІТЕРАМИ, також пишіть ВСІМИ ВЕЛИКИМИ ЛІТЕРАМИ, якщо це можливо вашою мовою."
       ],
       "coding": [
-        "Make sure you look at the Pull Requests page to see if your idea has already been listed. If there isn't one, we recommend opening pull requests to the head branch/repository (the head branch is the branch merging to the repository).",
+        "Переконайтеся, що ви переглянули сторінку Pull Requests, щоб побачити, чи була ваша ідея вже перерахована. Якщо ні, ми рекомендуємо відкривати запити на злиття в головну гілку/репозиторій (головна гілка - це гілка, що зливається з репозиторієм).",
         "Зробіть назви ваших комітів корисними, щоб ми могли зрозуміти, що ви змінили.",
         "Встановіть Prettier. Ви можете виконати 'pnpm add prettier' або встановити Prettier як розширення VS Code (це мало бути вам автоматично рекомендовано!). Якщо ви використовуєте розширення, переконайтеся, що в налаштуваннях VS Code встановлено 'Format on Save'.",
-        "Make sure you utilise our pull request template when making a pull request."
+        "Переконайтеся, що ви використовуєте наш шаблон запитів на злиття при створенні запиту на злиття."
       ],
       "alternatives": [
         "Переконайтеся, що ваш проєкт замінює функцію Essential.",
@@ -66,7 +66,7 @@
   "alternatives": {
     "hero": "АЛЬТЕРНАТИВИ",
     "reason": "Essential має багато проблем. Ця сторінка надає альтернативи.",
-    "nudge_for_contributing": "Willing to contribute? Click here for contributing guidelines.",
+    "nudge_for_contributing": "Хочете зробити свій внесок? Натисніть тут для отримання керівництва по внесенню внеску.",
     "texts": {
       "modpacks": {
         "section_name": "Збірки",
@@ -117,17 +117,17 @@
           "Бонус: Він також має своєрідний вбудований античит для таких речей, як невидимі моделі гравців!"
         ],
         "skin_shuffle": [
-          "Essential's skin swapper in-game can be convenient if you want to change your skin without having to relaunch Minecraft. This mod can achieve this for you!",
+          "Внутрішньоігрова зміна скінів Essential може бути зручною, якщо ви хочете змінити свій скін, не перезапускаючи Minecraft. Цей мод може зробити це для вас!",
           "Skin Shuffle - це мод, який може змінювати, зберігати та налаштовувати ваш скін, все це в грі без необхідності перезапуску. Вони зберігаються в тому, що вони називають \"Пресети Скінів\", які можна створити з URL-адрес, файлів, імен користувачів/UUID, текстур у грі та навіть вашого поточного скіну!",
           "Якщо на сервері встановлено Skin Shuffle, ви також можете змінити свій скін, і він буде показаний всім на сервері, навіть тим, у кого немає цього моду, при цьому вам не потрібно відключатися від сервера!"
         ],
         "emotecraft": [
           "Для емоцій ви можете використовувати Emotecraft. Це безплатний сервіс емоцій з відкритим вихідним кодом, який підтримує користувацькі емоції.",
-          "You can download many emotes, or even make your own! The discord server has a lot of emotes you can download, though it's a little bit outdated."
+          "Ви можете завантажити багато емоцій або навіть створити свої власні! На сервері Discord є багато емоцій, які ви можете завантажити, хоча вони трохи застарілі."
         ]
       },
       "misc": {
-        "section_name": "Misc",
+        "section_name": "Різне",
         "screencapper": [
           "Essential має функцію попереднього перегляду скриншотів, цей мод повністю впроваджує базовий еквівалент.",
           "Високо розвинений мод для поліпшення скриншотів."
@@ -137,7 +137,7 @@
           "Screenshot Viewer - це мод, який дозволяє вам бачити скриншоти, які ви зробили під час гри! (включаючи випадкові, які ви зробили, коли намагалися натиснути F3)."
         ],
         "snapper": [
-          "Essential's screenshot functionality involves functionality both when taking a screenshot and viewing one.",
+          "Функціональність скриншотів Essential включає можливості як при створенні скриншоту, так і при його перегляді.",
           "Snapper aims to provide the most and highest-quality possible improvements to Minecraft's screenshot experience."
         ],
         "auth_me": [
