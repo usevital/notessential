@@ -22,3 +22,6 @@ logs
 .env
 .env.*
 !.env.example
+
+# Default Crowdin config file
+crowdin.yml
