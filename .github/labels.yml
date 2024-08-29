@@ -1,0 +1,4 @@
+labels:
+  - label: "Merge conflict identified"
+    conditions:
+      - mergeable: false
