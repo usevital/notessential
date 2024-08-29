@@ -6,6 +6,9 @@ on:
   schedule:
     - cron: "30 */3 * * *"
   push:
+    branches-ignore:
+      - i18n-crowdin-translations
+      - manual-crowdin-updates
   workflow_dispatch:
 
 permissions:
