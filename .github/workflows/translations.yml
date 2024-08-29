@@ -62,7 +62,7 @@ jobs:
           pull_request_title: (Crowdin Action) New translation strings
           pull_request_body: New translated strings are now available!
           pull_request_labels: crowdin
-          pull_request_base_branch_name: 'main'
+          pull_request_base_branch_name: "main"
           github_user_name: Crowdin Bot (Actions)
           github_user_email: support+bot@crowdin.com
         env:
