@@ -12,7 +12,7 @@
       "interact": "Interact",
       "resources": "Resourcez",
       "contributing": "Contributin",
-      "experiments": ""
+      "experiments": "Experiments"
     }
   },
   "landing": {
@@ -23,8 +23,8 @@
     }
   },
   "experiments": {
-    "hero": "",
-    "subtitle": ""
+    "hero": "EXPERIMENTAL FEATURES",
+    "subtitle": "Configure experimental flags for development purposes!"
   },
   "contributing": {
     "hero": "CONTRIBUTIN",
@@ -37,22 +37,22 @@
       "alternatives": "Submittin alternativez"
     },
     "subtitles": {
-      "translating": "",
-      "coding": "",
-      "alternatives": ""
+      "translating": "To help translate NotEssential, please visit our Crowdin page, listed below. If your language is not listed, join our Discord server and request your language to be added in the #ne-general chat.",
+      "coding": "To assist in developing NotEssential, fork the source repository and create a new branch to start off with. Then, checkout your branch locally and start coding.",
+      "alternatives": "Similar to above, fork the source repository and create a new branch based off `main`. Then, checkout your branch locally and start coding."
     },
     "guidelines": {
       "translating": [
         "Unles they has an offishul naym in ur language, do NOT tranzlate modz naym into dat language.",
-        "",
+        "Similarly, do NOT translate 'Essential' (the mod), 'Spark Universe', 'Mojang', 'Microsoft', as well as any mod names if there isn't an official name in that language.",
         "If thar iz an issue, plz mak comment on teh side panel an tick teh 'Issues' box. Den, select teh relatd flag.",
         "When an area iz in ALL CAPS, also rite in ALL CAPS if u can wif ur language."
       ],
       "coding": [
-        "",
+        "Make sure you look at the Pull Requests page to see if your idea has already been listed. If there isn't one, we recommend opening pull requests to the head branch/repository (the head branch is the branch merging to the repository).",
         "Mak ur commit namez helpful so we can understand wut u has changd.",
         "Install Prettier. U can run 'pnpm add prettier' or install Prettier as VS Code extenshun (dis shud has been recommendd 2 u automatically!). If u use teh extenshun, ensure 'Format on Save' iz set in VS Code settings.",
-        ""
+        "Make sure you utilise our pull request template when making a pull request."
       ],
       "alternatives": [
         "Mak sure ur project replacez feachur ov Essential.",
@@ -66,7 +66,7 @@
   "alternatives": {
     "hero": "ALTERNITAVZ",
     "reason": "Essential haz manny problmz. Thiz pag sows alternitivs.",
-    "nudge_for_contributing": "",
+    "nudge_for_contributing": "Willing to contribute? Click here for contributing guidelines.",
     "texts": {
       "modpacks": {
         "section_name": "Modz pacz",
@@ -117,17 +117,17 @@
           "Bonus: it also has sort ov built-in anti-cheat 4 things such as invisable playr models!"
         ],
         "skin_shuffle": [
-          "",
+          "Essential's skin swapper in-game can be convenient if you want to change your skin without having to relaunch Minecraft. This mod can achieve this for you!",
           "Skin Shuffle iz mod dat can change, store, an customize ur skin, all in-game without requirin 2 relaunch. They r stord in wut they call \"Skin Presets\" which can be creatd off ov URLs, filez, Usernames/UUIDs, in-game texturez an even ur current skin!",
           "If teh servr has Skin Shuffle installd, u can also switch ur skin an it will be shown 2 evryone on teh servr, even dose without teh mod, all while not requirin u 2 disconnect frum teh servr!"
         ],
         "emotecraft": [
           "4 emotez, u cud wants 2 use Emotecraft. It be free an open source emotez service, wif support 4 custom emotez.",
-          ""
+          "You can download many emotes, or even make your own! The discord server has a lot of emotes you can download, though it's a little bit outdated."
         ]
       },
       "misc": {
-        "section_name": "",
+        "section_name": "Misc",
         "screencapper": [
           "Essential has screenshot preview feachur, dis mod entirely implements basic equivalent.",
           "A highly advancd screenshot improovement mod."
@@ -137,8 +137,8 @@
           "Screenshot Viewer iz mod dat allows u 2 c teh screenshots dat u has taken while u wuz gamin! (includin teh accidental onez u took when u wer tryin 2 pres F3)."
         ],
         "snapper": [
-          "",
-          ""
+          "Essential's screenshot functionality involves functionality both when taking a screenshot and viewing one.",
+          "Snapper aims to provide the most and highest-quality possible improvements to Minecraft's screenshot experience."
         ],
         "auth_me": [
           "Essential has an in-game akownt switchr feachur. U can use dis mod 2 achieve wan important aspect ov it.",
