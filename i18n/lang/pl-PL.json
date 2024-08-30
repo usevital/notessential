@@ -6,20 +6,20 @@
     "footer": {
       "disclaimer": "NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG, MICROSOFT OR SPARK UNIVERSE.",
       "open_source": "This page is open source.",
-      "about": "Informacje",
-      "credit_creator": "Oryginalnie stworzone przez",
-      "credit_designed": "Zaprojektowane przez",
-      "interact": "Wejdź w interakcję",
+      "about": "About",
+      "credit_creator": "Originally created by",
+      "credit_designed": "Designed by",
+      "interact": "Interact",
       "resources": "Resources",
       "contributing": "Contributing",
       "experiments": "Experiments"
     }
   },
   "landing": {
-    "hero": "SĄ LEPSZE SPOSOBY GRANIA W",
-    "reason": "Nie bądź zmuszonym korzystać z Essential. Jest wiele open-source alternatyw które ci pomogą.",
+    "hero": "THERE ARE BETTER WAYS TO PLAY",
+    "reason": "Don't be forced to use Essential. There are countless open-source alternatives to help you.",
     "buttons": {
-      "alternatives": "ALTERNATYWY"
+      "alternatives": "ALTERNATIVES"
     }
   },
   "experiments": {
@@ -64,65 +64,65 @@
     }
   },
   "alternatives": {
-    "hero": "ALTERNATYWY",
-    "reason": "Essential ma wiele problemów. Ta strona ma alternatywy.",
+    "hero": "ALTERNATIVES",
+    "reason": "Essential has many issues. This page provides alternatives.",
     "nudge_for_contributing": "Willing to contribute? Click here for contributing guidelines.",
     "texts": {
       "modpacks": {
-        "section_name": "Modpaki",
+        "section_name": "Modpacks",
         "vital": [
-          "Jeżeli chcesz mieć wszystko wygodnie zorganizowane w jednym modpaku, używaj Vital.",
-          "Ma ona wiele modyfikacji które są na tej liście jak: Cosmetica, World Host i inne.",
-          "Ma też zoorganizowane menu główne jak Essential za pomocą FencyMenu."
+          "If you want to have everything neatly organized into one modpack, you can use Vital.",
+          "It has most of the mods on this list, including Cosmetica, World Host, and more.",
+          "It also has an organized main menu like Essential with FancyMenu."
         ]
       },
       "multiplayer": {
         "section_name": "Multiplayer",
         "world_host": [
-          "Do gry z przyjaciółmi możesz użyć World Host. To darmowy i open-source sposób, aby grać z przyjaciółmi, którzy są na twojej liście przyjaciół, a także z każdym z kim chcesz pograć.",
-          "Ma system listy znajomych, którego możesz użyć, aby Twoi znajomi mogli dołączyć do gry w momencie, gdy otworzysz świat dla nich.",
-          "Po prostu kliknij \"Otwórz dla przyjaciół\" i twoi przyjaciele będą mogli dołączyć. Możesz też podzielić się linkiem który pojawię się w czacie z ludźmi z którymi grać!",
-          "Ta modyfikacja jest zalecana tylko dla vanilli lub lekko/ zmodyfikowanych modpaków. Dla lepszego doświadczenia z modpakami użyj e4mc, który jest przedstawiony poniżej."
+          "For multiplayer with a friends system, you can use World Host. It's a free and open source way to broadcast your world to those on your friends list, and everyone you want to share it with.",
+          "It has a friends list system you can use to let your friends join your game right as you open it to them.",
+          "You simply hit \"Open to Friends\" and your friends will be able to join. You can also share the link that appears in chat with the people you want to play with!",
+          "This mod is recommended for mostly vanilla or lightly/client-side modded instances only. For better experiences with modpacks, use e4mc, which is featured below."
         ],
         "e4mc": [
-          "Dla wielu graczy możesz użyć E4MC. To darmowy i open source sposób na nadawanie Twojego serwera LAN dla wszystkich, z którymi chcesz go udostępnić.",
-          "Po prostu kliknij \"Otwórz dla LAN\" i podziel się linkiem, który pojawia się na czacie z osobami, z którymi chcesz grać!",
-          "e4mc jest rekomendowany dla modpaków, jako bardzo prosta modyfikacja więc nie powinna ingerować z innymi modami. Po prostu upewnij się że wasze modpaku są takie same!"
+          "For Multiplayer, you can use E4MC. It's a free and open source way to broadcast your LAN server to everyone you want to share it with.",
+          "You simply hit \"Open to LAN\" and share the link that appears in chat with the people you want to play with!",
+          "e4mc is recommended over World Host for modpacks, as this is a very simple mod which means it shouldn't interfere with potential mods. Just make sure your modlists are identical to avoid de-syncing!"
         ]
       },
       "cosmetics": {
-        "section_name": "Kosmetyki",
+        "section_name": "Cosmetics",
         "cosmetica": [
-          "Dla kosmetyków możesz używać Cosmetica. To darmowa modyfikacja (open-source) ze wsparciem dla własnych pelerynek i kosmetyków.",
-          "Nawet obsługuje kosmetyki z OptiFine, Lunar Client I wiele więcej!",
-          "\"Cosmetica pozwala personalizować gracza na zupełnie nowym poziomie z kosmetykami które są na poziomie popularnych klientów PvP\" (wzięto ze strony na Modrinth)"
+          "For Cosmetics, you may want to use Cosmetica. It's a free and open source cosmetics service, with custom capes and cosmetics support.",
+          "It can even support cosmetics from OptiFine, Lunar Client and others!",
+          "\"Cosmetica lets you customize your player on a whole new level with cosmetics that rival those of popular PvP clients\" (taken from the Modrinth page)"
         ],
         "ears": [
-          "Ears to jeszcze jeden mod, który pozwala personalizować model gracza. Używa twojej prawdziwej skórki, byś mógł/a wybrać, jak inni widzą twoją skórkę, jeśli mają zainstalowane Ears.",
-          "Jest dostępne na wiele wersji (Beta 1.73 do Wydanie 1.20.6) i dodaje wiele Uszu, Ogonów, Skrzydeł i wiele więcej."
+          "Ears is another mod you can use for skin customization. It uses your actual Minecraft Skin to set up how people will see your skin, if they have Ears installed.",
+          "It's available for many versions (Beta 1.7.3 - Release 1.20.6), and adds Ears, Snouts/Muzzles, Tails, Wings and More."
         ],
         "capes": [
-          "Ta modyfikacja pozwala używać pelerynek z OptiFine, LabyMod i MinecraftCapes mod.",
-          "Po prostu instalujesz modyfikacje i to wszystko! Jeśli chcesz wyłączyć jedną z pelerynek dla którejś z modów możesz to zrobić w menu konfiguracji."
+          "This mod gives you the ability to use and see capes from OptiFine, LabyMod and the MinecraftCapes mod.",
+          "You just install the mod and that's it! If you want to disable capes from certain mods you can do it on the configuration screen."
         ],
         "customizable_player_models": [
-          "Customizable Player Models to modyfikacja pozwalająca głęboko modyfikować model gracza.",
-          "Ma interfejs, w którym możesz dodawać, usuwać, zmieniać model twojego gracza, podobne do tego, jak działa Blender.",
-          "Modele są zapisywane w nieużywanych miejscach na skórce lub jako Gist na GitHub.",
-          "Wyślij eksportowany plik obrazu jako twój skin, aby załadować własny model."
+          "Customizable Player Models is a mod that lets you deeply modify your player model.",
+          "It has an interface where you can add, remove, modify, model and texture your own player model, similar to how Blender works.",
+          "The models are stored in unused space on your Minecraft Skin, or as a Gist on GitHub.",
+          "Upload the exported image file as your skin to load the custom model."
         ],
         "figura": [
-          "Jeśli chcesz troszkę więcej Figura pozwala modyfikować model gracza jeszcze bardziej!",
-          "Figura skupia się w mniejszym stopniu na zachowaniu kompatybilności, co oznacza, że jest w stanie dodać o wiele więcej do Twojego modelu, takie jak zwierzęta domowe, uszy i więcej! Możesz także użyć skryptów Lua do jeszcze większego dostosowania!",
-          "Bonus: ma też wbudowany anty-cheat dla takich rzeczy jak niewidzialne modele gracza!"
+          "If you're looking to step it up a notch, Figura allows you to modify your player model much more!",
+          "Figura focuses less on maintaining compatibility, which means it's able to add much more to your model, such as pets, ears, and more! You can also use Lua scripts to customise even further!",
+          "Bonus: It also has sort of a built-in anti-cheat for things such as invisible player models!"
         ],
         "skin_shuffle": [
           "Essential's skin swapper in-game can be convenient if you want to change your skin without having to relaunch Minecraft. This mod can achieve this for you!",
-          "Skin Shuffle to modyfikacja, która może zmieniać, przechowywać i dostosowywać skórkę w grze bez konieczności ponownego uruchomienia. Są one przechowywane w ustawieniach \"Presetów Skórek\", które mogą być tworzone poza adresami URL, plikami, nazwami użytkowników/UUID, teksturami w grze, a nawet bieżącą skórką!",
-          "Jeśli serwer ma zainstalowany Skin Shuffle, możesz również przełączyć skórkę i będzie ona wyświetlana dla wszystkich na serwerze, nawet bez moda, wszystko nie wymagając odłączenia się od serwera!"
+          "Skin Shuffle is a mod that can change, store, and customise your skin, all in-game without requiring to relaunch. They are stored in what they call \"Skin Presets\" which can be created off of URLs, files, Usernames/UUIDs, in-game textures and even your current skin!",
+          "If the server has Skin Shuffle installed, you can also switch your skin and it will be shown to everyone on the server, even those without the mod, all while not requiring you to disconnect from the server!"
         ],
         "emotecraft": [
-          "Dla emotikonów możesz użyć Emotecraft. Jest to darmowa i otwarto-źródłowa usługa emocji z obsługą niestandardowych emotek.",
+          "For Emotes, you may want to use Emotecraft. It's a free and open source emotes service, with support for custom emotes.",
           "You can download many emotes, or even make your own! The discord server has a lot of emotes you can download, though it's a little bit outdated."
         ]
       },

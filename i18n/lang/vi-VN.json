@@ -1,161 +1,161 @@
 {
   "layout": {
     "nav": {
-      "alternatives": "MOD THAY THẾ"
+      "alternatives": "ALTERNATIVES"
     },
     "footer": {
-      "disclaimer": "KHÔNG PHẢI MỘT SẢN PHẨM MINECRAFT CHÍNH HÃNG. KHÔNG ĐƯỢC CHẤP THUẬN BỞI HOẶC CÓ LIÊN KẾT VỚI MOẠNG, MICROSOFT HOẶC SPARK UNIVERSE.",
-      "open_source": "Trang này có nguồn mở.",
-      "about": "Về chúng tôi",
-      "credit_creator": "Tạo gia bởi",
-      "credit_designed": "Thiết kế bởi",
-      "interact": "Tương tác",
-      "resources": "Tài liệu",
-      "contributing": "Đóng góp",
-      "experiments": "Thí nghiệm"
+      "disclaimer": "NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG, MICROSOFT OR SPARK UNIVERSE.",
+      "open_source": "This page is open source.",
+      "about": "About",
+      "credit_creator": "Originally created by",
+      "credit_designed": "Designed by",
+      "interact": "Interact",
+      "resources": "Resources",
+      "contributing": "Contributing",
+      "experiments": "Experiments"
     }
   },
   "landing": {
-    "hero": "CÓ CÁCH TỐT HƠN ĐỂ CHƠI",
-    "reason": "Đừng cảm thấy cần thiết dùng Essential. Chúng ta đã có nhiều mod nguồn mở để giúp bạn thay.",
+    "hero": "THERE ARE BETTER WAYS TO PLAY",
+    "reason": "Don't be forced to use Essential. There are countless open-source alternatives to help you.",
     "buttons": {
-      "alternatives": "MOD THAY THẾ"
+      "alternatives": "ALTERNATIVES"
     }
   },
   "experiments": {
-    "hero": "THÍ NGHIỆM TÍNH NĂNG",
-    "subtitle": "Cấu hình cờ thí nghiệm cho việc lập trình!"
+    "hero": "EXPERIMENTAL FEATURES",
+    "subtitle": "Configure experimental flags for development purposes!"
   },
   "contributing": {
-    "hero": "ĐÓNG GÓP",
-    "subhero": "Cho trang web NotEssential",
-    "welcome": "Bạn có muốn đóng góp cho NotEssential? Nếu có, hãy theo hướng dẫn sau.",
-    "end": "Nếu bạn có thêm câu hỏi, hãy vào Discord của chúng tôi và hỏi ở đấy.",
+    "hero": "CONTRIBUTING",
+    "subhero": "To the NotEssential website",
+    "welcome": "Want to contribute to NotEssential? Here are some guidelines.",
+    "end": "If you have any more questions, please join our Discord and ask there.",
     "titles": {
-      "translating": "Dịch",
-      "coding": "Lập trình",
-      "alternatives": "Thêm giải pháp thay thế"
+      "translating": "Translating",
+      "coding": "Developing",
+      "alternatives": "Submitting Alternatives"
     },
     "subtitles": {
-      "translating": "Để giúp trang NotEssential, hãy vào trang Crowdin của chúng tôi. Nếu ngôn ngữ của bạn không có, vào trang Discord của chúng ta và yêu cầu trong #ne-general để thêm ngôn ngữ của bạn được thêm vào.",
-      "coding": "Để giúp lập trình NotEssential, hãy tạo ra một phân nhánh của kho này và tạo ra một cành để bắt đầu với. Sau đó, tải xuống cành đấy vào máy của bạn và bắt đầu lập trình.",
-      "alternatives": "Giống như ở trên, hãy tạo ra một phân nhánh và tạo một cành từ `main`. Sau đó, tải xuống cái nhánh và hãy bắt đầu lập trình."
+      "translating": "To help translate NotEssential, please visit our Crowdin page, listed below. If your language is not listed, join our Discord server and request your language to be added in the #ne-general chat.",
+      "coding": "To assist in developing NotEssential, fork the source repository and create a new branch to start off with. Then, checkout your branch locally and start coding.",
+      "alternatives": "Similar to above, fork the source repository and create a new branch based off `main`. Then, checkout your branch locally and start coding."
     },
     "guidelines": {
       "translating": [
-        "Chừ khi họ có một tên chính thức trong ngôn ngữ của bạn, vui lòng ĐỪNG dịch sang tên của mod vào trong ngôn ngữ của bạn.",
-        "Như vậy, hãy ĐỪNG dịch 'Essential' (tên của mod), 'Spark Universe', 'Mojang', hoặc 'Microsoft', cộng thêm những tên của mod nếu không có tên chính thức.",
-        "Nếu có vấn đề, hãy bình luận trên bảng bên phải và đánh đấu nút 'Issues'. Sau đó, chọn vấn đề liên quan.",
-        "Nếu có một chỗ ghi HOÀN TOÀN CHỮ HOA, hãy viết chỗ đấy HOÀN TOÀN CHỮ HOA nếu có thể với ngôn ngữ của bạn."
+        "Unless they have an official name in your language, do NOT translate a mod's name into that language.",
+        "Similarly, do NOT translate 'Essential' (the mod), 'Spark Universe', 'Mojang', 'Microsoft', as well as any mod names if there isn't an official name in that language.",
+        "If there is an issue, please make a comment on the side panel and tick the 'Issues' box. Then, select the related flag.",
+        "When an area is in ALL CAPS, also write in ALL CAPS if you can with your language."
       ],
       "coding": [
-        "Hãy nhìn trong trang Pull Requests đề xem ỹ tưởng của bạn đã có chưa. Nếu chưa có, hãy mở một pull request bằng cành mới của bạn (cành mới là cành bạn đã dùng để lập trình).",
-        "Hãy đặt tên cho các commit của bạn một cách để chúng tôi có thể hiểu được bạn đã thay đổi gì.",
-        "Cài Prettier trên máy của bạn. Bạn có thể chạy `pnpm add prettier` hoặc cài chương trình bổ sung \"Prettier\" trong VS Code (nếu thế thì bạn đã được gợi ý cài này rồi!). Nếu bạn dùng chương trình bổ sung, hãy kiểm tra cài đặt 'định dạng khi lưu' đã bật trong VS Code.",
-        "Hãy làm chắc chắn rằng bạn dùng một trong những bản mẫu giải thích pull request của bạn."
+        "Make sure you look at the Pull Requests page to see if your idea has already been listed. If there isn't one, we recommend opening pull requests to the head branch/repository (the head branch is the branch merging to the repository).",
+        "Make your commit names helpful so we can understand what you have changed.",
+        "Install Prettier. You can run 'pnpm add prettier' or install Prettier as a VS Code extension (this should have been recommended to you automatically!). If you use the extension, ensure 'Format on Save' is set in VS Code settings.",
+        "Make sure you utilise our pull request template when making a pull request."
       ],
       "alternatives": [
-        "Hãy kiểm tra rằng mod mới bạn đã thêm vào có thể thay thế được một tính năng của Essential.",
-        "Vui lòng giải thích lý do vì sao mod này nên được thêm vào trang.",
-        "Bạn cũng nên cho thêm một mô tả cho mod bạn đang thêm vào, nhưng đây không bắt buộc.",
-        "Đây đã phải đương nhiên rồi, nhưng hãy đừng cho vào một tệp Trojan hoặc phần mềm độc hại khác.",
-        "Hãy đừng dùng trang này để quảng cáo project của bạn."
+        "Make sure your project replaces a feature of Essential.",
+        "Please detail why your project should be added to the page.",
+        "Also submit a short description of your project, though this is optional.",
+        "This should be obvious, but please don't submit a Trojan or other form of malware.",
+        "Please don't just use this site as 'free advertising' for your project."
       ]
     }
   },
   "alternatives": {
-    "hero": "MOD THAY THẾ",
-    "reason": "Essential có nhiều vấn đề. Trang này ghi các mod thay thế.",
-    "nudge_for_contributing": "Bạn muốn giúp? Ấn vào đây để xem hướng giẫn đóng góp.",
+    "hero": "ALTERNATIVES",
+    "reason": "Essential has many issues. This page provides alternatives.",
+    "nudge_for_contributing": "Willing to contribute? Click here for contributing guidelines.",
     "texts": {
       "modpacks": {
-        "section_name": "Gói có mod",
+        "section_name": "Modpacks",
         "vital": [
-          "Nếu bạn muốn có tất cả mọi thứ sắp sếp ngắn gọn trong một gói, bạn có thể dùng Vital.",
-          "Nó có phần lớn các mod trên trang này, bao gồm Cosmetica, World Host, và thêm nữa.",
-          "Nó cũng có một màn hình chính gọn gàng như Essential khi dùng với FancyMenu."
+          "If you want to have everything neatly organized into one modpack, you can use Vital.",
+          "It has most of the mods on this list, including Cosmetica, World Host, and more.",
+          "It also has an organized main menu like Essential with FancyMenu."
         ]
       },
       "multiplayer": {
-        "section_name": "Chơi với nhiều người",
+        "section_name": "Multiplayer",
         "world_host": [
-          "Để chơi với người khác với một hệ thống bạn bè, bạn có thể dùng World Host. Nó là một cách miễn phí và nguồn mở để chơi thế giới của bạn với người trên danh sách bạn bè, và tất cả những người bạn muốn chơi với.",
-          "Nó có một hệ thống cho danh sách bạn bè bạn có thể dùng để cho các bạn tham gia thế giới của bạn ngay khi bạn mở thể giới cho các bạn.",
-          "Bạn chỉ cần ấn nút \"Open to Friends\" và bạn của bạn có thể tham gia. Bạn cũng có thể chia sẻ đường link ở trong ô nói chuyện với những người khác bạn muốn chơi với!",
-          "Mod này nên dùng với các mod nhẹ hoặc không dùng với mod. Nếu bạn muốn dùng gói mod, bạn nên dùng e4mc, ở dưới."
+          "For multiplayer with a friends system, you can use World Host. It's a free and open source way to broadcast your world to those on your friends list, and everyone you want to share it with.",
+          "It has a friends list system you can use to let your friends join your game right as you open it to them.",
+          "You simply hit \"Open to Friends\" and your friends will be able to join. You can also share the link that appears in chat with the people you want to play with!",
+          "This mod is recommended for mostly vanilla or lightly/client-side modded instances only. For better experiences with modpacks, use e4mc, which is featured below."
         ],
         "e4mc": [
-          "Để chơi với người khác, bạn có thể dùng e4mc. Đó là một cách miễn phí và nguồn mở để chạy thế giới của bạn qua LAN, nhưng có thể chơi kể cả có gần bạn hay không.",
-          "Bạn chỉ cần ấn nút \"Mở rộng cho LAN\" và chia sẻ đường link ở trong ô nói chuyện với những người bạn muốn chơi với!",
-          "e4mc nên dùng qua World Host với những gói mod lớn, vì đây là một mod đơn giản nên nó sẽ không can thiệp nhiều với mod khác. Bạn chỉ nên kiểm tra rằng ranh sách mod của mọi người giống nhau để không bị mất đồng bộ!"
+          "For Multiplayer, you can use E4MC. It's a free and open source way to broadcast your LAN server to everyone you want to share it with.",
+          "You simply hit \"Open to LAN\" and share the link that appears in chat with the people you want to play with!",
+          "e4mc is recommended over World Host for modpacks, as this is a very simple mod which means it shouldn't interfere with potential mods. Just make sure your modlists are identical to avoid de-syncing!"
         ]
       },
       "cosmetics": {
-        "section_name": "Trang trí",
+        "section_name": "Cosmetics",
         "cosmetica": [
-          "Để trang trí người chơi của bạn, bạn có thể muốn dùng Cosmetica. Nó là một dịch vụ miễn phí và nguồn mở, với hỗ trợ cho trang trí rất nhiều.",
-          "Nó cũng hỗ trợ trang trí từ OptiFine, Lunar Client, và thêm nữa!",
-          "\"Cosmetica cho phép bạn tùy chỉnh người chơi của bạn trên một mức cao với trang trí mà đối thủ được trang trí của các client cho PvP phổ biến\" (Lấy từ trang Modrinth và đã được dịch sang)"
+          "For Cosmetics, you may want to use Cosmetica. It's a free and open source cosmetics service, with custom capes and cosmetics support.",
+          "It can even support cosmetics from OptiFine, Lunar Client and others!",
+          "\"Cosmetica lets you customize your player on a whole new level with cosmetics that rival those of popular PvP clients\" (taken from the Modrinth page)"
         ],
         "ears": [
-          "Ears là một mod khác bạn có thể dùng để chỉnh da của bạn. Mod này dùng da Minecraft của bạn để đặt cách mà mọi người sẽ thấy bạn, nếu họ đã cài Ears.",
-          "Nó đã có phiên bản cho nhiều phiên bản Minecraft (Beta 1.7.3-phiên bản mới nhất), và cho thêm tai, mỏ, đuôi, cánh và thêm nữa."
+          "Ears is another mod you can use for skin customization. It uses your actual Minecraft Skin to set up how people will see your skin, if they have Ears installed.",
+          "It's available for many versions (Beta 1.7.3 - Release 1.20.6), and adds Ears, Snouts/Muzzles, Tails, Wings and More."
         ],
         "capes": [
-          "Mod này cho phép bạn nhìn thấy áo tơ choàng từ OptiFine, LabyMod và MinecraftCapes.",
-          "Bạn chỉ cần cài mod thôi! Nếu bạn muốn không nhìn thấy áo tơ choàng từ một số mod, bạn có thể làm được trên trang cấu hình."
+          "This mod gives you the ability to use and see capes from OptiFine, LabyMod and the MinecraftCapes mod.",
+          "You just install the mod and that's it! If you want to disable capes from certain mods you can do it on the configuration screen."
         ],
         "customizable_player_models": [
-          "Customizable Player Models là một mod cho bạn biến đổi người chơi.",
-          "Nó có một màn hình tương tác để bạn thêm, xóa, đổi, mô hình hóa và kết cấu người chơi của bạn, như các Blender chạy.",
-          "Các mô hình sẽ được dự trữ trên chỗ trống trên mô hình Minecraft thường của bạn, hoặc là một Gist trên GitHub.",
-          "Đăng lên cái ảnh bạn đã xuất ra như mô hình bình thường để tải mô hình mới của bạn."
+          "Customizable Player Models is a mod that lets you deeply modify your player model.",
+          "It has an interface where you can add, remove, modify, model and texture your own player model, similar to how Blender works.",
+          "The models are stored in unused space on your Minecraft Skin, or as a Gist on GitHub.",
+          "Upload the exported image file as your skin to load the custom model."
         ],
         "figura": [
-          "Nếu bạn muốn lên một bước nữa, Figura cho phép bạn thay đổi mô hình người chơi của bạn nhiều hơn!",
-          "Figura tập trung ít hơn về việc duy chì tương thích, nên nó có thể thêm được nhiều thứ hơn nữa vào mô hình của bạn, như con thú, tai, và thêm nữa! Bạn cũng có thể dùng ngôn ngữ Lua để tùy chỉnh thêm nữa!",
-          "Thêm nữa: Nó cũng có một cái thứ giống như chống gian lận với những thứ như mô hình người vô hình!"
+          "If you're looking to step it up a notch, Figura allows you to modify your player model much more!",
+          "Figura focuses less on maintaining compatibility, which means it's able to add much more to your model, such as pets, ears, and more! You can also use Lua scripts to customise even further!",
+          "Bonus: It also has sort of a built-in anti-cheat for things such as invisible player models!"
         ],
         "skin_shuffle": [
-          "Tính năng thay đổi mô hình trong chò có thể rất tiện nếu bạn muốn thay mô hình nhưng không muốn khởi động lại Minecraft. Mod này có chức năng này cho bạn!",
-          "Skin Shuffle là tên của một mod có thể thay đổi, lưu và tùy chỉnh mô hình người chơi của bạn, tất cả ở trong chò và không cần bạn khởi động lại. Nó được dữ ở trong các thứ họ gọi là \"mô hình có sẵn\" và có thể dùng từ URL, tệp, tên/ID trong chò, mô hình có trong chò và cả mô hình hiện tại của bạn!",
-          "Nếu máy chủ có Skin Shuffle cài đặt, bạn cũng có thể thay đổi mô hình và nó sẽ hiện cho tất cả mọi người trên máy chủ, kể cả những người không có mod, và cũng không cần phải kết nối lại!"
+          "Essential's skin swapper in-game can be convenient if you want to change your skin without having to relaunch Minecraft. This mod can achieve this for you!",
+          "Skin Shuffle is a mod that can change, store, and customise your skin, all in-game without requiring to relaunch. They are stored in what they call \"Skin Presets\" which can be created off of URLs, files, Usernames/UUIDs, in-game textures and even your current skin!",
+          "If the server has Skin Shuffle installed, you can also switch your skin and it will be shown to everyone on the server, even those without the mod, all while not requiring you to disconnect from the server!"
         ],
         "emotecraft": [
-          "Cho biểu cảm, bạn có thể muốn dùng Emotecraft. Nó là một dịch vụ miễn phí và nguồn mở, với hỗ trợ cho biểu cảm phong tục.",
-          "Bạn có thể tải xuống rất nhiều biểu cảm trên mạng, hoặc tạo ra cái riêng của bạn! Discord của họ có rất nhiều biểu cảm bạn có thể tải, nhưng nó bị lỗi thời một chút."
+          "For Emotes, you may want to use Emotecraft. It's a free and open source emotes service, with support for custom emotes.",
+          "You can download many emotes, or even make your own! The discord server has a lot of emotes you can download, though it's a little bit outdated."
         ]
       },
       "misc": {
-        "section_name": "Khác",
+        "section_name": "Misc",
         "screencapper": [
-          "Essential có tính năng để xem ảnh chụp màn hình, mod này tạo ra một tính năng tương đương cơ bản.",
-          "Một mod nâng cao việc chụp ảnh màn hình."
+          "Essential has a screenshot preview feature, this mod entirely implements a basic equivalent.",
+          "A highly advanced screenshot improvement mod."
         ],
         "screenshot_viewer": [
-          "Essential có tính năng để xem ảnh chụp màn hình, và bạn có thể có một tính năng tương đương với mod này.",
-          "Screenshot Viewer là một mod mà cho bạn xem ảnh màn hình bạn đã chụp! (Kể cả những ảnh bạn vô tình chụp khi bạn ấn nút F3)."
+          "Essential has a screenshot viewer feature, and you can get something similar using this mod.",
+          "Screenshot Viewer is a mod that allows you to see the screenshots that you have taken while you were gaming! (including the accidental ones you took when you where trying to press F3)."
         ],
         "snapper": [
-          "Essential có chức năng cho việc chụp ảnh màn hình và xem ảnh màn hình.",
-          "Snapper cố gắng cho bạn những cải tiện có chất lượng cao cho cảm giác chụp ảnh màn hình trong Minecraft."
+          "Essential's screenshot functionality involves functionality both when taking a screenshot and viewing one.",
+          "Snapper aims to provide the most and highest-quality possible improvements to Minecraft's screenshot experience."
         ],
         "auth_me": [
-          "Essential có một tính năng thay tài khoản trong trò. Bạn có thể dùng mod này để đạt được một sử dụng quan trọng của nó.",
-          "Auth Me có thể xác nhận bạn một lần nữa nếu phiên của bạn đã hết hạn, việc này sẽ giải quyết vấn đề \"Invalid Session\" khó chịu."
+          "Essential has an in-game account switcher feature. You can use this mod to achieve one important aspect of it.",
+          "Auth Me is able to re-authenticate yourself in case your session expires, solving the infamous \"Invalid Session\" error."
         ],
         "in_game_account_switcher": [
-          "Nếu bạn cần dùng phần kia của tính năng thay đổi tài khoản của Essential, bạn có thể dùng mod đặt tên là In-Game Account Switcher.",
-          "In-Game Account Switcher có tính năng để thay đổi tài khoản đang được đăng nhập vào, mà không cần khởi động lại trò chơi!",
-          "Nó cũng có một số tính năng thêm nữa đễ nâng cao bảo mật khi đang dùng tài khoàn với In-Game Account Switcher."
+          "If you need the other aspect of Essential's account switcher, you can use the aptly-named In-Game Account Switcher mod.",
+          "In-Game Account Switcher has the ability to, well, switch accounts that are logged in, without needing to restart the game!",
+          "They also have various optional security measures to increase security when using your accounts with IAS."
         ],
         "craftpresence": [
-          "Essential có một tính năng áp dụng Discord RPC để chia sẻ phiên bản Minecraft và máy chủ bạn đang chơi. Mod này có thể làm thế VÀ cho phép bạn thay đổi nó nhiều hơn.",
-          "Mod phổ biến này có thể phát tin trên Discord về những thứ bạn đang làm trên Minecraft, và cũng có thể thay đổi những thứ gì hiện lên trên Discord của bạn."
+          "Essential has a Discord RPC feature that displays the version and server you are playing on. This mod can do that AND let you customize it further.",
+          "This popular RPC mod allows you to broadcast your Minecraft gaming session to Discord and change the lines that show on your Discord bio when you do so."
         ],
         "zume": [
-          "Essential có một tính năng phóng tầm nhìn. Mod này có thể thay chức năng đó, và nó có thể dùng được trên rất NHIỀU phiên bản Minecraft!",
-          "Nó không chỉ phóng tầm nhìn lên hoặc xuống, nó cũng có phím tắt để thay đổi độ phóng!"
+          "Essential has a zoom feature with it. This mod can replace that function, and it supports a LOT of Minecraft versions!",
+          "Not only does it zoom in and out, it also has keybinds for customising the zoom level!"
         ]
       }
     }

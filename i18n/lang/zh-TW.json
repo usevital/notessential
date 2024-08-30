@@ -5,18 +5,18 @@
     },
     "footer": {
       "disclaimer": "NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG, MICROSOFT OR SPARK UNIVERSE.",
-      "open_source": "本頁面是開源的。",
-      "about": "關於",
+      "open_source": "This page is open source.",
+      "about": "About",
       "credit_creator": "Originally created by",
       "credit_designed": "Designed by",
       "interact": "Interact",
-      "resources": "資源",
-      "contributing": "貢獻",
+      "resources": "Resources",
+      "contributing": "Contributing",
       "experiments": "Experiments"
     }
   },
   "landing": {
-    "hero": "有更好的方式來玩",
+    "hero": "THERE ARE BETTER WAYS TO PLAY",
     "reason": "Don't be forced to use Essential. There are countless open-source alternatives to help you.",
     "buttons": {
       "alternatives": "ALTERNATIVES"
@@ -32,8 +32,8 @@
     "welcome": "Want to contribute to NotEssential? Here are some guidelines.",
     "end": "If you have any more questions, please join our Discord and ask there.",
     "titles": {
-      "translating": "翻譯",
-      "coding": "開發",
+      "translating": "Translating",
+      "coding": "Developing",
       "alternatives": "Submitting Alternatives"
     },
     "subtitles": {
@@ -69,7 +69,7 @@
     "nudge_for_contributing": "Willing to contribute? Click here for contributing guidelines.",
     "texts": {
       "modpacks": {
-        "section_name": "模組包",
+        "section_name": "Modpacks",
         "vital": [
           "If you want to have everything neatly organized into one modpack, you can use Vital.",
           "It has most of the mods on this list, including Cosmetica, World Host, and more.",
@@ -77,7 +77,7 @@
         ]
       },
       "multiplayer": {
-        "section_name": "多人遊戲",
+        "section_name": "Multiplayer",
         "world_host": [
           "For multiplayer with a friends system, you can use World Host. It's a free and open source way to broadcast your world to those on your friends list, and everyone you want to share it with.",
           "It has a friends list system you can use to let your friends join your game right as you open it to them.",

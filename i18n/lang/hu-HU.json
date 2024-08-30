@@ -1,25 +1,25 @@
 {
   "layout": {
     "nav": {
-      "alternatives": "ALTERNATÍVÁK"
+      "alternatives": "ALTERNATIVES"
     },
     "footer": {
-      "disclaimer": "NEM EGY HIVATALOS MINCERAFT TERMÉK. NEM A MOJANG, A MICROSOFT VAGY A SPARK UNIVERSE ÁLTAL JÓVÁHAGYOTT VAGY AZZAL ÖSSZEFÜGGÉSBE HOZHATÓ.",
-      "open_source": "Ez a weboldal nyilt forráskódú.",
-      "about": "Rólunk",
-      "credit_creator": "Eredetileg készitette:",
-      "credit_designed": "Tervezvete:",
-      "interact": "Interakció",
-      "resources": "Anyagok",
-      "contributing": "Hozzájárulás",
+      "disclaimer": "NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG, MICROSOFT OR SPARK UNIVERSE.",
+      "open_source": "This page is open source.",
+      "about": "About",
+      "credit_creator": "Originally created by",
+      "credit_designed": "Designed by",
+      "interact": "Interact",
+      "resources": "Resources",
+      "contributing": "Contributing",
       "experiments": "Experiments"
     }
   },
   "landing": {
-    "hero": "VANNAK JOBB MÓDOK JÁTÉKRA",
-    "reason": "Ne legyél az Essential használatára kényszerítve. Van a segítségedre egy csomó nyilt forráskódú alternatíva.",
+    "hero": "THERE ARE BETTER WAYS TO PLAY",
+    "reason": "Don't be forced to use Essential. There are countless open-source alternatives to help you.",
     "buttons": {
-      "alternatives": "ALTERNATÍVÁK"
+      "alternatives": "ALTERNATIVES"
     }
   },
   "experiments": {
@@ -27,14 +27,14 @@
     "subtitle": "Configure experimental flags for development purposes!"
   },
   "contributing": {
-    "hero": "HOZZÁJÁRULÁS",
-    "subhero": "A NotEssential weboldalhoz",
-    "welcome": "Szeretnél hozzájárulni a NotEssential-hoz? Itt van egy pár útmutató.",
-    "end": "Ha további kérdéseid vannak akkor csatlakozz a Discord szerverünkhöz.",
+    "hero": "CONTRIBUTING",
+    "subhero": "To the NotEssential website",
+    "welcome": "Want to contribute to NotEssential? Here are some guidelines.",
+    "end": "If you have any more questions, please join our Discord and ask there.",
     "titles": {
-      "translating": "Fordítás",
-      "coding": "Fejlesztés",
-      "alternatives": "Alternatívák Hozzáadása"
+      "translating": "Translating",
+      "coding": "Developing",
+      "alternatives": "Submitting Alternatives"
     },
     "subtitles": {
       "translating": "To help translate NotEssential, please visit our Crowdin page, listed below. If your language is not listed, join our Discord server and request your language to be added in the #ne-general chat.",
@@ -64,22 +64,22 @@
     }
   },
   "alternatives": {
-    "hero": "ALTERNATÍVÁK",
-    "reason": "Az Essential-el van egy csomó probléma. Ez a weboldal alternatívákat nyújt.",
+    "hero": "ALTERNATIVES",
+    "reason": "Essential has many issues. This page provides alternatives.",
     "nudge_for_contributing": "Willing to contribute? Click here for contributing guidelines.",
     "texts": {
       "modpacks": {
-        "section_name": "Modpackek",
+        "section_name": "Modpacks",
         "vital": [
-          "Ha szeretnéd, hogy minden rendezetten egy modpackban legyen, használhatod a Vital-t.",
-          "A legtöbb modot tartalmazza ezen a listán, köztük a Cosmetica, a World Host-ot és még sok más modot.",
-          "Rendezett főmenüvel is rendelkezik, mint az Essential a FancyMenu segítségével."
+          "If you want to have everything neatly organized into one modpack, you can use Vital.",
+          "It has most of the mods on this list, including Cosmetica, World Host, and more.",
+          "It also has an organized main menu like Essential with FancyMenu."
         ]
       },
       "multiplayer": {
-        "section_name": "Többjátékos",
+        "section_name": "Multiplayer",
         "world_host": [
-          "A baráti rendszerrel való többjátékos játékhoz használhatod a World Host-ot. Ez egy ingyenes és nyílt forráskódú mod, amellyel a világodat közvetítheted a barátaid listáján lévőknek, és mindenkinek, akivel meg akarod osztani.",
+          "For multiplayer with a friends system, you can use World Host. It's a free and open source way to broadcast your world to those on your friends list, and everyone you want to share it with.",
           "It has a friends list system you can use to let your friends join your game right as you open it to them.",
           "You simply hit \"Open to Friends\" and your friends will be able to join. You can also share the link that appears in chat with the people you want to play with!",
           "This mod is recommended for mostly vanilla or lightly/client-side modded instances only. For better experiences with modpacks, use e4mc, which is featured below."
@@ -91,22 +91,22 @@
         ]
       },
       "cosmetics": {
-        "section_name": "Kellékek",
+        "section_name": "Cosmetics",
         "cosmetica": [
-          "A kellékekhez érdemes a Cosmetica-t használni. Ez egy ingyenes és nyilt forráskódú szogáltatás kellékekhez, egyedi köpenyek és kellékek támogatásával.",
-          "Még az OptiFine, Lunar Client és még sok más kellékeit támogatja!",
-          "„A Cosmetica lehetővé teszi, hogy teljesen új szinten testre szabd a karaktered olyan kellékekkel, amelyek a népszerű PvP kliensekével vetekednek” (a Modrinth oldaláról)"
+          "For Cosmetics, you may want to use Cosmetica. It's a free and open source cosmetics service, with custom capes and cosmetics support.",
+          "It can even support cosmetics from OptiFine, Lunar Client and others!",
+          "\"Cosmetica lets you customize your player on a whole new level with cosmetics that rival those of popular PvP clients\" (taken from the Modrinth page)"
         ],
         "ears": [
-          "Az Ears egy újabb mod amegyet a karaktered kinézetének testreszabására tudsz használni. A Minecraft karaktered kinézetét használja hogy megmondja más játékosonak akik rendelkeznek Ears moddal hogy, hogy nézzen ki a karaktered.",
-          "Elérhető egy csomó verzióhoz (Béta 1.7.3 - 1.20.6), és füleket, orrokat, farkakat, szárnyakat és még sok mást add a karakterekhez."
+          "Ears is another mod you can use for skin customization. It uses your actual Minecraft Skin to set up how people will see your skin, if they have Ears installed.",
+          "It's available for many versions (Beta 1.7.3 - Release 1.20.6), and adds Ears, Snouts/Muzzles, Tails, Wings and More."
         ],
         "capes": [
-          "Ez a mod lehetővé teszi, hogy használd és lásd az OptiFine, a LabyMod és a MinecraftCapes mod köpenyeit.",
-          "Csak telepítsd a modot és kész! Ha ki akarod kapcsolni a köpenyeket bizonyos modokból, akkor azt a konfigurációs képernyőn teheted meg."
+          "This mod gives you the ability to use and see capes from OptiFine, LabyMod and the MinecraftCapes mod.",
+          "You just install the mod and that's it! If you want to disable capes from certain mods you can do it on the configuration screen."
         ],
         "customizable_player_models": [
-          "A Customizable Player Models egy olyan mod amely lehetővé teszi hogy teljesen átalakítsd a karakter modelledet.",
+          "Customizable Player Models is a mod that lets you deeply modify your player model.",
           "It has an interface where you can add, remove, modify, model and texture your own player model, similar to how Blender works.",
           "The models are stored in unused space on your Minecraft Skin, or as a Gist on GitHub.",
           "Upload the exported image file as your skin to load the custom model."
@@ -129,24 +129,24 @@
       "misc": {
         "section_name": "Misc",
         "screencapper": [
-          "Az Essential rendelkezik egy képernyőkép előnézet funkcióval és ez a mod teljes egészében egy alapvető megfelelőt valósít meg.",
-          "Egy rendkívül fejlett képernyőkép kezelést javító mod."
+          "Essential has a screenshot preview feature, this mod entirely implements a basic equivalent.",
+          "A highly advanced screenshot improvement mod."
         ],
         "screenshot_viewer": [
-          "Az Essential rendelkezik egy képernyőkép előnézet funkcióval és ezzel a modal egy hasonló élményt tudsz elérni.",
-          "A Screenshot Viewer egy mod amely lehetővé teszi hogy megnézd a kepernyőképeid amelyeket játék közben készítettél. (Azokat is beleszámítva amelyeket véletlenül készítettél mikor az F3 akartad megnyomni.)"
+          "Essential has a screenshot viewer feature, and you can get something similar using this mod.",
+          "Screenshot Viewer is a mod that allows you to see the screenshots that you have taken while you were gaming! (including the accidental ones you took when you where trying to press F3)."
         ],
         "snapper": [
           "Essential's screenshot functionality involves functionality both when taking a screenshot and viewing one.",
           "Snapper aims to provide the most and highest-quality possible improvements to Minecraft's screenshot experience."
         ],
         "auth_me": [
-          "Az Essential-nak van egy beépitett fiók váltó funkciója. Ezzel a moddal elérheted az egyik legfontosabb aszpektusát.",
-          "Az Auth Me képes teljesen újra beleptetni téget ha a munkameneted lejár, megoldva a hírhedt \"érvénytelen munkamenet\" hibát."
+          "Essential has an in-game account switcher feature. You can use this mod to achieve one important aspect of it.",
+          "Auth Me is able to re-authenticate yourself in case your session expires, solving the infamous \"Invalid Session\" error."
         ],
         "in_game_account_switcher": [
           "If you need the other aspect of Essential's account switcher, you can use the aptly-named In-Game Account Switcher mod.",
-          "Az In-Game Account Switcher lehetővé teszi hogy válts fiókok között amelyek be vannak lépve a játékon belül, anélkül hogy, újra keljen indítanod.",
+          "In-Game Account Switcher has the ability to, well, switch accounts that are logged in, without needing to restart the game!",
           "They also have various optional security measures to increase security when using your accounts with IAS."
         ],
         "craftpresence": [
@@ -155,7 +155,7 @@
         ],
         "zume": [
           "Essential has a zoom feature with it. This mod can replace that function, and it supports a LOT of Minecraft versions!",
-          "Nem csak ráközelít és vissza, de még van billentyű kombinációja hogy a közelítés méretét beállítsd!"
+          "Not only does it zoom in and out, it also has keybinds for customising the zoom level!"
         ]
       }
     }

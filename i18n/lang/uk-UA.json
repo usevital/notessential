@@ -1,161 +1,161 @@
 {
   "layout": {
     "nav": {
-      "alternatives": "АЛЬТЕРНАТИВИ"
+      "alternatives": "ALTERNATIVES"
     },
     "footer": {
-      "disclaimer": "ЦЕ НЕ ОФІЦІЙНИЙ ПРОДУКТ MINECRAFT. НЕ ЗАТВЕРДЖЕНО АБО НЕ ПОВ'ЯЗАНО З MOJANG, MICROSOFT АБО SPARK UNIVERSE.",
-      "open_source": "Ця сторінка з відкритим вихідним кодом.",
-      "about": "О нас",
-      "credit_creator": "Оригінально створено",
-      "credit_designed": "Розроблено",
-      "interact": "Взаємодія",
-      "resources": "Ресурси",
-      "contributing": "Внесок",
-      "experiments": "Експерименти"
+      "disclaimer": "NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG, MICROSOFT OR SPARK UNIVERSE.",
+      "open_source": "This page is open source.",
+      "about": "About",
+      "credit_creator": "Originally created by",
+      "credit_designed": "Designed by",
+      "interact": "Interact",
+      "resources": "Resources",
+      "contributing": "Contributing",
+      "experiments": "Experiments"
     }
   },
   "landing": {
-    "hero": "Є КРАЩІ СПОСОБИ ГРАТИ В",
-    "reason": "Не змушуйте себе користуватися Essential. Існує безліч відкритих альтернатив, які можуть вам допомогти.",
+    "hero": "THERE ARE BETTER WAYS TO PLAY",
+    "reason": "Don't be forced to use Essential. There are countless open-source alternatives to help you.",
     "buttons": {
-      "alternatives": "АЛЬТЕРНАТИВИ"
+      "alternatives": "ALTERNATIVES"
     }
   },
   "experiments": {
-    "hero": "ЕКСПЕРИМЕНТАЛЬНІ ФУНКЦІЇ",
-    "subtitle": "Налаштуйте експериментальні прапори для цілей розробки!"
+    "hero": "EXPERIMENTAL FEATURES",
+    "subtitle": "Configure experimental flags for development purposes!"
   },
   "contributing": {
-    "hero": "ВНЕСОК",
-    "subhero": "До веб-сайту NotEssential",
-    "welcome": "Хочете зробити внесок до NotEssential? Ось деякі вказівки.",
-    "end": "Якщо у вас є ще питання, будь ласка, приєднайтесь до нашого Discord і задайте їх там.",
+    "hero": "CONTRIBUTING",
+    "subhero": "To the NotEssential website",
+    "welcome": "Want to contribute to NotEssential? Here are some guidelines.",
+    "end": "If you have any more questions, please join our Discord and ask there.",
     "titles": {
-      "translating": "Переклад",
-      "coding": "Розробка",
-      "alternatives": "Подання Альтернатив"
+      "translating": "Translating",
+      "coding": "Developing",
+      "alternatives": "Submitting Alternatives"
     },
     "subtitles": {
-      "translating": "Щоб допомогти з перекладом NotEssential, будь ласка, відвідайте нашу сторінку на Crowdin, наведену нижче. Якщо вашої мови немає в списку, приєднуйтесь до нашого сервера Discord і запросіть додавання вашої мови в чаті #ne-general.",
-      "coding": "Щоб допомогти в розробці NotEssential, створіть вилку вихідного репозиторію і створіть нову гілку для початку роботи. Потім перемкніться на вашу локальну гілку і почніть програмувати.",
-      "alternatives": "Аналогічно вищевказаному, створіть вилку вихідного репозиторію і створіть нову гілку на основі `main`. Потім перемкніться на вашу локальну гілку і почніть програмувати."
+      "translating": "To help translate NotEssential, please visit our Crowdin page, listed below. If your language is not listed, join our Discord server and request your language to be added in the #ne-general chat.",
+      "coding": "To assist in developing NotEssential, fork the source repository and create a new branch to start off with. Then, checkout your branch locally and start coding.",
+      "alternatives": "Similar to above, fork the source repository and create a new branch based off `main`. Then, checkout your branch locally and start coding."
     },
     "guidelines": {
       "translating": [
-        "Якщо у мода немає офіційної назви вашою мовою, НЕ перекладайте назву мода на цю мову.",
-        "Аналогічно, НЕ перекладайте ‘Essential’ (мод), ‘Spark Universe’, ‘Mojang’, ‘Microsoft’, а також будь-які назви модів, якщо немає офіційної назви цією мовою.",
-        "Якщо виникає проблема, будь ласка, залиште коментар на бічній панелі та відмітьте поле 'Issues'. Потім виберіть відповідний прапорець.",
-        "Коли область написана ВСІМИ ВЕЛИКИМИ ЛІТЕРАМИ, також пишіть ВСІМИ ВЕЛИКИМИ ЛІТЕРАМИ, якщо це можливо вашою мовою."
+        "Unless they have an official name in your language, do NOT translate a mod's name into that language.",
+        "Similarly, do NOT translate 'Essential' (the mod), 'Spark Universe', 'Mojang', 'Microsoft', as well as any mod names if there isn't an official name in that language.",
+        "If there is an issue, please make a comment on the side panel and tick the 'Issues' box. Then, select the related flag.",
+        "When an area is in ALL CAPS, also write in ALL CAPS if you can with your language."
       ],
       "coding": [
-        "Переконайтеся, що ви переглянули сторінку Pull Requests, щоб побачити, чи була ваша ідея вже перерахована. Якщо ні, ми рекомендуємо відкривати запити на злиття в головну гілку/репозиторій (головна гілка - це гілка, що зливається з репозиторієм).",
-        "Зробіть назви ваших комітів корисними, щоб ми могли зрозуміти, що ви змінили.",
-        "Встановіть Prettier. Ви можете виконати 'pnpm add prettier' або встановити Prettier як розширення VS Code (це мало бути вам автоматично рекомендовано!). Якщо ви використовуєте розширення, переконайтеся, що в налаштуваннях VS Code встановлено 'Format on Save'.",
-        "Переконайтеся, що ви використовуєте наш шаблон запитів на злиття при створенні запиту на злиття."
+        "Make sure you look at the Pull Requests page to see if your idea has already been listed. If there isn't one, we recommend opening pull requests to the head branch/repository (the head branch is the branch merging to the repository).",
+        "Make your commit names helpful so we can understand what you have changed.",
+        "Install Prettier. You can run 'pnpm add prettier' or install Prettier as a VS Code extension (this should have been recommended to you automatically!). If you use the extension, ensure 'Format on Save' is set in VS Code settings.",
+        "Make sure you utilise our pull request template when making a pull request."
       ],
       "alternatives": [
-        "Переконайтеся, що ваш проєкт замінює функцію Essential.",
-        "Будь ласка, детально поясніть, чому ваш проєкт має бути доданий на сторінку.",
-        "Також подайте короткий опис вашого проєкту, хоча це необов'язково.",
-        "Це має бути очевидним, але, будь ласка, не надсилайте троянського коня або іншу форму шкідливого ПЗ.",
-        "Будь ласка, не використовуйте цей сайт як 'безплатну рекламу' для вашого проєкту."
+        "Make sure your project replaces a feature of Essential.",
+        "Please detail why your project should be added to the page.",
+        "Also submit a short description of your project, though this is optional.",
+        "This should be obvious, but please don't submit a Trojan or other form of malware.",
+        "Please don't just use this site as 'free advertising' for your project."
       ]
     }
   },
   "alternatives": {
-    "hero": "АЛЬТЕРНАТИВИ",
-    "reason": "Essential має багато проблем. Ця сторінка надає альтернативи.",
-    "nudge_for_contributing": "Хочете зробити свій внесок? Натисніть тут для отримання керівництва по внесенню внеску.",
+    "hero": "ALTERNATIVES",
+    "reason": "Essential has many issues. This page provides alternatives.",
+    "nudge_for_contributing": "Willing to contribute? Click here for contributing guidelines.",
     "texts": {
       "modpacks": {
-        "section_name": "Збірки",
+        "section_name": "Modpacks",
         "vital": [
-          "Якщо ви хочете мати все акуратно організоване в одну збірку, ви можете використовувати Vital.",
-          "Вона має більшість модів з цього списку, включаючи Cosmetica, World Host та інші.",
-          "Вона також має організоване головне меню, як Essential з FancyMenu."
+          "If you want to have everything neatly organized into one modpack, you can use Vital.",
+          "It has most of the mods on this list, including Cosmetica, World Host, and more.",
+          "It also has an organized main menu like Essential with FancyMenu."
         ]
       },
       "multiplayer": {
-        "section_name": "Гра в мережі",
+        "section_name": "Multiplayer",
         "world_host": [
-          "Для гри в мережі з системою друзів ви можете використовувати World Host. Це безплатний та відкритий для використання спосіб транслювати ваш світ тим, хто є у списку ваших друзів, та всім, з ким ви хочете поділитися.",
-          "Він має систему списку друзів, яку ви можете використовувати, щоб дозволити вашим друзям приєднатися до вашої гри, як тільки ви відкриєте її для них.",
-          "Ви просто натискаєте \"Відкрити для друзів\", і ваші друзі зможуть приєднатися. Ви також можете поділитися посиланням, яке з'являється в чаті, з людьми, з якими ви хочете грати!",
-          "Цей мод рекомендується в основному для ванільних або легко модифікованих клієнтських екземплярів. Для кращого досвіду зі збірками використовуйте e4mc, який представлений нижче."
+          "For multiplayer with a friends system, you can use World Host. It's a free and open source way to broadcast your world to those on your friends list, and everyone you want to share it with.",
+          "It has a friends list system you can use to let your friends join your game right as you open it to them.",
+          "You simply hit \"Open to Friends\" and your friends will be able to join. You can also share the link that appears in chat with the people you want to play with!",
+          "This mod is recommended for mostly vanilla or lightly/client-side modded instances only. For better experiences with modpacks, use e4mc, which is featured below."
         ],
         "e4mc": [
-          "Для гри в мережі ви можете використовувати E4MC. Це безплатний та відкритий спосіб транслювати ваш LAN-сервер всім, з ким ви хочете поділитися.",
-          "Просто натисніть “Відкрити для LAN” і поділіться посиланням, яке з’явиться в чаті, з людьми, з якими ви хочете грати!",
-          "e4mc рекомендується для збірок над World Host, оскільки це дуже простий мод, що не повинен втручатися у потенційні моди. Просто переконайтеся, що ваші списки модів ідентичні, щоб уникнути десинхронізації!"
+          "For Multiplayer, you can use E4MC. It's a free and open source way to broadcast your LAN server to everyone you want to share it with.",
+          "You simply hit \"Open to LAN\" and share the link that appears in chat with the people you want to play with!",
+          "e4mc is recommended over World Host for modpacks, as this is a very simple mod which means it shouldn't interfere with potential mods. Just make sure your modlists are identical to avoid de-syncing!"
         ]
       },
       "cosmetics": {
-        "section_name": "Косметика",
+        "section_name": "Cosmetics",
         "cosmetica": [
-          "Для косметики ви можете використовувати Cosmetica. Це безплатний та відкритий сервіс для косметики з підтримкою власних плащів та косметики.",
-          "Він навіть підтримує косметику від OptiFine, Lunar Client та інших!",
-          "“Cosmetica дозволяє вам налаштовувати вашого гравця на абсолютно новому рівні за допомогою косметик, які конкурують з тими, що пропонують популярні PvP-клієнти.” (взято зі сторінки на Modrinth)"
+          "For Cosmetics, you may want to use Cosmetica. It's a free and open source cosmetics service, with custom capes and cosmetics support.",
+          "It can even support cosmetics from OptiFine, Lunar Client and others!",
+          "\"Cosmetica lets you customize your player on a whole new level with cosmetics that rival those of popular PvP clients\" (taken from the Modrinth page)"
         ],
         "ears": [
-          "Ears — це ще один мод для налаштування шкіри. Він використовує ваш фактичний скін Minecraft, щоб встановити, як інші гравці побачать ваш скін, якщо у них встановлено Ears.",
-          "Він доступний для багатьох версій (від Бети 1.7.3 до останнього Релізу) і додає вуха, морди/рила, хвости, крила та багато іншого."
+          "Ears is another mod you can use for skin customization. It uses your actual Minecraft Skin to set up how people will see your skin, if they have Ears installed.",
+          "It's available for many versions (Beta 1.7.3 - Release 1.20.6), and adds Ears, Snouts/Muzzles, Tails, Wings and More."
         ],
         "capes": [
-          "Цей мод дає вам можливість використовувати та бачити плащі від OptiFine, LabyMod і мода MinecraftCapes.",
-          "Ви просто встановлюєте мод і все! Якщо ви хочете вимкнути плащі від певних модів, ви можете зробити це на екрані конфігурації."
+          "This mod gives you the ability to use and see capes from OptiFine, LabyMod and the MinecraftCapes mod.",
+          "You just install the mod and that's it! If you want to disable capes from certain mods you can do it on the configuration screen."
         ],
         "customizable_player_models": [
-          "Customizable Player Models - це мод, який дозволяє вам глибоко модифікувати модель вашого гравця.",
-          "Цей мод має інтерфейс, в якому ви можете додавати, видаляти, змінювати, моделювати та текстурити свою власну модель гравця, схоже на те, як працює Blender.",
-          "Моделі зберігаються в невикористаному просторі на вашому Minecraft-скіні або як Gist на GitHub.",
-          "Завантажте експортований файл зображення як свій скін, щоб завантажити власну модель."
+          "Customizable Player Models is a mod that lets you deeply modify your player model.",
+          "It has an interface where you can add, remove, modify, model and texture your own player model, similar to how Blender works.",
+          "The models are stored in unused space on your Minecraft Skin, or as a Gist on GitHub.",
+          "Upload the exported image file as your skin to load the custom model."
         ],
         "figura": [
-          "Якщо ви хочете підняти планку, Figura дозволяє вам значно більше модифікувати вашу модель гравця!",
-          "Figura зосереджується менше на підтримці сумісності, що дозволяє додавати більше до вашої моделі, таких як домашні тварини, вуха та багато іншого! Ви також можете використовувати Lua-скрипти для ще більшої настройки!",
-          "Бонус: Він також має своєрідний вбудований античит для таких речей, як невидимі моделі гравців!"
+          "If you're looking to step it up a notch, Figura allows you to modify your player model much more!",
+          "Figura focuses less on maintaining compatibility, which means it's able to add much more to your model, such as pets, ears, and more! You can also use Lua scripts to customise even further!",
+          "Bonus: It also has sort of a built-in anti-cheat for things such as invisible player models!"
         ],
         "skin_shuffle": [
-          "Внутрішньоігрова зміна скінів Essential може бути зручною, якщо ви хочете змінити свій скін, не перезапускаючи Minecraft. Цей мод може зробити це для вас!",
-          "Skin Shuffle - це мод, який може змінювати, зберігати та налаштовувати ваш скін, все це в грі без необхідності перезапуску. Вони зберігаються в тому, що вони називають \"Пресети Скінів\", які можна створити з URL-адрес, файлів, імен користувачів/UUID, текстур у грі та навіть вашого поточного скіну!",
-          "Якщо на сервері встановлено Skin Shuffle, ви також можете змінити свій скін, і він буде показаний всім на сервері, навіть тим, у кого немає цього моду, при цьому вам не потрібно відключатися від сервера!"
+          "Essential's skin swapper in-game can be convenient if you want to change your skin without having to relaunch Minecraft. This mod can achieve this for you!",
+          "Skin Shuffle is a mod that can change, store, and customise your skin, all in-game without requiring to relaunch. They are stored in what they call \"Skin Presets\" which can be created off of URLs, files, Usernames/UUIDs, in-game textures and even your current skin!",
+          "If the server has Skin Shuffle installed, you can also switch your skin and it will be shown to everyone on the server, even those without the mod, all while not requiring you to disconnect from the server!"
         ],
         "emotecraft": [
-          "Для емоцій ви можете використовувати Emotecraft. Це безплатний сервіс емоцій з відкритим вихідним кодом, який підтримує користувацькі емоції.",
-          "Ви можете завантажити багато емоцій або навіть створити свої власні! На сервері Discord є багато емоцій, які ви можете завантажити, хоча вони трохи застарілі."
+          "For Emotes, you may want to use Emotecraft. It's a free and open source emotes service, with support for custom emotes.",
+          "You can download many emotes, or even make your own! The discord server has a lot of emotes you can download, though it's a little bit outdated."
         ]
       },
       "misc": {
-        "section_name": "Різне",
+        "section_name": "Misc",
         "screencapper": [
-          "Essential має функцію попереднього перегляду скриншотів, цей мод повністю впроваджує базовий еквівалент.",
-          "Високо розвинений мод для поліпшення скриншотів."
+          "Essential has a screenshot preview feature, this mod entirely implements a basic equivalent.",
+          "A highly advanced screenshot improvement mod."
         ],
         "screenshot_viewer": [
-          "Essential має функцію перегляду скриншотів, і ви можете отримати щось подібне, використовуючи цей мод.",
-          "Screenshot Viewer - це мод, який дозволяє вам бачити скриншоти, які ви зробили під час гри! (включаючи випадкові, які ви зробили, коли намагалися натиснути F3)."
+          "Essential has a screenshot viewer feature, and you can get something similar using this mod.",
+          "Screenshot Viewer is a mod that allows you to see the screenshots that you have taken while you were gaming! (including the accidental ones you took when you where trying to press F3)."
         ],
         "snapper": [
-          "Функціональність скриншотів Essential включає можливості як при створенні скриншоту, так і при його перегляді.",
-          "Snapper прагне надати максимально можливі та якісні покращення для роботи зі скриншотами в Minecraft."
+          "Essential's screenshot functionality involves functionality both when taking a screenshot and viewing one.",
+          "Snapper aims to provide the most and highest-quality possible improvements to Minecraft's screenshot experience."
         ],
         "auth_me": [
-          "Essential має функцію перемикання облікових записів в грі. Ви можете використовувати цей мод для досягнення одного важливого аспекту цього.",
-          "Auth Me здатний повторно автентифікувати вас у випадку, якщо ваша сесія закінчується, вирішуючи незрозумілу помилку \"Invalid Session\"."
+          "Essential has an in-game account switcher feature. You can use this mod to achieve one important aspect of it.",
+          "Auth Me is able to re-authenticate yourself in case your session expires, solving the infamous \"Invalid Session\" error."
         ],
         "in_game_account_switcher": [
-          "Якщо вам потрібен інший аспект перемикання облікових записів Essential, ви можете використовувати відповідно названий мод In-Game Account Switcher.",
-          "In-Game Account Switcher має здатність, ну, перемикати облікові записи, які ввійшли в систему, без необхідності перезапускати гру!",
-          "Вони також мають різні додаткові заходи безпеки для збільшення безпеки при використанні ваших облікових записів з IAS."
+          "If you need the other aspect of Essential's account switcher, you can use the aptly-named In-Game Account Switcher mod.",
+          "In-Game Account Switcher has the ability to, well, switch accounts that are logged in, without needing to restart the game!",
+          "They also have various optional security measures to increase security when using your accounts with IAS."
         ],
         "craftpresence": [
-          "Essential має функцію Discord RPC, яка відображує версію та сервер, на якому ви граєте. Цей мод може робити це, А ТАКОЖ дозволяє вам додатково налаштувати це.",
-          "Цей популярний мод RPC дозволяє вам транслювати вашу гру в Minecraft в Discord і змінювати рядки, які відображуються в вашій біографії Discord, коли ви це робите."
+          "Essential has a Discord RPC feature that displays the version and server you are playing on. This mod can do that AND let you customize it further.",
+          "This popular RPC mod allows you to broadcast your Minecraft gaming session to Discord and change the lines that show on your Discord bio when you do so."
         ],
         "zume": [
-          "Essential має функцію збільшення. Цей мод може замінити цю функцію, і він підтримує БАГАТО версій Minecraft!",
-          "Не тільки він збільшує та зменшує масштаб, але також має гарячі клавіші для налаштування рівня збільшення!"
+          "Essential has a zoom feature with it. This mod can replace that function, and it supports a LOT of Minecraft versions!",
+          "Not only does it zoom in and out, it also has keybinds for customising the zoom level!"
         ]
       }
     }

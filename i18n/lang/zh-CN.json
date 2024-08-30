@@ -1,25 +1,25 @@
 {
   "layout": {
     "nav": {
-      "alternatives": "备选方案"
+      "alternatives": "ALTERNATIVES"
     },
     "footer": {
-      "disclaimer": "非官方Minecraft产品。无关联且未经Mojang、Microsoft或Speak Universe核准。",
-      "open_source": "此页面是开源的。",
-      "about": "关于",
-      "credit_creator": "最初创建者为",
-      "credit_designed": "设计者为",
-      "interact": "交互",
-      "resources": "资源",
-      "contributing": "贡献",
+      "disclaimer": "NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG, MICROSOFT OR SPARK UNIVERSE.",
+      "open_source": "This page is open source.",
+      "about": "About",
+      "credit_creator": "Originally created by",
+      "credit_designed": "Designed by",
+      "interact": "Interact",
+      "resources": "Resources",
+      "contributing": "Contributing",
       "experiments": "Experiments"
     }
   },
   "landing": {
-    "hero": "有更好的方式来玩",
-    "reason": "不要强迫自己使用Essential。有无数的备选方案供你选择。",
+    "hero": "THERE ARE BETTER WAYS TO PLAY",
+    "reason": "Don't be forced to use Essential. There are countless open-source alternatives to help you.",
     "buttons": {
-      "alternatives": "备选方案"
+      "alternatives": "ALTERNATIVES"
     }
   },
   "experiments": {
@@ -27,14 +27,14 @@
     "subtitle": "Configure experimental flags for development purposes!"
   },
   "contributing": {
-    "hero": "贡献",
-    "subhero": "前往NotEssential网站",
-    "welcome": "希望给NotEssential做贡献吗？这里是一些指南。",
-    "end": "如果你有任何其他问题，请加入我们的Discord并在那提问。",
+    "hero": "CONTRIBUTING",
+    "subhero": "To the NotEssential website",
+    "welcome": "Want to contribute to NotEssential? Here are some guidelines.",
+    "end": "If you have any more questions, please join our Discord and ask there.",
     "titles": {
-      "translating": "翻译",
-      "coding": "开发",
-      "alternatives": "提交备选方案"
+      "translating": "Translating",
+      "coding": "Developing",
+      "alternatives": "Submitting Alternatives"
     },
     "subtitles": {
       "translating": "To help translate NotEssential, please visit our Crowdin page, listed below. If your language is not listed, join our Discord server and request your language to be added in the #ne-general chat.",
@@ -43,119 +43,119 @@
     },
     "guidelines": {
       "translating": [
-        "除非他们在你的语言里有官方的名称，不要翻译模组的名称。",
+        "Unless they have an official name in your language, do NOT translate a mod's name into that language.",
         "Similarly, do NOT translate 'Essential' (the mod), 'Spark Universe', 'Mojang', 'Microsoft', as well as any mod names if there isn't an official name in that language.",
-        "如果有问题，请在右侧的评论栏评论并勾选“Issues”，之后选择合适的类型。",
-        "如果一个区域内的字幕为全大写，如果可以请在您的语言中也这么做。"
+        "If there is an issue, please make a comment on the side panel and tick the 'Issues' box. Then, select the related flag.",
+        "When an area is in ALL CAPS, also write in ALL CAPS if you can with your language."
       ],
       "coding": [
         "Make sure you look at the Pull Requests page to see if your idea has already been listed. If there isn't one, we recommend opening pull requests to the head branch/repository (the head branch is the branch merging to the repository).",
-        "确保你的提交名称有用，这样我们可以理解你改变了什么。",
-        "安装Prettier。你可以运行“pnpm add prettier”或安装Prettier作为VS 代码扩展（这应该会自动推荐你！）。如果你使用此扩展，请确保在已在VS Code设置中设置“带格式保存”。",
+        "Make your commit names helpful so we can understand what you have changed.",
+        "Install Prettier. You can run 'pnpm add prettier' or install Prettier as a VS Code extension (this should have been recommended to you automatically!). If you use the extension, ensure 'Format on Save' is set in VS Code settings.",
         "Make sure you utilise our pull request template when making a pull request."
       ],
       "alternatives": [
-        "请确保你的项目替代了Essential的某功能。",
-        "请详细说明为什么要将你的项目添加到页面中。",
-        "同时提交你项目的简短描述，虽然这是可选的。",
-        "这是显而易见的，但是请不要提交木马病毒或其他形式的恶意软件。",
-        "请不要仅仅将此站点用作你项目的“免费广告”。"
+        "Make sure your project replaces a feature of Essential.",
+        "Please detail why your project should be added to the page.",
+        "Also submit a short description of your project, though this is optional.",
+        "This should be obvious, but please don't submit a Trojan or other form of malware.",
+        "Please don't just use this site as 'free advertising' for your project."
       ]
     }
   },
   "alternatives": {
-    "hero": "备选方案",
-    "reason": "Essential有许多问题，这个页面提供了备选方案。",
+    "hero": "ALTERNATIVES",
+    "reason": "Essential has many issues. This page provides alternatives.",
     "nudge_for_contributing": "Willing to contribute? Click here for contributing guidelines.",
     "texts": {
       "modpacks": {
-        "section_name": "整合包",
+        "section_name": "Modpacks",
         "vital": [
-          "如果你想要一个干净整洁的现成的整合包，请使用Vital。",
-          "它几乎包含这个页面上的所有模组，包括Cosmetica、World Host等等。",
-          "它也用FancyMenu将主菜单设计为了Essential的样式。"
+          "If you want to have everything neatly organized into one modpack, you can use Vital.",
+          "It has most of the mods on this list, including Cosmetica, World Host, and more.",
+          "It also has an organized main menu like Essential with FancyMenu."
         ]
       },
       "multiplayer": {
-        "section_name": "联机",
+        "section_name": "Multiplayer",
         "world_host": [
-          "对于联机系统，你可以使用World Host。免费开源，将你的世界分享给好友列表里的人，或者你想分享给的任何人。",
-          "它有一个好友列表系统，当你打开你的游戏后，好友就可以立即加入。",
-          "你只需点击“对好友开放”，他们就可以加入。 你也可以使用聊天中出现的链接，这样就可以和任何你想的人一起玩了！",
-          "只推荐这个模组于原版或轻量/仅修改客户端的游戏。为了更好地体验整合包，请使用e4mc，见下方。"
+          "For multiplayer with a friends system, you can use World Host. It's a free and open source way to broadcast your world to those on your friends list, and everyone you want to share it with.",
+          "It has a friends list system you can use to let your friends join your game right as you open it to them.",
+          "You simply hit \"Open to Friends\" and your friends will be able to join. You can also share the link that appears in chat with the people you want to play with!",
+          "This mod is recommended for mostly vanilla or lightly/client-side modded instances only. For better experiences with modpacks, use e4mc, which is featured below."
         ],
         "e4mc": [
-          "对于联机系统，你可以使用E4MC。免费开源，将你的局域网世界分享给你想分享给的任何人。",
-          "你只需点击“对局域网开放”，使用聊天中出现的链接，这样就可以和任何你想的人一起玩了！",
-          "游玩整合包时推荐E4MC而非World Host ，因为这是一个简单的模组，不会干扰潜在的模组。 只需确保你们的模组列表一致！"
+          "For Multiplayer, you can use E4MC. It's a free and open source way to broadcast your LAN server to everyone you want to share it with.",
+          "You simply hit \"Open to LAN\" and share the link that appears in chat with the people you want to play with!",
+          "e4mc is recommended over World Host for modpacks, as this is a very simple mod which means it shouldn't interfere with potential mods. Just make sure your modlists are identical to avoid de-syncing!"
         ]
       },
       "cosmetics": {
-        "section_name": "装饰品",
+        "section_name": "Cosmetics",
         "cosmetica": [
-          "对于装饰品，你可能会使用Cosmetica。这是一项免费且开源的装饰品服务，具有自定义披风和装饰品支持。",
-          "它甚至支持OptiFine、Lunar Client和更多的化妆品！",
-          "“Cosmetica使你能够在一个全新的水平上自定义你的玩家，可以匹敌那些流行的PvP客户端”（取自Modrinth 页面）"
+          "For Cosmetics, you may want to use Cosmetica. It's a free and open source cosmetics service, with custom capes and cosmetics support.",
+          "It can even support cosmetics from OptiFine, Lunar Client and others!",
+          "\"Cosmetica lets you customize your player on a whole new level with cosmetics that rival those of popular PvP clients\" (taken from the Modrinth page)"
         ],
         "ears": [
-          "Ears是另一个你可以用来自定义皮肤的模组。它用你实际的Minecraft皮肤来设置人们如何看到你的皮肤（如果他们安装了Ears的话）。",
-          "它有在很多版本上可用（Beta 1.7.3 - 正式版1.20.6），增加了耳朵、口鼻、尾巴、翅膀等等。"
+          "Ears is another mod you can use for skin customization. It uses your actual Minecraft Skin to set up how people will see your skin, if they have Ears installed.",
+          "It's available for many versions (Beta 1.7.3 - Release 1.20.6), and adds Ears, Snouts/Muzzles, Tails, Wings and More."
         ],
         "capes": [
-          "这个模组让你可以使用和看到来自OptiFine，LabyMod和MinecraftCapes mod的披风。",
-          "你刚刚装上了模组！你可以在配置屏幕上禁用这些模组的披风。"
+          "This mod gives you the ability to use and see capes from OptiFine, LabyMod and the MinecraftCapes mod.",
+          "You just install the mod and that's it! If you want to disable capes from certain mods you can do it on the configuration screen."
         ],
         "customizable_player_models": [
-          "Customizable Player Models是一个让你可以深入修改你的玩家模型的模组。",
-          "它有一个接口，你可以添加、移除、修改、模型和纹理你自己的玩家模型，类似于Blender。",
-          "模型存储在你Minecraft Skin的未使用的空间中，或在GitHub上的Gist存储。",
-          "上传导出的图片文件作为你皮肤，以加载自定义模型。"
+          "Customizable Player Models is a mod that lets you deeply modify your player model.",
+          "It has an interface where you can add, remove, modify, model and texture your own player model, similar to how Blender works.",
+          "The models are stored in unused space on your Minecraft Skin, or as a Gist on GitHub.",
+          "Upload the exported image file as your skin to load the custom model."
         ],
         "figura": [
-          "如果你想要提升它的细节，Figura允许你更深入地修改你的玩家模型！",
-          "Figura不那么坚持维护兼容性（？，这意味着可以给你的模型添加很多东西，例如宠物、耳朵等！你还可以使用 Lua 脚本来更进一步定制！",
-          "另及：它有一系列的内置防作弊，比如检测隐形玩家模型！"
+          "If you're looking to step it up a notch, Figura allows you to modify your player model much more!",
+          "Figura focuses less on maintaining compatibility, which means it's able to add much more to your model, such as pets, ears, and more! You can also use Lua scripts to customise even further!",
+          "Bonus: It also has sort of a built-in anti-cheat for things such as invisible player models!"
         ],
         "skin_shuffle": [
           "Essential's skin swapper in-game can be convenient if you want to change your skin without having to relaunch Minecraft. This mod can achieve this for you!",
-          "Skin Shuffle是一个可以更改、存储和自定义你的皮肤的模组，完全不需要重启游戏。他们被储存在所谓的\"Ski Presents\"，可以通过URL、文件、玩家名/UUID、游戏内纹理，甚至你当前的皮肤创建！",
-          "如果服务器安装了Skin Shuffle，你可以在游戏内即使更改你的皮肤，即使是没有安装模组的人也能看到。"
+          "Skin Shuffle is a mod that can change, store, and customise your skin, all in-game without requiring to relaunch. They are stored in what they call \"Skin Presets\" which can be created off of URLs, files, Usernames/UUIDs, in-game textures and even your current skin!",
+          "If the server has Skin Shuffle installed, you can also switch your skin and it will be shown to everyone on the server, even those without the mod, all while not requiring you to disconnect from the server!"
         ],
         "emotecraft": [
-          "对于表情，你可能会使用Emotecraft。这是一项免费且开源的表情服务，具有表情支持。",
+          "For Emotes, you may want to use Emotecraft. It's a free and open source emotes service, with support for custom emotes.",
           "You can download many emotes, or even make your own! The discord server has a lot of emotes you can download, though it's a little bit outdated."
         ]
       },
       "misc": {
         "section_name": "Misc",
         "screencapper": [
-          "Essential有一个截图预览功能，这个模组能够作为基本的替代品。",
-          "一个高级的屏幕截图改进模组。"
+          "Essential has a screenshot preview feature, this mod entirely implements a basic equivalent.",
+          "A highly advanced screenshot improvement mod."
         ],
         "screenshot_viewer": [
-          "Essential有一个截图查看器功能，此模组有相似的功能。",
-          "截图查看器允许你在游戏中看到的刚刚的屏幕截图！（包括你试图按 F3 时发生的意外）"
+          "Essential has a screenshot viewer feature, and you can get something similar using this mod.",
+          "Screenshot Viewer is a mod that allows you to see the screenshots that you have taken while you were gaming! (including the accidental ones you took when you where trying to press F3)."
         ],
         "snapper": [
           "Essential's screenshot functionality involves functionality both when taking a screenshot and viewing one.",
           "Snapper aims to provide the most and highest-quality possible improvements to Minecraft's screenshot experience."
         ],
         "auth_me": [
-          "Essential有一个游戏内账号切换的功能，你可以用此模组实现其的大部分内容。",
-          "Auth Me能够在你的会话过期时重新验证，解决著名的“无效的会话”问题。"
+          "Essential has an in-game account switcher feature. You can use this mod to achieve one important aspect of it.",
+          "Auth Me is able to re-authenticate yourself in case your session expires, solving the infamous \"Invalid Session\" error."
         ],
         "in_game_account_switcher": [
-          "如果你需要Essential账户切换器的替代模组，你可以正如其名的In-Game Account Switcher。",
-          "In-Game Account Switcher能够，好耶，在游戏内切换已登录的账号，而无需重新启动游戏！",
-          "它们还有各种可选的安全措施，以便提高你在IAS上保存账号的安全性。"
+          "If you need the other aspect of Essential's account switcher, you can use the aptly-named In-Game Account Switcher mod.",
+          "In-Game Account Switcher has the ability to, well, switch accounts that are logged in, without needing to restart the game!",
+          "They also have various optional security measures to increase security when using your accounts with IAS."
         ],
         "craftpresence": [
-          "Essential的Discord RPC功能能显示你正在游玩的服务器换和版本。这个模组可以做到这一点，并允许你进一步自定义。",
-          "这个热门的RPC模组允许您广播你的Minecraft游戏会话到Discord并更改你在Discord上显示的状态。"
+          "Essential has a Discord RPC feature that displays the version and server you are playing on. This mod can do that AND let you customize it further.",
+          "This popular RPC mod allows you to broadcast your Minecraft gaming session to Discord and change the lines that show on your Discord bio when you do so."
         ],
         "zume": [
-          "Essential功能具有缩放功能。此模组可以替代此功能，同时支持超级多版本的Minecraft！",
-          "不仅仅是放大和缩小，而且还有自定义缩放级别的按键绑定！"
+          "Essential has a zoom feature with it. This mod can replace that function, and it supports a LOT of Minecraft versions!",
+          "Not only does it zoom in and out, it also has keybinds for customising the zoom level!"
         ]
       }
     }

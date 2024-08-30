@@ -1,10 +1,10 @@
 {
   "layout": {
     "nav": {
-      "alternatives": "Alternativ'es"
+      "alternatives": "ALTERNATIVES"
     },
     "footer": {
-      "disclaimer": "NAH AN OFFICIAL MINECRAFT PRODUCT. NAH APPROVED BY OR ASSOCIATED WIT' MOJANG, MICROSOFT OR SPARK UNIVERSE.",
+      "disclaimer": "NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG, MICROSOFT OR SPARK UNIVERSE.",
       "open_source": "This page is open source.",
       "about": "About",
       "credit_creator": "Originally created by",
@@ -16,10 +16,10 @@
     }
   },
   "landing": {
-    "hero": "There be better ways t' play Minecraft.",
-    "reason": "Don't be forced to use essential. There be countless open-source alternativ'es to 'elp ye.",
+    "hero": "THERE ARE BETTER WAYS TO PLAY",
+    "reason": "Don't be forced to use Essential. There are countless open-source alternatives to help you.",
     "buttons": {
-      "alternatives": "Alternativ'es"
+      "alternatives": "ALTERNATIVES"
     }
   },
   "experiments": {

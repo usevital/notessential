@@ -4,14 +4,14 @@
       "alternatives": "ALTERNATIVEN"
     },
     "footer": {
-      "disclaimer": "KEIN OFFIZIELLES MINECRAFT PRODUKT. NICHT UNTERSTÜTZT VON ODER ASSOZIIERT MIT MOJANG, MICROSOFT ODER SPARK UNIVERSE.",
-      "open_source": "Diese Seite ist quelloffen.",
+      "disclaimer": "NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG, MICROSOFT OR SPARK UNIVERSE.",
+      "open_source": "This page is open source.",
       "about": "Über",
       "credit_creator": "Ursprünglich erstellt von",
       "credit_designed": "Entworfen von",
       "interact": "Mitmachen",
-      "resources": "Ressourcen",
-      "contributing": "Mitmachen",
+      "resources": "Resources",
+      "contributing": "Contributing",
       "experiments": "Experiments"
     }
   },
@@ -27,14 +27,14 @@
     "subtitle": "Configure experimental flags for development purposes!"
   },
   "contributing": {
-    "hero": "MITMACHEN",
-    "subhero": "Bei der NotEssential website",
-    "welcome": "Möchtest du bei NotEssential mithelfen? Hier hat es einige Richtlinien.",
-    "end": "Solltest du weitere fragen haben, tritt unserem Discord bei und stelle sie da.",
+    "hero": "CONTRIBUTING",
+    "subhero": "To the NotEssential website",
+    "welcome": "Want to contribute to NotEssential? Here are some guidelines.",
+    "end": "If you have any more questions, please join our Discord and ask there.",
     "titles": {
-      "translating": "Übersetzen",
-      "coding": "Entwickeln",
-      "alternatives": "Alternativen einreichen"
+      "translating": "Translating",
+      "coding": "Developing",
+      "alternatives": "Submitting Alternatives"
     },
     "subtitles": {
       "translating": "To help translate NotEssential, please visit our Crowdin page, listed below. If your language is not listed, join our Discord server and request your language to be added in the #ne-general chat.",
@@ -43,23 +43,23 @@
     },
     "guidelines": {
       "translating": [
-        "Sofern es keine offiziellen Namen in deiner Sprache hat, übersetze NICHT die Namen eines Mods in deine Sprache.",
+        "Unless they have an official name in your language, do NOT translate a mod's name into that language.",
         "Similarly, do NOT translate 'Essential' (the mod), 'Spark Universe', 'Mojang', 'Microsoft', as well as any mod names if there isn't an official name in that language.",
-        "Sollte es ein Problem geben, erstelle bitte einenen Kommentar im Seitenfenster und klicke die 'Issues' Box an. Danach wähle die passende markierung aus.",
-        "Wenn ein Bereich KOMPLETT IN CAPS ist, schreibe es ebenfalls KOMPLETT IN CAPS, sofern du dies in deiner Sprache tun kannst."
+        "If there is an issue, please make a comment on the side panel and tick the 'Issues' box. Then, select the related flag.",
+        "When an area is in ALL CAPS, also write in ALL CAPS if you can with your language."
       ],
       "coding": [
         "Make sure you look at the Pull Requests page to see if your idea has already been listed. If there isn't one, we recommend opening pull requests to the head branch/repository (the head branch is the branch merging to the repository).",
-        "Mach hilfreiche Commitnachrichten, so das wir verstehen, was du geändert hast.",
-        "Installiere Prettier. Du kannst es mit 'pnpm add prettier' oder als eine VS Code Erweiterung (Dies sollte dir automatisch empfohlen werden!) tun. Sofern du die Erweiterung verwendest, stelle siche 'Format on Save' ist in den VS Code Einstellungen aktiviert.",
+        "Make your commit names helpful so we can understand what you have changed.",
+        "Install Prettier. You can run 'pnpm add prettier' or install Prettier as a VS Code extension (this should have been recommended to you automatically!). If you use the extension, ensure 'Format on Save' is set in VS Code settings.",
         "Make sure you utilise our pull request template when making a pull request."
       ],
       "alternatives": [
-        "Stell sicher, das dein Projekt eine Funktion von Essential ersetzt.",
-        "Bitte erkläre detailiert, warum dein Projekt zur seite hinzugefügt werden soll.",
-        "Du kannst auch eine kleine Beschreibung deines Projektes geben, dies ist aber Optional.",
-        "Dies sollte offensichtlich sein, aber bitte reiche keine Trojaner oder andere Formen von Schadsoftware ein.",
-        "Bitte verwende diese Seite nicht einfach als eine Form von 'Gratiswerbung' für dein Projekt."
+        "Make sure your project replaces a feature of Essential.",
+        "Please detail why your project should be added to the page.",
+        "Also submit a short description of your project, though this is optional.",
+        "This should be obvious, but please don't submit a Trojan or other form of malware.",
+        "Please don't just use this site as 'free advertising' for your project."
       ]
     }
   },
@@ -94,7 +94,7 @@
         "section_name": "Kosmetika",
         "cosmetica": [
           "Für Kosmetika solltest du Cosmetic verwenden. Es ist ein kostenloser und quelloffener Kosmetikdienst, mit benutzerdefinierten Umhängen und Kosmetik-Unterstützung.",
-          "Es kann sogar Kosmetika von OptiFine, Lunar Client und weiteren unterstützen!",
+          "It can even support cosmetics from OptiFine, Lunar Client and others!",
           "\"Cosmetica erlaubt es dir, deinen Spieler auf eine ganz neue Art mit Kosmetika anzupassen, welche bekannten PvP-Clients entgegenstehen.\" (Übersetzt aus dem Englischen Text von der Modrinth Seite)"
         ],
         "ears": [
