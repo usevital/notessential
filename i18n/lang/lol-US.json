@@ -12,7 +12,7 @@
       "interact": "Interact",
       "resources": "Resourcez",
       "contributing": "Contributin",
-      "experiments": "Experiments"
+      "experiments": "Experizmentz"
     }
   },
   "landing": {
@@ -37,22 +37,22 @@
       "alternatives": "Submittin alternativez"
     },
     "subtitles": {
-      "translating": "To help translate NotEssential, please visit our Crowdin page, listed below. If your language is not listed, join our Discord server and request your language to be added in the #ne-general chat.",
-      "coding": "To assist in developing NotEssential, fork the source repository and create a new branch to start off with. Then, checkout your branch locally and start coding.",
+      "translating": "2 halp tranzlate NotEssential, plz visit r Crowdin paeg, listd below. If ur language iz not listd, join r Discord servr an request ur language 2 be addd in da #ne-general chat.",
+      "coding": "2 assist in developin NotEssential, fork teh source repository an create new branch 2 start off wif. den, checkout ur branch locally an start codin.",
       "alternatives": "Similar to above, fork the source repository and create a new branch based off `main`. Then, checkout your branch locally and start coding."
     },
     "guidelines": {
       "translating": [
         "Unles they has an offishul naym in ur language, do NOT tranzlate modz naym into dat language.",
-        "Similarly, do NOT translate 'Essential' (the mod), 'Spark Universe', 'Mojang', 'Microsoft', as well as any mod names if there isn't an official name in that language.",
+        "Similarly, do NOT tranzlate 'Essential' (teh mod), 'Spark Universe', 'Mojang', 'Microsoft', as well as any mod namez if thar isnt an offishul naym in dat language.",
         "If thar iz an issue, plz mak comment on teh side panel an tick teh 'Issues' box. Den, select teh relatd flag.",
         "When an area iz in ALL CAPS, also rite in ALL CAPS if u can wif ur language."
       ],
       "coding": [
-        "Make sure you look at the Pull Requests page to see if your idea has already been listed. If there isn't one, we recommend opening pull requests to the head branch/repository (the head branch is the branch merging to the repository).",
+        "Mak sure u look at teh Pull Requests paeg 2 c if ur idea has already been listd. If thar isnt wan, we recommend openin pull requests 2 teh head branch/repository (teh head branch iz teh branch mergin 2 teh repository).",
         "Mak ur commit namez helpful so we can understand wut u has changd.",
         "Install Prettier. U can run 'pnpm add prettier' or install Prettier as VS Code extenshun (dis shud has been recommendd 2 u automatically!). If u use teh extenshun, ensure 'Format on Save' iz set in VS Code settings.",
-        "Make sure you utilise our pull request template when making a pull request."
+        "Mak sure u use wan ov r pull request templatez when makin pull request."
       ],
       "alternatives": [
         "Mak sure ur project replacez feachur ov Essential.",
@@ -117,13 +117,13 @@
           "Bonus: it also has sort ov built-in anti-cheat 4 things such as invisable playr models!"
         ],
         "skin_shuffle": [
-          "Essential's skin swapper in-game can be convenient if you want to change your skin without having to relaunch Minecraft. This mod can achieve this for you!",
+          "Essential's skin swappr in-game can be convenient if u wants 2 change ur skin without havin 2 relaunch Minecraft. Dis mod can achieve dis 4 u!",
           "Skin Shuffle iz mod dat can change, store, an customize ur skin, all in-game without requirin 2 relaunch. They r stord in wut they call \"Skin Presets\" which can be creatd off ov URLs, filez, Usernames/UUIDs, in-game texturez an even ur current skin!",
           "If teh servr has Skin Shuffle installd, u can also switch ur skin an it will be shown 2 evryone on teh servr, even dose without teh mod, all while not requirin u 2 disconnect frum teh servr!"
         ],
         "emotecraft": [
           "4 emotez, u cud wants 2 use Emotecraft. It be free an open source emotez service, wif support 4 custom emotez.",
-          "You can download many emotes, or even make your own! The discord server has a lot of emotes you can download, though it's a little bit outdated."
+          "U can download lotz da emotez, or even mak ur own! Teh Discord servr has lot ov emotez u can download. It be lil bit outdatd, though."
         ]
       },
       "misc": {
