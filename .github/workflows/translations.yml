@@ -69,9 +69,10 @@ jobs:
           upload_language: en
           download_sources: false
           download_translations: true
+          skip_untranslated_strings: true
           source: i18n/lang/en-US.json
           translation: i18n/lang/%locale%.json
-          export_only_approved: true
+          export_only_approved: false
           localization_branch_name: i18n-crowdin-translations
           create_pull_request: true
           pull_request_title: (Crowdin Action) New translation strings
