@@ -75,6 +75,7 @@ jobs:
           export_only_approved: false
           localization_branch_name: i18n-crowdin-translations
           create_pull_request: true
+          commit_message: "i18n: new Crowdin strings"
           pull_request_title: (Crowdin Action) New translation strings
           pull_request_body: New translated strings are now available!
           pull_request_labels: crowdin
