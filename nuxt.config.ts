@@ -32,6 +32,10 @@ export default defineNuxtConfig({
         name: "English (US)",
       },
       {
+        code: "en-PT",
+        name: "English (Pirate Speak)",
+      },
+      {
         code: "en-LOL",
         name: "LOLCAT (Kingdom of Cats)",
       },
@@ -52,8 +56,16 @@ export default defineNuxtConfig({
         name: "Español (Spain)",
       },
       {
+        code: "pl-PL",
+        name: "Polski (Poland)",
+      },
+      {
         code: "no-NO",
         name: "norsk (Norway)",
+      },
+      {
+        code: "pt-PT",
+        name: "Português (Portugal)"
       },
       {
         code: "pt-BR",
@@ -64,8 +76,20 @@ export default defineNuxtConfig({
         name: "Українська (Ukraine)",
       },
       {
+        code: "hu-HU",
+        name: "magyar (Hungary)"
+      },
+      {
         code: "vi-VN",
         name: "Tiếng Việt (Vietnam)",
+      },
+      {
+        code: "ja-JA",
+        name: "日本語 (Japan)",
+      },
+      {
+        code: "zh-TW",
+        name: "繁體中文 (Traditional Chinese)",
       },
       {
         code: "zh-CN",
