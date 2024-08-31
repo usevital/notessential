@@ -65,7 +65,7 @@ export default defineNuxtConfig({
       },
       {
         code: "pt-PT",
-        name: "Português (Portugal)"
+        name: "Português (Portugal)",
       },
       {
         code: "pt-BR",
@@ -77,7 +77,7 @@ export default defineNuxtConfig({
       },
       {
         code: "hu-HU",
-        name: "magyar (Hungary)"
+        name: "magyar (Hungary)",
       },
       {
         code: "vi-VN",
