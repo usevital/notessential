@@ -85,7 +85,7 @@
           "Este mod se recomienda solo para instancias vanilla o ligeramente moduladas. Para obtener mejores experiencias con modpacks, utilice e4mc, que se presenta a continuación."
         ],
         "e4mc": [
-          "Para Multijugador, puedes usar E4MC. Es una forma gratuita y de código abierto de retransmitir tu servidor LAN a todas las personas con las que quieras compartirlo.",
+          "Para Multijugador, puedes usar e4mc. Es una forma gratuita y de código abierto de retransmitir tu servidor LAN a todas las personas con las que quieras compartirlo.",
           "¡Solo tienes que pulsar \"Abrir en LAN\" y compartir el enlace que aparece en el chat con las personas con las que quieras jugar!",
           "se recomienda e4mc en lugar de World Host para modpacks, ya que se trata de un mod muy sencillo que no debería interferir con mods potenciales. ¡Asegúrate de que tus listas de mods son idénticas para evitar la desincronización!"
         ]

@@ -85,7 +85,7 @@
           "This mod is recommended for mostly vanilla or lightly/client-side modded instances only. For better experiences with modpacks, use e4mc, which is featured below."
         ],
         "e4mc": [
-          "For Multiplayer, you can use E4MC. It's a free and open source way to broadcast your LAN server to everyone you want to share it with.",
+          "For Multiplayer, you can use e4mc. It's a free and open source way to broadcast your LAN server to everyone you want to share it with.",
           "You simply hit \"Open to LAN\" and share the link that appears in chat with the people you want to play with!",
           "e4mc is recommended over World Host for modpacks, as this is a very simple mod which means it shouldn't interfere with potential mods. Just make sure your modlists are identical to avoid de-syncing!"
         ]

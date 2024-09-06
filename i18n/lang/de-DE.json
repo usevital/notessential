@@ -85,7 +85,7 @@
           "Dieser Mod ist hauptsächlich für Vanilla oder leicht/Client-seitig gemoddete Instanzen empfohlen. Für eine bessere Erfahrung mit Modpaketen, verwende e4mc, welches unten aufgelistet ist."
         ],
         "e4mc": [
-          "Für Mehrspieler kannst du E4MC verwenden. Es ist eine kostenlose, quelloffene möglichkeit, deinen LAN-Server mit jedem zu teilen, den du willst.",
+          "Für Mehrspieler kannst du e4mc verwenden. Es ist eine kostenlose, quelloffene möglichkeit, deinen LAN-Server mit jedem zu teilen, den du willst.",
           "Du klickst einfach \"Im LAN öffnen\" und teilst den im Chat angezeigten Link mit den Leuten, mit welchen du Spielen willst!",
           "e4mc wird über World Host für Modpakete empfohlen, da es eine recht simple Mod ist, was bedeutet, das es eher weniger mit anderen Mods in konflikt geraten sollte. Stelle einfach sicher, das eure Modpakete gleich sind um Desyncs zu verhindern!"
         ]
