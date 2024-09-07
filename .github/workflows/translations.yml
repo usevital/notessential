@@ -16,36 +16,6 @@ permissions:
   pull-requests: write
 
 jobs:
-  crowdin-translations-progress:
-    name: Crowdin translations progress updater
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          ref: "main"
-
-      - name: Generate Crowdin Contributors table
-        uses: andrii-bodnar/action-crowdin-contributors@v2
-        with:
-          files: TRANSLATORS.md
-          contributors_per_line: 8
-          max_contributors: 32
-          image_size: 64
-          min_words_contributed: 100
-        env:
-          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
-
-      - name: Push changes
-        uses: actions-go/push@v1
-        with:
-          author-name: Actionsbot
-          author-email: actions@github.com
-          commit-message: "Update Crowdin contributors list"
-          remote: origin
-          remote-ref: main
-
   update-from-crowdin:
     name: Update strings from Crowdin
     runs-on: ubuntu-latest
