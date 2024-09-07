@@ -1,8 +1,6 @@
 package.json
 pnpm-lock.yaml
 .vscode/**
-README.md
-.github/labels.yml
 LICENSE
 TEXT_LICENSE
 CONTRIBUTING.md
