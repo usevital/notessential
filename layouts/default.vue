@@ -54,7 +54,7 @@
             >
               <NELink
                 class="font-medium text-white hover:underline"
-                to="https://github.com/blryface/notessential"
+                to="https://github.com/notessentialsite/website"
                 external
                 >{{ $t("layout.footer.open_source") }}</NELink
               >
