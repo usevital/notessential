@@ -27,73 +27,78 @@ export default defineNuxtConfig({
     strategy: "no_prefix",
     defaultLocale: "en-US",
     locales: [
+      //If you take this out of alphabetical order I will eat you a third time
       {
-        code: "en-US",
-        name: "English (US)",
-      },
-      {
-        code: "en-PT",
-        name: "English (Pirate Speak)",
-      },
-      {
-        code: "en-LOL",
-        name: "LOLCAT (Kingdom of Cats)",
-      },
-      {
-        code: "en-UD",
-        name: "English (Upside-down)",
-      },
-      {
-        code: "ru-RU",
-        name: "Русский (Russia)",
+        code: "ar-SA",
+        name: "Arabic (Saudi Arabia)",
       },
       {
         code: "de-DE",
         name: "Deutsch (Germany)",
       },
       {
+        code: "en-PT",
+        name: "English (Pirate Speak)",
+      },
+      {
+        code: "en-UD",
+        name: "English (Upside-down)",
+      },
+      {
+        code: "en-US",
+        name: "English (US)",
+      },
+      {
         code: "es-ES",
         name: "Español (Spain)",
-      },
-      {
-        code: "pl-PL",
-        name: "Polski (Poland)",
-      },
-      {
-        code: "no-NO",
-        name: "norsk (Norway)",
-      },
-      {
-        code: "pt-PT",
-        name: "Português (Portugal)",
-      },
-      {
-        code: "pt-BR",
-        name: "Português (Brazil)",
-      },
-      {
-        code: "uk-UA",
-        name: "Українська (Ukraine)",
       },
       {
         code: "hu-HU",
         name: "magyar (Hungary)",
       },
       {
+        code: "ja-JP",
+        name: "日本語 (Japan)",
+      },
+      {
+        code: "en-LOL",
+        name: "LOLCAT (Kingdom of Cats)",
+      },
+      {
+        code: "no-NO",
+        name: "norsk (Norway)",
+      },
+      {
+        code: "pl-PL",
+        name: "Polski (Poland)",
+      },
+      {
+        code: "pt-BR",
+        name: "Português (Brazil)",
+      },
+      {
+        code: "pt-PT",
+        name: "Português (Portugal)",
+      },
+      {
+        code: "ru-RU",
+        name: "Русский (Russia)",
+      },
+      {
+        code: "uk-UA",
+        name: "Українська (Ukraine)",
+      },
+      {
         code: "vi-VN",
         name: "Tiếng Việt (Vietnam)",
       },
       {
-        code: "ja-JA",
-        name: "日本語 (Japan)",
+        code: "zh-CN",
+        name: "中文简体 (Simplified Chinese)",
       },
       {
         code: "zh-TW",
         name: "繁體中文 (Traditional Chinese)",
-      },
-      {
-        code: "zh-CN",
-        name: "中文简体 (Simplified Chinese)",
       },
     ],
     /*detectBrowserLanguage: {
