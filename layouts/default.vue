@@ -67,18 +67,11 @@
               <span class="font-bold text-base">{{
                 $t("layout.footer.about")
               }}</span>
-              <span
-                >{{ $t("layout.footer.credit_creator") }}
-                <NELink to="https://blurryface.xyz" external
-                  >Blurryface</NELink
-                ></span
-              >
-              <span
-                >{{ $t("layout.footer.credit_designed") }}
-                <NELink to="https://worldwidepixel.ca" external
-                  >WorldWidePixel</NELink
-                ></span
-              >
+              <NELink to="/attributions"
+                ><LucideHeart class="h-5" />{{
+                  $t("layout.footer.attributions")
+                }}
+              </NELink>
             </div>
             <div
               class="flex flex-col gap-2 font-[500] text-[var(--text-colour)] text-sm"
