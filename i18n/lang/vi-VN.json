@@ -7,12 +7,11 @@
       "disclaimer": "KHÔNG PHẢI MỘT SẢN PHẨM MINECRAFT CHÍNH HÃNG. KHÔNG ĐƯỢC CHẤP THUẬN BỞI HOẶC CÓ LIÊN KẾT VỚI MOẠNG, MICROSOFT HOẶC SPARK UNIVERSE.",
       "open_source": "Trang này có nguồn mở.",
       "about": "Về chúng tôi",
-      "credit_creator": "Tạo gia bởi",
-      "credit_designed": "Thiết kế bởi",
       "interact": "Tương tác",
       "resources": "Tài liệu",
       "contributing": "Đóng góp",
-      "experiments": "Thí nghiệm"
+      "experiments": "Thí nghiệm",
+      "attributions": "Attributions"
     }
   },
   "landing": {
@@ -25,6 +24,22 @@
   "experiments": {
     "hero": "THÍ NGHIỆM TÍNH NĂNG",
     "subtitle": "Cấu hình cờ thí nghiệm cho việc lập trình!"
+  },
+  "attributions": {
+    "hero": "ATTRIBUTIONS",
+    "subtitle": "We give our thanks to the following. This page wouldn't be possible without them.",
+    "end": "These people have helped improve this site exponentially.",
+    "help": "See a problem? Report it on our Discord.",
+    "titles": {
+      "translators": "Translators",
+      "information_writers": "'Why not Essential' sources",
+      "core": "Core team"
+    },
+    "subtitles": {
+      "translators": "Thank you to the translators on our Crowdin for helping to internationalise this page. In no specific order, here are some translators who have significantly helped.",
+      "information_writers": "These people helped create, fact-check and proofread our 'Why not Essential?' section.",
+      "core": "The core team behind the Notessential webpage."
+    }
   },
   "contributing": {
     "hero": "ĐÓNG GÓP",
