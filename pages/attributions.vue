@@ -55,6 +55,7 @@ const sections = {
       "TheUran",
       "KTrain5369",
       "Blryface",
+      "Erb3",
     ],
   },
   Information: {
