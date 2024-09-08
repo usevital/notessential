@@ -7,12 +7,11 @@
       "disclaimer": "NO ES UN PRODUCTO OFICIAL DE MINECRAFT. NO ESTA APROBADO POR O ASOCIADO CON MOJANG, MICROSOFT O SPARK UNIVERSE.",
       "open_source": "Esta página es de código abierto.",
       "about": "Sobre nosotros",
-      "credit_creator": "Creado originalmente por",
-      "credit_designed": "Diseñado por",
       "interact": "Interactúe con nosotros",
       "resources": "Recursos",
       "contributing": "Contribuir",
-      "experiments": "Experimentos"
+      "experiments": "Experimentos",
+      "attributions": "Attributions"
     }
   },
   "landing": {
@@ -25,6 +24,22 @@
   "experiments": {
     "hero": "FUNCIONES EXPERIMENTALES",
     "subtitle": "¡Configura banderas experimentales para fines de desarrollo!"
+  },
+  "attributions": {
+    "hero": "ATTRIBUTIONS",
+    "subtitle": "We give our thanks to the following. This page wouldn't be possible without them.",
+    "end": "These people have helped improve this site exponentially.",
+    "help": "See a problem? Report it on our Discord.",
+    "titles": {
+      "translators": "Translators",
+      "information_writers": "'Why not Essential' sources",
+      "core": "Core team"
+    },
+    "subtitles": {
+      "translators": "Thank you to the translators on our Crowdin for helping to internationalise this page. In no specific order, here are some translators who have significantly helped.",
+      "information_writers": "These people helped create, fact-check and proofread our 'Why not Essential?' section.",
+      "core": "The core team behind the Notessential webpage."
+    }
   },
   "contributing": {
     "hero": "CONTRIBUYENDO",

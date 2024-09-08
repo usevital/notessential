@@ -7,12 +7,11 @@
       "disclaimer": "ЦЕ НЕ ОФІЦІЙНИЙ ПРОДУКТ MINECRAFT. НЕ ЗАТВЕРДЖЕНО АБО НЕ ПОВ'ЯЗАНО З MOJANG, MICROSOFT АБО SPARK UNIVERSE.",
       "open_source": "Ця сторінка з відкритим вихідним кодом.",
       "about": "О нас",
-      "credit_creator": "Оригінально створено",
-      "credit_designed": "Розроблено",
       "interact": "Взаємодія",
       "resources": "Ресурси",
       "contributing": "Внесок",
-      "experiments": "Експерименти"
+      "experiments": "Експерименти",
+      "attributions": "Attributions"
     }
   },
   "landing": {
@@ -25,6 +24,22 @@
   "experiments": {
     "hero": "ЕКСПЕРИМЕНТАЛЬНІ ФУНКЦІЇ",
     "subtitle": "Налаштуйте експериментальні прапори для цілей розробки!"
+  },
+  "attributions": {
+    "hero": "ATTRIBUTIONS",
+    "subtitle": "We give our thanks to the following. This page wouldn't be possible without them.",
+    "end": "These people have helped improve this site exponentially.",
+    "help": "See a problem? Report it on our Discord.",
+    "titles": {
+      "translators": "Translators",
+      "information_writers": "'Why not Essential' sources",
+      "core": "Core team"
+    },
+    "subtitles": {
+      "translators": "Thank you to the translators on our Crowdin for helping to internationalise this page. In no specific order, here are some translators who have significantly helped.",
+      "information_writers": "These people helped create, fact-check and proofread our 'Why not Essential?' section.",
+      "core": "The core team behind the Notessential webpage."
+    }
   },
   "contributing": {
     "hero": "ВНЕСОК",
