@@ -5,12 +5,13 @@
       :sub-title="$t('contributing.subhero')"
     />
     <span class="text-4xl">{{ $t("contributing.welcome") }}</span>
-    <ContributingSection
+    <TitledSection
       v-if="showGuidelines"
       v-for="section in guidelines"
       :data="section.data"
       :title="section.title"
       :subtitle="section.subtitle"
+      :numbered="true"
     />
     <span class="text-xl flex flex-row gap-2 items-center flex-wrap"
       >{{ $t("contributing.end") }} <LucideHeart stroke="var(--brand-red)" />
