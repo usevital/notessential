@@ -11,7 +11,7 @@
       "resources": "Ресурсы",
       "contributing": "Вклад",
       "experiments": "Эксперименты",
-      "attributions": "Attributions"
+      "attributions": "Атрибуции"
     }
   },
   "landing": {
@@ -26,19 +26,19 @@
     "subtitle": "Настройте экспериментальные флаги для целей разработки!"
   },
   "attributions": {
-    "hero": "ATTRIBUTIONS",
-    "subtitle": "We give our thanks to the following. This page wouldn't be possible without them.",
-    "end": "These people have helped improve this site exponentially.",
-    "help": "See a problem? Report it on our Discord.",
+    "hero": "АТРИБУЦИИ",
+    "subtitle": "Мы выражаем благодарность следующим людям. Эта страница не была бы возможна без них.",
+    "end": "Эти люди значительно помогли улучшить этот сайт.",
+    "help": "Увидели проблему? Сообщите об этом на нашем Discord.",
     "titles": {
-      "translators": "Translators",
-      "information_writers": "'Why not Essential' sources",
-      "core": "Core team"
+      "translators": "Переводчики",
+      "information_writers": "Источники ‘Why not Essential’",
+      "core": "Основная команда"
     },
     "subtitles": {
-      "translators": "Thank you to the translators on our Crowdin for helping to internationalise this page. In no specific order, here are some translators who have significantly helped.",
-      "information_writers": "These people helped create, fact-check and proofread our 'Why not Essential?' section.",
-      "core": "The core team behind the Notessential webpage."
+      "translators": "Спасибо переводчикам на нашем Crowdin за помощь в интернационализации этой страницы. В произвольном порядке, вот некоторые переводчики, которые значительно помогли.",
+      "information_writers": "Эти люди помогли создать, проверить факты и вычитать наш раздел ‘Why not Essential?’.",
+      "core": "Основная команда, стоящая за веб-страницей Notessential."
     }
   },
   "contributing": {
@@ -170,7 +170,7 @@
         ],
         "zume": [
           "У Essential есть функция приближения. Этот мод может заменить эту функцию, и он поддерживает МНОГО версий Minecraft!",
-          "Не только увеличивает и уменьшает масштаб, но также имеет горячие клавиши для настройки уровня приближения!"
+          "Не только он увеличивает и уменьшает масштаб, но также имеет горячие клавиши для настройки уровня приближения!"
         ]
       }
     }

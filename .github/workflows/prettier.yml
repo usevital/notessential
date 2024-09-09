@@ -5,6 +5,7 @@ on:
   pull_request:
     types: [opened, reopened, ready_for_review, synchronize]
   merge_group:
+  workflow_dispatch:
 
 jobs:
   prettier-check:
