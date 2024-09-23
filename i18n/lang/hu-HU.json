@@ -5,25 +5,25 @@
     },
     "footer": {
       "disclaimer": "NEM EGY HIVATALOS MINCERAFT TERMÉK. NEM A MOJANG, A MICROSOFT VAGY A SPARK UNIVERSE ÁLTAL JÓVÁHAGYOTT VAGY AZZAL ÖSSZEFÜGGÉSBE HOZHATÓ.",
-      "open_source": "Ez a weboldal nyilt forráskódú.",
+      "open_source": "Ez a weboldal nyílt forráskódú.",
       "about": "Rólunk",
       "interact": "Interakció",
       "resources": "Anyagok",
       "contributing": "Hozzájárulás",
-      "experiments": "Experiments",
+      "experiments": "Kisérletek",
       "attributions": "Attributions"
     }
   },
   "landing": {
     "hero": "VANNAK JOBB MÓDOK JÁTÉKRA",
-    "reason": "Ne legyél az Essential használatára kényszerítve. Van a segítségedre egy csomó nyilt forráskódú alternatíva.",
+    "reason": "Ne legyél kényszerítve az Essential használatára. Van a segítségedre csomó nyílt forráskódú alternatíva.",
     "buttons": {
       "alternatives": "ALTERNATÍVÁK"
     }
   },
   "experiments": {
     "hero": "EXPERIMENTAL FEATURES",
-    "subtitle": "Configure experimental flags for development purposes!"
+    "subtitle": "Konfiguráld a kísérleti jelzőket fejlesztési célokra!"
   },
   "attributions": {
     "hero": "ATTRIBUTIONS",
@@ -67,7 +67,7 @@
         "Make sure you look at the Pull Requests page to see if your idea has already been listed. If there isn't one, we recommend opening pull requests to the head branch/repository (the head branch is the branch merging to the repository).",
         "Make your commit names helpful so we can understand what you have changed.",
         "Install Prettier. You can run 'pnpm add prettier' or install Prettier as a VS Code extension (this should have been recommended to you automatically!). If you use the extension, ensure 'Format on Save' is set in VS Code settings.",
-        "Make sure you utilise our pull request template when making a pull request."
+        "."
       ],
       "alternatives": [
         "Make sure your project replaces a feature of Essential.",
@@ -94,7 +94,7 @@
       "multiplayer": {
         "section_name": "Többjátékos",
         "world_host": [
-          "A baráti rendszerrel való többjátékos játékhoz használhatod a World Host-ot. Ez egy ingyenes és nyílt forráskódú mod, amellyel a világodat közvetítheted a barátaid listáján lévőknek, és mindenkinek, akivel meg akarod osztani.",
+          "A barátod rendszerével való többjátékos játékhoz használhatod a World Host-ot. Ez egy ingyenes és nyílt forráskódú mod, amellyel a világodat közvetítheted a barátaid listáján lévőknek, és mindenkinek, akivel meg akarod osztani.",
           "It has a friends list system you can use to let your friends join your game right as you open it to them.",
           "You simply hit \"Open to Friends\" and your friends will be able to join. You can also share the link that appears in chat with the people you want to play with!",
           "This mod is recommended for mostly vanilla or lightly/client-side modded instances only. For better experiences with modpacks, use e4mc, which is featured below."
@@ -113,7 +113,7 @@
           "„A Cosmetica lehetővé teszi, hogy teljesen új szinten testre szabd a karaktered olyan kellékekkel, amelyek a népszerű PvP kliensekével vetekednek” (a Modrinth oldaláról)"
         ],
         "ears": [
-          "Az Ears egy újabb mod amegyet a karaktered kinézetének testreszabására tudsz használni. A Minecraft karaktered kinézetét használja hogy megmondja más játékosonak akik rendelkeznek Ears moddal hogy, hogy nézzen ki a karaktered.",
+          "Az Ears egy újabb mod amit a karaktered kinézetének testreszabására tudsz használni. A Minecraft karaktered kinézetét használja hogy megmondja más játékosonak akik rendelkeznek Ears moddal hogy, hogy néz ki a karaktered.",
           "Elérhető egy csomó verzióhoz (Béta 1.7.3 - 1.20.6), és füleket, orrokat, farkakat, szárnyakat és még sok mást add a karakterekhez."
         ],
         "capes": [
@@ -124,7 +124,7 @@
           "A Customizable Player Models egy olyan mod amely lehetővé teszi hogy teljesen átalakítsd a karakter modelledet.",
           "It has an interface where you can add, remove, modify, model and texture your own player model, similar to how Blender works.",
           "The models are stored in unused space on your Minecraft Skin, or as a Gist on GitHub.",
-          "Upload the exported image file as your skin to load the custom model."
+          "Töltsd fel a ki-exportált képet, a skinedként, ahhoz hogy betöltsd a modellt."
         ],
         "figura": [
           "If you're looking to step it up a notch, Figura allows you to modify your player model much more!",
@@ -157,19 +157,19 @@
         ],
         "auth_me": [
           "Az Essential-nak van egy beépitett fiók váltó funkciója. Ezzel a moddal elérheted az egyik legfontosabb aszpektusát.",
-          "Az Auth Me képes teljesen újra beleptetni téget ha a munkameneted lejár, megoldva a hírhedt \"érvénytelen munkamenet\" hibát."
+          "Az Auth Me képes teljesen újra beleptetni téget ha a munkameneted lejár, megoldva a hírhedt Érvénytelen Munkamenet\" hiba üzenetet."
         ],
         "in_game_account_switcher": [
           "If you need the other aspect of Essential's account switcher, you can use the aptly-named In-Game Account Switcher mod.",
           "Az In-Game Account Switcher lehetővé teszi hogy válts fiókok között amelyek be vannak lépve a játékon belül, anélkül hogy, újra keljen indítanod.",
-          "They also have various optional security measures to increase security when using your accounts with IAS."
+          "Számos opcionális biztonsági intézkedéssel is rendelkeznek, amelyek növelik a biztonságot, amikor fiókjait az IAS-fiókokkal használja."
         ],
         "craftpresence": [
           "Essential has a Discord RPC feature that displays the version and server you are playing on. This mod can do that AND let you customize it further.",
-          "This popular RPC mod allows you to broadcast your Minecraft gaming session to Discord and change the lines that show on your Discord bio when you do so."
+          "Ez a népszerű RPC mod lehetővé teszi, hogy közvetítse Minecraft játékmenetét a Discordra, és módosítsa a Discord életrajzában megjelenő sorokat, amikor ezt megteszi."
         ],
         "zume": [
-          "Essential has a zoom feature with it. This mod can replace that function, and it supports a LOT of Minecraft versions!",
+          "Az Essential zoom funkcióval rendelkezik. Ez a mod helyettesítheti ezt a funkciót, és SOK Minecraft verziót támogat!",
           "Nem csak ráközelít és vissza, de még van billentyű kombinációja hogy a közelítés méretét beállítsd!"
         ]
       }
