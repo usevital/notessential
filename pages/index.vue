@@ -68,7 +68,7 @@ const reasonsWhy = [
       "Essential's large-sweeping modifications to the game cause many side effects, mainly incompatibility with other mods.",
       "While Essential's desision to go source-available (not the same as open-source) may help improve compatibility issues, it's too soon to tell.",
       "For uninitiated users, open-source differs from source-available in that any user can send a request to fix an issue or add a new feature, which source-available doesn't let you do.",
-      "We have a gallery of people saying that removing Essential has fixed an issue they experienced, you can find this at https://notessentialsite.github.io/gallery/"
+      "We have a gallery of people saying that removing Essential has fixed an issue they experienced, you can find this at https://notessentialsite.github.io/gallery/",
     ],
   },
   {
