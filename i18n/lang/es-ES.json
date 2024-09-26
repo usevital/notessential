@@ -11,7 +11,7 @@
       "resources": "Recursos",
       "contributing": "Contribuir",
       "experiments": "Experimentos",
-      "attributions": "Attributions"
+      "attributions": "Atribuciones"
     }
   },
   "landing": {
@@ -26,19 +26,19 @@
     "subtitle": "¡Configura banderas experimentales para fines de desarrollo!"
   },
   "attributions": {
-    "hero": "ATTRIBUTIONS",
-    "subtitle": "We give our thanks to the following. This page wouldn't be possible without them.",
-    "end": "These people have helped improve this site exponentially.",
-    "help": "See a problem? Report it on our Discord.",
+    "hero": "ATRIBUCIONES",
+    "subtitle": "Damos nuestro agradecimiento a las siguientes personas. Esta página no sería posible sin ellos.",
+    "end": "Estas personas han ayudado a mejorar este sitio exponencialmente.",
+    "help": "¿Ves un problema? Infórmalo en nuestro Discord.",
     "titles": {
-      "translators": "Translators",
-      "information_writers": "'Why not Essential' sources",
-      "core": "Core team"
+      "translators": "Traductores",
+      "information_writers": "Fuentes de \"Por qué no Essential\"",
+      "core": "Equipo principal"
     },
     "subtitles": {
-      "translators": "Thank you to the translators on our Crowdin for helping to internationalise this page. In no specific order, here are some translators who have significantly helped.",
-      "information_writers": "These people helped create, fact-check and proofread our 'Why not Essential?' section.",
-      "core": "The core team behind the Notessential webpage."
+      "translators": "Gracias a los traductores de nuestro Crowdin por ayudar a internacionalizar esta página. En ningún orden específico, aquí hay algunos traductores que han ayudado significativamente.",
+      "information_writers": "Estas personas ayudaron a crear, revisar y probar nuestra sección \"¿Por qué no Essential?\".",
+      "core": "El equipo central detrás de la página web Notessential."
     }
   },
   "contributing": {
