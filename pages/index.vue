@@ -20,25 +20,32 @@
     </NEButton>
 
     <PageHero
-      v-if="whyNot === true && showReasons === true"
+      v-if="showReasons === true"
       title="WHY?"
       subTitle="Many people wonder why not to use Essential. We hope to make the reasons
       clear."
     />
 
-    <NumberedList
-      v-if="whyNot === true && showReasons === true"
-      :data="reasonsWhy"
-    />
+    <NumberedList v-if="showReasons === true" :data="reasonsWhy" />
 
-    <span v-if="whyNot === true">
+    <span>
       In case it wasn't clear, don't harrass any people affiliated with
       Essential. We simply find that the flaws with Essential make it
       undesirable in most modded Minecraft circumstances. We do not have any
       conflicts with anybody at Essential.
     </span>
+    <span>
+      Please report any problems on our
+      <NELink to="https://github.com/notessentialsite" :external="true"
+        >Github</NELink
+      >
+      or
+      <NELink to="https://discord.gg/wncdz7e8jy" :external="true"
+        >Discord.</NELink
+      ></span
+    >
 
-    <span v-if="whyNot === true" class="flex flex-row gap-2"
+    <span class="flex flex-row gap-2"
       >with<LucideHeart class="stroke-[var(--brand-blue)]" /> from all at the
       NotEssential team
     </span>
@@ -51,9 +58,6 @@ const minecraftText = ref("MINECRAFT")
 if (Math.floor(Math.random() * 10000) === 0) {
   minecraftText.value = "MINCERAFT"
 }
-
-const whyNot = useCookie("whyNotEssential", { default: () => false })
-
 const showReasons = ref(false)
 if (process.client) {
   onMounted(() => {
@@ -94,13 +98,13 @@ const reasonsWhy = [
       "While Essential's Privacy Policy states the data they collect (and it's not very significant to most people), most people will not be reading the policy, especially with the required legalese to cover their bases.",
       "Additionally, this is a game played by kids, the cohort that are most likely clueless on what a Terms of Service or Privacy Policy is, and don't understand the data they are giving out by agreeing and especially don't understand the language being used, even if kids are legally not allowed to agree to contracts in some areas.",
       "For full clarity, Essential says, on their Privacy Policy (checked 27/8/2024), they collect:",
-      "* Minecraft UUID, Minecraft & modloader versions",
-      "* Mod Checksums using MD5",
-      "* User interfaces the player enters during their session",
-      "* Cosmetics that players choose to preview",
-      "* Essential config values (with random A/B testing)",
-      "* Servers you join (if you choose to enable it in privacy settings)",
-      "* Your computer specs",
+      "- Minecraft UUID, Minecraft & modloader versions",
+      "- Mod Checksums using MD5",
+      "- User interfaces the player enters during their session",
+      "- Cosmetics that players choose to preview",
+      "- Essential config values (with random A/B testing)",
+      "- Servers you join (if you choose to enable it in privacy settings)",
+      "- Your computer specs",
       "Their privacy policy can be found at https://essential.gg/privacy-policy, which may be updated at any point after the writing of this.",
     ],
   },

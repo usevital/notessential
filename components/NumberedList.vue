@@ -6,9 +6,11 @@
       </span>
       <span class="text-4xl sm:text-5xl font-bold"> {{ item.title }} </span>
     </div>
-    <span class="text-xl" v-for="paragraph in item.body">
-      {{ paragraph }}
-    </span>
+    <span
+      v-html="useFormatting(paragraph)"
+      class="text-xl"
+      v-for="paragraph in item.body"
+    />
   </div>
 </template>
 
