@@ -9,6 +9,7 @@ on:
     branches-ignore:
       - i18n-crowdin-translations
       - manual-crowdin-updates
+      - gh-readonly-queue/**
   workflow_dispatch:
 
 permissions:
