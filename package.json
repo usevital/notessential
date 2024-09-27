@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@nuxtjs/i18n": "^8.3.1",
-    "postcss-custom-properties": "^13.3.12",
+    "postcss-custom-properties": "^14.0.1",
     "vue": "^3.4.31",
     "vue-router": "^4.4.0"
   },
