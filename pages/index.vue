@@ -29,7 +29,7 @@
     <NumberedList v-if="showReasons === true" :data="reasonsWhy" />
 
     <span>
-      In case it wasn't clear, don't harrass any people affiliated with
+      In case it wasn't clear, don't harass any people affiliated with
       Essential. We simply find that the flaws with Essential make it
       undesirable in most modded Minecraft circumstances. We do not have any
       conflicts with anybody at Essential.
@@ -70,8 +70,8 @@ const reasonsWhy = [
     title: "Incompatibilty",
     body: [
       "Essential's large-sweeping modifications to the game cause many side effects, mainly incompatibility with other mods.",
-      "While Essential's desision to go source-available (not the same as open-source) may help improve compatibility issues, it's too soon to tell.",
-      "For uninitiated users, open-source differs from source-available in that any user can send a request to fix an issue or add a new feature, which source-available doesn't let you do.",
+      "While Essential's decision to go source-available (not the same as open-source) may help improve compatibility issues, it's too soon to tell.",
+      "For uninitiated users, open-source differs from source-available in that any user can create and distribute their own improved version of the software, which source-available doesn't let you do.",
       "We have a gallery of people saying that removing Essential has fixed an issue they experienced, you can find this at https://notessentialsite.github.io/gallery/",
     ],
   },
@@ -88,7 +88,7 @@ const reasonsWhy = [
       'In a game that is primarily played by children, Essential advertises its cosmetics shop, featuring microtransactions where you can buy "Essential Coins".',
       "While Essential does need money to support their devs and some of their features, a store with special currency microtransactions seems very predatory considering the context.",
       'Additionally, they have a system where you can purchase coins only in "bundles" which encourages over-purchase of coins, potentially wasting the remaining coins.',
-      "This isn't exclusive to Essential, as it's a problem for Minecraft Bedrock Edition (which is a major annoyance point for most players), as well as other (mainly mobile/gacha) games. This, however, makes it seem like they know what they are doing.",
+      "This isn't exclusive to Essential, as it's also the case with Minecraft Bedrock Edition (which is a major annoyance point for most players), as well as many other (mainly mobile/gacha) games. This, however, makes it seem like they know what they are doing.",
     ],
   },
   {
@@ -97,7 +97,7 @@ const reasonsWhy = [
       "Essential requires that you accept the ToS in order to use the mod. This can come across as a red flag to some, as generally this is only present as a confirmation that you don't mind your data being harvested.",
       "While Essential's Privacy Policy states the data they collect (and it's not very significant to most people), most people will not be reading the policy, especially with the required legalese to cover their bases.",
       "Additionally, this is a game played by kids, the cohort that are most likely clueless on what a Terms of Service or Privacy Policy is, and don't understand the data they are giving out by agreeing and especially don't understand the language being used, even if kids are legally not allowed to agree to contracts in some areas.",
-      "For full clarity, Essential says, on their Privacy Policy (checked 27/8/2024), they collect:",
+      "For full clarity, Essential says, on their Privacy Policy (checked 27 Aug 2024), they collect:",
       "- Minecraft UUID, Minecraft & modloader versions",
       "- Mod Checksums using MD5",
       "- User interfaces the player enters during their session",
