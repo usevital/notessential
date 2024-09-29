@@ -8,12 +8,9 @@
 - [ ] Site changes
 - [ ] Chore/documentation updates
 
-## Describe changes
+## Describe changes & why
 
 <!-- Describe your changes -->
-
-## Why did you do this?
-
 <!-- If you added a mod to alternatives page, why did you add that mod? -->
 <!-- If you made some changes to the site, why and how would this effect the current site? -->
 <!-- If you did chore/documentation updates, why so and how will this help? -->
