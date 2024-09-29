@@ -54,7 +54,7 @@
     "subtitles": {
       "translating": "2 halp tranzlate NotEssential, plz visit r Crowdin paeg, listd below. If ur language iz not listd, join r Discord servr an request ur language 2 be addd in da #ne-general chat.",
       "coding": "2 assist in developin NotEssential, fork teh source repository an create new branch 2 start off wif. den, checkout ur branch locally an start codin.",
-      "alternatives": "Similar to above, fork the source repository and create a new branch based off `main`. Then, checkout your branch locally and start coding."
+      "alternatives": "Similar 2 aboov, fork dis teh source repository an create new branch basd off `main`. Den, checkout ur branch locally an start codin."
     },
     "guidelines": {
       "translating": [
