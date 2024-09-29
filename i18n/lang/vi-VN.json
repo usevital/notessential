@@ -11,7 +11,7 @@
       "resources": "Tài liệu",
       "contributing": "Đóng góp",
       "experiments": "Thí nghiệm",
-      "attributions": "Attributions"
+      "attributions": "Cảm ơn"
     }
   },
   "landing": {
@@ -26,19 +26,19 @@
     "subtitle": "Cấu hình cờ thí nghiệm cho việc lập trình!"
   },
   "attributions": {
-    "hero": "ATTRIBUTIONS",
-    "subtitle": "We give our thanks to the following. This page wouldn't be possible without them.",
-    "end": "These people have helped improve this site exponentially.",
-    "help": "See a problem? Report it on our Discord.",
+    "hero": "CẢM ƠN",
+    "subtitle": "Chúng tôi muốn cảm ơn những người này. Trang web này sẽ không như thế này nếu không có sự trợ giúp của những người này.",
+    "end": "Những người này đã giúp cải tiến trang này rất nhiều.",
+    "help": "Thấy một vấn đề? Hãy báo trên Discord của chúng tôi.",
     "titles": {
-      "translators": "Translators",
-      "information_writers": "'Why not Essential' sources",
-      "core": "Core team"
+      "translators": "Người dịch",
+      "information_writers": "Nguồn cho phần 'Tại sao không nên dùng Essential'",
+      "core": "Đội chính"
     },
     "subtitles": {
-      "translators": "Thank you to the translators on our Crowdin for helping to internationalise this page. In no specific order, here are some translators who have significantly helped.",
-      "information_writers": "These people helped create, fact-check and proofread our 'Why not Essential?' section.",
-      "core": "The core team behind the Notessential webpage."
+      "translators": "Cảm ơn những người phiên dịch ở trên trang Crowdin của chúng ta vì việc giúp quốc tế hóa trang này. Không theo một thứ tự cụ thể, đây lã những người phiên dịch mã đã giúp rất nhiều.",
+      "information_writers": "Những nguồn này đã giúp tạo ra và kiểm tra phần 'Tại sao không nên dùng Essential?'.",
+      "core": "Đội chính quản lý trang NotEssential."
     }
   },
   "contributing": {
