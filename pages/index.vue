@@ -72,14 +72,16 @@ const reasonsWhy = [
       "Essential's large-sweeping modifications to the game cause many side effects, mainly incompatibility with other mods.",
       "While Essential's decision to go source-available (not the same as open-source) may help improve compatibility issues, it's too soon to tell.",
       "For uninitiated users, open-source differs from source-available in that any user can create and distribute their own improved version of the software, which source-available doesn't let you do.",
-      "We have a gallery of people saying that removing Essential has fixed an issue they experienced, you can find this at https://notessentialsite.github.io/gallery/",
+      "We have a gallery of people saying that removing Essential has fixed an issue they experienced, you can find this at https://usevital.github.io/notessential-gallery/ and click on the button.",
     ],
   },
   {
-    title: "Data corruption",
+    title: "Too much bloat",
     body: [
-      "Following on from the previous point, their large modifications to the game can cause data loss or world corruption.",
-      "While, again, their decision to become source-available can help explain what's going on, it'd be better if these modifications weren't included in the first place.",
+      'For a mod that advertises itself as the "essential tool for Minecraft", it bundles too many features with it that are better split into other mods.',
+      "The concept of an all-in-one mod isn't bad, but as a mod that should easily fit with other mods, having too many features causes too many potential conflicts. This means that, if a feature causes a crash, the only easy solution for most users is removing the entire mod.",
+      "Even without considering that, bundling lots of features into one mod defeats the purpose of a mod loader (to load mods with only the features you want). And with the features it does have, they seem to be at least semi-random and doesn't really make sense to bundle into one mod.",
+      "It's also advertised more as a client than a mod, even though it is a mod, and because clients are locked-down with lots of features that don't make sense together if they were a mod instead, it could explain the seemingly random bundle of features that are in Essential.",
     ],
   },
   {
@@ -109,21 +111,22 @@ const reasonsWhy = [
     ],
   },
   {
-    title: "Too much bloat",
-    body: [
-      'For a mod that advertises itself as the "essential tool for Minecraft", it has too many features included within.',
-      "The concept of an all-in-one mod isn't bad, but as a mod that should easily fit with other mods, having too many features causes too many potential conflicts.",
-      "Being an all-in-one mod has downsides too, most notably that if a feature is crashing, the only easy solution for most users is removing the entire mod.",
-      "The problems mentioned previously regarding compatibility with other mods certainly doesn't help Essential's case either.",
-    ],
-  },
-  {
     title: "Cluttered Interface",
     body: [
       "This one comes more down to opinion but it's one we believe many players can share. You may disagree with this heavily, and that's okay.",
       "Essential's interface has many options and buttons. These tend to lead to severe clutter in certain parts of the game.",
       "Staying on the default configuration, the amount of screen space taken up by Essential makes the game cumbersome to navigate.",
       "Additionally, some of the buttons on the main menu aren't necessary or can be placed better. It's not a lot, but on the default screen size the space it takes up can be significant.",
+    ],
+  },
+  {
+    title: "Forced install in some mods",
+    body: [
+      "This point isn't really a problem with Essential themselves, rather the majority of mods that use it. For this reason, consider this as more of an add-on reason than a main point, hence why it's all the way down here.",
+      "Many mods that use Essential libraries often install Essential itself anyways, for no clear reason. This means that the mod gets installed and basically does nothing except increase startup time considerably for machines on the lower end.",
+      "While maybe some players might get interested in the mod and check it out, the reality is that after a while they won't even use the features of Essential or only a marginal subset of it which would be better if they were split up.",
+      "This can also lead to a massive security issue, as should Essential's servers get compromised, these mods will unknowingly be including a potential RAT (remote access trojan), which is a big problem within the Minecraft modding community. This was brought up during the discussion of fractureiser, a Minecraft RAT that was detected during June 2023, which also caused Essential to disable their auto-update feature by default and make their mod source-available.",
+      "However, again, this is not a bad thing about Essential themselves, moreso the mods that decide to include it.",
     ],
   },
 ]
