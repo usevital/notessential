@@ -19,7 +19,7 @@
   "devDependencies": {
     "@nuxtjs/google-fonts": "^3.2.0",
     "@nuxtjs/tailwindcss": "^6.12.1",
-    "autoprefixer": "^10.4.19",
+    "autoprefixer": "^10.4.20",
     "nuxt": "^3.12.3",
     "nuxt-lucide-icons": "^1.0.5",
     "postcss": "^8.4.47",
