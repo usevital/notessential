@@ -10,6 +10,7 @@ on:
       - i18n-crowdin-translations
       - manual-crowdin-updates
       - gh-readonly-queue/**
+      - dependabot/**
   workflow_dispatch:
 
 permissions:
