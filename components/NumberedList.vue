@@ -19,3 +19,9 @@ const props = defineProps({
   data: Array,
 })
 </script>
+
+<style>
+li {
+  margin-left: 1em;
+}
+</style>
