@@ -47,7 +47,7 @@
 
     <span class="flex flex-row gap-2"
       >with<LucideHeart class="stroke-[var(--brand-blue)]" /> from all at the
-      NotEssential team
+      Vital team
     </span>
   </div>
 </template>
