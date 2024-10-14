@@ -12,8 +12,8 @@ importers:
         specifier: ^8.5.5
         version: 8.5.5(magicast@0.3.5)(rollup@4.24.0)(vue@3.5.11)(webpack-sources@3.2.3)
       postcss-custom-properties:
-        specifier: ^14.0.1
-        version: 14.0.1(postcss@8.4.47)
+        specifier: ^14.0.2
+        version: 14.0.2(postcss@8.4.47)
       vue:
         specifier: ^3.5.11
         version: 3.5.11
@@ -235,21 +235,21 @@ packages:
     resolution: {integrity: sha512-YLPHc8yASwjNkmcDMQMY35yiWjoKAKnhUbPRszBRS0YgH+IXtsMp61j+yTcnCE3oO2DgP0U3iejLC8FTtKDC8Q==}
     engines: {node: '>=16.13'}
 
-  '@csstools/cascade-layer-name-parser@2.0.1':
-    resolution: {integrity: sha512-G9ZYN5+yr/E6xYSiy1BwOEFP5p88ZtWo8sL4NztKBkRRAwRkzVGa70M+D+fYHugMID5jkLeNt5X9jYd5EaVuyg==}
+  '@csstools/cascade-layer-name-parser@2.0.2':
+    resolution: {integrity: sha512-rRWNJ8n16okpQT+8RWEbPfSl8D9WVoDZGBfHkjYnMYWcC20RiMpu/iGeKqUl1hR+SQIKg6p/QJap5rZJaHtVOg==}
     engines: {node: '>=18'}
     peerDependencies:
-      '@csstools/css-parser-algorithms': ^3.0.1
-      '@csstools/css-tokenizer': ^3.0.1
+      '@csstools/css-parser-algorithms': ^3.0.2
+      '@csstools/css-tokenizer': ^3.0.2
 
-  '@csstools/css-parser-algorithms@3.0.1':
-    resolution: {integrity: sha512-lSquqZCHxDfuTg/Sk2hiS0mcSFCEBuj49JfzPHJogDBT0mGCyY5A1AQzBWngitrp7i1/HAZpIgzF/VjhOEIJIg==}
+  '@csstools/css-parser-algorithms@3.0.2':
+    resolution: {integrity: sha512-6tC/MnlEvs5suR4Ahef4YlBccJDHZuxGsAlxXmybWjZ5jPxlzLSMlRZ9mVHSRvlD+CmtE7+hJ+UQbfXrws/rUQ==}
     engines: {node: '>=18'}
     peerDependencies:
-      '@csstools/css-tokenizer': ^3.0.1
+      '@csstools/css-tokenizer': ^3.0.2
 
-  '@csstools/css-tokenizer@3.0.1':
-    resolution: {integrity: sha512-UBqaiu7kU0lfvaP982/o3khfXccVlHPWp0/vwwiIgDF0GmqqqxoiXC/6FCjlS9u92f7CoEz6nXKQnrn1kIAkOw==}
+  '@csstools/css-tokenizer@3.0.2':
+    resolution: {integrity: sha512-IuTRcD53WHsXPCZ6W7ubfGqReTJ9Ra0yRRFmXYP/Re8hFYYfoIYIK4080X5luslVLWimhIeFq0hj09urVMQzTw==}
     engines: {node: '>=18'}
 
   '@csstools/selector-resolve-nested@1.1.0':
@@ -2805,8 +2805,8 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
 
-  postcss-custom-properties@14.0.1:
-    resolution: {integrity: sha512-SB4GjuZjIq5GQFNbxFrirQPbkdbJooyNy8bh+fcJ8ZG0oasJTflTTtR4geb56h+FBVDIb9Hx4v/NiG2caOj8nQ==}
+  postcss-custom-properties@14.0.2:
+    resolution: {integrity: sha512-ZDJLIXa6uT6FlK6mYdzHxr1fr5ec6lPbp/CZ5+7EZedFmfjJx1fvYQhAPCBebuyc1lkketmiA26ZVl2UkPQ9Ig==}
     engines: {node: '>=18'}
     peerDependencies:
       postcss: ^8.4
@@ -4020,16 +4020,16 @@ snapshots:
     dependencies:
       mime: 3.0.0
 
-  '@csstools/cascade-layer-name-parser@2.0.1(@csstools/css-parser-algorithms@3.0.1(@csstools/css-tokenizer@3.0.1))(@csstools/css-tokenizer@3.0.1)':
+  '@csstools/cascade-layer-name-parser@2.0.2(@csstools/css-parser-algorithms@3.0.2(@csstools/css-tokenizer@3.0.2))(@csstools/css-tokenizer@3.0.2)':
     dependencies:
-      '@csstools/css-parser-algorithms': 3.0.1(@csstools/css-tokenizer@3.0.1)
-      '@csstools/css-tokenizer': 3.0.1
+      '@csstools/css-parser-algorithms': 3.0.2(@csstools/css-tokenizer@3.0.2)
+      '@csstools/css-tokenizer': 3.0.2
 
-  '@csstools/css-parser-algorithms@3.0.1(@csstools/css-tokenizer@3.0.1)':
+  '@csstools/css-parser-algorithms@3.0.2(@csstools/css-tokenizer@3.0.2)':
     dependencies:
-      '@csstools/css-tokenizer': 3.0.1
+      '@csstools/css-tokenizer': 3.0.2
 
-  '@csstools/css-tokenizer@3.0.1': {}
+  '@csstools/css-tokenizer@3.0.2': {}
 
   '@csstools/selector-resolve-nested@1.1.0(postcss-selector-parser@6.1.1)':
     dependencies:
@@ -6886,11 +6886,11 @@ snapshots:
       postcss: 8.4.47
       postcss-value-parser: 4.2.0
 
-  postcss-custom-properties@14.0.1(postcss@8.4.47):
+  postcss-custom-properties@14.0.2(postcss@8.4.47):
     dependencies:
-      '@csstools/cascade-layer-name-parser': 2.0.1(@csstools/css-parser-algorithms@3.0.1(@csstools/css-tokenizer@3.0.1))(@csstools/css-tokenizer@3.0.1)
-      '@csstools/css-parser-algorithms': 3.0.1(@csstools/css-tokenizer@3.0.1)
-      '@csstools/css-tokenizer': 3.0.1
+      '@csstools/cascade-layer-name-parser': 2.0.2(@csstools/css-parser-algorithms@3.0.2(@csstools/css-tokenizer@3.0.2))(@csstools/css-tokenizer@3.0.2)
+      '@csstools/css-parser-algorithms': 3.0.2(@csstools/css-tokenizer@3.0.2)
+      '@csstools/css-tokenizer': 3.0.2
       '@csstools/utilities': 2.0.0(postcss@8.4.47)
       postcss: 8.4.47
       postcss-value-parser: 4.2.0
