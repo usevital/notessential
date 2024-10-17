@@ -10,8 +10,8 @@
       "interact": "Mitmachen",
       "resources": "Ressourcen",
       "contributing": "Mitmachen",
-      "experiments": "Experiments",
-      "attributions": "Attributions"
+      "experiments": "Experimente",
+      "attributions": "Namensnennungen"
     }
   },
   "landing": {
@@ -22,23 +22,23 @@
     }
   },
   "experiments": {
-    "hero": "EXPERIMENTAL FEATURES",
-    "subtitle": "Configure experimental flags for development purposes!"
+    "hero": "EXPERIMENTELLE FEATURES",
+    "subtitle": "Konfiguriere Experimentelle Einstellungen für Entwicklungszwecke!"
   },
   "attributions": {
-    "hero": "ATTRIBUTIONS",
-    "subtitle": "We give our thanks to the following. This page wouldn't be possible without them.",
-    "end": "These people have helped improve this site exponentially.",
-    "help": "See a problem? Report it on our Discord.",
+    "hero": "NAMENSNENNUNGEN",
+    "subtitle": "Unser Dank gilt den folgenden Personen. Diese Seite währe ohne Sie nicht möglich.",
+    "end": "Diese Personen haben bei der verbesserung der Seite sehr geholfen.",
+    "help": "Siehst du ein Problem? Melde es in unserem Discord.",
     "titles": {
-      "translators": "Translators",
-      "information_writers": "'Why not Essential' sources",
-      "core": "Core team"
+      "translators": "Übersetzer",
+      "information_writers": "\"Wieso nicht Essential\" Quellen",
+      "core": "Hauptteam"
     },
     "subtitles": {
-      "translators": "Thank you to the translators on our Crowdin for helping to internationalise this page. In no specific order, here are some translators who have significantly helped.",
-      "information_writers": "These people helped create, fact-check and proofread our 'Why not Essential?' section.",
-      "core": "The core team behind the Notessential webpage."
+      "translators": "Dank an unsere Übersetzer auf Crowdin für die hilfe beim Übersetzen dieser Seite. In keiner bestimmten Reihenfolge sind hier einige Übersetzer, welche eine signifikante Hilfe gegeben haben.",
+      "information_writers": "Diese Personen halfen bei der Erstellung, Überprüfung der Fakten und dem Korrekturlesen unseres Abschnitts \"Wieso nicht Essential?\".",
+      "core": "Das Hauptteam hinter der Notessential Seite."
     }
   },
   "contributing": {
@@ -52,22 +52,22 @@
       "alternatives": "Alternativen einreichen"
     },
     "subtitles": {
-      "translating": "To help translate NotEssential, please visit our Crowdin page, listed below. If your language is not listed, join our Discord server and request your language to be added in the #ne-general chat.",
-      "coding": "To assist in developing NotEssential, fork the source repository and create a new branch to start off with. Then, checkout your branch locally and start coding.",
-      "alternatives": "Similar to above, fork the source repository and create a new branch based off `main`. Then, checkout your branch locally and start coding."
+      "translating": "Um bei der Übersetzung von NotEssential zu helfen, besuche unsere unten verlinkte Crowdin Seite. Sollte deine Sprache nicht aufgelistet sein, tritt unserem Discord bei und bitte im #ne-general chat darum, diese hinzuzufügen.",
+      "coding": "Um bei der Entwicklung von NotEssential zu helfen, Forke die Source-Repository und erstelle einen neuen Branch um anzufangen. Danach checkout deinen Branch lokal und fang an zu programmieren.",
+      "alternatives": "Ähnlich wie oben, forke die Source-Repository und erstelle einen neuen Branch basierend auf `main`. Dannach checkout deinen branch lokal und fang an zu programmieren."
     },
     "guidelines": {
       "translating": [
         "Sofern es keine offiziellen Namen in deiner Sprache hat, übersetze NICHT die Namen eines Mods in deine Sprache.",
-        "Similarly, do NOT translate 'Essential' (the mod), 'Spark Universe', 'Mojang', 'Microsoft', as well as any mod names if there isn't an official name in that language.",
+        "Übersetze ebenfalls NICH 'Essential' (die Mod), 'Spark Universe', 'Mojang', 'Microsoft', sowie Mod Namen sofern diese keine offizielle übersetzte Namen in dieser Sprache haben.",
         "Sollte es ein Problem geben, erstelle bitte einenen Kommentar im Seitenfenster und klicke die 'Issues' Box an. Danach wähle die passende markierung aus.",
         "Wenn ein Bereich KOMPLETT IN CAPS ist, schreibe es ebenfalls KOMPLETT IN CAPS, sofern du dies in deiner Sprache tun kannst."
       ],
       "coding": [
-        "Make sure you look at the Pull Requests page to see if your idea has already been listed. If there isn't one, we recommend opening pull requests to the head branch/repository (the head branch is the branch merging to the repository).",
+        "Stell sicher, dass du dir die Pull Request Seite angesehen hast, um sicher zu stellen, dass deine Idee nicht bereits aufgelistet ist. Sofern noch keine Pull request existiert, empfehlen wir eine auf die Head branch/Repository zu öffnen (Der Head branch ist der branch, welcher in die Repository zusammenführt).",
         "Mach hilfreiche Commitnachrichten, so das wir verstehen, was du geändert hast.",
         "Installiere Prettier. Du kannst es mit 'pnpm add prettier' oder als eine VS Code Erweiterung (Dies sollte dir automatisch empfohlen werden!) tun. Sofern du die Erweiterung verwendest, stelle siche 'Format on Save' ist in den VS Code Einstellungen aktiviert.",
-        "Make sure you utilise our pull request template when making a pull request."
+        "Stell sicher, dass du beim erstellen eines Pull requests unsere Pull request-Vorlage verwendest."
       ],
       "alternatives": [
         "Stell sicher, das dein Projekt eine Funktion von Essential ersetzt.",
@@ -81,7 +81,7 @@
   "alternatives": {
     "hero": "ALTERNATIVEN",
     "reason": "Essential hat viele Probleme. Diese Seite bietet Alternativen.",
-    "nudge_for_contributing": "Willing to contribute? Click here for contributing guidelines.",
+    "nudge_for_contributing": "Bereit mitzumachen? Klicke hier für Richtlinien zum mitmachen.",
     "texts": {
       "modpacks": {
         "section_name": "Modpakete",
@@ -132,17 +132,17 @@
           "Bonus: Es hat auch eine Art von integriertem Anti-Cheat für dinge wie unsichtbare Spielermodelle!"
         ],
         "skin_shuffle": [
-          "Essential's skin swapper in-game can be convenient if you want to change your skin without having to relaunch Minecraft. This mod can achieve this for you!",
+          "Essential's In-Game Skin-Swapper ist nützlich wenn du deinen Skin ändern willst, ohne Minecraft neu starten zu müssen. Diese Mod kann dies auch für dich tun!",
           "Skin Shuffle ist eine Mod, welche deinen Skin ändern, speichern und bearbeiten kann, und das alles im Spiel, ohne das ein neustart erforderlich ist. Diese werden als sogenannte \"Skin Presets\" gespeichert, welche von URLs, Dateien, Benutzernamen/UUIDs, Texturen im Spiel und sogar deinem aktuellen Skin erstellt werden!",
           "Sollte der Server Skin Shuffle installiert haben, kannst du deinen Skin ändern und es wird allen Spielern auf dem Server gezeigt, sogar denen, welche die Mod nicht installiert haben, und das alles ohne einen Disconnect vom Server!"
         ],
         "emotecraft": [
           "Für Emotes solltest du Emotecraft verwenden. Es ist ein kostenloses, quelloffenes Emote Dienst, mit support für benutzerdefinierte Emotes.",
-          "You can download many emotes, or even make your own! The discord server has a lot of emotes you can download, though it's a little bit outdated."
+          "Du kannst viele Emotes herunterladen oder sogar deine eigenen erstellen! Der Discord Server hat eine menge Emotes zum download, ist jedoch etwas veraltet."
         ]
       },
       "misc": {
-        "section_name": "Misc",
+        "section_name": "Verschiedenes",
         "screencapper": [
           "Essential hat eine Screenshot-Vorschau Funktion, diese Mod implementiert so ziemlich ein Äquivalent.",
           "Eine hochentwickelte Screenshot-Verbesserungs-Mod."
@@ -152,8 +152,8 @@
           "Screenshot Viewer ist eine Mod, welche es dir erlaubt, die Screenshots, welche du gemacht hast, anzusehen, während du Spielst! (Inklusive derer, welche du ausversehen geschossen hast, als du F3 drücken wolltest)."
         ],
         "snapper": [
-          "Essential's screenshot functionality involves functionality both when taking a screenshot and viewing one.",
-          "Snapper aims to provide the most and highest-quality possible improvements to Minecraft's screenshot experience."
+          "Essential's Screenshot-Funktionalität beinhaltet sowohl das erstellen eines Screenshots, als auch das ansehen eines.",
+          "Snapper versucht die bestmögliche und qualitativ hochwertigste Verbesserung des Screenshot-Erlebnisses von Minecraft zu bieten."
         ],
         "auth_me": [
           "Essential hat ein integriertes Konto-Switcher System. Du kannst diese Mod verwenden, um einen wichtigen Aspekt davon zu verwenden.",
