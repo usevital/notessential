@@ -44,15 +44,6 @@ const texts = altMessages.texts
 //console.log(texts)
 
 const alternatives = {
-  Modpacks: {
-    Vital: {
-      description: texts.modpacks.vital,
-      icon: "https://cdn.modrinth.com/data/Fecmmdly/1a31487f238f354268d34d5f51ced1c1900d0106.png",
-      links: {
-        Modrinth: "https://modrinth.com/modpack/vital",
-      },
-    },
-  },
   Multiplayer: {
     "World Host": {
       description: texts.multiplayer.world_host,
