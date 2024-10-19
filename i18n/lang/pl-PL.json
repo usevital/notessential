@@ -83,14 +83,6 @@
     "reason": "Essential ma wiele problemów. Ta strona ma alternatywy.",
     "nudge_for_contributing": "Willing to contribute? Click here for contributing guidelines.",
     "texts": {
-      "modpacks": {
-        "section_name": "Modpaki",
-        "vital": [
-          "Jeżeli chcesz mieć wszystko wygodnie zorganizowane w jednym modpaku, używaj Vital.",
-          "Ma ona wiele modyfikacji które są na tej liście jak: Cosmetica, World Host i inne.",
-          "Ma też zoorganizowane menu główne jak Essential za pomocą FencyMenu."
-        ]
-      },
       "multiplayer": {
         "section_name": "Multiplayer",
         "world_host": [

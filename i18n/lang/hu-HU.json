@@ -83,14 +83,6 @@
     "reason": "Az Essential-el van egy csomó probléma. Ez a weboldal alternatívákat nyújt.",
     "nudge_for_contributing": "Willing to contribute? Click here for contributing guidelines.",
     "texts": {
-      "modpacks": {
-        "section_name": "Modpackek",
-        "vital": [
-          "Ha szeretnéd, hogy minden rendezetten egy modpackban legyen, használhatod a Vital-t.",
-          "A legtöbb modot tartalmazza ezen a listán, köztük a Cosmetica, a World Host-ot és még sok más modot.",
-          "Rendezett főmenüvel is rendelkezik, mint az Essential a FancyMenu segítségével."
-        ]
-      },
       "multiplayer": {
         "section_name": "Többjátékos",
         "world_host": [

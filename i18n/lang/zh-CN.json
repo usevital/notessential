@@ -83,14 +83,6 @@
     "reason": "Essential有许多问题，这个页面提供了备选方案。",
     "nudge_for_contributing": "Willing to contribute? Click here for contributing guidelines.",
     "texts": {
-      "modpacks": {
-        "section_name": "整合包",
-        "vital": [
-          "如果你想要一个干净整洁的现成的整合包，请使用Vital。",
-          "它几乎包含这个页面上的所有模组，包括Cosmetica、World Host等等。",
-          "它也用FancyMenu将主菜单设计为了Essential的样式。"
-        ]
-      },
       "multiplayer": {
         "section_name": "联机",
         "world_host": [

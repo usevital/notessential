@@ -83,14 +83,6 @@
     "reason": "Essential haz manny problmz. Thiz pag sows alternitivs.",
     "nudge_for_contributing": "Willing to contribute? Click here for contributing guidelines.",
     "texts": {
-      "modpacks": {
-        "section_name": "Modz pacz",
-        "vital": [
-          "If u wants 2 has evrythin neatly organizd into wan modpack, u can use Vital.",
-          "It has most ov teh modz on dis list, includin Cosmetica, World Host, an moar.",
-          "It also has an organizd main menu liek Essential wif FancyMenu."
-        ]
-      },
       "multiplayer": {
         "section_name": "I haz friendz modz",
         "world_host": [
