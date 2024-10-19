@@ -83,14 +83,6 @@
     "reason": "Essential có nhiều vấn đề. Trang này ghi các mod thay thế.",
     "nudge_for_contributing": "Bạn muốn giúp? Ấn vào đây để xem hướng giẫn đóng góp.",
     "texts": {
-      "modpacks": {
-        "section_name": "Gói có mod",
-        "vital": [
-          "Nếu bạn muốn có tất cả mọi thứ sắp sếp ngắn gọn trong một gói, bạn có thể dùng Vital.",
-          "Nó có phần lớn các mod trên trang này, bao gồm Cosmetica, World Host, và thêm nữa.",
-          "Nó cũng có một màn hình chính gọn gàng như Essential khi dùng với FancyMenu."
-        ]
-      },
       "multiplayer": {
         "section_name": "Chơi với nhiều người",
         "world_host": [

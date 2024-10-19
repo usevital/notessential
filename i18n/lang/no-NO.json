@@ -83,14 +83,6 @@
     "reason": "Essential har mange problemer. Denne siden gir alternativer.",
     "nudge_for_contributing": "Willing to contribute? Click here for contributing guidelines.",
     "texts": {
-      "modpacks": {
-        "section_name": "Moddpakker",
-        "vital": [
-          "Hvis du ønsker å ha alt pent organisert inn i én moddpakke, kan du bruke Vital.",
-          "Den har de fleste moddene på denne listen, blant annet Cosmetica, World Host, med mer.",
-          "Den har også en organisert hovedmeny som Essential med FancyMenu."
-        ]
-      },
       "multiplayer": {
         "section_name": "Flerspiller",
         "world_host": [

@@ -83,14 +83,6 @@
     "reason": "O Essential tem vários problemas. Esta página fornece alternativas.",
     "nudge_for_contributing": "Willing to contribute? Click here for contributing guidelines.",
     "texts": {
-      "modpacks": {
-        "section_name": "Modpacks",
-        "vital": [
-          "Se você quiser tudo bem organizado em forma de um modpack, você pode usar o Vital.",
-          "Ele tem a maioria dos mods nessa lista, incluindo Cosmetica, World Host, e muito mais.",
-          "Também tem um menu organizado de forma semelhante ao Essential usando o FancyMenu."
-        ]
-      },
       "multiplayer": {
         "section_name": "Multijogador",
         "world_host": [
