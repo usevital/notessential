@@ -4,14 +4,14 @@
       "alternatives": "ALTERNATIVAS"
     },
     "footer": {
-      "disclaimer": "NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG, MICROSOFT OR SPARK UNIVERSE.",
-      "open_source": "This page is open source.",
-      "about": "About",
-      "interact": "Interact",
-      "resources": "Resources",
-      "contributing": "Contributing",
-      "experiments": "Experiments",
-      "attributions": "Attributions"
+      "disclaimer": "NÃO É UM PRODUTO OFICIAL DO MINCRAFT. NÃO FOI APROVADO POR OU É ASSOCIADO COM A MOJANG OU MICROSOFT.",
+      "open_source": "Esta página é de código aberdo.",
+      "about": "Sobre",
+      "interact": "Interagir",
+      "resources": "Recursos",
+      "contributing": "Contribuições",
+      "experiments": "Experimentos",
+      "attributions": "Atribuições"
     }
   },
   "landing": {
@@ -22,39 +22,39 @@
     }
   },
   "experiments": {
-    "hero": "EXPERIMENTAL FEATURES",
-    "subtitle": "Configure experimental flags for development purposes!"
+    "hero": "FUNÇÕES EXPERIMENTAIS",
+    "subtitle": "Configure ajustes experimentais para fins de desenvolvimento!"
   },
   "attributions": {
-    "hero": "ATTRIBUTIONS",
-    "subtitle": "We give our thanks to the following. This page wouldn't be possible without them.",
-    "end": "These people have helped improve this site exponentially.",
-    "help": "See a problem? Report it on our Discord.",
+    "hero": "ATRIBUÇÕES",
+    "subtitle": "Nós agradecemos os seguintes projetos. Este site não existiria sem eles.",
+    "end": "Estas pessoas ajudaram muito a melhorar este site.",
+    "help": "Encontrou um problema? Reporte no nosso Discord.",
     "titles": {
-      "translators": "Translators",
-      "information_writers": "'Why not Essential' sources",
-      "core": "Core team"
+      "translators": "Tradutores",
+      "information_writers": "Fontes para o \"Por que não o Essential?\"",
+      "core": "Equipe principal"
     },
     "subtitles": {
-      "translators": "Thank you to the translators on our Crowdin for helping to internationalise this page. In no specific order, here are some translators who have significantly helped.",
-      "information_writers": "These people helped create, fact-check and proofread our 'Why not Essential?' section.",
-      "core": "The core team behind the Notessential webpage."
+      "translators": "Agradecemos a todos os tradutores em nossa página no Crowdin por nos ajudar a internacionalizar este site. Em nenhuma ordem específica, aqui estão alguns tradutores que ajudaram significativamente.",
+      "information_writers": "Estas pessoas ajudaram a criar, verificar e rever nossa seção \"Por que não o Essential?\".",
+      "core": "A equipre principal por trás do site Notessential."
     }
   },
   "contributing": {
-    "hero": "CONTRIBUTING",
-    "subhero": "To the NotEssential website",
-    "welcome": "Want to contribute to NotEssential? Here are some guidelines.",
-    "end": "If you have any more questions, please join our Discord and ask there.",
+    "hero": "CONTRIBUIR",
+    "subhero": "Para o site NotEssential",
+    "welcome": "Quer contribuir para o NotEssential? Aqui estão algumas diretrizes.",
+    "end": "Se você tiver alguma dúvida, por favor entre em nosso Discord e pergunte lá.",
     "titles": {
-      "translating": "Translating",
-      "coding": "Developing",
-      "alternatives": "Submitting Alternatives"
+      "translating": "Traduzir",
+      "coding": "Desenvolver",
+      "alternatives": "Enviar Alternativas"
     },
     "subtitles": {
-      "translating": "To help translate NotEssential, please visit our Crowdin page, listed below. If your language is not listed, join our Discord server and request your language to be added in the #ne-general chat.",
-      "coding": "To assist in developing NotEssential, fork the source repository and create a new branch to start off with. Then, checkout your branch locally and start coding.",
-      "alternatives": "Similar to above, fork the source repository and create a new branch based off `main`. Then, checkout your branch locally and start coding."
+      "translating": "Para ajudar a traduzir o NotEssential, por favor, visite nossa página no Crowdin, listada abaixo. Se o seu idioma não estiver listado, entre no nosso servidor do Discord e peça que seu idioma seja adicionado no chat #ne-geral.",
+      "coding": "Para ajudar a desenvolver o NotEssential, crie um fork do repositório e crie uma nova branch para começar. Depois, verifique sua branch local e comece a programar.",
+      "alternatives": "Semelhante ao que foi citado acima, faça uma fork do repositório de origem e crie uma nova branch baseada na `main`. Depois, verifique sua branch local e comece a programar."
     },
     "guidelines": {
       "translating": [
@@ -64,24 +64,24 @@
         "When an area is in ALL CAPS, also write in ALL CAPS if you can with your language."
       ],
       "coding": [
-        "Make sure you look at the Pull Requests page to see if your idea has already been listed. If there isn't one, we recommend opening pull requests to the head branch/repository (the head branch is the branch merging to the repository).",
-        "Make your commit names helpful so we can understand what you have changed.",
-        "Install Prettier. You can run 'pnpm add prettier' or install Prettier as a VS Code extension (this should have been recommended to you automatically!). If you use the extension, ensure 'Format on Save' is set in VS Code settings.",
-        "Make sure you utilise our pull request template when making a pull request."
+        "Certifique-se de que você verificou a página de Pull Requests para ver se sua ideia já foi listada. Se não houver uma, recomendamos abrir uma pull request para a branch head/repository (a branch head é a branch que vai ser mesclada ao repositório).",
+        "Faça com que os seus nomes de commit sejam úteis para podermos entender o que você alterou.",
+        "Instale o Prettier. Você pode executar 'pnpm add prettier' ou instalar o Prettier como extensão do VS Code (isso deve ter sido recomendado para você automaticamente!). Se você usar a extensão, certifique-se de 'Formatação ao salvar' está definida corretamente nas configurações do VS Code.",
+        "Certifique-se de utilizar nosso modelo de pull request ao fazer uma pull request."
       ],
       "alternatives": [
-        "Make sure your project replaces a feature of Essential.",
-        "Please detail why your project should be added to the page.",
-        "Also submit a short description of your project, though this is optional.",
-        "This should be obvious, but please don't submit a Trojan or other form of malware.",
-        "Please don't just use this site as 'free advertising' for your project."
+        "Certifique-se de que seu projeto substitui um recurso do Essential.",
+        "Por favor, detalhe por que o seu projeto deve ser adicionado à página.",
+        "Também apresente uma breve descrição do seu projeto, embora isto seja opcional.",
+        "Isto deve ser óbvio, mas por favor não envie um trojan ou outra forma de malware.",
+        "Por favor, não use este site como 'publicidade gratuita' para o seu projeto."
       ]
     }
   },
   "alternatives": {
     "hero": "ALTERNATIVAS",
     "reason": "O Essential tem vários problemas. Esta página fornece alternativas.",
-    "nudge_for_contributing": "Willing to contribute? Click here for contributing guidelines.",
+    "nudge_for_contributing": "Quer contribuir? Clique aqui para as diretrizes de contribuição.",
     "texts": {
       "multiplayer": {
         "section_name": "Multijogador",
@@ -130,11 +130,11 @@
         ],
         "emotecraft": [
           "Para emotes, você pode usar o Emotecraft. É um serviço de emotes grátis e de código aberto, com suporte para emotes personalizados.",
-          "You can download many emotes, or even make your own! The discord server has a lot of emotes you can download, though it's a little bit outdated."
+          "Você pode baixar vários emotes, ou até fazer os seus próprios! O servidor do discord tem vários emotes prontos que você pode baixar. Um porém é que o mod está um pouco desatualizado."
         ]
       },
       "misc": {
-        "section_name": "Misc",
+        "section_name": "Outros",
         "screencapper": [
           "O Essential tem uma função de visualização de capturas de tela, este mod implementa um equivalente básico.",
           "Um mod altamente avançado de melhorias para capturas de tela."
@@ -144,8 +144,8 @@
           "Screenshot Viewer é um mod que te permite ver as capturas de tela que você tirou durante sua jogatina! (Incluindo aquelas que você tirou sem querer quando tentava apertar o F3)."
         ],
         "snapper": [
-          "Essential's screenshot functionality involves functionality both when taking a screenshot and viewing one.",
-          "Snapper aims to provide the most and highest-quality possible improvements to Minecraft's screenshot experience."
+          "A funcionalidade de captura de tela envolve funcionalidades tanto ao tirar uma captura de tela quanto ao visualizar uma.",
+          "O Snapper visa fornecer as maiores e melhores melhorias possíveis para a experiência de captura de tela do Minecraft."
         ],
         "auth_me": [
           "Essential has an in-game account switcher feature. You can use this mod to achieve one important aspect of it.",
