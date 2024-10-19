@@ -80,7 +80,7 @@ const sections = {
 
 useSeoMeta({
   title: "Attributions",
-  description: "The people who made Notessential possible.",
+  description: "The people who made NotEssential possible.",
   ogImage: "/img/icon512.png",
 })
 </script>
