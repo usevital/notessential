@@ -36,31 +36,31 @@
       "core": "Equipo principal"
     },
     "subtitles": {
-      "translators": "Gracias a los traductores de nuestro Crowdin por ayudar a internacionalizar esta página. En ningún orden específico, aquí hay algunos traductores que han ayudado significativamente.",
+      "translators": "Gracias a los traductores de nuestro Crowdin por ayudar a internacionalizar esta página. Sin orden específico, aquí hay algunos traductores que han ayudado significativamente.",
       "information_writers": "Estas personas ayudaron a crear, revisar y probar nuestra sección \"¿Por qué no Essential?\".",
       "core": "El equipo central detrás de la página web Notessential."
     }
   },
   "contributing": {
-    "hero": "CONTRIBUYENDO",
+    "hero": "CONTRIBUIR",
     "subhero": "Al sitio web de NotEssential",
     "welcome": "¿Quieres contribuir a NotEssential? Aquí tienes algunas directrices.",
     "end": "Si tienes más preguntas, por favor únete a nuestro Discord y pregunta allí.",
     "titles": {
-      "translating": "Traductorio",
+      "translating": "Traduciendo",
       "coding": "Desarrollando",
       "alternatives": "Presentando Alternativas"
     },
     "subtitles": {
       "translating": "Para ayudar a traducir NotEssential, visita nuestra página de Crowdin, que aparece a continuación. Si tu idioma no aparece en la lista, únete a nuestro servidor de Discord y solicita que se añada tu idioma en #ne-general.",
       "coding": "Para ayudar en el desarrollo de NotEssential, haz un fork del repositorio fuente y crea una nueva rama para empezar. Después, revisa tu rama localmente y empieza a programar.",
-      "alternatives": "Similar a lo anterior, haz un fork al repositorio fuente y crea una nueva rama basada en `main`. A continuación, comprueba tu rama localmente y empieza a programar."
+      "alternatives": "Similar a lo anterior, haz una rama al repositorio fuente y crea una nueva rama basada en `main`. A continuación, comprueba tu rama localmente y empieza a programar."
     },
     "guidelines": {
       "translating": [
         "A menos que tengan un nombre oficial en tu idioma, NO traduzcas el nombre de un mod a ese idioma.",
         "Del mismo modo, NO traduzcas 'Essential' (el mod), 'Spark Universe', 'Mojang', 'Microsoft', ni ningún nombre de algún mod si no existe un nombre oficial en ese idioma.",
-        "Si tiene algún problema, haga un comentario en el panel lateral y marque la casilla \"Issues\". A continuación, seleccione el tipo de problema correspondiente.",
+        "Si tienes algún problema, haz un comentario en el panel lateral y marca la casilla \"Issues\". A continuación, selecciona el tipo de problema correspondiente.",
         "Cuando un área esté TODA EN MAYÚSCULAS, escriba también en TODAS LAS MAYÚSCULAS si puede con su idioma."
       ],
       "coding": [
