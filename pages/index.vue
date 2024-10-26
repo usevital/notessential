@@ -21,33 +21,30 @@
 
     <PageHero
       v-if="showReasons === true"
-      title="WHY?"
-      subTitle="Many people wonder why not to use Essential. We hope to make the reasons
-      clear."
+      :title="$t('reasonsWhy.hero')"
+      :subTitle="$t('reasonsWhy.sub')"
     />
 
     <NumberedList v-if="showReasons === true" :data="reasonsWhy" />
 
     <span>
-      In case it wasn't clear, don't harass any people affiliated with
-      Essential. We simply find that the flaws with Essential make it
-      undesirable in most modded Minecraft circumstances. We do not have any
-      conflicts with anybody at Essential.
+      {{ $t("reasonsWhy.do_not_harass") }}
     </span>
     <span>
-      Please report any problems on our
+      {{ $t("reasonsWhy.report_problems") }}
       <NELink to="https://github.com/uesvital/notessential" :external="true"
         >GitHub</NELink
       >
-      or
+      {{ $t("reasonsWhy.or") }}
       <NELink to="https://discord.gg/wncdz7e8jy" :external="true"
         >Discord.</NELink
       ></span
     >
 
     <span class="flex flex-row gap-2"
-      >with<LucideHeart class="stroke-[var(--brand-blue)]" /> from all at the
-      Vital team
+      >{{ $t("reasonsWhy.signoff1")
+      }}<LucideHeart class="stroke-[var(--brand-blue)]" />
+      {{ $t("reasonsWhy.signoff2") }}
     </span>
   </div>
 </template>
@@ -67,35 +64,33 @@ if (process.client) {
 
 const locale = useI18n().locale.value
 const altMessages = JSON.parse(
-  JSON.stringify(useI18n().messages.value[locale].reasonsWhy),
+  JSON.stringify(useI18n().messages.value[locale]?.reasonsWhy ?? {}),
 )
-
-const texts = altMessages.texts
 
 const reasonsWhy = [
   {
-    title: texts.reasons.incompatibility.name,
-    body: texts.reasons.incompatibility.explainer,
+    title: altMessages.reasons.incompatibility.name,
+    body: altMessages.reasons.incompatibility.explainer,
   },
   {
-    title: texts.reasons.bloat.name,
-    body: texts.reasons.bloat.explainer,
+    title: altMessages.reasons.bloat.name,
+    body: altMessages.reasons.bloat.explainer,
   },
   {
-    title: texts.reasons.microtransactions.name,
-    body: texts.reasons.microtransactions.explainer,
+    title: altMessages.reasons.microtransactions.name,
+    body: altMessages.reasons.microtransactions.explainer,
   },
   {
-    title: texts.reasons.security_privacy.name,
-    body: texts.reasons.security_privacy.explainer,
+    title: altMessages.reasons.security_privacy.name,
+    body: altMessages.reasons.security_privacy.explainer,
   },
   {
-    title: texts.reasons.clutter.name,
-    body: texts.reasons.clutter.explainer,
+    title: altMessages.reasons.clutter.name,
+    body: altMessages.reasons.clutter.explainer,
   },
   {
-    title: texts.reasons.force_install.name,
-    body: texts.reasons.force_install.explainer,
+    title: altMessages.reasons.force_install.name,
+    body: altMessages.reasons.force_install.explainer,
   },
 ]
 
