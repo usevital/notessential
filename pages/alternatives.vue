@@ -50,6 +50,7 @@ const alternatives = {
       icon: "https://cdn.modrinth.com/data/2AIZDfYo/90c8330e827a1162c6e5f4996be4795c8e274991.png",
       links: {
         Modrinth: "https://modrinth.com/mod/world-host",
+        GitHub: "https://github.com/Gaming32/World-Host",
       },
     },
     e4mc: {
@@ -57,6 +58,7 @@ const alternatives = {
       icon: "https://cdn.modrinth.com/data/qANg5Jrr/95dcc112830c1f3ddef30cc8451a1903dec17988.png",
       links: {
         Modrinth: "https://modrinth.com/mod/e4mc",
+        GitHub: "https://github.com/vgskye/e4mc-minecraft-architectury/",
       },
     },
   },
@@ -66,6 +68,7 @@ const alternatives = {
       icon: "https://cdn.modrinth.com/data/s9hF9QGp/e954c4883e72f95d8e799d167171cde74b059b51.gif",
       links: {
         Modrinth: "https://modrinth.com/mod/cosmetica",
+        GitHub: "https://github.com/Cosmetica-cc/Cosmetica",
       },
     },
     Ears: {
@@ -73,6 +76,7 @@ const alternatives = {
       icon: "https://cdn.modrinth.com/data/mfzaZK3Z/icon.png",
       links: {
         Modrinth: "https://modrinth.com/mod/ears",
+        GitHub: "https://github.com/unascribed/Ears",
       },
     },
     Capes: {
@@ -80,6 +84,7 @@ const alternatives = {
       icon: "https://cdn.modrinth.com/data/89Wsn8GD/icon.png",
       links: {
         Modrinth: "https://modrinth.com/mod/capes",
+        GitHub: "https://github.com/CaelTheColher/Capes",
       },
     },
     "Customizable Player Models": {
@@ -87,6 +92,7 @@ const alternatives = {
       icon: "https://cdn.modrinth.com/data/h1E7sQNL/icon.png",
       links: {
         Modrinth: "https://modrinth.com/plugin/custom-player-models",
+        GitHub: "https://github.com/tom5454/CustomPlayerModels",
       },
     },
     Figura: {
@@ -94,6 +100,7 @@ const alternatives = {
       icon: "https://cdn.modrinth.com/data/s9gIPDom/9e3994b58a6a50d9143c0aa87df1c3b54e4b7919.png",
       links: {
         Modrinth: "https://modrinth.com/mod/figura",
+        GitHub: "https://github.com/FiguraMC/Figura",
       },
     },
     "Skin Shuffle": {
@@ -101,6 +108,7 @@ const alternatives = {
       icon: "https://cdn.modrinth.com/data/3s19I5jr/e66d99492c9b25e88a614846cca6b154ec5309f2.png",
       links: {
         Modrinth: "https://modrinth.com/mod/skinshuffle",
+        GitHub: "https://github.com/IMB11/SkinShuffle",
       },
     },
     Emotecraft: {
@@ -108,6 +116,8 @@ const alternatives = {
       icon: "https://cdn.modrinth.com/data/pZ2wrerK/icon.png",
       links: {
         Modrinth: "https://modrinth.com/mod/emotecraft",
+        GitHub: "https://github.com/KosmX/emotes",
+        Discord: "https://discord.com/invite/6NfdRuE",
       },
     },
   },
@@ -117,6 +127,7 @@ const alternatives = {
       icon: "https://cdn.modrinth.com/data/yzNFLSqx/d5d842e0b6b8c1babcd2212b923d712d85641af1.png",
       links: {
         Modrinth: "https://modrinth.com/mod/screencapper",
+        GitHub: "https://github.com/Deftu/Screencapper",
       },
     },
     "Screenshot Viewer": {
@@ -124,6 +135,7 @@ const alternatives = {
       icon: "https://cdn.modrinth.com/data/laNoi025/1bbd371a465710708ce253fad6f9f8e7c8e3e56e.png",
       links: {
         Modrinth: "https://modrinth.com/mod/screenshot-viewer",
+        GitHub: "https://github.com/LGatodu47/ScreenshotViewer",
       },
     },
     Snapper: {
@@ -131,6 +143,7 @@ const alternatives = {
       icon: "https://cdn.modrinth.com/data/MZQyESDC/9badee3a30ccea4818c3408a390e8137590b808a.png",
       links: {
         Modrinth: "https://modrinth.com/mod/snapper",
+        GitHub: "https://github.com/SpiritStudios/Snapper",
       },
     },
     "Auth Me": {
@@ -138,6 +151,7 @@ const alternatives = {
       icon: "https://cdn.modrinth.com/data/yjgIrBjZ/icon.png",
       links: {
         Modrinth: "https://modrinth.com/mod/auth-me",
+        GitHub: "https://github.com/axieum/authme",
       },
     },
     "In-Game Account Switcher": {
@@ -145,6 +159,7 @@ const alternatives = {
       icon: "https://cdn.modrinth.com/data/cudtvDnd/4f2f65f4b3b9b6c7c3fcc265d651a1814ae80075.png",
       links: {
         Modrinth: "https://modrinth.com/mod/in-game-account-switcher",
+        GitHub: "https://github.com/The-Fireplace-Minecraft-Mods/In-Game-Account-Switcher",
       },
     },
     CraftPresence: {
@@ -152,6 +167,7 @@ const alternatives = {
       icon: "https://cdn.modrinth.com/data/DFqQfIBR/icon.png",
       links: {
         Modrinth: "https://modrinth.com/mod/craftpresence",
+        GitLab: "https://gitlab.com/CDAGaming/CraftPresence",
       },
     },
     Zume: {
@@ -159,6 +175,7 @@ const alternatives = {
       icon: "https://cdn.modrinth.com/data/o6qsdrrQ/baecae4eaaac86de4ac699f57e5203edb3019f3f.png",
       links: {
         Modrinth: "https://modrinth.com/mod/zume",
+        GitHub: "https://github.com/Nolij/Zume",
       },
     },
   },
