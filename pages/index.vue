@@ -32,7 +32,7 @@
     </span>
     <span>
       {{ $t("reasonsWhy.report_problems") }}
-      <NELink to="https://github.com/uesvital/notessential" :external="true"
+      <NELink to="https://github.com/usevital/notessential" :external="true"
         >GitHub</NELink
       >
       {{ $t("reasonsWhy.or") }}
