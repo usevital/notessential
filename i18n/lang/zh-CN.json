@@ -33,7 +33,7 @@
     "titles": {
       "translators": "Translators",
       "information_writers": "'Why not Essential' sources",
-      "core": "Core team"
+      "core": "核心团队"
     },
     "subtitles": {
       "translators": "Thank you to the translators on our Crowdin for helping to internationalise this page. In no specific order, here are some translators who have significantly helped.",
@@ -79,7 +79,7 @@
     }
   },
   "reasonsWhy": {
-    "hero": "WHY?",
+    "hero": "为什么？",
     "sub": "Many people wonder why not to use Essential. We hope to make the reasons clear.",
     "do_not_harass": "In case it wasn't clear, don't harass any people affiliated with Essential. We simply find that the flaws with Essential make it undesirable in most modded Minecraft circumstances. We do not have any conflicts with anybody at Essential.",
     "report_problems": "Please report any problems on our ",
@@ -115,7 +115,7 @@
         ]
       },
       "security_privacy": {
-        "name": "Security & Privacy",
+        "name": "安全及隐私",
         "explainer": [
           "Essential requires that you accept the ToS in order to use the mod. This can come across as a red flag to some, as generally this is only present as a confirmation that you don't mind your data being harvested.",
           "While Essential's Privacy Policy states the data they collect (and it's not very significant to most people), most people will not be reading the policy, especially with the required legalese to cover their bases.",
