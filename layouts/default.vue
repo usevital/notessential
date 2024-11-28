@@ -72,6 +72,9 @@
                   $t("layout.footer.attributions")
                 }}
               </NELink>
+              <NELink to="https://usevital.github.io/uptime" external
+                ><LucideActivity class="h-5" />Status
+              </NELink>
             </div>
             <div
               class="flex flex-col gap-2 font-[500] text-[var(--text-colour)] text-sm"
