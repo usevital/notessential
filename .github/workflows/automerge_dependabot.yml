@@ -1,4 +1,4 @@
-name: CI
+name: Auto merge PRs by Dependabot
 on:
   push:
     branches:
@@ -21,3 +21,4 @@ jobs:
       - uses: fastify/github-action-merge-dependabot@v3
         with:
           pr-number: ${{ github.event.inputs.pr-number }}
+          use-github-auto-merge: true
