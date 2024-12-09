@@ -1,16 +1,16 @@
-name: Automatically mege PRs by Dependabot
+name: CI
 on:
   push:
     branches:
       - main
   pull_request:
+  workflow_dispatch:
+    inputs:
+      pr-number:
+        required: true
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-
   automerge:
-    needs: build
     runs-on: ubuntu-latest
 
     permissions:
@@ -19,3 +19,5 @@ jobs:
 
     steps:
       - uses: fastify/github-action-merge-dependabot@v3
+        with:
+          pr-number: ${{ github.event.inputs.pr-number }}
