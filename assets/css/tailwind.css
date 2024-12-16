@@ -26,15 +26,15 @@
   .internalFont {
     font-family: Internal, InternalBold, Geist, Inter;
   }
-  
+
   .internalBold {
     font-family: InternalBold, Internal, Geist, Inter;
   }
-  
+
   .monocraftFont {
     font-family: Monocraft;
   }
-  
+
   .brand-gradient {
     background: linear-gradient(
       90deg,
