@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col gap-4" v-for="(item, index) in data">
+  <div class="flex flex-col gap-6" v-for="(item, index) in data">
     <div class="flex flex-row gap-2 items-center">
       <span class="internalFont text-4xl sm:text-5xl tracking-[-1rem]">
         {{ index + 1 }}.

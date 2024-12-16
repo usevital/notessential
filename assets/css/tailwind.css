@@ -22,6 +22,29 @@
   body {
     @apply text-brand-text bg-brand-background;
   }
+
+  .internalFont {
+    font-family: Internal, InternalBold, Geist, Inter;
+  }
+  
+  .internalBold {
+    font-family: InternalBold, Internal, Geist, Inter;
+  }
+  
+  .monocraftFont {
+    font-family: Monocraft;
+  }
+  
+  .brand-gradient {
+    background: linear-gradient(
+      90deg,
+      rgb(0, 106, 255) 0%,
+      rgb(31, 113, 255) 100%
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
 }
 
 @tailwind utilities;
