@@ -81,7 +81,7 @@
   "reasonsWhy": {
     "hero": "POR QUÊ?",
     "sub": "Muitas pessoas se perguntam por que não usar o Essential. Esperamos esclarecer os motivos.",
-    "do_not_harass": "Caso não esteja claro, não assedie nenhuma pessoa associada ao Essential. Nós simplesmente achamos que as falhas do Essential o tornam indesejável na maioria das circunstâncias do Minecraft modificado. Não temos nenhum conflito com ninguém do Essential.",
+    "do_not_harass": "Caso não tenhamos deixado claro, não assedie nenhuma pessoa associada ao Essential. Nós simplesmente achamos que as falhas do Essential o tornam indesejável na maioria das circunstâncias do Minecraft modificado. Não temos nenhum conflito com ninguém do Essential.",
     "report_problems": "Por favor, relate qualquer problema em nosso ",
     "or": "ou",
     "signoff1": "com ",
@@ -101,7 +101,7 @@
         "explainer": [
           "Para um mod que se anuncia como a \"ferramenta essencial para o Minecraft\", ele agrupa muitos recursos com ele que são melhor divididos em outros mods.",
           "O conceito de um mod tudo em um não é ruim, mas como um mod que deve facilmente se encaixar em outros mods, ter recursos demais causa conflitos potenciais demais. Isso significa que, se um recurso causar um erro, a única solução fácil para a maioria dos usuários é remover o mod inteiro.",
-          "Mesmo sem considerar isso, agrupar um monte de recursos em um mod derrota o propósito de um mod loader (para carregar mods com apenas os recursos que você quer). E com as características que ele tem, elas parecem ser pelo menos semi-aleatórias e não faz realmente sentido agrupá-las em um mod.",
+          "Mesmo sem considerar isso, agrupar um monte de recursos em um mod derrota o propósito de um mod loader (carregar mods com apenas os recursos que você quer). E com as características que ele tem, elas parecem ser pelo menos semi-aleatórias e não faz realmente sentido agrupá-las em um mod.",
           "Também é divulgado mais como cliente do que um mod, mesmo que seja um mod, e o fato de os clientes estarem restritos com muitos recursos que não fazem sentido juntos se forem um mod poderia explicar o conjunto aparentemente aleatório de características que estão no Essential."
         ]
       },
