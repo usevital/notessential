@@ -73,9 +73,7 @@
                 }}
               </NELink>
               <NELink to="https://usevital.github.io/uptime" external
-                ><LucideActivity class="h-5" />{{
-                  $t("layout.footer.status")
-                }}
+                ><LucideActivity class="h-5" />{{ $t("layout.footer.status") }}
               </NELink>
             </div>
             <div
