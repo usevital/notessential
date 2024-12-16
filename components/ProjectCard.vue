@@ -2,7 +2,7 @@
   <div class="flex flex-col gap-4 max-w-full">
     <!-- Title -->
     <span
-      class="gap-4 flex flex-row items-center text-[color:var(--big-text-colour)] text-4xl sm:text-5xl font-bold"
+      class="gap-4 flex flex-row items-center text-brand-text-strong text-4xl sm:text-5xl font-bold"
     >
       <!-- Icon -->
       <img

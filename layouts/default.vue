@@ -1,11 +1,9 @@
 <template>
-  <div
-    class="flex flex-col gap-8 sm:gap-16 bg-[color:var(--brand-colour)] h-dvh"
-  >
+  <div class="flex flex-col gap-8 sm:gap-16 h-dvh">
     <!-- NAVBAR -->
 
     <nav
-      class="sm:px-[calc(5%+2rem)] text-[color:var(--big-text-colour)] flex flex-col items-center select-none font-bold p-8 border-b border-b-slate-800"
+      class="sm:px-[calc(5%+2rem)] text-brand-text flex flex-col items-center select-none font-bold p-8 border-b border-b-slate-800"
     >
       <div
         class="flex flex-col sm:flex-row items-center text-base justify-between gap-6 max-w-[80rem] w-full"
@@ -42,7 +40,7 @@
 
     <div class="flex justify-center flex-col gap-8">
       <footer
-        class="flex flex-col gap-0 items-center pb-8 border-t border-t-slate-800 bg-[#0f0f0f]"
+        class="flex flex-col gap-0 items-center pb-8 border-t border-t-slate-800 bg-brand-background-2"
       >
         <div
           class="flex flex-col md:flex-row items-center max-w-[80rem] md:items-start md:justify-center py-6 gap-8 mx-[calc(5%+2rem)] sm:mx-0"
@@ -50,7 +48,7 @@
           <div class="flex flex-col items-center sm:items-start gap-4 pt-2">
             <ColourableLogo color="var(--brand-blue)" class="h-4 w-full" />
             <div
-              class="flex flex-col gap-1 font-[500] text-[var(--text-colour)] text-sm"
+              class="flex flex-col gap-1 font-[500] text-brand-text text-sm"
             >
               <NELink
                 class="font-medium text-white hover:underline"
@@ -62,7 +60,7 @@
           </div>
           <div class="flex flex-row gap-6 sm:gap-8">
             <div
-              class="flex flex-col gap-2 font-[500] text-[var(--text-colour)] text-sm"
+              class="flex flex-col gap-2 font-[500] text-brand-text text-sm"
             >
               <span class="font-bold text-base">{{
                 $t("layout.footer.about")
@@ -77,7 +75,7 @@
               </NELink>
             </div>
             <div
-              class="flex flex-col gap-2 font-[500] text-[var(--text-colour)] text-sm"
+              class="flex flex-col gap-2 font-[500] text-brand-text text-sm"
             >
               <span class="font-bold text-base">{{
                 $t("layout.footer.resources")
@@ -94,7 +92,7 @@
               </NELink>
             </div>
             <div
-              class="flex flex-col gap-2 font-[500] text-[var(--text-colour)] text-sm"
+              class="flex flex-col gap-2 font-[500] text-brand-text text-sm"
             >
               <span class="font-bold text-base">{{
                 $t("layout.footer.interact")
@@ -133,27 +131,6 @@
   font-family: Monocraft;
 }
 
-:root {
-  font-family: Geist, Inter, Helvetica;
-  --brand-colour: rgb(0, 0, 0);
-  --brand-background: rgb(0, 0, 0);
-  --brand-background-old: rgb(0, 86, 234);
-  --text-colour: rgb(227, 245, 255);
-  --big-text-colour: rgb(227, 245, 255);
-  --brand-scrollbar: rgb(0, 86, 234);
-
-  --brand-logo: rgb(227, 245, 255);
-  --brand-red: #fa6f5a;
-  --brand-orange: #faa55a;
-  --brand-yellow: #fadd5a;
-  --brand-green: #9dfa5a;
-  --brand-blue: #5a95fa;
-  --brand-purple: #ba5afa;
-  --brand-rose: #fa5a87;
-
-  scrollbar-color: var(--brand-scrollbar) var(--brand-colour);
-}
-
 .brand-gradient {
   background: linear-gradient(
     90deg,
@@ -171,11 +148,6 @@
     rgb(0, 106, 255) 0%,
     rgb(31, 180, 255) 100%
   );
-}
-
-body {
-  background-color: var(--brand-background);
-  color: var(--text-colour);
 }
 </style>
 

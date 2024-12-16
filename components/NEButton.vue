@@ -6,8 +6,8 @@
     :class="
       'flex gap-2 px-10 py-3 rounded-xl items-center text-lg text-inherit font-normal duration-300 active:scale-95 ' +
       (secondary
-        ? 'border-2 border-[var(--text-colour)] hover:bg-[var(--text-colour)] hover:text-black'
-        : 'border-2 border-[var(--brand-background-old)] bg-[var(--brand-background-old)] hover:brightness-150')
+        ? 'border-2 border-brand-text hover:bg-brand-text hover:text-black'
+        : 'border-2 border-brand-colour bg-brand-colour hover:brightness-150')
     "
   >
     <slot />
