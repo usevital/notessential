@@ -12,7 +12,7 @@
       "contributing": "ɓuᴉʇnqᴉɹʇuoꓛ",
       "experiments": "sʇuǝɯᴉɹǝdxƎ",
       "attributions": "suoᴉʇnqᴉɹʇʇ∀",
-      "status": "Status"
+      "status": "snʇɐʇS"
     }
   },
   "landing": {
@@ -80,75 +80,75 @@
     }
   },
   "reasonsWhy": {
-    "hero": "WHY?",
-    "sub": "Many people wonder why not to use Essential. We hope to make the reasons clear.",
-    "do_not_harass": "In case it wasn't clear, don't harass any people affiliated with Essential. We simply find that the flaws with Essential make it undesirable in most modded Minecraft circumstances. We do not have any conflicts with anybody at Essential.",
-    "report_problems": "Please report any problems on our ",
-    "or": "or",
-    "signoff1": "with ",
-    "signoff2": "from all at the Vital team",
+    "hero": "¿⅄HM",
+    "sub": "·ɹɐǝlɔ suosɐǝɹ ǝɥʇ ǝʞɐɯ oʇ ǝdoɥ ǝM ·lɐᴉʇuǝssƎ ǝsn oʇ ʇou ʎɥʍ ɹǝpuoʍ ǝldoǝd ʎuɐW",
+    "do_not_harass": "·lɐᴉʇuǝssƎ ʇɐ ʎpoqʎuɐ ɥʇᴉʍ sʇɔᴉlɟuoɔ ʎuɐ ǝʌɐɥ ʇou op ǝM ·sǝɔuɐʇsɯnɔɹᴉɔ ʇɟɐɹɔǝuᴉW pǝppoɯ ʇsoɯ uᴉ ǝlqɐɹᴉsǝpun ʇᴉ ǝʞɐɯ lɐᴉʇuǝssƎ ɥʇᴉʍ sʍɐlɟ ǝɥʇ ʇɐɥʇ puᴉɟ ʎldɯᴉs ǝM ·lɐᴉʇuǝssƎ ɥʇᴉʍ pǝʇɐᴉlᴉɟɟɐ ǝldoǝd ʎuɐ ssɐɹɐɥ ʇ,uop 'ɹɐǝlɔ ʇ,usɐʍ ʇᴉ ǝsɐɔ uI",
+    "report_problems": " ɹno uo sɯǝlqoɹd ʎuɐ ʇɹodǝɹ ǝsɐǝlԀ",
+    "or": "ɹo",
+    "signoff1": " ɥʇᴉʍ",
+    "signoff2": "ɯɐǝʇ lɐʇᴉΛ ǝɥʇ ʇɐ llɐ ɯoɹɟ",
     "reasons": {
       "incompatibility": {
-        "name": "Incompatibilty",
+        "name": "ʎʇlᴉqᴉʇɐdɯoɔuI",
         "explainer": [
-          "Essential's large-sweeping modifications to the game cause many side effects, mainly incompatibility with other mods.",
-          "While Essential's decision to go source-available (not the same as open-source) may help improve compatibility issues, it's too soon to tell.",
-          "For uninitiated users, open-source differs from source-available in that any user can create and distribute their own improved version of the software, which source-available doesn't let you do.",
-          "We have a gallery of people saying that removing Essential has fixed an issue they experienced, you can find this at https://usevital.github.io/notessential-gallery/ and click on the button."
+          "·spoɯ ɹǝɥʇo ɥʇᴉʍ ʎʇᴉlᴉqᴉʇɐdɯoɔuᴉ ʎluᴉɐɯ 'sʇɔǝɟɟǝ ǝpᴉs ʎuɐɯ ǝsnɐɔ ǝɯɐɓ ǝɥʇ oʇ suoᴉʇɐɔᴉɟᴉpoɯ ɓuᴉdǝǝʍs-ǝɓɹɐl s,lɐᴉʇuǝssƎ",
+          "·llǝʇ oʇ uoos ooʇ s,ʇᴉ 'sǝnssᴉ ʎʇᴉlᴉqᴉʇɐdɯoɔ ǝʌoɹdɯᴉ dlǝɥ ʎɐɯ (ǝɔɹnos-uǝdo sɐ ǝɯɐs ǝɥʇ ʇou) ǝlqɐlᴉɐʌɐ-ǝɔɹnos oɓ oʇ uoᴉsᴉɔǝp s,lɐᴉʇuǝssƎ ǝlᴉɥM",
+          "·op noʎ ʇǝl ʇ,usǝop ǝlqɐlᴉɐʌɐ-ǝɔɹnos ɥɔᴉɥʍ 'ǝɹɐʍʇɟos ǝɥʇ ɟo uoᴉsɹǝʌ pǝʌoɹdɯᴉ uʍo ɹᴉǝɥʇ ǝʇnqᴉɹʇsᴉp puɐ ǝʇɐǝɹɔ uɐɔ ɹǝsn ʎuɐ ʇɐɥʇ uᴉ ǝlqɐlᴉɐʌɐ-ǝɔɹnos ɯoɹɟ sɹǝɟɟᴉp ǝɔɹnos-uǝdo 'sɹǝsn pǝʇɐᴉʇᴉuᴉun ɹoℲ",
+          "·uoʇʇnq ǝɥʇ uo ʞɔᴉlɔ puɐ \\ʎɹǝllɐɓ-lɐᴉʇuǝssǝʇou\\oᴉ·qnɥʇᴉɓ·lɐʇᴉʌǝsn\\\\:sdʇʇɥ ʇɐ sᴉɥʇ puᴉɟ uɐɔ noʎ 'pǝɔuǝᴉɹǝdxǝ ʎǝɥʇ ǝnssᴉ uɐ pǝxᴉɟ sɐɥ lɐᴉʇuǝssƎ ɓuᴉʌoɯǝɹ ʇɐɥʇ ɓuᴉʎɐs ǝldoǝd ɟo ʎɹǝllɐɓ ɐ ǝʌɐɥ ǝM"
         ]
       },
       "bloat": {
-        "name": "Too much bloat",
+        "name": "ʇɐolq ɥɔnɯ oo⟘",
         "explainer": [
-          "For a mod that advertises itself as the 'essential tool for Minecraft', it bundles too many features with it that are better split into other mods.",
-          "The concept of an all-in-one mod isn't bad, but as a mod that should easily fit with other mods, having too many features causes too many potential conflicts. This means that, if a feature causes a crash, the only easy solution for most users is removing the entire mod.",
-          "Even without considering that, bundling lots of features into one mod defeats the purpose of a mod loader (to load mods with only the features you want). And with the features it does have, they seem to be at least semi-random and doesn't really make sense to bundle into one mod.",
-          "It's also advertised more as a client than a mod, even though it is a mod, and because clients are locked-down with lots of features that don't make sense together if they were a mod instead, it could explain the seemingly random bundle of features that are in Essential."
+          "·spoɯ ɹǝɥʇo oʇuᴉ ʇᴉlds ɹǝʇʇǝq ǝɹɐ ʇɐɥʇ ʇᴉ ɥʇᴉʍ sǝɹnʇɐǝɟ ʎuɐɯ ooʇ sǝlpunq ʇᴉ ',ʇɟɐɹɔǝuᴉW ɹoɟ looʇ lɐᴉʇuǝssǝ, ǝɥʇ sɐ ɟlǝsʇᴉ sǝsᴉʇɹǝʌpɐ ʇɐɥʇ poɯ ɐ ɹoℲ",
+          "·poɯ ǝɹᴉʇuǝ ǝɥʇ ɓuᴉʌoɯǝɹ sᴉ sɹǝsn ʇsoɯ ɹoɟ uoᴉʇnlos ʎsɐǝ ʎluo ǝɥʇ 'ɥsɐɹɔ ɐ sǝsnɐɔ ǝɹnʇɐǝɟ ɐ ɟᴉ 'ʇɐɥʇ suɐǝɯ sᴉɥ⟘ ·sʇɔᴉlɟuoɔ lɐᴉʇuǝʇod ʎuɐɯ ooʇ sǝsnɐɔ sǝɹnʇɐǝɟ ʎuɐɯ ooʇ ɓuᴉʌɐɥ 'spoɯ ɹǝɥʇo ɥʇᴉʍ ʇᴉɟ ʎlᴉsɐǝ plnoɥs ʇɐɥʇ poɯ ɐ sɐ ʇnq 'pɐq ʇ,usᴉ poɯ ǝuo-uᴉ-llɐ uɐ ɟo ʇdǝɔuoɔ ǝɥ⟘",
+          "·poɯ ǝuo oʇuᴉ ǝlpunq oʇ ǝsuǝs ǝʞɐɯ ʎllɐǝɹ ʇ,usǝop puɐ ɯopuɐɹ-ᴉɯǝs ʇsɐǝl ʇɐ ǝq oʇ ɯǝǝs ʎǝɥʇ 'ǝʌɐɥ sǝop ʇᴉ sǝɹnʇɐǝɟ ǝɥʇ ɥʇᴉʍ puⱯ ·(ʇuɐʍ noʎ sǝɹnʇɐǝɟ ǝɥʇ ʎluo ɥʇᴉʍ spoɯ pɐol oʇ) ɹǝpɐol poɯ ɐ ɟo ǝsodɹnd ǝɥʇ sʇɐǝɟǝp poɯ ǝuo oʇuᴉ sǝɹnʇɐǝɟ ɟo sʇol ɓuᴉlpunq 'ʇɐɥʇ ɓuᴉɹǝpᴉsuoɔ ʇnoɥʇᴉʍ uǝʌƎ",
+          "·lɐᴉʇuǝssƎ uᴉ ǝɹɐ ʇɐɥʇ sǝɹnʇɐǝɟ ɟo ǝlpunq ɯopuɐɹ ʎlɓuᴉɯǝǝs ǝɥʇ uᴉɐldxǝ plnoɔ ʇᴉ 'pɐǝʇsuᴉ poɯ ɐ ǝɹǝʍ ʎǝɥʇ ɟᴉ ɹǝɥʇǝɓoʇ ǝsuǝs ǝʞɐɯ ʇ,uop ʇɐɥʇ sǝɹnʇɐǝɟ ɟo sʇol ɥʇᴉʍ uʍop-pǝʞɔol ǝɹɐ sʇuǝᴉlɔ ǝsnɐɔǝq puɐ 'poɯ ɐ sᴉ ʇᴉ ɥɓnoɥʇ uǝʌǝ 'poɯ ɐ uɐɥʇ ʇuǝᴉlɔ ɐ sɐ ǝɹoɯ pǝsᴉʇɹǝʌpɐ oslɐ s,ʇI"
         ]
       },
       "microtransactions": {
-        "name": "Microtransactions",
+        "name": "suoᴉʇɔɐsuɐɹʇoɹɔᴉW",
         "explainer": [
-          "In a game that is primarily played by children, Essential advertises its cosmetics shop, featuring microtransactions where you can buy 'Essential Coins'.",
-          "While Essential does need money to support their devs and some of their features, a store with special currency microtransactions seems very predatory considering the context.",
-          "Additionally, they have a system where you can purchase coins only in 'bundles' which encourages over-purchase of coins, potentially wasting the remaining coins.",
-          "This isn't exclusive to Essential, as it's also the case with Minecraft Bedrock Edition (which is a major annoyance point for most players), as well as many other (mainly mobile/gacha) games. This, however, makes it seem like they know what they are doing."
+          "·,suᴉoƆ lɐᴉʇuǝssƎ, ʎnq uɐɔ noʎ ǝɹǝɥʍ suoᴉʇɔɐsuɐɹʇoɹɔᴉɯ ɓuᴉɹnʇɐǝɟ 'doɥs sɔᴉʇǝɯsoɔ sʇᴉ sǝsᴉʇɹǝʌpɐ lɐᴉʇuǝssƎ 'uǝɹplᴉɥɔ ʎq pǝʎɐld ʎlᴉɹɐɯᴉɹd sᴉ ʇɐɥʇ ǝɯɐɓ ɐ uI",
+          "·ʇxǝʇuoɔ ǝɥʇ ɓuᴉɹǝpᴉsuoɔ ʎɹoʇɐpǝɹd ʎɹǝʌ sɯǝǝs suoᴉʇɔɐsuɐɹʇoɹɔᴉɯ ʎɔuǝɹɹnɔ lɐᴉɔǝds ɥʇᴉʍ ǝɹoʇs ɐ 'sǝɹnʇɐǝɟ ɹᴉǝɥʇ ɟo ǝɯos puɐ sʌǝp ɹᴉǝɥʇ ʇɹoddns oʇ ʎǝuoɯ pǝǝu sǝop lɐᴉʇuǝssƎ ǝlᴉɥM",
+          "·suᴉoɔ ɓuᴉuᴉɐɯǝɹ ǝɥʇ ɓuᴉʇsɐʍ ʎllɐᴉʇuǝʇod 'suᴉoɔ ɟo ǝsɐɥɔɹnd-ɹǝʌo sǝɓɐɹnoɔuǝ ɥɔᴉɥʍ ,sǝlpunq, uᴉ ʎluo suᴉoɔ ǝsɐɥɔɹnd uɐɔ noʎ ǝɹǝɥʍ ɯǝʇsʎs ɐ ǝʌɐɥ ʎǝɥʇ 'ʎllɐuoᴉʇᴉppⱯ",
+          "·ɓuᴉop ǝɹɐ ʎǝɥʇ ʇɐɥʍ ʍouʞ ʎǝɥʇ ǝʞᴉl ɯǝǝs ʇᴉ sǝʞɐɯ 'ɹǝʌǝʍoɥ 'sᴉɥ⟘ ·sǝɯɐɓ (ɐɥɔɐɓ\\ǝlᴉqoɯ ʎluᴉɐɯ) ɹǝɥʇo ʎuɐɯ sɐ llǝʍ sɐ '(sɹǝʎɐld ʇsoɯ ɹoɟ ʇuᴉod ǝɔuɐʎouuɐ ɹoſɐɯ ɐ sᴉ ɥɔᴉɥʍ) uoᴉʇᴉpƎ ʞɔoɹpǝᗺ ʇɟɐɹɔǝuᴉW ɥʇᴉʍ ǝsɐɔ ǝɥʇ oslɐ s,ʇᴉ sɐ 'lɐᴉʇuǝssƎ oʇ ǝʌᴉsnlɔxǝ ʇ,usᴉ sᴉɥ⟘"
         ]
       },
       "security_privacy": {
-        "name": "Security & Privacy",
+        "name": "ʎɔɐʌᴉɹԀ & ʎʇᴉɹnɔǝS",
         "explainer": [
-          "Essential requires that you accept the ToS in order to use the mod. This can come across as a red flag to some, as generally this is only present as a confirmation that you don't mind your data being harvested.",
-          "While Essential's Privacy Policy states the data they collect (and it's not very significant to most people), most people will not be reading the policy, especially with the required legalese to cover their bases.",
-          "Additionally, this is a game played by kids, the cohort that are most likely clueless on what a Terms of Service or Privacy Policy is, and don't understand the data they are giving out by agreeing and especially don't understand the language being used, even if kids are legally not allowed to agree to contracts in some areas.",
-          "For full clarity, Essential says, on their Privacy Policy (checked 27 Aug 2024), they collect:",
-          "- Minecraft UUID, Minecraft & modloader versions",
-          "- Mod Checksums using MD5",
-          "- User interfaces the player enters during their session",
-          "- Cosmetics that players choose to preview",
-          "- Essential config values (with random A/B testing)",
-          "- Servers you join (if you choose to enable it in privacy settings)",
-          "- Your computer specs",
-          "Their privacy policy can be found at https://essential.gg/privacy-policy, which may be updated at any point after the writing of this."
+          "·pǝʇsǝʌɹɐɥ ɓuᴉǝq ɐʇɐp ɹnoʎ puᴉɯ ʇ,uop noʎ ʇɐɥʇ uoᴉʇɐɯɹᴉɟuoɔ ɐ sɐ ʇuǝsǝɹd ʎluo sᴉ sᴉɥʇ ʎllɐɹǝuǝɓ sɐ 'ǝɯos oʇ ɓɐlɟ pǝɹ ɐ sɐ ssoɹɔɐ ǝɯoɔ uɐɔ sᴉɥ⟘ ·poɯ ǝɥʇ ǝsn oʇ ɹǝpɹo uᴉ So⟘ ǝɥʇ ʇdǝɔɔɐ noʎ ʇɐɥʇ sǝɹᴉnbǝɹ lɐᴉʇuǝssƎ",
+          "·sǝsɐq ɹᴉǝɥʇ ɹǝʌoɔ oʇ ǝsǝlɐɓǝl pǝɹᴉnbǝɹ ǝɥʇ ɥʇᴉʍ ʎllɐᴉɔǝdsǝ 'ʎɔᴉlod ǝɥʇ ɓuᴉpɐǝɹ ǝq ʇou llᴉʍ ǝldoǝd ʇsoɯ '(ǝldoǝd ʇsoɯ oʇ ʇuɐɔᴉɟᴉuɓᴉs ʎɹǝʌ ʇou s,ʇᴉ puɐ) ʇɔǝlloɔ ʎǝɥʇ ɐʇɐp ǝɥʇ sǝʇɐʇs ʎɔᴉloԀ ʎɔɐʌᴉɹԀ s,lɐᴉʇuǝssƎ ǝlᴉɥM",
+          "·sɐǝɹɐ ǝɯos uᴉ sʇɔɐɹʇuoɔ oʇ ǝǝɹɓɐ oʇ pǝʍollɐ ʇou ʎllɐɓǝl ǝɹɐ spᴉʞ ɟᴉ uǝʌǝ 'pǝsn ɓuᴉǝq ǝɓɐnɓuɐl ǝɥʇ puɐʇsɹǝpun ʇ,uop ʎllɐᴉɔǝdsǝ puɐ ɓuᴉǝǝɹɓɐ ʎq ʇno ɓuᴉʌᴉɓ ǝɹɐ ʎǝɥʇ ɐʇɐp ǝɥʇ puɐʇsɹǝpun ʇ,uop puɐ 'sᴉ ʎɔᴉloԀ ʎɔɐʌᴉɹԀ ɹo ǝɔᴉʌɹǝS ɟo sɯɹǝ⟘ ɐ ʇɐɥʍ uo ssǝlǝnlɔ ʎlǝʞᴉl ʇsoɯ ǝɹɐ ʇɐɥʇ ʇɹoɥoɔ ǝɥʇ 'spᴉʞ ʎq pǝʎɐld ǝɯɐɓ ɐ sᴉ sᴉɥʇ 'ʎllɐuoᴉʇᴉppⱯ",
+          ":ʇɔǝlloɔ ʎǝɥʇ '(તᘕ0ᘕ ɓnⱯ Lᘕ pǝʞɔǝɥɔ) ʎɔᴉloԀ ʎɔɐʌᴉɹԀ ɹᴉǝɥʇ uo 'sʎɐs lɐᴉʇuǝssƎ 'ʎʇᴉɹɐlɔ llnɟ ɹoℲ",
+          "suoᴉsɹǝʌ ɹǝpɐolpoɯ & ʇɟɐɹɔǝuᴉW 'ᗡI∩∩ ʇɟɐɹɔǝuᴉW -",
+          "૨ᗡW ɓuᴉsn sɯnsʞɔǝɥƆ poW -",
+          "uoᴉssǝs ɹᴉǝɥʇ ɓuᴉɹnp sɹǝʇuǝ ɹǝʎɐld ǝɥʇ sǝɔɐɟɹǝʇuᴉ ɹǝs∩ -",
+          "ʍǝᴉʌǝɹd oʇ ǝsooɥɔ sɹǝʎɐld ʇɐɥʇ sɔᴉʇǝɯsoƆ -",
+          "(ɓuᴉʇsǝʇ ᗺ\\Ɐ ɯopuɐɹ ɥʇᴉʍ) sǝnlɐʌ ɓᴉɟuoɔ lɐᴉʇuǝssƎ -",
+          "(sɓuᴉʇʇǝs ʎɔɐʌᴉɹd uᴉ ʇᴉ ǝlqɐuǝ oʇ ǝsooɥɔ noʎ ɟᴉ) uᴉoſ noʎ sɹǝʌɹǝS -",
+          "sɔǝds ɹǝʇndɯoɔ ɹno⅄ -",
+          "·sᴉɥʇ ɟo ɓuᴉʇᴉɹʍ ǝɥʇ ɹǝʇɟɐ ʇuᴉod ʎuɐ ʇɐ pǝʇɐpdn ǝq ʎɐɯ ɥɔᴉɥʍ 'ʎɔᴉlod-ʎɔɐʌᴉɹd\\ɓɓ·lɐᴉʇuǝssǝ\\\\:sdʇʇɥ ʇɐ punoɟ ǝq uɐɔ ʎɔᴉlod ʎɔɐʌᴉɹd ɹᴉǝɥ⟘"
         ]
       },
       "clutter": {
-        "name": "Cluttered Interface",
+        "name": "ǝɔɐɟɹǝʇuI pǝɹǝʇʇnlƆ",
         "explainer": [
-          "This one comes more down to opinion but it's one we believe many players can share. You may disagree with this heavily, and that's okay.",
-          "Essential's interface has many options and buttons. These tend to lead to severe clutter in certain parts of the game.",
-          "Staying on the default configuration, the amount of screen space taken up by Essential makes the game cumbersome to navigate.",
-          "Additionally, some of the buttons on the main menu aren't necessary or can be placed better. It's not a lot, but on the default screen size the space it takes up can be significant."
+          ".yako s'taht dna ,ylivaeh siht htiw eergasid yam uoY .erahs nac sreyalp ynam eveileb ew eno s'ti tub noinipo ot nwod erom semoc eno sihT",
+          "·ǝɯɐɓ ǝɥʇ ɟo sʇɹɐd uᴉɐʇɹǝɔ uᴉ ɹǝʇʇnlɔ ǝɹǝʌǝs oʇ pɐǝl oʇ puǝʇ ǝsǝɥ⟘ ·suoʇʇnq puɐ suoᴉʇdo ʎuɐɯ sɐɥ ǝɔɐɟɹǝʇuᴉ s,lɐᴉʇuǝssƎ",
+          "·ǝʇɐɓᴉʌɐu oʇ ǝɯosɹǝqɯnɔ ǝɯɐɓ ǝɥʇ sǝʞɐɯ lɐᴉʇuǝssƎ ʎq dn uǝʞɐʇ ǝɔɐds uǝǝɹɔs ɟo ʇunoɯɐ ǝɥʇ 'uoᴉʇɐɹnɓᴉɟuoɔ ʇlnɐɟǝp ǝɥʇ uo ɓuᴉʎɐʇS",
+          "·ʇuɐɔᴉɟᴉuɓᴉs ǝq uɐɔ dn sǝʞɐʇ ʇᴉ ǝɔɐds ǝɥʇ ǝzᴉs uǝǝɹɔs ʇlnɐɟǝp ǝɥʇ uo ʇnq 'ʇol ɐ ʇou s,ʇI ·ɹǝʇʇǝq pǝɔɐld ǝq uɐɔ ɹo ʎɹɐssǝɔǝu ʇ,uǝɹɐ nuǝɯ uᴉɐɯ ǝɥʇ uo suoʇʇnq ǝɥʇ ɟo ǝɯos 'ʎllɐuoᴉʇᴉppⱯ"
         ]
       },
       "force_install": {
-        "name": "Forced install in some mods",
+        "name": "spoɯ ǝɯos uᴉ llɐʇsuᴉ pǝɔɹoℲ",
         "explainer": [
-          "This point isn't really a problem with Essential themselves, rather the majority of mods that use it. For this reason, consider this as more of an add-on reason than a main point, hence why it's all the way down here.",
-          "Many mods that use Essential libraries often install Essential itself anyways, for no clear reason. This means that the mod gets installed and basically does nothing except increase startup time considerably for machines on the lower end.",
-          "While maybe some players might get interested in the mod and check it out, the reality is that after a while they won't even use the features of Essential or only a marginal subset of it which would be better if they were split up.",
-          "This can also lead to a massive security issue, as should Essential's servers get compromised, these mods will unknowingly be including a potential RAT (remote access trojan), which is a big problem within the Minecraft modding community. This was brought up during the discussion of fractureiser, a Minecraft RAT that was detected during June 2023, which also caused Essential to disable their auto-update feature by default and make their mod source-available.",
-          "However, again, this is not a bad thing about Essential themselves, moreso the mods that decide to include it."
+          "·ǝɹǝɥ uʍop ʎɐʍ ǝɥʇ llɐ s,ʇᴉ ʎɥʍ ǝɔuǝɥ 'ʇuᴉod uᴉɐɯ ɐ uɐɥʇ uosɐǝɹ uo-ppɐ uɐ ɟo ǝɹoɯ sɐ sᴉɥʇ ɹǝpᴉsuoɔ 'uosɐǝɹ sᴉɥʇ ɹoℲ ·ʇᴉ ǝsn ʇɐɥʇ spoɯ ɟo ʎʇᴉɹoſɐɯ ǝɥʇ ɹǝɥʇɐɹ 'sǝʌlǝsɯǝɥʇ lɐᴉʇuǝssƎ ɥʇᴉʍ ɯǝlqoɹd ɐ ʎllɐǝɹ ʇ,usᴉ ʇuᴉod sᴉɥ⟘",
+          "·puǝ ɹǝʍol ǝɥʇ uo sǝuᴉɥɔɐɯ ɹoɟ ʎlqɐɹǝpᴉsuoɔ ǝɯᴉʇ dnʇɹɐʇs ǝsɐǝɹɔuᴉ ʇdǝɔxǝ ɓuᴉɥʇou sǝop ʎllɐɔᴉsɐq puɐ pǝllɐʇsuᴉ sʇǝɓ poɯ ǝɥʇ ʇɐɥʇ suɐǝɯ sᴉɥ⟘ ·uosɐǝɹ ɹɐǝlɔ ou ɹoɟ 'sʎɐʍʎuɐ ɟlǝsʇᴉ lɐᴉʇuǝssƎ llɐʇsuᴉ uǝʇɟo sǝᴉɹɐɹqᴉl lɐᴉʇuǝssƎ ǝsn ʇɐɥʇ spoɯ ʎuɐW",
+          "·dn ʇᴉlds ǝɹǝʍ ʎǝɥʇ ɟᴉ ɹǝʇʇǝq ǝq plnoʍ ɥɔᴉɥʍ ʇᴉ ɟo ʇǝsqns lɐuᴉɓɹɐɯ ɐ ʎluo ɹo lɐᴉʇuǝssƎ ɟo sǝɹnʇɐǝɟ ǝɥʇ ǝsn uǝʌǝ ʇ,uoʍ ʎǝɥʇ ǝlᴉɥʍ ɐ ɹǝʇɟɐ ʇɐɥʇ sᴉ ʎʇᴉlɐǝɹ ǝɥʇ 'ʇno ʇᴉ ʞɔǝɥɔ puɐ poɯ ǝɥʇ uᴉ pǝʇsǝɹǝʇuᴉ ʇǝɓ ʇɥɓᴉɯ sɹǝʎɐld ǝɯos ǝqʎɐɯ ǝlᴉɥM",
+          "·ǝlqɐlᴉɐʌɐ-ǝɔɹnos poɯ ɹᴉǝɥʇ ǝʞɐɯ puɐ ʇlnɐɟǝp ʎq ǝɹnʇɐǝɟ ǝʇɐpdn-oʇnɐ ɹᴉǝɥʇ ǝlqɐsᴉp oʇ lɐᴉʇuǝssƎ pǝsnɐɔ oslɐ ɥɔᴉɥʍ 'Ԑᘕ0ᘕ ǝunſ ɓuᴉɹnp pǝʇɔǝʇǝp sɐʍ ʇɐɥʇ ⟘Ɐᴚ ʇɟɐɹɔǝuᴉW ɐ 'ɹǝsᴉǝɹnʇɔɐɹɟ ɟo uoᴉssnɔsᴉp ǝɥʇ ɓuᴉɹnp dn ʇɥɓnoɹq sɐʍ sᴉɥ⟘ ·ʎʇᴉunɯɯoɔ ɓuᴉppoɯ ʇɟɐɹɔǝuᴉW ǝɥʇ uᴉɥʇᴉʍ ɯǝlqoɹd ɓᴉq ɐ sᴉ ɥɔᴉɥʍ '(uɐſoɹʇ ssǝɔɔɐ ǝʇoɯǝɹ) ⟘Ɐᴚ lɐᴉʇuǝʇod ɐ ɓuᴉpnlɔuᴉ ǝq ʎlɓuᴉʍouʞun llᴉʍ spoɯ ǝsǝɥʇ 'pǝsᴉɯoɹdɯoɔ ʇǝɓ sɹǝʌɹǝs s,lɐᴉʇuǝssƎ plnoɥs sɐ 'ǝnssᴉ ʎʇᴉɹnɔǝs ǝʌᴉssɐɯ ɐ oʇ pɐǝl oslɐ uɐɔ sᴉɥ⟘",
+          "·ʇᴉ ǝpnlɔuᴉ oʇ ǝpᴉɔǝp ʇɐɥʇ spoɯ ǝɥʇ osǝɹoɯ 'sǝʌlǝsɯǝɥʇ lɐᴉʇuǝssƎ ʇnoqɐ ɓuᴉɥʇ pɐq ɐ ʇou sᴉ sᴉɥʇ 'uᴉɐɓɐ 'ɹǝʌǝʍoH"
         ]
       }
     }
