@@ -18,7 +18,7 @@
     <NEButton class="w-fit sm:px-20 px-15 py-8" to="/alternatives">
       <LucideArrowUpRight /> {{ $t("landing.buttons.alternatives") }}
     </NEButton>
-
+<!--
     <PageHero
       v-if="showReasons === true"
       :title="$t('reasonsWhy.hero')"
@@ -68,7 +68,7 @@ const altMessages = JSON.parse(
 )
 
 const reasonsWhy = [
-  {
+{
     title: altMessages.reasons.incompatibility.name,
     body: altMessages.reasons.incompatibility.explainer,
   },
@@ -93,7 +93,7 @@ const reasonsWhy = [
     body: altMessages.reasons.force_install.explainer,
   },
 ]
-
+-->
 useSeoMeta({
   title: "Home",
   description:
