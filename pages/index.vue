@@ -58,7 +58,7 @@ if (Math.floor(Math.random() * 10000) === 0) {
 const showReasons = ref(false)
 if (process.client) {
   onMounted(() => {
-    showReasons.value = true
+    showReasons.value = false
   })
 }
 
