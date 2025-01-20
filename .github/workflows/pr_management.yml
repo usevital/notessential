@@ -31,7 +31,7 @@ jobs:
 
       - name: Label & comment if PR has conflict
         id: conflict-checker
-        uses: eps1lon/actions-label-merge-conflict@v3.0.2
+        uses: eps1lon/actions-label-merge-conflict@v3.0.3
         with:
           dirtyLabel: "Merge conflict identified"
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
