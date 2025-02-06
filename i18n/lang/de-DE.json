@@ -16,7 +16,7 @@
     }
   },
   "landing": {
-    "hero": "ES GIBT BESSERE WEGE ZU SPIELEN",
+    "hero": "ES GIBT BESSERE WEGE ZUM SPIELEN VON",
     "reason": "Zwing dich nicht dazu Essential zu verwenden. Es gibt unzählige Quelloffene Alternativen welche dir helfen.",
     "buttons": {
       "alternatives": "ALTERNATIVEN"
@@ -80,75 +80,75 @@
     }
   },
   "reasonsWhy": {
-    "hero": "WHY?",
-    "sub": "Many people wonder why not to use Essential. We hope to make the reasons clear.",
-    "do_not_harass": "In case it wasn't clear, don't harass any people affiliated with Essential. We simply find that the flaws with Essential make it undesirable in most modded Minecraft circumstances. We do not have any conflicts with anybody at Essential.",
-    "report_problems": "Please report any problems on our ",
-    "or": "or",
-    "signoff1": "with ",
-    "signoff2": "from all at the Vital team",
+    "hero": "WARUM?",
+    "sub": "Viele fragen sich warum man Essential nicht verwenden soll. Wir hoffen die Gründe klarzustellen.",
+    "do_not_harass": "Wenn es nicht klar war, schikaniere keine Personen, welche mit Essential verbunden sind. Wir finden einfach, dass die Mängel mit Essential es ungeeignet für die meisten Umstände in Modded-Minecraft macht. Wir haben keine Probleme mit irgenjemandem von Essential.",
+    "report_problems": "Bitte melde Probleme auf unserer ",
+    "or": "oder",
+    "signoff1": "mit ",
+    "signoff2": "vom gesammten Vital-Team",
     "reasons": {
       "incompatibility": {
-        "name": "Incompatibilty",
+        "name": "Inkompatibilitäten",
         "explainer": [
-          "Essential's large-sweeping modifications to the game cause many side effects, mainly incompatibility with other mods.",
-          "While Essential's decision to go source-available (not the same as open-source) may help improve compatibility issues, it's too soon to tell.",
-          "For uninitiated users, open-source differs from source-available in that any user can create and distribute their own improved version of the software, which source-available doesn't let you do.",
-          "We have a gallery of people saying that removing Essential has fixed an issue they experienced, you can find this at https://usevital.github.io/notessential-gallery/ and click on the button."
+          "Essential's großflächigen veränderungen des Spiels verursachen viele Nebeneffekte, hauptsächlich inkompatibilitäten, mit anderen Mods.",
+          "Obwohl Essential's Entscheidung Quellenverfügbar (Nicht das selbe wie Quelloffen) zu werden mit Kompatibilitätsproblemen helfen kann, ist es zu früh um eine definitive aussage zu machen.",
+          "Für nicht eingeweihte Benutzer, Quelloffen unterscheidet sich von Quellenverfügbar darin, dass jeder Benutzer seine eigene veränderte und verbesserte Version der Software veröffentlichen kann, was Quellenverfügbarkeit nicht erlaubt.",
+          "Wir haben eine Gallerie von Leuten, welche sagen dass das entfernen von Essential ein Problem welches sie haten löste. Du kannst diese unter https://usevital.github.io/notessential-gallery/ durch das drücken des Knopfes dort finden."
         ]
       },
       "bloat": {
-        "name": "Too much bloat",
+        "name": "Zu viel bloat",
         "explainer": [
-          "For a mod that advertises itself as the 'essential tool for Minecraft', it bundles too many features with it that are better split into other mods.",
-          "The concept of an all-in-one mod isn't bad, but as a mod that should easily fit with other mods, having too many features causes too many potential conflicts. This means that, if a feature causes a crash, the only easy solution for most users is removing the entire mod.",
-          "Even without considering that, bundling lots of features into one mod defeats the purpose of a mod loader (to load mods with only the features you want). And with the features it does have, they seem to be at least semi-random and doesn't really make sense to bundle into one mod.",
-          "It's also advertised more as a client than a mod, even though it is a mod, and because clients are locked-down with lots of features that don't make sense together if they were a mod instead, it could explain the seemingly random bundle of features that are in Essential."
+          "Für eine Mod welche sich als 'essentielles Werkzeug für Minecraft' bewirbt beinhaltet es unzällige Funktionen, die besser in separaten Mods wären.",
+          "Das Konzept eines Alles-in-einem-Mod ist nicht schlecht, aber als eine Mod welches einfach mit anderen Mods zusammenpassen soll, sorgen viel zu viele Funktionen für mögliche Konflikte. Dies bedeutet, dass wenn eine Funktion einen Crash verursacht, ist die einfachste Lösung oftmals nur die ganze Mod zu entfernen.",
+          "Selbst wenn man dies nicht bedenkt, zerstört das Bündeln von verschiedenen Funktionen in eine Mod den Zweck eines Mod-Laders (Um nur Mods mit Funktionen die du willst zu laden). Und die Funktionen die sie Bündeln scheinen halb zufällig zu sein und machen keinen sinn in eine Mod gebündelt zu sein.",
+          "Außerdem wird es mehr als Client denn als Mod beworben, obwohl es ein Mod ist, und da Clients mit vielen Funktionen ausgestattet sind, die zusammen keinen Sinn ergeben, wenn sie stattdessen ein Mod wären, könnte dies das scheinbar zufällige Bündel von Funktionen erklären, die in Essential enthalten sind."
         ]
       },
       "microtransactions": {
-        "name": "Microtransactions",
+        "name": "Mikrotransaktionen",
         "explainer": [
-          "In a game that is primarily played by children, Essential advertises its cosmetics shop, featuring microtransactions where you can buy 'Essential Coins'.",
-          "While Essential does need money to support their devs and some of their features, a store with special currency microtransactions seems very predatory considering the context.",
-          "Additionally, they have a system where you can purchase coins only in 'bundles' which encourages over-purchase of coins, potentially wasting the remaining coins.",
-          "This isn't exclusive to Essential, as it's also the case with Minecraft Bedrock Edition (which is a major annoyance point for most players), as well as many other (mainly mobile/gacha) games. This, however, makes it seem like they know what they are doing."
+          "In einem Spiel das hauptsächlich von Kindern gespielt wird, bewirbt Essential seinen Kosmetik-Shop, welche Mikrotransaktionen beinhaltet, wo du 'Essential Coins' kaufen kannst.",
+          "Essential braucht zwar Geld, um die Entwickler und einige Ihrer Features zu unterstützen, aber ein Shop mit Mikrotransaktionen für einen spezielle Währung wird im gegebenen Zusammenhang sehr fragwürdig.",
+          "Zusätzlich haben sie ein System in welchem du Münzen nur in 'Bündeln' kaufen kannst, was Überkäufe von Münzen ermöglicht, und eventuell verbleibende Münzen verschwendet.",
+          "Dies ist nicht exklusiv für Essential, da es auch der Fall für Minecraft Bedrock Edition (Ein für viele Spieler großes Ärgernis), sowue viele andere (hauptsächlich Mobile/Gacha) Spiele ist. Dies lässt es jedoch so aussehen, als wüssten sie, was sie tun."
         ]
       },
       "security_privacy": {
-        "name": "Security & Privacy",
+        "name": "Sicherheit & Datenschutz",
         "explainer": [
-          "Essential requires that you accept the ToS in order to use the mod. This can come across as a red flag to some, as generally this is only present as a confirmation that you don't mind your data being harvested.",
-          "While Essential's Privacy Policy states the data they collect (and it's not very significant to most people), most people will not be reading the policy, especially with the required legalese to cover their bases.",
-          "Additionally, this is a game played by kids, the cohort that are most likely clueless on what a Terms of Service or Privacy Policy is, and don't understand the data they are giving out by agreeing and especially don't understand the language being used, even if kids are legally not allowed to agree to contracts in some areas.",
-          "For full clarity, Essential says, on their Privacy Policy (checked 27 Aug 2024), they collect:",
-          "- Minecraft UUID, Minecraft & modloader versions",
-          "- Mod Checksums using MD5",
-          "- User interfaces the player enters during their session",
-          "- Cosmetics that players choose to preview",
-          "- Essential config values (with random A/B testing)",
-          "- Servers you join (if you choose to enable it in privacy settings)",
-          "- Your computer specs",
-          "Their privacy policy can be found at https://essential.gg/privacy-policy, which may be updated at any point after the writing of this."
+          "Essential verlangt, dass du deren Nutzungsbedingungen akzeptierst, um die Mod zu nutzen. Dies kann als eine Red Flag gesehen werden, da dies oftmals nur als eine Bestätigung dafür dient, dass du mit dem Sammeln deiner Daten einverstanden bist.",
+          "Während die Datenschutzrichtlinien von Essential mitteilen, welche Daten sie sammeln (und es ist für die meisten nicht von bedeutung), werden viele die Richtlinien nicht lesen, insbesondere mit der erforderlichen juristischen Fachsprache um sich abzusichern.",
+          "Hinzu kommt, dass dies ein Spiel ist, das von Kindern gespielt wird, die höchstwahrscheinlich nicht wissen, was Nutzungsbedingungen oder Datenschutzrichtlinien sind, und die nicht verstehen, welche Daten sie durch ihre Zustimmung preisgeben, und vor allem die verwendete Sprache nicht verstehen, auch wenn Kinder in einigen Bereichen rechtlich nicht in Verträge einwilligen dürfen.",
+          "Für Klarheit, Essential sagt in ihren Datenschutzrichtlinien (geprüft am 27. August 2024), dass sie volgende Daten sammeln:",
+          "- Minecraft UUID, Minecraft & Mod-Lader Versionen",
+          "- Mod-Prüfsummen durch verwenden von MD5",
+          "- Benutzeroberflächen welche der Benutzer während einer Sitzung betritt",
+          "- Kosmetika, welche der Spieler zur vorschau auswählt",
+          "- Essential Konfigurationseinstellungen (Mit zufälliger A/B-Testung)",
+          "- Server denen du beitrittst (Sofern du dies in den Privatsphäre-Einstellungen aktivierst)",
+          "- Deine Computer-Spezifikationen",
+          "Ihre Datenschutzerklärung kann unter https://essential.gg/privacy-policy gefunden werden, welche zu jeder zeit nach dem Schreiben dieses textes aktualisiert werden kann."
         ]
       },
       "clutter": {
-        "name": "Cluttered Interface",
+        "name": "Unübersichtliche Oberflächen",
         "explainer": [
-          "This one comes more down to opinion but it's one we believe many players can share. You may disagree with this heavily, and that's okay.",
-          "Essential's interface has many options and buttons. These tend to lead to severe clutter in certain parts of the game.",
-          "Staying on the default configuration, the amount of screen space taken up by Essential makes the game cumbersome to navigate.",
-          "Additionally, some of the buttons on the main menu aren't necessary or can be placed better. It's not a lot, but on the default screen size the space it takes up can be significant."
+          "Hiere geht es eher um Meinungen, aber wir glauben, dass viele Spieler diese teilen können. Vielleicht vist du damit nicht einverstanden, und das ist in Ordnung.",
+          "Essential's Oberfläche hat viele Optionen und Knöpfe. Diese tendieren oftmals zu Unübersichtlichkeit in bestimmten bereichen des Spiels.",
+          "Bleibt man bei der Standardkonfiguration, so wird das Spiel durch die Menge and Bildschirmfläche, welche Essential einnimt, umständlich zu navigieren.",
+          "Zusätzlich sind einige der Knöpfe im Hauptmenü nicht notwendig und könnten besser platziert werden. Es ist nicht viel, aber in der Standardbildgrösse kann der eingenommene Platz signifikant sein."
         ]
       },
       "force_install": {
-        "name": "Forced install in some mods",
+        "name": "Erzwungene Installation in einigen Mods",
         "explainer": [
-          "This point isn't really a problem with Essential themselves, rather the majority of mods that use it. For this reason, consider this as more of an add-on reason than a main point, hence why it's all the way down here.",
-          "Many mods that use Essential libraries often install Essential itself anyways, for no clear reason. This means that the mod gets installed and basically does nothing except increase startup time considerably for machines on the lower end.",
-          "While maybe some players might get interested in the mod and check it out, the reality is that after a while they won't even use the features of Essential or only a marginal subset of it which would be better if they were split up.",
-          "This can also lead to a massive security issue, as should Essential's servers get compromised, these mods will unknowingly be including a potential RAT (remote access trojan), which is a big problem within the Minecraft modding community. This was brought up during the discussion of fractureiser, a Minecraft RAT that was detected during June 2023, which also caused Essential to disable their auto-update feature by default and make their mod source-available.",
-          "However, again, this is not a bad thing about Essential themselves, moreso the mods that decide to include it."
+          "Dieser Punkt ist nicht wirklich ein problem mit Essential selbst, sondern eher mit der vielzahl an Mods, welche es verwenden. Aus diesem grund betrachte dies mehr als ein Add-on Grund als ein Hauptpunkt, weswegen es auch hier unten ist.",
+          "Viele Mods welche Essential-Bibliotheken verwenden installieren oftmals auch Essential selbst ohnen einen klaren Grund. Dies bedeutet, dass die Mod installiert wird und nicht macht ausser die Startzeit signifikant für Low-end Maschinen zu erhöhen.",
+          "Vielleicht interessieren sich einige Spieler für die Mod und probieren sie aus, aber die Realität ist, dass sie nach einer Weile die Funktionen von Essential gar nicht mehr oder nur noch in geringem Umfang nutzen werden, so dass es besser wäre, wenn sie aufgeteilt würden.",
+          "Dies kann auch ein massives Sicherheitsrisiko sein, denn sollten die Essential Server kompromitiert wedren, können diese Mods unwissentlich potentielle RATs (Remote Access Trojan) beinhalten, welches ein grosses Problem in der Minecraft Modding-Community ist. Dies wurde während der Diskussion über den Fractureiser, eine Minecraft RAT welche im Juni 2023 entdeckt wurde, angesprochen und sorgte dafür, dass Essential seine Auto-Updater-Funktion standardmässig deaktivierte und deren Mod Quellverfügbar machte.",
+          "Jedoch ist dies, erneut, nicht eine schlechte sache mit Essential selbst, sondern mehr so mit den Mods, welche es beinhalten."
         ]
       }
     }
