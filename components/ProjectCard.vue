@@ -18,6 +18,19 @@
     >
       {{ description }}
     </div>
+    <!-- Tags -->
+    <div class="flex flex-row gap-3">
+      <!-- Supported loaders -->
+      <div class="flex flex-row gap-1">
+        <LucideLoader />
+        <span>{{ loaders }}</span>
+      </div>
+      <!-- Supported versions -->
+      <div class="flex flex-row gap-1">
+        <LucideMilestone />
+        <span>{{ versions }}</span>
+      </div>
+    </div>
     <!-- Buttons -->
     <div class="flex flex-row flex-wrap gap-3 mb-5">
       <NEButton v-for="(link, index) in urls" :to="link" secondary external>
@@ -31,6 +44,8 @@
 const props = defineProps({
   title: String,
   description: Object,
+  loaders: String,
+  versions: String,
   urls: Object,
   icon: String,
 })

@@ -5,6 +5,8 @@
       v-for="(projectData, title) in data"
       :title="title"
       :description="projectData.description"
+      :loaders="projectData.loaders"
+      :versions="projectData.versions"
       :urls="projectData.links"
       :icon="projectData.icon"
       service="Modrinth"

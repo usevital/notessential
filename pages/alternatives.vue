@@ -47,6 +47,8 @@ const alternatives = {
   Multiplayer: {
     "World Host": {
       description: texts.multiplayer.world_host,
+      loaders: "Fabric, Forge, NeoForge, Quilt",
+      versions: "1.16.1 - 1.21.4",
       icon: "https://cdn.modrinth.com/data/2AIZDfYo/90c8330e827a1162c6e5f4996be4795c8e274991.png",
       links: {
         Modrinth: "https://modrinth.com/mod/world-host",
@@ -54,6 +56,8 @@ const alternatives = {
     },
     e4mc: {
       description: texts.multiplayer.e4mc,
+      loaders: "Fabric, Forge, NeoForge, Quilt",
+      versions: "1.17 - 1.21.4",
       icon: "https://cdn.modrinth.com/data/qANg5Jrr/95dcc112830c1f3ddef30cc8451a1903dec17988.png",
       links: {
         Modrinth: "https://modrinth.com/mod/e4mc",
@@ -63,6 +67,8 @@ const alternatives = {
   Cosmetics: {
     Cosmetica: {
       description: texts.cosmetics.cosmetica,
+      loaders: "Fabric, Quilt",
+      versions: "1.16.5 - 1.20.6",
       icon: "https://cdn.modrinth.com/data/s9hF9QGp/e954c4883e72f95d8e799d167171cde74b059b51.gif",
       links: {
         Modrinth: "https://modrinth.com/mod/cosmetica",
@@ -70,6 +76,8 @@ const alternatives = {
     },
     Ears: {
       description: texts.cosmetics.ears,
+      loaders: "Fabric, Forge, NeoForge, Quilt, Rift",
+      versions: "1.2.5 - 1.21.4",
       icon: "https://cdn.modrinth.com/data/mfzaZK3Z/icon.png",
       links: {
         Modrinth: "https://modrinth.com/mod/ears",
@@ -77,6 +85,8 @@ const alternatives = {
     },
     Capes: {
       description: texts.cosmetics.capes,
+      loaders: "Fabric, Forge",
+      versions: "1.2.5",
       icon: "https://cdn.modrinth.com/data/89Wsn8GD/icon.png",
       links: {
         Modrinth: "https://modrinth.com/mod/capes",
@@ -84,6 +94,8 @@ const alternatives = {
     },
     "Customizable Player Models": {
       description: texts.cosmetics.customizable_player_models,
+      loaders: "Fabric, Forge, NeoForge, Quilt",
+      versions: "1.17 - 1.21.4",
       icon: "https://cdn.modrinth.com/data/h1E7sQNL/icon.png",
       links: {
         Modrinth: "https://modrinth.com/plugin/custom-player-models",
@@ -91,6 +103,8 @@ const alternatives = {
     },
     Figura: {
       description: texts.cosmetics.figura,
+      loaders: "Fabric, Forge, NeoForge, Quilt",
+      versions: "1.16.5 - 1.21.4",
       icon: "https://cdn.modrinth.com/data/s9gIPDom/9e3994b58a6a50d9143c0aa87df1c3b54e4b7919.png",
       links: {
         Modrinth: "https://modrinth.com/mod/figura",
@@ -98,6 +112,8 @@ const alternatives = {
     },
     "Skin Shuffle": {
       description: texts.cosmetics.skin_shuffle,
+      loaders: "Fabric",
+      versions: "1.20 - 1.21.4",
       icon: "https://cdn.modrinth.com/data/3s19I5jr/e66d99492c9b25e88a614846cca6b154ec5309f2.png",
       links: {
         Modrinth: "https://modrinth.com/mod/skinshuffle",
@@ -105,6 +121,8 @@ const alternatives = {
     },
     Emotecraft: {
       description: texts.cosmetics.emotecraft,
+      loaders: "Fabric, Forge, NeoForge, Quilt",
+      versions: "1.16.5 - 1.21.4",
       icon: "https://cdn.modrinth.com/data/pZ2wrerK/icon.png",
       links: {
         Modrinth: "https://modrinth.com/mod/emotecraft",
@@ -114,6 +132,8 @@ const alternatives = {
   Misc: {
     Screencapper: {
       description: texts.misc.screencapper,
+      loaders: "Fabric",
+      versions: "1.18 - 1.21",
       icon: "https://cdn.modrinth.com/data/yzNFLSqx/d5d842e0b6b8c1babcd2212b923d712d85641af1.png",
       links: {
         Modrinth: "https://modrinth.com/mod/screencapper",
@@ -121,6 +141,8 @@ const alternatives = {
     },
     "Screenshot Viewer": {
       description: texts.misc.screenshot_viewer,
+      loaders: "Fabric, Forge, NeoForge",
+      versions: "1.12.2 - 1.21.4",
       icon: "https://cdn.modrinth.com/data/laNoi025/1bbd371a465710708ce253fad6f9f8e7c8e3e56e.png",
       links: {
         Modrinth: "https://modrinth.com/mod/screenshot-viewer",
@@ -128,6 +150,8 @@ const alternatives = {
     },
     Snapper: {
       description: texts.misc.snapper,
+      loaders: "Fabric",
+      versions: "1.21 - 1.21.1",
       icon: "https://cdn.modrinth.com/data/MZQyESDC/9badee3a30ccea4818c3408a390e8137590b808a.png",
       links: {
         Modrinth: "https://modrinth.com/mod/snapper",
@@ -135,6 +159,8 @@ const alternatives = {
     },
     "Auth Me": {
       description: texts.misc.auth_me,
+      loaders: "Fabric, NeoForge, Quilt",
+      versions: "1.16 - 1.21.4",
       icon: "https://cdn.modrinth.com/data/yjgIrBjZ/icon.png",
       links: {
         Modrinth: "https://modrinth.com/mod/auth-me",
@@ -142,13 +168,17 @@ const alternatives = {
     },
     "In-Game Account Switcher": {
       description: texts.misc.in_game_account_switcher,
-      icon: "https://cdn.modrinth.com/data/cudtvDnd/4f2f65f4b3b9b6c7c3fcc265d651a1814ae80075.png",
+      loaders: "Fabric, Forge, NeoForge, Quilt",
+      versions: "1.7.10 - 1.21.4",
+      icon: "https://cdn.modrinth.com/data/cudtvDnd/4b71b38a8a1784ea17d29a254442b884e9dbe8b5_96.webp",
       links: {
         Modrinth: "https://modrinth.com/mod/in-game-account-switcher",
       },
     },
     CraftPresence: {
       description: texts.misc.craftpresence,
+      loaders: "Fabric, Forge, NeoForge, Quilt",
+      versions: "1.0 - 1.21.4",
       icon: "https://cdn.modrinth.com/data/DFqQfIBR/icon.png",
       links: {
         Modrinth: "https://modrinth.com/mod/craftpresence",
@@ -156,6 +186,8 @@ const alternatives = {
     },
     Zume: {
       description: texts.misc.zume,
+      loaders: "Fabric, Forge, NeoForge",
+      versions: "1.6.4 - 1.21.4",
       icon: "https://cdn.modrinth.com/data/o6qsdrrQ/baecae4eaaac86de4ac699f57e5203edb3019f3f.png",
       links: {
         Modrinth: "https://modrinth.com/mod/zume",
