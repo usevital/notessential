@@ -109,7 +109,7 @@ export default defineNuxtConfig({
     vueI18n: "./i18n/i18n.config",
   },
 
-  css: ["~/assets/css/fonts.css"],
+  css: ["~/assets/css/main.css", "~/assets/css/fonts.css"],
 
   compatibilityDate: "2024-07-13",
 })

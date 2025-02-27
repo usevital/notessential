@@ -25,3 +25,4 @@ logs
 
 # Default Crowdin config file
 crowdin.yml
+desktop.ini
