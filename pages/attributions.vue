@@ -71,7 +71,6 @@ const sections = {
     subtitle: descs.core,
     data: [
       "Blryface (https://blurry.gay)",
-      "WorldWidePixel (https://worldwidepixel.ca)",
       "KTrain (https://github.com/ktrain5369)",
       "Nitrrine (https://github.com/nitrrine)",
     ],
