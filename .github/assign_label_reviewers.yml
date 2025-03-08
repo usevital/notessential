@@ -1,6 +1,6 @@
 assign:
   add mod: ["KTrain5169", "blryface"]
-  enhancement: ["WorldWidePixel", "Nitrrine"]
-  documentation: ["blryface", "KTrain5169", "WorldWidePixel"]
+  enhancement: ["Nitrrine"]
+  documentation: ["blryface", "KTrain5169"]
   all maintainers required:
-    ["blryface", "WorldWidePixel", "Nitrrine", "KTrain5169"]
+    ["blryface", "Nitrrine", "KTrain5169"]
