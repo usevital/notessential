@@ -2,5 +2,4 @@ assign:
   add mod: ["KTrain5169", "blryface"]
   enhancement: ["Nitrrine"]
   documentation: ["blryface", "KTrain5169"]
-  all maintainers required:
-    ["blryface", "Nitrrine", "KTrain5169"]
+  all maintainers required: ["blryface", "Nitrrine", "KTrain5169"]
