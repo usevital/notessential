@@ -2,6 +2,7 @@
   <header class="text-[4rem] flex flex-col flex-wrap">
     <span
       class="text-[1.5rem] text-pretty sm:text-[2rem] md:text-[3rem] lg:text-[4rem] internalFont"
+      :id="title.toLowerCase().replace(' ', '-')"
     >
       {{ title }}
     </span>

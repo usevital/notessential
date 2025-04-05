@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="flex flex-col gap-8 sm:gap-16 bg-[color:var(--brand-colour)] h-dvh"
-  >
+  <div class="flex flex-col gap-8 sm:gap-16 h-dvh">
     <!-- NAVBAR -->
 
     <nav
@@ -42,7 +40,7 @@
 
     <div class="flex justify-center flex-col gap-8">
       <footer
-        class="flex flex-col gap-0 items-center pb-8 border-t border-t-slate-800 bg-[#0f0f0f]"
+        class="flex flex-col gap-0 items-center pb-8 border-t border-t-slate-800"
       >
         <div
           class="flex flex-col md:flex-row items-center max-w-[80rem] md:items-start md:justify-center py-6 gap-8 mx-[calc(5%+2rem)] sm:mx-0"
@@ -176,6 +174,27 @@
 body {
   background-color: var(--brand-background);
   color: var(--text-colour);
+  background:
+    fixed
+      repeating-linear-gradient(
+        #151515,
+        #151515 1px,
+        transparent 1px,
+        transparent 240px
+      ),
+    fixed
+      repeating-linear-gradient(
+        to right,
+        #151515,
+        #151515 1px,
+        transparent 1px,
+        transparent 240px
+      )
+      var(--brand-background);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 </style>
 
