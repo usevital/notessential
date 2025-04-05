@@ -106,7 +106,7 @@ export default defineNuxtConfig({
       cookieKey: "NE_i18nCookie",
     }, RE-ENABLE THIS WHEN WE ACTUALLY DO RELEASE FULL i18n */
     detectBrowserLanguage: false,
-    vueI18n: "./i18n/i18n.config",
+    vueI18n: "./i18n.config.ts",
   },
 
   css: ["~/assets/css/fonts.css"],

@@ -50,6 +50,13 @@
 </template>
 
 <script setup lang="ts">
+useSeoMeta({
+  title: "Home",
+  description:
+    "Essential has many issues. This website tells why, and provides alternatives.",
+  ogImage: "/img/icon512.png",
+})
+
 const minecraftText = ref("MINECRAFT")
 
 if (Math.floor(Math.random() * 10000) === 0) {
@@ -58,7 +65,7 @@ if (Math.floor(Math.random() * 10000) === 0) {
 const showReasons = ref(false)
 if (process.client) {
   onMounted(() => {
-    showReasons.value = false
+    showReasons.value = true
   })
 }
 
@@ -93,11 +100,4 @@ const reasonsWhy = [
     body: altMessages.reasons.force_install.explainer,
   },
 ]
-
-useSeoMeta({
-  title: "Home",
-  description:
-    "Essential has many issues. This website tells why, and provides alternatives.",
-  ogImage: "/img/icon512.png",
-})
 </script>
