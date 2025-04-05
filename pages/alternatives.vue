@@ -170,7 +170,7 @@ const alternatives = {
       description: texts.misc.in_game_account_switcher,
       loaders: "Fabric, Forge, NeoForge, Quilt",
       versions: "1.7.10 - 1.21.4",
-      icon: "https://cdn.modrinth.com/data/cudtvDnd/4b71b38a8a1784ea17d29a254442b884e9dbe8b5_96.webp",
+      icon: "https://cdn.modrinth.com/data/cudtvDnd/fe9928884fecdd1f967ea37817e01ac987d4aa5a_96.webp",
       links: {
         Modrinth: "https://modrinth.com/mod/in-game-account-switcher",
       },
