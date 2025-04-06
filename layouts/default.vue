@@ -191,6 +191,26 @@ body {
         transparent 240px
       )
       var(--brand-background);
+
+  @media (max-width: 700px) {
+    background:
+      fixed
+        repeating-linear-gradient(
+          #151515,
+          #151515 1px,
+          transparent 1px,
+          transparent 200px
+        ),
+      fixed
+        repeating-linear-gradient(
+          to right,
+          #151515,
+          #151515 1px,
+          transparent 1px,
+          transparent 200px
+        )
+        var(--brand-background);
+  }
 }
 
 html {
