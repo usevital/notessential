@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col gap-8">
-    <section class="flex flex-col gap-8 pb-[100px]">
+    <section class="flex flex-col gap-8 h-[90dvh]">
       <span
         class="text-[1.5rem] sm:text-[2rem] md:text-[3rem] lg:text-[4rem] internalFont flex flex-row flex-wrap gap-3"
       >

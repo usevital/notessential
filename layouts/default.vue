@@ -38,7 +38,7 @@
 
     <LogoScroll />
 
-    <div class="flex justify-center flex-col gap-8">
+    <div class="flex justify-center flex-col gap-8 bg-[#000]">
       <footer
         class="flex flex-col gap-0 items-center pb-8 border-t border-t-slate-800"
       >
