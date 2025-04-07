@@ -20,7 +20,7 @@
     "@nuxtjs/google-fonts": "^3.2.0",
     "@nuxtjs/tailwindcss": "^6.13.1",
     "autoprefixer": "^10.4.20",
-    "nuxt": "^3.16.0",
+    "nuxt": "^3.16.2",
     "nuxt-lucide-icons": "^1.0.5",
     "postcss": "^8.5.3",
     "prettier": "3.5.3",
