@@ -57,9 +57,35 @@ const props = defineProps({
   projectId: String,
 })
 
-const { data } = await useFetch(
+const loaderNames = {
+  fabric: "Fabric",
+  quilt: "Quilt",
+  neoforge: "NeoForge",
+  forge: "Forge",
+  rift: "Rift",
+  bukkit: "Bukkit",
+  sponge: "Sponge",
+  paper: "Paper",
+  velocity: "Velocity",
+  folia: "Folia",
+  spigot: "Spigot",
+  liteloader: "LiteLoader",
+  purpur: "Purpur",
+  waterfall: "Waterfall",
+  bungeecord: "BungeeCord",
+}
+
+let { data } = await useFetch(
   `https://api.modrinth.com/v2/project/${props.projectId}`,
 )
+
+watchEffect(() => {
+  if (data.value?.loaders) {
+    data.value.loaders = data.value.loaders.map((loader) => {
+      return loaderNames[loader] || loader
+    })
+  }
+})
 
 function capitalizeArrayFirstLetter(array) {
   let newArray = array
