@@ -11,7 +11,7 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@intlify/message-compiler": "^11.1.4",
+    "@intlify/message-compiler": "^11.1.7",
     "@nuxtjs/i18n": "^9.3.1",
     "postcss-custom-properties": "^14.0.6",
     "vue": "^3.5.17",
