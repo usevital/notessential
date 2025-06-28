@@ -1,23 +1,23 @@
 {
   "layout": {
     "nav": {
-      "alternatives": "ALTERNATIVES"
+      "alternatives": "ALTERNATYWY"
     },
     "footer": {
-      "disclaimer": "NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG, MICROSOFT OR SPARK UNIVERSE.",
-      "open_source": "This page is open source.",
+      "disclaimer": "NIE JEST TO OFICJALNA STRONA ZWIĄZANA Z MINECRAFT. NIE POWIĄZANO Z MOJANG, MICROSOFT CZY SPARK UNIVERSE.",
+      "open_source": "Ta strona ma otwarty kod źródłowy.",
       "about": "Informacje",
-      "interact": "Wejdź w interakcję",
-      "resources": "Resources",
+      "interact": "Zaangażuj się",
+      "resources": "Dodatkowe",
       "contributing": "Contributing",
-      "experiments": "Experiments",
+      "experiments": "Eksperymenty",
       "attributions": "Attributions",
       "status": "Status"
     }
   },
   "landing": {
     "hero": "SĄ LEPSZE SPOSOBY GRANIA W",
-    "reason": "Nie bądź zmuszonym korzystać z Essential. Jest wiele open-source alternatyw które ci pomogą.",
+    "reason": "Nie bądź zmuszony korzystać z Essential. Jest wiele alternatyw z otwartym kodem źródłowym, które ci go zastąpią.",
     "buttons": {
       "alternatives": "ALTERNATYWY"
     }
@@ -28,7 +28,7 @@
   },
   "attributions": {
     "hero": "ATTRIBUTIONS",
-    "subtitle": "We give our thanks to the following. This page wouldn't be possible without them.",
+    "subtitle": "Chcemy podziękować tym osobą. Bez nich, ta strona nie mogłaby istnieć.",
     "end": "These people have helped improve this site exponentially.",
     "help": "See a problem? Report it on our Discord.",
     "titles": {
@@ -53,7 +53,7 @@
       "alternatives": "Submitting Alternatives"
     },
     "subtitles": {
-      "translating": "To help translate NotEssential, please visit our Crowdin page, listed below. If your language is not listed, join our Discord server and request your language to be added in the #ne-general chat.",
+      "translating": "Jeśli chcesz pomóc tłumaczyć NotEssentials, odwiedź naszą stronę na Crowdin, która znajduje się poniżej. Jeśli nie widzisz tam swojego języka, zgłoś to do nas na serwerze Discord i poproś o dodanie twojego języka na kanale #ne-general.",
       "coding": "To assist in developing NotEssential, fork the source repository and create a new branch to start off with. Then, checkout your branch locally and start coding.",
       "alternatives": "Similar to above, fork the source repository and create a new branch based off `main`. Then, checkout your branch locally and start coding."
     },
@@ -65,7 +65,7 @@
         "When an area is in ALL CAPS, also write in ALL CAPS if you can with your language."
       ],
       "coding": [
-        "Make sure you look at the Pull Requests page to see if your idea has already been listed. If there isn't one, we recommend opening pull requests to the head branch/repository (the head branch is the branch merging to the repository).",
+        "Upewnij się, że patrzysz na stronę Pull Requests, by sprawdzić, czy twój pomysł został dodany na listę. Jeśli nie został on dodany, proponujemy otworzyć pull requesta w head branchu/repozytorium (head branch jest to branch połączony z repozytorium).",
         "Make your commit names helpful so we can understand what you have changed.",
         "Install Prettier. You can run 'pnpm add prettier' or install Prettier as a VS Code extension (this should have been recommended to you automatically!). If you use the extension, ensure 'Format on Save' is set in VS Code settings.",
         "Make sure you utilise our pull request template when making a pull request."
@@ -80,7 +80,7 @@
     }
   },
   "reasonsWhy": {
-    "hero": "WHY NOT?",
+    "hero": "DLACZEGO NIE?",
     "sub": "Many people wonder why not to use Essential. We hope to make the reasons clear.",
     "do_not_harass": "For clarity, we do not condone any harassment of individuals affiliated with Essential. Our stance is solely based on the flaws we believe make Essential unsuitable for most modded Minecraft scenarios. We have no personal or professional conflicts with anyone at Essential.",
     "report_problems": "Please report any problems on our ",
@@ -94,7 +94,7 @@
           "Essential's large-sweeping modifications to the game cause many side effects, mainly incompatibility with other mods.",
           "While Essential's decision to go source-available (not the same as open-source) may help improve compatibility issues, it's too soon to tell.",
           "For uninitiated users, open-source differs from source-available in that any user can create and distribute their own improved version of the software, which source-available doesn't let you do.",
-          "We have a gallery of people saying that removing Essential has fixed an issue they experienced, you can find this at https://usevital.github.io/notessential-gallery/ and click on the button."
+          "Mamy muzeum osób, którzy mówili nam, że usunięcie Essential poprawiło ich jakość rozrywki, możesz znaleźć je pod linkiem https://usevital.github.io/notessential-gallery/, a tam kliknij w guzik."
         ]
       },
       "bloat": {
@@ -109,7 +109,7 @@
       "microtransactions": {
         "name": "Microtransactions",
         "explainer": [
-          "In a game that is primarily played by children, Essential advertises its cosmetics shop, featuring microtransactions where you can buy 'Essential Coins'.",
+          "W grę, w którą grają głównie dzieci, Essential promuje ich sklep kosmetyków, z mikropłatnościami nazwanymi \"Monety Essential\".",
           "While Essential does need money to support their devs and some of their features, a store with special currency microtransactions seems very predatory considering the context.",
           "Additionally, they have a system where you can purchase coins only in 'bundles' which encourages over-purchase of coins, potentially wasting the remaining coins.",
           "This isn't exclusive to Essential, as it's also the case with Minecraft Bedrock Edition (which is a major annoyance point for most players), as well as many other (mainly mobile/gacha) games. This, however, makes it seem like they know what they are doing."
@@ -159,7 +159,7 @@
     "nudge_for_contributing": "Willing to contribute? Click here for contributing guidelines.",
     "texts": {
       "multiplayer": {
-        "section_name": "Multiplayer",
+        "section_name": "Gra wieloosobowa",
         "world_host": [
           "Do gry z przyjaciółmi możesz użyć World Host. To darmowy i open-source sposób, aby grać z przyjaciółmi, którzy są na twojej liście przyjaciół, a także z każdym z kim chcesz pograć.",
           "Ma system listy znajomych, którego możesz użyć, aby Twoi znajomi mogli dołączyć do gry w momencie, gdy otworzysz świat dla nich.",
@@ -169,13 +169,13 @@
         "e4mc": [
           "Dla wielu graczy możesz użyć e4mc. To darmowy i open source sposób na nadawanie Twojego serwera LAN dla wszystkich, z którymi chcesz go udostępnić.",
           "Po prostu kliknij \"Otwórz dla LAN\" i podziel się linkiem, który pojawia się na czacie z osobami, z którymi chcesz grać!",
-          "e4mc jest rekomendowany dla modpaków, jako bardzo prosta modyfikacja więc nie powinna ingerować z innymi modami. Po prostu upewnij się że wasze modpaku są takie same!"
+          "e4mc jest rekomendowany dla paczek modyfikacji, jako bardzo prosta modyfikacja, która nie powinna ingerować z innymi modami. By uniknąć desynchronizacji, upewnij się, że każdy gracz ma tę samą paczkę modyfikacji!"
         ]
       },
       "cosmetics": {
         "section_name": "Kosmetyki",
         "cosmetica": [
-          "Dla kosmetyków możesz używać Cosmetica. To darmowa modyfikacja (open-source) ze wsparciem dla własnych pelerynek i kosmetyków.",
+          "Dla kosmetyków możesz używać Cosmetica. To darmowa modyfikacja (z otwartym kodem źródłowym) ze wsparciem dla własnych pelerynek i kosmetyków.",
           "Nawet obsługuje kosmetyki z OptiFine, Lunar Client I wiele więcej!",
           "\"Cosmetica pozwala personalizować gracza na zupełnie nowym poziomie z kosmetykami które są na poziomie popularnych klientów PvP\" (wzięto ze strony na Modrinth)"
         ],
@@ -194,7 +194,7 @@
           "Wyślij eksportowany plik obrazu jako twój skin, aby załadować własny model."
         ],
         "figura": [
-          "Jeśli chcesz troszkę więcej Figura pozwala modyfikować model gracza jeszcze bardziej!",
+          "Jeśli jednak wymagasz czegoś więcej, Figura pozwoli ci na zmodyfikowanie modelu gracza jeszcze bardziej!",
           "Figura skupia się w mniejszym stopniu na zachowaniu kompatybilności, co oznacza, że jest w stanie dodać o wiele więcej do Twojego modelu, takie jak zwierzęta domowe, uszy i więcej! Możesz także użyć skryptów Lua do jeszcze większego dostosowania!",
           "Bonus: ma też wbudowany anty-cheat dla takich rzeczy jak niewidzialne modele gracza!"
         ],
@@ -204,7 +204,7 @@
           "Jeśli serwer ma zainstalowany Skin Shuffle, możesz również przełączyć skórkę i będzie ona wyświetlana dla wszystkich na serwerze, nawet bez moda, wszystko nie wymagając odłączenia się od serwera!"
         ],
         "emotecraft": [
-          "Dla emotikonów możesz użyć Emotecraft. Jest to darmowa i otwarto-źródłowa usługa emocji z obsługą niestandardowych emotek.",
+          "Dla emotek użyj Emotecraft. Jest to darmowa modyfikacja, z możliwością dodawania własnych emotek, w dodatku z otwartym kodem źródłowym.",
           "You can download many emotes, or even make your own! The discord server has a lot of emotes you can download, though it's a little bit outdated."
         ]
       },
@@ -237,7 +237,7 @@
         ],
         "zume": [
           "Essential has a zoom feature with it. This mod can replace that function, and it supports a LOT of Minecraft versions!",
-          "Not only does it zoom in and out, it also has keybinds for customising the zoom level!"
+          "Ma nie tylko funkcję łagodnego przybliżenia, posiada również możliwość przypisania własnych klawiszy do danego poziomu przybliżenia!"
         ]
       }
     }
