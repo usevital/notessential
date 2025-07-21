@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@intlify/message-compiler':
-        specifier: ^11.1.9
-        version: 11.1.9
+        specifier: ^11.1.10
+        version: 11.1.10
       '@nuxtjs/i18n':
         specifier: ^10.0.1
         version: 10.0.1(@vue/compiler-dom@3.5.17)(db0@0.3.2)(eslint@9.22.0(jiti@2.4.2))(ioredis@5.6.1)(magicast@0.3.5)(rollup@4.45.0)(vue@3.5.17(typescript@5.8.3))
@@ -806,20 +806,12 @@ packages:
     resolution: {integrity: sha512-TABl3c8tSLWbcD+jkQTyBhrnW251dzqW39MPgEUCsd69Ua3ceoimsbIzvkcPzzZvt1QDxNkenMht+5//V3JvLQ==}
     engines: {node: '>= 16'}
 
-  '@intlify/message-compiler@11.1.9':
-    resolution: {integrity: sha512-84SNs3Ikjg0rD1bOuchzb3iK1vR2/8nxrkyccIl5DjFTeMzE/Fxv6X+A7RN5ZXjEWelc1p5D4kHA6HEOhlKL5Q==}
-    engines: {node: '>= 16'}
-
   '@intlify/shared@10.0.8':
     resolution: {integrity: sha512-BcmHpb5bQyeVNrptC3UhzpBZB/YHHDoEREOUERrmF2BRxsyOEuRrq+Z96C/D4+2KJb8kuHiouzAei7BXlG0YYw==}
     engines: {node: '>= 16'}
 
   '@intlify/shared@11.1.10':
     resolution: {integrity: sha512-6ZW/f3Zzjxfa1Wh0tYQI5pLKUtU+SY7l70pEG+0yd0zjcsYcK0EBt6Fz30Dy0tZhEqemziQQy2aNU3GJzyrMUA==}
-    engines: {node: '>= 16'}
-
-  '@intlify/shared@11.1.9':
-    resolution: {integrity: sha512-H/83xgU1l8ox+qG305p6ucmoy93qyjIPnvxGWRA7YdOoHe1tIiW9IlEu4lTdsOR7cfP1ecrwyflQSqXdXBacXA==}
     engines: {node: '>= 16'}
 
   '@intlify/unplugin-vue-i18n@6.0.8':
@@ -5411,16 +5403,9 @@ snapshots:
       '@intlify/shared': 11.1.10
       source-map-js: 1.2.1
 
-  '@intlify/message-compiler@11.1.9':
-    dependencies:
-      '@intlify/shared': 11.1.9
-      source-map-js: 1.2.1
-
   '@intlify/shared@10.0.8': {}
 
   '@intlify/shared@11.1.10': {}
-
-  '@intlify/shared@11.1.9': {}
 
   '@intlify/unplugin-vue-i18n@6.0.8(@vue/compiler-dom@3.5.17)(eslint@9.22.0(jiti@2.4.2))(rollup@4.45.0)(typescript@5.8.3)(vue-i18n@11.1.10(vue@3.5.17(typescript@5.8.3)))(vue@3.5.17(typescript@5.8.3))':
     dependencies:
