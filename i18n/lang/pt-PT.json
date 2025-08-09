@@ -16,10 +16,10 @@
     }
   },
   "landing": {
-    "hero": "THERE ARE BETTER WAYS TO PLAY",
-    "reason": "Don't be forced to use Essential. There are countless open-source alternatives to help you.",
+    "hero": "HÁ FORMAS MELHORES DE JOGAR MINECRAFT",
+    "reason": "Não seja forçado a usar Essential, há incontáveis alternativas de código aberto para lhe ajudar.",
     "buttons": {
-      "alternatives": "ALTERNATIVES"
+      "alternatives": "Alternativas"
     }
   },
   "experiments": {
