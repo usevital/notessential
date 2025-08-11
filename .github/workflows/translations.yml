@@ -29,7 +29,7 @@ jobs:
 
       - name: Grab strings from Crowdin
         if: github.triggering_actor != 'support+bot@crowdin.com' && github.triggering_actor != 'actions@github.com'
-        uses: crowdin/github-action@v2.9.0
+        uses: crowdin/github-action@v2.9.1
         with: # This part can be a little fragile, be careful!
           upload_sources: true
           upload_translations: false
