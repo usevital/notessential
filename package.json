@@ -14,7 +14,7 @@
     "@intlify/message-compiler": "^11.1.11",
     "@nuxtjs/i18n": "^10.0.4",
     "postcss-custom-properties": "^14.0.6",
-    "vue": "^3.5.17",
+    "vue": "^3.5.18",
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
