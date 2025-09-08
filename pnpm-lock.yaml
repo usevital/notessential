@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@intlify/message-compiler':
-        specifier: ^11.1.11
-        version: 11.1.11
+        specifier: ^11.1.12
+        version: 11.1.12
       '@nuxtjs/i18n':
         specifier: ^10.0.6
         version: 10.0.6(@netlify/blobs@9.1.2)(@vue/compiler-dom@3.5.21)(db0@0.3.2)(eslint@9.22.0(jiti@2.5.1))(ioredis@5.7.0)(magicast@0.3.5)(rollup@4.46.2)(vue@3.5.21(typescript@5.9.2))
@@ -634,16 +634,8 @@ packages:
     resolution: {integrity: sha512-D/9+L7IzPrOa7e6R/ztepXayAq+snfzBYIwAk3RbaQsLEXwVNjC5c+WKXjni1boc/plGRegw4/m33SaFwvdEpg==}
     engines: {node: '>= 20'}
 
-  '@intlify/message-compiler@11.1.11':
-    resolution: {integrity: sha512-7PC6neomoc/z7a8JRjPBbu0T2TzR2MQuY5kn2e049MP7+o32Ve7O8husylkA7K9fQRe4iNXZWTPnDJ6vZdtS1Q==}
-    engines: {node: '>= 16'}
-
   '@intlify/message-compiler@11.1.12':
     resolution: {integrity: sha512-Fv9iQSJoJaXl4ZGkOCN1LDM3trzze0AS2zRz2EHLiwenwL6t0Ki9KySYlyr27yVOj5aVz0e55JePO+kELIvfdQ==}
-    engines: {node: '>= 16'}
-
-  '@intlify/shared@11.1.11':
-    resolution: {integrity: sha512-RIBFTIqxZSsxUqlcyoR7iiC632bq7kkOwYvZlvcVObHfrF4NhuKc4FKvu8iPCrEO+e3XsY7/UVpfgzg+M7ETzA==}
     engines: {node: '>= 16'}
 
   '@intlify/shared@11.1.12':
@@ -5505,17 +5497,10 @@ snapshots:
       '@intlify/core': 11.1.12
       '@intlify/utils': 0.13.0
 
-  '@intlify/message-compiler@11.1.11':
-    dependencies:
-      '@intlify/shared': 11.1.11
-      source-map-js: 1.2.1
-
   '@intlify/message-compiler@11.1.12':
     dependencies:
       '@intlify/shared': 11.1.12
       source-map-js: 1.2.1
-
-  '@intlify/shared@11.1.11': {}
 
   '@intlify/shared@11.1.12': {}
 
