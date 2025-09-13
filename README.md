@@ -1,5 +1,14 @@
 # NotEssential website
 
+## Archived
+
+> [!WARNING]
+> NotEssential has been archived.
+> It will no longer get any new changes, including alternatives and COI-fixes.
+> The link to NotEssential now redirects to [Microcontroller's Alternatives List](https://notessential.blurry.gay).
+
+## Old README
+
 A website linking to mods that can substitute Essential's features.
 You may find the website at https://notessential.blurry.gay/
 
